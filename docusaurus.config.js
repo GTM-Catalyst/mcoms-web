@@ -1,12 +1,12 @@
 module.exports = {
   title: 'MCOMS',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://gtm-catalyst.github.io',
+  baseUrl: '/mcoms-web/',
   onBrokenLinks: 'throw',
   favicon: 'img/Mcoms_SquareSun_Black.png',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'GTM-Catalyst', // Usually your GitHub org/user name.
+  projectName: 'mcoms-web', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
