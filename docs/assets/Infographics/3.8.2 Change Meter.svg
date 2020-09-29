@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="898.442" height="381.054" viewBox="0 0 898.442 381.054">
+  <g id="Group_2660" data-name="Group 2660" transform="translate(-659.25 -2541.474)">
+    <g id="Group_515" data-name="Group 515" transform="translate(4.25 1660)">
+      <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(680 998)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.18" y="20">Main</tspan><tspan x="4.68" y="45">Purpose</tspan></text>
+      <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(673 1135)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="10.42" y="20">Example</tspan><tspan x="5.94" y="45">Use Case</tspan></text>
+      <line id="Line_158" data-name="Line 158" y2="381.054" transform="translate(791.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_159" data-name="Line 159" x1="601.5" transform="translate(655 1083.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="To_request_a_change_of_meter_for_a_customer" data-name="To request a change of meter for a customer" transform="translate(832 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="1.058" y="13">To request a change of </tspan><tspan x="7.022" y="28">meter for a customer</tspan></text>
+      <text id="Same_as_Cluster_In-charge" data-name="Same as Cluster
+In-charge" transform="translate(1052 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="26.529" y="13">Same as Cluster</tspan><tspan x="48.25" y="28">In-charge</tspan></text>
+      <text id="Registering_and_switching_out_a_malfunctioning_meter" data-name="Registering and switching out a malfunctioning meter" transform="translate(832 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="23.367" y="13">Registering and </tspan><tspan x="25.054" y="28">switching out a </tspan><tspan x="6.497" y="43">malfunctioning meter</tspan></text>
+      <text id="Same_as_Cluster_In-charge-2" data-name="Same as Cluster
+In-charge" transform="translate(1043 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="35.529" y="13">Same as Cluster</tspan><tspan x="57.25" y="28">In-charge</tspan></text>
+      <line id="Line_157" data-name="Line 157" y2="381.054" transform="translate(1016.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="State_In-charge" data-name="State In-charge" transform="translate(1038 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="18.39" y="20">State In-charge</tspan></text>
+      <text id="Cluster_In-charge" data-name="Cluster In-charge" transform="translate(812 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="8.96" y="20">Cluster In-charge</tspan></text>
+    </g>
+    <g id="Group_2614" data-name="Group 2614" transform="translate(572.285 2234.81)">
+      <path id="Path_4497" data-name="Path 4497" d="M798.357,501.085A67.233,67.233,0,1,1,835.684,398.83" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4498" data-name="Path 4498" d="M799.806,448.112a8.169,8.169,0,1,1-8.17-8.17A8.17,8.17,0,0,1,799.806,448.112Z" transform="translate(-11.697 -11.697)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_208" data-name="Line 208" y2="14.261" transform="translate(779.939 378.812)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_209" data-name="Line 209" x2="7.129" y2="12.351" transform="translate(751.137 386.529)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_210" data-name="Line 210" x2="12.353" y2="7.13" transform="translate(730.05 407.613)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_211" data-name="Line 211" y1="0.002" x2="14.261" transform="translate(722.332 436.412)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_212" data-name="Line 212" y1="7.132" x2="12.347" transform="translate(730.05 458.084)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_213" data-name="Line 213" y1="12.349" x2="7.127" transform="translate(751.134 473.951)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_214" data-name="Line 214" x1="7.127" y2="12.347" transform="translate(801.608 386.532)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4499" data-name="Path 4499" d="M999.74,479.413A94.115,94.115,0,1,1,905.625,385.3,94.114,94.114,0,0,1,999.74,479.413Z" transform="translate(-16.333 -2.663)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4500" data-name="Path 4500" d="M934.563,495.51a12.84,12.84,0,1,1-12.84-12.839A12.839,12.839,0,0,1,934.563,495.51Z" transform="translate(-32.43 -18.761)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4501" data-name="Path 4501" d="M834.344,523.568a84.493,84.493,0,1,1,146.372,0" transform="translate(-18.238 -4.569)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4502" data-name="Path 4502" d="M856.88,517.174a63.317,63.317,0,1,1,109.694-.005" transform="translate(-22.432 -8.763)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_215" data-name="Line 215" y2="21.176" transform="translate(889.292 392.257)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_216" data-name="Line 216" x2="7.241" y2="19.899" transform="translate(860.394 397.352)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_217" data-name="Line 217" x2="13.611" y2="16.221" transform="translate(834.982 412.025)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_218" data-name="Line 218" x2="18.34" y2="10.588" transform="translate(816.119 434.503)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_219" data-name="Line 219" x2="20.856" y2="3.677" transform="translate(806.083 462.078)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_220" data-name="Line 220" y1="3.676" x2="20.856" transform="translate(806.083 487.746)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_221" data-name="Line 221" y1="10.586" x2="18.34" transform="translate(816.119 508.409)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_222" data-name="Line 222" x1="18.337" y1="10.593" transform="translate(944.131 508.401)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_223" data-name="Line 223" x1="20.853" y1="3.683" transform="translate(951.649 487.736)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_224" data-name="Line 224" x1="20.856" y2="3.671" transform="translate(951.646 462.075)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_225" data-name="Line 225" x1="18.343" y2="10.583" transform="translate(944.123 434.501)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_226" data-name="Line 226" x1="13.616" y2="16.218" transform="translate(929.987 412.022)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_227" data-name="Line 227" x1="7.251" y2="19.897" transform="translate(910.941 397.351)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4503" data-name="Path 4503" d="M753.039,488.217a57.613,57.613,0,0,1,57.591-99.8" transform="translate(-1.906 -1.906)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_4504" data-name="Path 4504" d="M762.982,478.679a43.349,43.349,0,0,1,43.374-75.068" transform="translate(-4.73 -4.73)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_228" data-name="Line 228" y1="43.78" transform="translate(889.292 420.131)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_229" data-name="Line 229" y1="16.44" transform="translate(889.292 489.579)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_230" data-name="Line 230" y1="12.038" transform="translate(779.939 445.091)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="Line_231" data-name="Line 231" y1="30.522" transform="translate(779.939 397.724)" fill="none" stroke="#e4ecec" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
