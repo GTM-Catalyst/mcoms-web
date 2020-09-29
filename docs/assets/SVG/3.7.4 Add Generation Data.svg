@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1236.262" height="290.751" viewBox="0 0 1236.262 290.751">
+  <g id="Group_2673" data-name="Group 2673" transform="translate(-317 -5085.5)">
+    <g id="Group_2670" data-name="Group 2670" transform="translate(-28)">
+      <text id="Cluster_In-charge" data-name="Cluster
+In-charge" transform="translate(948 5094)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="50.56" y="20">Cluster</tspan><tspan x="39.18" y="45">In-charge</tspan></text>
+      <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(356 5189)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="54.36" y="20">Main</tspan><tspan x="21.36" y="45">Purpose</tspan></text>
+      <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(345 5300)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="29.84" y="20">Example</tspan><tspan x="20.88" y="45">Use Case</tspan></text>
+      <text id="State_In-carge" data-name="State
+In-carge" transform="translate(1170 5094)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="34.99" y="20">State</tspan><tspan x="20.11" y="45">In-carge</tspan></text>
+      <line id="Line_146" data-name="Line 146" y2="290.751" transform="translate(922.5 5085.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_144" data-name="Line 144" y2="290.751" transform="translate(702.5 5085.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_143" data-name="Line 143" y2="290.751" transform="translate(481.5 5085.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_145" data-name="Line 145" x1="987" transform="translate(352.5 5258.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="To_add_generation_data_for_a_particular_date" data-name="To add generation data for a particular date" transform="translate(498 5180)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="6.709" y="13">To add generation data for a </tspan><tspan x="49.885" y="29">particular date</tspan></text>
+      <text id="Same_as_Operator" data-name="Same as
+Operator" transform="translate(780 5180)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="5.27" y="13">Same as</tspan><tspan x="4.626" y="29">Operator</tspan></text>
+      <text id="Same_as_Operator-2" data-name="Same as
+Operator" transform="translate(1001 5180)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="4.77" y="13">Same as</tspan><tspan x="4.126" y="29">Operator</tspan></text>
+      <text id="Reading_units_generated_at_each_solar_MPPT_daily_and_recording_in_the_app" data-name="Reading units generated at each solar MPPT daily, and recording in the app" transform="translate(493 5289)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="15.094" y="13">Reading units generated at </tspan><tspan x="14.45" y="29">each solar MPPT daily, and </tspan><tspan x="36.738" y="45">recording in the app</tspan></text>
+      <text id="Same_as_Operator-3" data-name="Same as
+Operator" transform="translate(781 5289)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="4.27" y="13">Same as</tspan><tspan x="3.626" y="29">Operator</tspan></text>
+      <text id="Same_as_Operator-4" data-name="Same as
+Operator" transform="translate(998 5289)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="7.77" y="13">Same as</tspan><tspan x="7.126" y="29">Operator</tspan></text>
+      <line id="Line_147" data-name="Line 147" y2="290.751" transform="translate(1143.5 5085.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="Operator" transform="translate(521 5094)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="28.72" y="20">Operator</tspan></text>
+      <text id="Same_as_Operator-5" data-name="Same as
+Operator" transform="translate(1194 5180)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="9.27" y="13">Same as</tspan><tspan x="8.626" y="29">Operator</tspan></text>
+      <text id="Same_as_Operator-6" data-name="Same as
+Operator" transform="translate(1195 5289)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="8.27" y="13">Same as</tspan><tspan x="7.626" y="29">Operator</tspan></text>
+      <text id="Technician" transform="translate(741 5094)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="20.59" y="20">Technician</tspan></text>
+    </g>
+    <g id="Group_2672" data-name="Group 2672" transform="translate(54 50)">
+      <rect id="Rectangle_824" data-name="Rectangle 824" width="123.68" height="77.158" transform="translate(1277 5093.348)" fill="#f2f2f2"/>
+      <rect id="Rectangle_825" data-name="Rectangle 825" width="123.68" height="77.158" transform="translate(1284.801 5085.831)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_4609" data-name="Path 4609" d="M304.855,122.619A26.665,26.665,0,0,0,286,77.1v26.665Z" transform="translate(1060.782 5020.503)" fill="#3f3d56"/>
+      <path id="Path_4610" data-name="Path 4610" d="M218.66,77.1A26.668,26.668,0,0,0,205.9,127.185l12.756-23.421Z" transform="translate(1128.123 5020.503)" fill="#bdbdbd"/>
+      <path id="Path_4611" data-name="Path 4611" d="M272.643,189.955,253.788,171.1l-12.756,23.421A26.679,26.679,0,0,0,272.643,189.955Z" transform="translate(1092.995 4953.168)" fill="#575a89"/>
+      <rect id="Rectangle_826" data-name="Rectangle 826" width="5.106" height="5.106" transform="translate(1289.482 5146.961)" fill="#bdbdbd"/>
+      <rect id="Rectangle_827" data-name="Rectangle 827" width="5.106" height="5.106" transform="translate(1296.857 5146.961)" fill="#3f3d56"/>
+      <rect id="Rectangle_828" data-name="Rectangle 828" width="5.106" height="5.106" transform="translate(1304.232 5146.961)" fill="#575a89"/>
+      <rect id="Rectangle_829" data-name="Rectangle 829" width="20.992" height="0.851" transform="translate(1377.702 5148.096)" fill="#3f3d56"/>
+      <rect id="Rectangle_830" data-name="Rectangle 830" width="20.992" height="0.851" transform="translate(1377.702 5150.649)" fill="#3f3d56"/>
+      <rect id="Rectangle_831" data-name="Rectangle 831" width="20.992" height="0.851" transform="translate(1377.702 5153.202)" fill="#3f3d56"/>
+      <rect id="Rectangle_832" data-name="Rectangle 832" width="70.35" height="77.158" transform="translate(1315.863 5200.858)" fill="#f2f2f2"/>
+      <rect id="Rectangle_833" data-name="Rectangle 833" width="70.35" height="77.158" transform="translate(1322.954 5193.483)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_834" data-name="Rectangle 834" width="3.793" height="3.793" transform="translate(1326.642 5261.937)" fill="#bdbdbd"/>
+      <rect id="Rectangle_835" data-name="Rectangle 835" width="3.793" height="3.793" transform="translate(1332.121 5261.937)" fill="#3f3d56"/>
+      <rect id="Rectangle_836" data-name="Rectangle 836" width="3.793" height="3.793" transform="translate(1337.6 5261.937)" fill="#575a89"/>
+      <rect id="Rectangle_837" data-name="Rectangle 837" width="14.751" height="0.598" transform="translate(1369.192 5263.584)" fill="#3f3d56"/>
+      <rect id="Rectangle_838" data-name="Rectangle 838" width="14.751" height="0.598" transform="translate(1369.192 5265.377)" fill="#3f3d56"/>
+      <rect id="Rectangle_839" data-name="Rectangle 839" width="14.751" height="0.598" transform="translate(1369.192 5267.172)" fill="#3f3d56"/>
+      <path id="Path_4612" data-name="Path 4612" d="M326,463.1v6.241A18.722,18.722,0,0,1,339.239,501.3l4.413,4.413A24.963,24.963,0,0,0,326,463.1Z" transform="translate(1032.129 4744)" fill="#3f3d56"/>
+      <path id="Path_4613" data-name="Path 4613" d="M305.509,602.182l-4.413-4.413a18.718,18.718,0,0,1-24.566,1.666l-3.777,4.97A24.962,24.962,0,0,0,305.509,602.182Z" transform="translate(1070.272 4647.532)" fill="#575a89"/>
+      <path id="Path_4614" data-name="Path 4614" d="M244.237,488.063a18.722,18.722,0,0,1,18.722-18.722V463.1a24.963,24.963,0,0,0-15.1,44.837l3.777-4.97A18.69,18.69,0,0,1,244.237,488.063Z" transform="translate(1095.17 4744)" fill="#bdbdbd"/>
+      <rect id="Rectangle_840" data-name="Rectangle 840" width="70.35" height="77.158" transform="translate(1420.82 5152.635)" fill="#f2f2f2"/>
+      <rect id="Rectangle_841" data-name="Rectangle 841" width="70.35" height="77.158" transform="translate(1427.912 5145.259)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+      <path id="Path_4631" data-name="Path 4631" d="M556,227.5v59h57.017" transform="translate(878.72 4922.582)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="2"/>
+      <rect id="Rectangle_842" data-name="Rectangle 842" width="12.765" height="20.424" transform="translate(1437.84 5188.377)" fill="#575a89"/>
+      <rect id="Rectangle_843" data-name="Rectangle 843" width="12.765" height="34.324" transform="translate(1456.279 5174.477)" fill="#3f3d56"/>
+      <rect id="Rectangle_844" data-name="Rectangle 844" width="12.765" height="50.493" transform="translate(1474.717 5158.308)" fill="#bdbdbd"/>
+      <rect id="Rectangle_845" data-name="Rectangle 845" width="3.793" height="3.793" transform="translate(1433.869 5213.713)" fill="#bdbdbd"/>
+      <rect id="Rectangle_846" data-name="Rectangle 846" width="3.793" height="3.793" transform="translate(1439.348 5213.713)" fill="#3f3d56"/>
+      <rect id="Rectangle_847" data-name="Rectangle 847" width="3.793" height="3.793" transform="translate(1444.826 5213.713)" fill="#575a89"/>
+      <rect id="Rectangle_848" data-name="Rectangle 848" width="14.751" height="0.598" transform="translate(1476.419 5215.36)" fill="#3f3d56"/>
+      <rect id="Rectangle_849" data-name="Rectangle 849" width="14.751" height="0.598" transform="translate(1476.419 5217.154)" fill="#3f3d56"/>
+      <rect id="Rectangle_850" data-name="Rectangle 850" width="14.751" height="0.598" transform="translate(1476.419 5218.948)" fill="#3f3d56"/>
+    </g>
+  </g>
+</svg>

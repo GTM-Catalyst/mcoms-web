@@ -2,7 +2,7 @@ module.exports = {
   title: 'MCOMS',
   tagline: 'The tagline of my site',
   url: 'https://gtm-catalyst.github.io',
-  baseUrl: '/mcoms-web/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/Mcoms_SquareSun_Black.png',
   organizationName: 'GTM-Catalyst', // Usually your GitHub org/user name.
@@ -15,12 +15,18 @@ module.exports = {
         src: 'img/Mcoms_SquareSun_Black.png',
       },
       items: [
-        /*{
+       /* {
           to: '/',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: '/',
+          activeBasePath: 'docs/opchallengehi',
+          label: 'Tutorials',
+          position: 'left',
+        },        
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
@@ -29,7 +35,7 @@ module.exports = {
         },*/
         {
           type: 'docsVersionDropdown',
-          position: 'left',
+          position: 'right',
         },
       ],
     },
@@ -83,6 +89,19 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
     },
   },
+  plugins: [
+    [require.resolve('@cmfcmf/docusaurus-search-local'),
+    {
+        blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
+        docsRouteBasePath: '/docs', // must correspond to the base route path configured for the docs plugin
+        indexBlog: true, // whether to index blog pages
+        indexDocs: true, // whether to index docs pages
+        indexPages: false, // whether to index static pages
+        // /404.html is never indexed
+        language: "en", // language of your documentation, see next section
+        indexBaseUrl: true,
+    }],
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',

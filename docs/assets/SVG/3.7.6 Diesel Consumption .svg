@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="753.817" height="381.054" viewBox="0 0 753.817 381.054">
+  <g id="Group_2668" data-name="Group 2668" transform="translate(-506.683 -6065.474)">
+    <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(684 6182)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.18" y="20">Main</tspan><tspan x="4.68" y="45">Purpose</tspan></text>
+    <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(677 6319)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="10.42" y="20">Example</tspan><tspan x="5.94" y="45">Use Case</tspan></text>
+    <line id="Line_103" data-name="Line 103" y2="381.054" transform="translate(795.5 6065.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <line id="Line_104" data-name="Line 104" x1="601.5" transform="translate(659 6277.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="To_maintain_a_record_of_diesel_expenses_and_fuel_use" data-name="To maintain a record of diesel expenses and fuel use" transform="translate(836 6182)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0.925" y="13">To maintain a record of </tspan><tspan x="8.583" y="28">diesel expenses and </tspan><tspan x="48.126" y="43">fuel use</tspan></text>
+    <text id="To_review_diesel_expenses_and_DG_usage_at_different_plants" data-name="To review diesel expenses and DG usage at different plants" transform="translate(1056 6182)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="28.489" y="13">To review diesel </tspan><tspan x="1.245" y="28">expenses and DG usage </tspan><tspan x="23.519" y="43">at different plants</tspan></text>
+    <text id="Adding_a_diesel_purchase_made_at_a_particular_plant_within_the_cluster" data-name="Adding a diesel purchase made at a particular plant within the cluster" transform="translate(836 6319)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="24.27" y="13">Adding a diesel </tspan><tspan x="10.382" y="28">purchase made at a </tspan><tspan x="5.349" y="43">particular plant within </tspan><tspan x="39.698" y="58">the cluster</tspan></text>
+    <text id="Checking_for_fuel_pilferage_by_comparing_fuel_efficiencies_at_different_plants_times" data-name="Checking for fuel pilferage by comparing fuel efficiencies at different plants / times" transform="translate(1047 6319)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="4.946" y="13">Checking for fuel pilferage </tspan><tspan x="30.727" y="28">by comparing fuel </tspan><tspan x="16.692" y="43">efficiencies at different </tspan><tspan x="44.727" y="58">plants / times</tspan></text>
+    <line id="Line_105" data-name="Line 105" y2="381.054" transform="translate(1020.5 6065.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="State_In-charge" data-name="State In-charge" transform="translate(1042 6092)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="18.39" y="20">State In-charge</tspan></text>
+    <text id="Cluster_In-charge" data-name="Cluster In-charge" transform="translate(816 6092)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="8.96" y="20">Cluster In-charge</tspan></text>
+    <g id="barrel" transform="translate(434.287 6152.125)">
+      <path id="Path_4560" data-name="Path 4560" d="M194.684,465.567H77.5a5.1,5.1,0,1,0,0,10.2H194.684a5.1,5.1,0,0,0,0-10.2Z" transform="translate(0 -259.393)" fill="#bebebe"/>
+      <path id="Path_4561" data-name="Path 4561" d="M101.832,98.181v64.973H204.768V144.971a41.325,41.325,0,0,1-40.759-46.791Z" transform="translate(-17.209 -44.61)" fill="#bebebe"/>
+      <path id="Path_4562" data-name="Path 4562" d="M101.832,299.153v64.971H204.768V299.153Zm17.709,57.772a2.077,2.077,0,1,1-4.154,0v-36.77a2.077,2.077,0,0,1,4.154,0Zm0-44.627a2.077,2.077,0,1,1-4.154,0v-2.421a2.077,2.077,0,1,1,4.154,0Z" transform="translate(-17.209 -162.103)" fill="#bebebe"/>
+      <path id="Path_4563" data-name="Path 4563" d="M77.5,73.824H147.57a41.063,41.063,0,0,1,3.942-10.2H77.5a5.1,5.1,0,1,0,0,10.2Z" transform="translate(0 -24.407)" fill="#bebebe"/>
+      <path id="Path_4564" data-name="Path 4564" d="M328.2,57.449,314.759,80.394a15.577,15.577,0,1,0,26.882,0Zm11.668,30.969a11.914,11.914,0,0,1-7.79,8.9,2.077,2.077,0,1,1-1.351-3.928A7.762,7.762,0,0,0,335.8,87.6a2.077,2.077,0,1,1,4.071.823Z" transform="translate(-140.442 -20.797)" fill="#bebebe"/>
+      <path id="Path_4565" data-name="Path 4565" d="M194.684,264.6H77.5a5.1,5.1,0,1,0,0,10.2H194.684a5.1,5.1,0,0,0,0-10.2Z" transform="translate(0 -141.903)" fill="#bebebe"/>
+      <path id="Path_4566" data-name="Path 4566" d="M297.811,21.875a37.167,37.167,0,1,0,37.166,37.167,37.168,37.168,0,0,0-37.166-37.167Zm13.952,59.548A19.73,19.73,0,0,1,280.786,57.5l15.233-26a2.077,2.077,0,0,1,3.584,0l15.233,26A19.738,19.738,0,0,1,311.763,81.423Z" transform="translate(-110.053)" fill="#bebebe"/>
+    </g>
+  </g>
+</svg>
