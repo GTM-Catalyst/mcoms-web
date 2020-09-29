@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="935.38" height="381.054" viewBox="0 0 935.38 381.054">
+  <g id="Group_2657" data-name="Group 2657" transform="translate(-659 -4218.474)">
+    <g id="Group_518" data-name="Group 518" transform="translate(4 3337)">
+      <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(680 998)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.18" y="20">Main</tspan><tspan x="4.68" y="45">Purpose</tspan></text>
+      <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(673 1135)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="10.42" y="20">Example</tspan><tspan x="5.94" y="45">Use Case</tspan></text>
+      <line id="Line_158" data-name="Line 158" y2="381.054" transform="translate(791.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_159" data-name="Line 159" x1="601.5" transform="translate(655 1083.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="Control_the_state_of_the_meter_for_all_customers_on_a_particular_feeder" data-name="Control the state of the meter for all customers on a particular feeder" transform="translate(832 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0.54" y="13">Control the state of the </tspan><tspan x="0.414" y="28">meter for all customers </tspan><tspan x="5.867" y="43">on a particular feeder</tspan></text>
+      <text id="Same_as_Cluster_In-charge" data-name="Same as Cluster In-charge" transform="translate(1052 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="16.155" y="13">Same as Cluster In-</tspan><tspan x="56.678" y="28">charge</tspan></text>
+      <text id="Shutting_off_a_large_number_of_meters_in_case_of_a_technical_emergency" data-name="Shutting off a large number of meters in case of a technical emergency" transform="translate(832 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="13.427" y="13">Shutting off a large </tspan><tspan x="9.605" y="28">number of meters in </tspan><tspan x="13.903" y="43">case of a technical </tspan><tspan x="37.948" y="58">emergency</tspan></text>
+      <text id="Shutting_off_the_meter_of_a_customer_whose_faulty_appliance_is_impacting_the_whole_distribution_network" data-name="Shutting off the meter of a customer whose faulty appliance is impacting the whole distribution network" transform="translate(1061 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="1.53" y="13">Shutting off the meter </tspan><tspan x="3.903" y="28">of a customer whose </tspan><tspan x="13.234" y="43">faulty appliance is </tspan><tspan x="6.36" y="58">impacting the whole </tspan></text>
+      <line id="Line_157" data-name="Line 157" y2="381.054" transform="translate(1016.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="State_In-charge" data-name="State In-charge" transform="translate(1038 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="18.39" y="20">State In-charge</tspan></text>
+      <text id="Cluster_In-charge" data-name="Cluster In-charge" transform="translate(812 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="8.96" y="20">Cluster In-charge</tspan></text>
+    </g>
+    <g id="Group_1931" data-name="Group 1931" transform="translate(-304 249.532)">
+      <path id="Path_4028" data-name="Path 4028" d="M500.365,697.96s103.686-60.443,237.348,0" transform="translate(1127.361 3587.04)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_4029" data-name="Path 4029" d="M527.33,404.743a18.749,18.749,0,0,1-14.966-18.362V131.974a18.743,18.743,0,0,1,18.743-18.743H719.176a18.743,18.743,0,0,1,18.743,18.743V386.381A18.745,18.745,0,0,1,721.2,405.017" transform="translate(1121.257 3870.769)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_670" data-name="Rectangle 670" width="200.492" height="231.48" transform="translate(1645.17 4014.207)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <circle id="Ellipse_350" data-name="Ellipse 350" cx="4.914" cy="4.914" r="4.914" transform="translate(1741.485 3994.074)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_4030" data-name="Path 4030" d="M720.408,662.642a10.814,10.814,0,0,1,21.125.175" transform="translate(1015.447 3595.618)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_4031" data-name="Path 4031" d="M479.295,208.688a11.293,11.293,0,0,0-9.735,6.806c-2.434,5.884.7,12.8,5.4,17.086s10.749,6.743,16.24,9.967c7.376,4.33,14,10.34,17.694,18.056s4.083,17.273-.255,24.644c-4.026,6.842-11.348,10.936-18.33,14.712" transform="translate(1143.458 3822.22)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_351" data-name="Ellipse 351" cx="8.6" cy="4.177" rx="8.6" ry="4.177" transform="translate(1620.354 4027.243)" fill="#57b894"/>
+      <ellipse id="Ellipse_352" data-name="Ellipse 352" cx="8.6" cy="4.177" rx="8.6" ry="4.177" transform="translate(1627.234 4054.762)" fill="#57b894"/>
+      <ellipse id="Ellipse_353" data-name="Ellipse 353" cx="8.6" cy="4.177" rx="8.6" ry="4.177" transform="translate(1611.509 4059.185)" fill="#57b894"/>
+      <ellipse id="Ellipse_354" data-name="Ellipse 354" cx="8.6" cy="4.177" rx="8.6" ry="4.177" transform="translate(1636.079 4082.281)" fill="#57b894"/>
+      <ellipse id="Ellipse_355" data-name="Ellipse 355" cx="8.6" cy="4.177" rx="8.6" ry="4.177" transform="translate(1653.278 4082.281)" fill="#57b894"/>
+      <path id="Path_4034" data-name="Path 4034" d="M455.509,161.032V272.089H585.731" transform="translate(1223.322 3901.854)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_671" data-name="Rectangle 671" width="10.811" height="28.501" transform="translate(1695.539 4137.088)" fill="#a2a2a2"/>
+      <rect id="Rectangle_672" data-name="Rectangle 672" width="10.811" height="38.329" transform="translate(1717.652 4127.26)" fill="#a2a2a2"/>
+      <rect id="Rectangle_673" data-name="Rectangle 673" width="10.811" height="50.123" transform="translate(1739.765 4115.466)" fill="#a2a2a2"/>
+      <rect id="Rectangle_674" data-name="Rectangle 674" width="10.811" height="71.253" transform="translate(1761.878 4094.336)" fill="#a2a2a2"/>
+      <rect id="Rectangle_676" data-name="Rectangle 676" width="10.811" height="28.501" transform="translate(1692.099 4133.648)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_677" data-name="Rectangle 677" width="10.811" height="38.329" transform="translate(1714.212 4123.82)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_678" data-name="Rectangle 678" width="10.811" height="50.123" transform="translate(1736.325 4112.026)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <rect id="Rectangle_679" data-name="Rectangle 679" width="10.811" height="71.253" transform="translate(1758.438 4090.896)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <path id="Path_4032" data-name="Path 4032" d="M950.51,552.054a10.516,10.516,0,0,0-9.065,6.338c-2.267,5.479.652,11.915,5.033,15.911s10.009,6.279,15.123,9.281c6.868,4.032,13.04,9.629,16.476,16.814s3.8,16.084-.237,22.948c-3.749,6.371-10.567,10.184-17.069,13.7" transform="translate(903.429 3647.585)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_356" data-name="Ellipse 356" cx="8.008" cy="3.89" rx="8.008" ry="3.89" transform="translate(1851.706 4196.226)" fill="#57b894"/>
+      <ellipse id="Ellipse_357" data-name="Ellipse 357" cx="8.008" cy="3.89" rx="8.008" ry="3.89" transform="translate(1858.112 4221.852)" fill="#57b894"/>
+      <ellipse id="Ellipse_358" data-name="Ellipse 358" cx="8.008" cy="3.89" rx="8.008" ry="3.89" transform="translate(1843.469 4225.97)" fill="#57b894"/>
+      <ellipse id="Ellipse_359" data-name="Ellipse 359" cx="8.008" cy="3.89" rx="8.008" ry="3.89" transform="translate(1866.349 4247.476)" fill="#57b894"/>
+      <ellipse id="Ellipse_360" data-name="Ellipse 360" cx="8.008" cy="3.89" rx="8.008" ry="3.89" transform="translate(1882.364 4247.476)" fill="#57b894"/>
+      <path id="Path_4033" data-name="Path 4033" d="M974.651,584.033a8.588,8.588,0,0,1,7.4,5.176c1.851,4.475-.532,9.731-4.11,12.994s-8.174,5.128-12.35,7.579c-5.609,3.293-10.649,7.864-13.456,13.731s-3.105,13.136.194,18.741c3.062,5.2,8.63,8.317,13.94,11.188" transform="translate(898.705 3631.321)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+      <ellipse id="Ellipse_361" data-name="Ellipse 361" cx="6.54" cy="3.176" rx="6.54" ry="3.176" transform="translate(1862.101 4212.566)" fill="#57b894"/>
+      <ellipse id="Ellipse_362" data-name="Ellipse 362" cx="6.54" cy="3.176" rx="6.54" ry="3.176" transform="translate(1856.869 4233.494)" fill="#57b894"/>
+      <ellipse id="Ellipse_363" data-name="Ellipse 363" cx="6.54" cy="3.176" rx="6.54" ry="3.176" transform="translate(1868.827 4236.857)" fill="#57b894"/>
+      <ellipse id="Ellipse_364" data-name="Ellipse 364" cx="6.54" cy="3.176" rx="6.54" ry="3.176" transform="translate(1850.142 4254.421)" fill="#57b894"/>
+      <ellipse id="Ellipse_365" data-name="Ellipse 365" cx="6.54" cy="3.176" rx="6.54" ry="3.176" transform="translate(1837.063 4254.421)" fill="#57b894"/>
+      <rect id="Rectangle_675" data-name="Rectangle 675" width="10.811" height="87.961" transform="translate(1783.991 4077.628)" fill="#a2a2a2"/>
+      <rect id="Rectangle_680" data-name="Rectangle 680" width="10.811" height="87.961" transform="translate(1780.551 4074.188)" fill="none" stroke="#3f3d56" stroke-miterlimit="10" stroke-width="1"/>
+    </g>
+  </g>
+</svg>
