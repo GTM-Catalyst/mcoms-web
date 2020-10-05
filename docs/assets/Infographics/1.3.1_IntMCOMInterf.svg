@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1314" height="1029.5" viewBox="0 0 1314 1029.5">
-  <g id="Group_3083" data-name="Group 3083" transform="translate(-296 -6113.5)">
-    <line id="Line_21" data-name="Line 21" x2="254" transform="translate(717.5 6114.5)" fill="none" stroke="#4bff83" stroke-width="2"/>
-    <line id="Line_25" data-name="Line 25" x2="252" transform="translate(977.5 6114.5)" fill="none" stroke="#24bcff" stroke-width="2"/>
-    <g id="undraw_online_articles_79ff" transform="translate(516 6300)">
+<svg xmlns="http://www.w3.org/2000/svg" width="1362" height="1151.5" viewBox="0 0 1362 1151.5">
+  <g id="Group_3102" data-name="Group 3102" transform="translate(-290 -5683.5)">
+    <line id="Line_21" data-name="Line 21" x2="254" transform="translate(733.5 5684.5)" fill="none" stroke="#4bff83" stroke-width="2"/>
+    <path id="Path_5467" data-name="Path 5467" d="M5.281.048H263.607" transform="translate(987.854 5684.5)" fill="none" stroke="#24bcff" stroke-width="2"/>
+    <g id="undraw_online_articles_79ff" transform="translate(532 5870)">
       <rect id="Rectangle_54" data-name="Rectangle 54" width="182" height="332" transform="translate(615.007 108)" fill="#e6e6e6"/>
       <path id="Path_538" data-name="Path 538" d="M788,596.61H936v-298H788Z" transform="translate(-155.997 -173.61)" fill="#fff"/>
       <rect id="Rectangle_55" data-name="Rectangle 55" width="43.223" height="4.014" transform="translate(688.874 188.915)" fill="#e6e6e6"/>
@@ -47,49 +47,47 @@
       <rect id="Rectangle_91" data-name="Rectangle 91" width="102.463" height="5.465" transform="translate(428.681 335.849)" fill="#e6e6e6"/>
       <rect id="Rectangle_92" data-name="Rectangle 92" width="43.718" height="43.718" transform="translate(372.768 298.121)" fill="#849281"/>
     </g>
-    <line id="Line_24" data-name="Line 24" x2="510" transform="translate(717.5 6825.5)" fill="none" stroke="#707070" stroke-width="1"/>
-    <g id="Group_143" data-name="Group 143" transform="translate(44 -102)">
+    <line id="Line_24" data-name="Line 24" x2="510" transform="translate(733.5 6395.5)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Group_143" data-name="Group 143" transform="translate(60 -532)">
       <line id="Line_20" data-name="Line 20" y1="223.36" transform="translate(673.5 6216.5)" fill="none" stroke="#4bff83" stroke-width="2"/>
       <path id="Polygon_1" data-name="Polygon 1" d="M3.5,0,7,6H0Z" transform="translate(677 6445) rotate(180)" fill="#4bfe83"/>
     </g>
-    <g id="Group_144" data-name="Group 144" transform="translate(44 -102)">
+    <g id="Group_144" data-name="Group 144" transform="translate(60 -532)">
       <line id="Line_22" data-name="Line 22" y1="223.349" transform="translate(1190.5 6216.5)" fill="none" stroke="#24bcff" stroke-width="2"/>
       <g id="Polygon_2" data-name="Polygon 2" transform="translate(1194 6445) rotate(180)" fill="#727a7a">
         <path d="M 5.258962631225586 5 L 1.741037487983704 5 L 3.5 1.984635710716248 L 5.258962631225586 5 Z" stroke="none"/>
         <path d="M 3.5 0 L 7 6 L 0 6 L 3.5 0 Z" stroke="none" fill="#24bcff"/>
       </g>
     </g>
-    <g id="Group_142" data-name="Group 142" transform="translate(45.503 -102)">
-      <line id="Line_23" data-name="Line 23" y1="123.635" transform="translate(925.5 6216.5)" fill="none" stroke="#49fe87" stroke-width="2"/>
-      <path id="Polygon_3" data-name="Polygon 3" d="M3.5,0,7,6H0Z" transform="translate(929 6344) rotate(180)" fill="#47fe8b"/>
+    <g id="Group_142" data-name="Group 142" transform="translate(983.503 5684.5)">
+      <line id="Line_23" data-name="Line 23" y1="67.857" transform="translate(3.5)" fill="none" stroke="#49fe87" stroke-width="2"/>
+      <path id="Polygon_3" data-name="Polygon 3" d="M3.5,0,7,5.293H0Z" transform="translate(7 71.978) rotate(180)" fill="#47fe8b"/>
     </g>
-    <text id="Web-based_Centralised_Dashboard_" data-name="Web-based Centralised Dashboard*" transform="translate(721 6782)" fill="#707070" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="81.67" y="20">Web-based Centralised Dashboard*</tspan></text>
-    <text id="Web-based_Centralised_Dashboard_2" data-name="Web-based Centralised Dashboard*" transform="translate(724 6257)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="39.088" y="24">Web-based Centralised Dashboard*</tspan></text>
-    <text id="Customer_App" data-name="Customer App" transform="translate(1113 6369)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="35.4" y="24">Customer App</tspan></text>
-    <text id="Field-_Agent_App" data-name="Field- Agent App" transform="translate(597 6369)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.763" y="24">Field- Agent App</tspan></text>
-    <g id="Group_145" data-name="Group 145" transform="translate(1391 13042.248) rotate(180)">
+    <text id="Web-based_Centralised_Dashboard_" data-name="Web-based Centralised Dashboard*" transform="translate(737 6352)" fill="#707070" font-size="25" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="30.949" y="27">Web-based Centralised Dashboard*</tspan></text>
+    <text id="Web-based_Centralised_Dashboard_2" data-name="Web-based Centralised Dashboard*" transform="translate(746 5765)" fill="#21232a" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="68.992" y="34">Web-based Centralised </tspan><tspan x="156.219" y="68">Dashboard*</tspan></text>
+    <text id="Customer_App" data-name="Customer App" transform="translate(1129 5929)" fill="#21232a" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="8.109" y="34">Customer App</tspan></text>
+    <text id="Field-_Agent_App" data-name="Field- Agent App" transform="translate(592 5927)" fill="#21232a" font-size="32" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="2.133" y="34">Field- Agent App</tspan></text>
+    <g id="Group_145" data-name="Group 145" transform="translate(1407 12612.248) rotate(180)">
       <line id="Line_20-2" data-name="Line 20" y1="45.109" transform="translate(673.5 6216.5)" fill="none" stroke="#707070" stroke-width="1"/>
       <path id="Polygon_1-2" data-name="Polygon 1" d="M3.5,0,7,6H0Z" transform="translate(677 6266.749) rotate(180)" fill="#727a7a"/>
     </g>
-    <g id="Group_146" data-name="Group 146" transform="translate(1901 13042.248) rotate(180)">
+    <g id="Group_146" data-name="Group 146" transform="translate(1917 12612.248) rotate(180)">
       <line id="Line_20-3" data-name="Line 20" y1="45.109" transform="translate(673.5 6216.5)" fill="none" stroke="#707070" stroke-width="2"/>
       <path id="Polygon_1-3" data-name="Polygon 1" d="M3.5,0,7,6H0Z" transform="translate(677 6266.749) rotate(180)" fill="#727a7a"/>
     </g>
-    <g id="Group_147" data-name="Group 147" transform="translate(52.503 -102)">
-      <line id="Line_23-2" data-name="Line 23" y1="123.635" transform="translate(925.5 6216.5)" fill="none" stroke="#24bcff" stroke-width="2"/>
-      <g id="Polygon_3-2" data-name="Polygon 3" transform="translate(929 6344) rotate(180)" fill="#23beff">
-        <path d="M 5.258962631225586 5 L 1.741037487983704 5 L 3.5 1.984635710716248 L 5.258962631225586 5 Z" stroke="none"/>
-        <path d="M 3.5 0 L 7 6 L 0 6 L 3.5 0 Z" stroke="none" fill="#24bcff"/>
+    <g id="Group_147" data-name="Group 147" transform="translate(990.503 5684.5)">
+      <line id="Line_23-2" data-name="Line 23" y1="67.857" transform="translate(3.5)" fill="none" stroke="#24bcff" stroke-width="2"/>
+      <g id="Polygon_3-2" data-name="Polygon 3" transform="translate(7 71.978) rotate(180)" fill="#23beff">
+        <path d="M 5.139915466308594 4.293081760406494 L 1.860084652900696 4.293081760406494 L 3.5 1.813023805618286 L 5.139915466308594 4.293081760406494 Z" stroke="none"/>
+        <path d="M 3.5 1.9073486328125e-06 L 7 5.293081760406494 L 0 5.293081760406494 L 3.5 1.9073486328125e-06 Z" stroke="none" fill="#24bcff"/>
       </g>
     </g>
-    <text id="View_Connection_profile_Pending_payment_balance_etc._Request_for_Package_Change_Log-in_Complaints" data-name="View Connection profile,
-Pending payment, balance, etc.
+    <text id="View_Connection_profile_Pending_payment_balance_etc._Request_for_Package_Change_Log-in_Complaints" data-name="View Connection profile, Pending payment, balance, etc.
 
-Request for Package
-Change
+Request for Package Change
 
-Log-in Complaints" transform="translate(1371 6413)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="24">View Connection </tspan><tspan x="0" y="54">profile,</tspan><tspan x="0" y="84">Pending payment, </tspan><tspan x="0" y="114">balance, etc.</tspan><tspan x="0" y="144"></tspan><tspan x="0" y="174">Request for </tspan><tspan x="0" y="204">Package</tspan><tspan x="0" y="234">Change</tspan><tspan x="0" y="264"></tspan></text>
-    <text id="Plant_Related_Data_Entry_Input_Supply_side_generation_data_Input_demand_side_transactional_data_Customer_Related_Transactions_Add_delete_upgrade_View_Customer_and_Plant_Level_Dues" data-name="Plant Related Data Entry
+Log-in Complaints" transform="translate(1379 5973)" fill="#21232a" font-size="30" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="32">View Connection </tspan><tspan x="0" y="64">profile, Pending </tspan><tspan x="0" y="96">payment, balance, </tspan><tspan x="0" y="128">etc.</tspan><tspan x="0" y="160"></tspan><tspan x="0" y="192">Request for </tspan><tspan x="0" y="224">Package Change</tspan><tspan x="0" y="256"></tspan><tspan x="0" y="288">Log-in Complaints</tspan></text>
+    <text id="Plant_Related_Data_Entry_Input_Supply_side_generation_data_Input_demand_side_transactional_data_Customer_Related_Transactions_Add_delete_upgrade_customers_View_customer_and_plant_level_dues" data-name="Plant Related Data Entry
 
 Input Supply side, generation data
 
@@ -98,8 +96,9 @@ Input demand side &amp; transactional data
 Customer Related Transactions
 
 Add/delete/upgrade
+customers
 
-View Customer and Plant Level Dues" transform="translate(327 6323)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="24">Plant Related Data </tspan><tspan x="0" y="54">Entry</tspan><tspan x="0" y="84"></tspan><tspan x="0" y="114">Input Supply side, </tspan><tspan x="0" y="144">generation data</tspan><tspan x="0" y="174"></tspan><tspan x="0" y="204">Input demand side &amp; </tspan><tspan x="0" y="234">transactional data</tspan><tspan x="0" y="264"></tspan><tspan x="0" y="294">Customer Related </tspan><tspan x="0" y="324">Transactions</tspan><tspan x="0" y="354"></tspan><tspan x="0" y="384">Add/delete/upgrade</tspan><tspan x="0" y="414"></tspan><tspan x="0" y="444">View Customer and </tspan><tspan x="0" y="474">Plant Level Dues</tspan></text>
+View customer and plant level dues" transform="translate(321 5973)" fill="#21232a" font-size="30" font-family="OpenSans-Bold, Open Sans" font-weight="700"><tspan x="0" y="32">Plant Related Data </tspan><tspan x="0" y="66">Entry</tspan><tspan font-family="OpenSans-Regular, Open Sans" font-weight="400"><tspan x="0" y="100"></tspan><tspan x="0" y="134">Input Supply side, </tspan><tspan x="0" y="168">generation data</tspan><tspan x="0" y="202"></tspan><tspan x="0" y="236">Input demand side </tspan><tspan x="0" y="270">&amp; transactional data</tspan><tspan x="0" y="304"></tspan></tspan><tspan x="0" y="338">Customer Related </tspan><tspan x="0" y="372">Transactions</tspan><tspan font-family="OpenSans-Regular, Open Sans" font-weight="400"><tspan x="0" y="406"></tspan><tspan x="0" y="440">Add/delete/upgrade</tspan><tspan x="0" y="474">customers</tspan><tspan x="0" y="508"></tspan><tspan x="0" y="542">View customer and </tspan><tspan x="0" y="576">plant level dues</tspan></tspan></text>
     <text id="Monitor_plant_cluster_portfolio_level_performance_Monitor_total_billing_collection_dues_Monitor_generation_consumption_losses_Monitor_on-going_schemes_Monitor_performance_targets_and_gaps_for_each_field_agent_Monitor_operational_costs_Monitor_on-g" data-name="Monitor plant/cluster/portfolio level performance
 
 Monitor total billing, collection dues
@@ -112,20 +111,20 @@ Monitor performance targets and gaps for each field agent
 
 Monitor operational costs
 
-Monitor on-g" transform="translate(750 6844)" fill="#21232a" font-size="25" font-family="HelveticaNeue-Medium, Helvetica Neue" font-weight="500"><tspan x="0" y="24">Monitor plant/cluster/portfolio level performance</tspan><tspan x="0" y="40"></tspan><tspan x="0" y="56">Monitor total billing, collection dues</tspan><tspan x="0" y="72"></tspan><tspan x="0" y="88">Monitor generation, consumption, losses</tspan><tspan x="0" y="104"></tspan><tspan x="0" y="120">Monitor on-going schemes</tspan><tspan x="0" y="136"></tspan><tspan x="0" y="152">Monitor performance targets and gaps for each field agent</tspan><tspan x="0" y="168"></tspan><tspan x="0" y="184">Monitor operational costs</tspan><tspan x="0" y="200"></tspan><tspan x="0" y="216">Monitor on-ground team performance against set metrics</tspan><tspan x="0" y="232"></tspan></text>
-    <circle id="Ellipse_375" data-name="Ellipse 375" cx="4" cy="4" r="4" transform="translate(1342 6421)" fill="#707070"/>
-    <circle id="Ellipse_376" data-name="Ellipse 376" cx="4" cy="4" r="4" transform="translate(1342 6575)" fill="#707070"/>
-    <circle id="Ellipse_377" data-name="Ellipse 377" cx="4" cy="4" r="4" transform="translate(1342 6665)" fill="#707070"/>
-    <circle id="Ellipse_378" data-name="Ellipse 378" cx="4" cy="4" r="4" transform="translate(296 6426)" fill="#707070"/>
-    <circle id="Ellipse_379" data-name="Ellipse 379" cx="4" cy="4" r="4" transform="translate(296 6514)" fill="#707070"/>
-    <circle id="Ellipse_380" data-name="Ellipse 380" cx="4" cy="4" r="4" transform="translate(296 6694)" fill="#707070"/>
-    <circle id="Ellipse_381" data-name="Ellipse 381" cx="4" cy="4" r="4" transform="translate(296 6753)" fill="#707070"/>
-    <circle id="Ellipse_382" data-name="Ellipse 382" cx="4" cy="4" r="4" transform="translate(721 6854)" fill="#707070"/>
-    <circle id="Ellipse_383" data-name="Ellipse 383" cx="4" cy="4" r="4" transform="translate(721 6886)" fill="#707070"/>
-    <circle id="Ellipse_384" data-name="Ellipse 384" cx="4" cy="4" r="4" transform="translate(721 6918)" fill="#707070"/>
-    <circle id="Ellipse_385" data-name="Ellipse 385" cx="4" cy="4" r="4" transform="translate(721 6950)" fill="#707070"/>
-    <circle id="Ellipse_386" data-name="Ellipse 386" cx="4" cy="4" r="4" transform="translate(721 6982)" fill="#707070"/>
-    <circle id="Ellipse_387" data-name="Ellipse 387" cx="4" cy="4" r="4" transform="translate(721 7014)" fill="#707070"/>
-    <circle id="Ellipse_388" data-name="Ellipse 388" cx="4" cy="4" r="4" transform="translate(721 7046)" fill="#707070"/>
+Monitor on-g" transform="translate(686 6414)" fill="#21232a" font-size="30" font-family="OpenSans-Regular, Open Sans"><tspan x="0" y="32">Monitor plant/cluster/portfolio level performance</tspan><tspan x="0" y="62"></tspan><tspan x="0" y="92">Monitor total billing, collection dues</tspan><tspan x="0" y="122"></tspan><tspan x="0" y="152">Monitor generation, consumption, losses</tspan><tspan x="0" y="182"></tspan><tspan x="0" y="212">Monitor on-going schemes</tspan><tspan x="0" y="242"></tspan><tspan x="0" y="272">Monitor performance targets and gaps for each field agent</tspan><tspan x="0" y="302"></tspan><tspan x="0" y="332">Monitor operational costs</tspan><tspan x="0" y="362"></tspan><tspan x="0" y="392">Monitor on-ground team performance against set metrics</tspan></text>
+    <circle id="Ellipse_375" data-name="Ellipse 375" cx="4" cy="4" r="4" transform="translate(1348 5991)" fill="#707070"/>
+    <circle id="Ellipse_376" data-name="Ellipse 376" cx="4" cy="4" r="4" transform="translate(1348 6155)" fill="#707070"/>
+    <circle id="Ellipse_377" data-name="Ellipse 377" cx="4" cy="4" r="4" transform="translate(1348 6249)" fill="#707070"/>
+    <circle id="Ellipse_379" data-name="Ellipse 379" cx="4" cy="4" r="4" transform="translate(290 6092)" fill="#707070"/>
+    <circle id="Ellipse_380" data-name="Ellipse 380" cx="4" cy="4" r="4" transform="translate(290 6195)" fill="#707070"/>
+    <circle id="Ellipse_382" data-name="Ellipse 382" cx="4" cy="4" r="4" transform="translate(657 6433)" fill="#707070"/>
+    <circle id="Ellipse_383" data-name="Ellipse 383" cx="4" cy="4" r="4" transform="translate(657 6493)" fill="#707070"/>
+    <circle id="Ellipse_384" data-name="Ellipse 384" cx="4" cy="4" r="4" transform="translate(657 6553)" fill="#707070"/>
+    <circle id="Ellipse_385" data-name="Ellipse 385" cx="4" cy="4" r="4" transform="translate(657 6613)" fill="#707070"/>
+    <circle id="Ellipse_386" data-name="Ellipse 386" cx="4" cy="4" r="4" transform="translate(657 6672)" fill="#707070"/>
+    <circle id="Ellipse_387" data-name="Ellipse 387" cx="4" cy="4" r="4" transform="translate(657 6732)" fill="#707070"/>
+    <circle id="Ellipse_472" data-name="Ellipse 472" cx="4" cy="4" r="4" transform="translate(290 6395)" fill="#707070"/>
+    <circle id="Ellipse_473" data-name="Ellipse 473" cx="4" cy="4" r="4" transform="translate(290 6502)" fill="#707070"/>
+    <circle id="Ellipse_474" data-name="Ellipse 474" cx="4" cy="4" r="4" transform="translate(657 6792)" fill="#707070"/>
   </g>
 </svg>
