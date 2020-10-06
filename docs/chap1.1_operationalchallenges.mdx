@@ -5,6 +5,27 @@ title: Mini-grid Operational Challenges
 hide_title: true
 sidebar_label: Mini-grid Operational Challenges
 ---
+<br/>
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+export const Highlight = ({children, color, font}) => (
+  <span
+    style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.5rem',
+      fontSize: font,
+    }}>
+    {children}
+  </span>
+);
+
+<a href={useBaseUrl('img/SamplePdf.pdf')} target="_blank">
+ <Highlight color="#1877F2" font="30px"> Download PDF </Highlight>
+</a>
+
 
 import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
@@ -16,6 +37,8 @@ import TabItem from '@theme/TabItem';
     {label: 'हिन्दी', value: 'hindi'},
   ]}>
   <TabItem value="english">
+
+
 
 # Mini-grid Operational Challenges
 

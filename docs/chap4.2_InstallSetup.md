@@ -14,7 +14,7 @@ sidebar_label: Installation and Setup
 		##### Figure: Customer app icon.
 		![Field agent app icon](./assets/4.2_Icon.png)
 * Upon opening the application, the user is prompted for their login credentials, as shown in the screenshot below.
-	![Set Up Prompt](./assets/4.3_SetupPrompt.png)
+	![Set Up Prompt](./assets/4.3_SetupPrompt.svg)
 
 
 ## New Connection Request

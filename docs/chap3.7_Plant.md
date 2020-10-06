@@ -7,7 +7,8 @@ sidebar_label: Plant
 ## Overview
 The section consists of the following functionalities:
 
-![Plant Functionalities](./assets/3.70_PlantTabs.png)
+![Plant Functionalities](./assets/3.70_PlantTabs.svg)
+<br/><br/>
 
 ![Consumer Screenshot](./assets/3.71_PlantTabScreenShot.png)
  

@@ -8,7 +8,9 @@ sidebar_label: Main Menu
 * The Main Menu provides shortcuts to the key sections, shown below.
 
 	##### FIGURE: MAIN MENU SHORTCUTS.
-	![MAIN MENU SHORTCUTS](./assets/3.11_MainMenuShortcusts.png)
+	![MAIN MENU SHORTCUTS](./assets/3.11_MainMenuShortcusts.svg)
+	<br/><br/>
+
 	![Shortcuts Screen Shot](./assets/3.12_ShortcutScreenShot.png)
 
 * It can be accessed from any page in two ways:

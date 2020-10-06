@@ -5,7 +5,7 @@ sidebar_label: Organisation of this User Manual
 ---
 
 
-![Technical monitoring of mini-grid supply-side equipment](./assets/1.4.1_MonSupEquipment.png)
+![Technical monitoring of mini-grid supply-side equipment](./assets/1.4.1_MonSupEquipment.svg)
 #### Figure 10: Technical monitoring of mini-grid supply-side equipment.
 
 This section provides some guidance about navigating and using the remainder of this manual.

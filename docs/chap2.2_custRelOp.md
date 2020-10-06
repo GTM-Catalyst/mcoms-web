@@ -22,7 +22,7 @@ Post-paid packages are billed at the end of each billing period after energy has
 The step-by-step customer acquisition process is depicted in Figure 11. Note that all steps coloured green or blue are done through the MCOMS apps.
 
 #### Figure 11: Adding customers detailed workflow.
-![Adding customers detailed workflow](./assets/2.2_AddCustDetWorkFlw.png)
+![Adding customers detailed workflow](./assets/2.2_AddCustDetWorkFlw.svg)
 
 
 #### Unique Customer IDs
@@ -56,7 +56,7 @@ Metering, billing, and collection (MBC) is the process by which a customer pays 
 	* Partial payments are acceptable, but will require repeated field agent visits.
 
 #### Figure 13: Metering, billing, and collection workflow.
-![Metering, billing, and collection workflow](./assets/2.4_MetBilColWorkflow.png)
+![Metering, billing, and collection workflow](./assets/2.4_MetBilColWorkflow.svg)
 
 ### Customer Receipts
 Ensuring that company and customers alike have access to records of bills and payments is important for transparency and trust, and for forestalling / resolving payment disputes. Customer receipts are the primary proof of billing for any active consumer, and come in a variety of formats:
@@ -80,7 +80,7 @@ Service requests are made by customers when they experience supply disruptions o
 The processing of every Service Request made by all customers is as follows:
 
 #### Figure 14: Service requests workflow.
-![Service requests workflow](./assets/2.5_ServiceReqWorkFlw.png)
+![Service requests workflow](./assets/2.5_ServiceReqWorkFlw.svg)
 
 ### Security Deposits
 A refundable security deposit is typically taken from every new customer, with the amount depending on their anticipated monthly bill. In the event of a lapse in regular payments, the company can recoup the outstanding amount form the deposit. Otherwise, the deposit is refunded in full when a customer discontinues their subscription. The process for collecting the security deposit is illustrated in **Error! Reference source not found.**

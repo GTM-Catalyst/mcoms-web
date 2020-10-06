@@ -5,7 +5,9 @@ sidebar_label: Consumers
 ---
 
 ## Overview
-![Consumer Screen Key Functionalities](./assets/3.25_ConsuKeyFunc.png)
+![Consumer Screen Key Functionalities](./assets/3.25_ConsuKeyFunc.svg)
+<br/>
+<br/>
 
 ![Consumer Screenshot](./assets/3.26_ConsScreenShot.png)
  

@@ -5,7 +5,8 @@ sidebar_label: Miscellaneous
 ---
 
 ## Overview
-![Miscellaneous Functionalities](./assets/3.110_MiscFunctionaties.png)
+![Miscellaneous Functionalities](./assets/3.110_MiscFunctionaties.svg)
+<br/><br/>
 
 ![Miscellaneous Screenshot](./assets/3.111_MiscScreenShot.png)
 

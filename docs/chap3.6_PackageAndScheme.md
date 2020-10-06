@@ -5,7 +5,8 @@ sidebar_label: Package and Scheme
 ---
 
 ## Overview
-![Package And Scheme Tabs](./assets/3.61_PckAndSchmTabs.png)
+![Package And Scheme Tabs](./assets/3.61_PckAndSchmTabs.svg)
+<br/><br/>
 
 ![Consumer Screenshot](./assets/3.62_ScrShotPckAndSchm.png)
  

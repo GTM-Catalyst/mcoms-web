@@ -11,7 +11,7 @@ sidebar_label: Dashboard
 
 **Page Details**
 
-![Dashboard](./assets/4.8_Dashboard.png) 
+![Dashboard](./assets/4.8_Dashboard.svg) 
 
 
 

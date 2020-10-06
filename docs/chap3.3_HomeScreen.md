@@ -12,7 +12,7 @@ sidebar_label: Home Screen
 ![Home Screen](./assets/3.4_HomScreen.png) 
 
 ##### FIGURE: FIELD AGENT APP SECTION HEADINGS.
-![FIELD AGENT APP SECTION HEADINGS](./assets/3.5_AppSecHeadings.png)
+![FIELD AGENT APP SECTION HEADINGS](./assets/3.5_AppSecHeadings.svg)
 
 ### Pop-up Notifications
 **Functionality**

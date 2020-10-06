@@ -5,7 +5,8 @@ sidebar_label: Meter
 ---
 
 ## Overview
-![Meter Tab Functionalities](./assets/3.95_MeterFunctionalities.png)
+![Meter Tab Functionalities](./assets/3.95_MeterFunctionalities.svg)
+<br/><br/>
 
 ![Meter Tab Screenshot](./assets/3.96_MeterTabScrSht.png)
  

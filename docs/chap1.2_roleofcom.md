@@ -17,7 +17,7 @@ MCOMS is built upon two critical design principles, shown in Figure 1.
 High-level system functionalities are detailed in Figure 2.
 
 #### FIGURE 2:HIGH-LEVEL COMS FUNCTIONALITIES. 
-![HIGH-LEVEL COMS FUNCTIONALITIES.](./assets/1.2.2Mcomfunc.png)
+![HIGH-LEVEL COMS FUNCTIONALITIES.](./assets/1.2.2Mcomfunc.svg)
 
 MCOMS is designed to cover all aspects of business monitoring, and places sales and finance metrics alongside technical performance and analysis of trends in customer demand. This synthesis of information gives mini-grid developers a deeper understanding of their projects’ operations.
 
@@ -28,7 +28,7 @@ Mini-grid businesses are multi-faceted, with many personnel and stakeholder role
 To achieve operational efficiency and business performance, it is critical to clearly define the roles for each team member. The personnel hierarchy of a mini-grid operator is sketched in Figure 3, followed by a detailed description in Table 1.
 
 #### Figure 3: Typical mini-grid operator organisational hierarchy.
-![Typical mini-grid operator organisational hierarchy](./assets/1.2.3.1OrgHierarchy.png)
+![Typical mini-grid operator organisational hierarchy](./assets/1.2.3.1OrgHierarchy.svg)
 
 #### Table 1: Description of the roles and responsibilities of mini-grid personnel.
 
