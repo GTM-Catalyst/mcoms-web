@@ -9,21 +9,22 @@ sidebar_label: Mini-grid Operational Challenges
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-export const Highlight = ({children, color, font}) => (
+export const Highlight = ({children, color}) => (
   <span
     style={{
       backgroundColor: color,
       borderRadius: '2px',
       color: '#fff',
       padding: '0.5rem',
-      fontSize: font,
+      fontSize: '30px',
+      fontWeight: 'bold',
     }}>
     {children}
   </span>
 );
 
 <a href={useBaseUrl('img/SamplePdf.pdf')} target="_blank">
- <Highlight color="#1877F2" font="30px"> Download PDF </Highlight>
+ <Highlight color="#1877F2"> Download PDF </Highlight>
 </a>
 
 
