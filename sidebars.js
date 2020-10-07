@@ -1,5 +1,6 @@
 module.exports = {
-  Docs: {  
+  Docs: {
+    'Welcome': ['welcome'],
     'Introduction': ['opchallenge','roleofcom', 'IntSysInt', 'usermanual'],
     'Operations and Their Workflows': ['IntroOpActivity','CustRelOp', 'TechOp', 'SiteFinRprtng', 'DataVerSteps'],
     'Field Agent App': ['introduction','InstallSetup', 'HomScr', 'MainMenu', 'consumers','PckAndSchm','plant','meter', 'water', 'mislns', 'faq'],
