@@ -2,7 +2,7 @@ module.exports = {
   title: 'MCOMS',
   tagline: 'The tagline of my site',
   url: 'https://gtm-catalyst.github.io',
-  baseUrl: '/',
+  baseUrl: '/mcoms-web/',
   onBrokenLinks: 'throw',
   favicon: 'img/Mcoms_SquareSun_Black.png',
   organizationName: 'GTM-Catalyst', // Usually your GitHub org/user name.
