@@ -2,7 +2,7 @@ module.exports = {
   title: 'MCOMS',
   tagline: 'The tagline of my site',
   url: 'https://gtm-catalyst.github.io',
-  baseUrl: '/',
+  baseUrl: '/mcoms-web/',
   onBrokenLinks: 'throw',
   favicon: 'img/Mcoms_SquareSun_Black.png',
   organizationName: 'GTM-Catalyst', // Usually your GitHub org/user name.
@@ -17,16 +17,10 @@ module.exports = {
       items: [
        /* {
           to: '/',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/welcome',
           label: 'Docs',
           position: 'left',
-        },
-        {
-          to: '/',
-          activeBasePath: 'docs/opchallengehi',
-          label: 'Tutorials',
-          position: 'left',
-        },        
+        },       
         {to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',

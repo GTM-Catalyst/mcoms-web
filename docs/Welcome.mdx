@@ -12,16 +12,17 @@ export const Highlight = ({children, color}) => (
       backgroundColor: color,
       borderRadius: '2px',
       color: '#fff',
-      padding: '0.5rem',
-      fontSize: '30px',
+      padding: '0.3rem',
+      fontSize: '20px',
       fontWeight: 'bold',
+      fontStyle: 'italic',
     }}>
     {children}
   </span>
 );
 
 <a href={useBaseUrl('img/SamplePdf.pdf')} target="_blank">
- <Highlight color="#1877F2"> Download PDF version of this website </Highlight>
+ <Highlight color="#1877F2"> Download content of this website in PDF format </Highlight>
 </a>
 
 <br/><br/>
