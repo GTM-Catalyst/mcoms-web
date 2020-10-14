@@ -35,10 +35,15 @@ module.exports = {
     },
     footer: {
       style: 'dark',
+      logo: {
+        alt: 'Smart Power India',
+        src: 'img/Mcoms_SquareSun_Black.png',
+        href: 'https://smartpowerindia.org/',
+      },
       links: [
-        {
+         /*{
           title: 'Docs',
-         /* items: [
+         items: [
             {
               label: 'Style Guide',
               to: 'docs/',
@@ -47,9 +52,9 @@ module.exports = {
               label: 'Second Doc',
               to: 'docs/doc2/',
             },
-          ],*/
-        },
-        {
+          ],
+        },*/
+        /*{
           title: 'Community',
           items: [
             {
@@ -65,22 +70,10 @@ module.exports = {
               href: 'https://twitter.com/docusaurus',
             },
           ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        },*/
+        
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Smart Power India`,
     },
   },
   plugins: [
