@@ -41,17 +41,17 @@ module.exports = {
         href: 'https://smartpowerindia.org/',
       },
       links: [
-         /*{
-          title: 'Docs',
+        /*  {
+          title: 'Downloads',
          items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'PDF Version',
+              to: 'img/SamplePdf.pdf',
             },
-            {
+           {
               label: 'Second Doc',
               to: 'docs/doc2/',
-            },
+            }, 
           ],
         },*/
         /*{
@@ -99,7 +99,16 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/GTM-Catalyst/mcoms-web/',
+          
+              lastVersion: "current",
+              versions: {
+                current: {
+                  "label": "हिंदी",
+                  "path": "hindi"
+                }
+              }
+            
         },
         blog: {
           showReadingTime: true,
