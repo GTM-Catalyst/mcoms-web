@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1322.5" height="290.751" viewBox="0 0 1322.5 290.751">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="gray" stop-opacity="0.251"/>
+      <stop offset="0.54" stop-color="gray" stop-opacity="0.122"/>
+      <stop offset="1" stop-color="gray" stop-opacity="0.102"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2629" data-name="Group 2629" transform="translate(-300 -251.5)">
+    <g id="Group_539" data-name="Group 539" transform="translate(276 -5)">
+      <text id="Cluster_In-charge" data-name="Cluster
+In-charge" transform="translate(900 265)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="50.56" y="20">Cluster</tspan><tspan x="39.18" y="45">In-charge</tspan></text>
+      <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(271.5 336)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="99.36" y="20">Main</tspan><tspan x="66.36" y="45">Purpose</tspan></text>
+      <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(302.5 464)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="32.84" y="20">Example</tspan><tspan x="23.88" y="45">Use Case</tspan></text>
+      <text id="State_In-carge" data-name="State
+In-carge" transform="translate(1125.5 265)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="59.99" y="20">State</tspan><tspan x="45.11" y="45">In-carge</tspan></text>
+      <line id="Line_72" data-name="Line 72" y2="290.751" transform="translate(876.5 256.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_73" data-name="Line 73" y2="290.751" transform="translate(659.5 256.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="CSA" transform="translate(732 265)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="15.25" y="20">CSA</tspan></text>
+      <line id="Line_74" data-name="Line 74" y2="290.751" transform="translate(442.5 256.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_75" data-name="Line 75" x1="1051" transform="translate(295.5 429.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="Review_the_status_of_the_meter_associated_with_a_particular_customer_at_the_plant" data-name="Review the status of the meter associated with a particular customer at the plant" transform="translate(450.5 338)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="19.68" y="13">Review the status of the </tspan><tspan x="20.457" y="29">meter associated with a </tspan><tspan x="14.612" y="45">particular customer at the </tspan><tspan x="79.439" y="61">plant</tspan></text>
+      <text id="Same_as_Technician" data-name="Same as Technician" transform="translate(664 365)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="41.763" y="13">Same as Technician</tspan></text>
+      <text id="Control_the_state_of_the_meter_for_a_particular_customer_or_group_of_customers" data-name="Control the state of the meter for a particular customer or group of customers" transform="translate(888 347)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="5.569" y="13">Control the state of the meter </tspan><tspan x="12.457" y="29">for a particular customer or </tspan><tspan x="36.299" y="45">group of customers</tspan></text>
+      <text id="Checking_whether_the_meter_has_automatically_tripped_into_the_off_state" data-name="Checking whether the meter has automatically tripped into the off state" transform="translate(445.5 462)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="11.076" y="13">Checking whether the meter </tspan><tspan x="7.051" y="29">has automatically tripped into </tspan><tspan x="62.267" y="45">the off state</tspan></text>
+      <text id="Checking_the_status_of_a_particular_meter" data-name="Checking the status of a particular meter" transform="translate(665 471)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="26.389" y="13">Checking the status of a </tspan><tspan x="53.234" y="29">particular meter</tspan></text>
+      <text id="Shutting_off_the_meter_of_a_customer_whose_faulty_appliance_is_impacting_the_whole_distribution_network" data-name="Shutting off the meter of a customer whose faulty appliance is impacting the whole distribution network" transform="translate(882 454)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="21.789" y="13">Shutting off the meter of a </tspan><tspan x="0.432" y="29">customer whose faulty appliance </tspan><tspan x="33.36" y="45">is impacting the whole </tspan><tspan x="41.403" y="61">distribution network</tspan></text>
+      <line id="Line_76" data-name="Line 76" y2="290.751" transform="translate(1094.5 256.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="Technician" transform="translate(473.5 265)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="20.59" y="20">Technician</tspan></text>
+      <text id="Same_as_cluster_In-Charge" data-name="Same as cluster In-Charge" transform="translate(1112.5 365)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="14.333" y="13">Same as cluster In-Charge</tspan></text>
+      <text id="Shutting_down_multiple_meters_at_one_time_in_the_state_of_a_technical_emergency_" data-name="Shutting down multiple meters at one time in the state of a technical emergency " transform="translate(1106.5 461)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0.026" y="13">Shutting down multiple meters at </tspan><tspan x="26.087" y="29">one time in the state of a </tspan><tspan x="38.869" y="45">technical emergency </tspan></text>
+    </g>
+    <g id="undraw_server_q2pb" transform="translate(300 293.671)">
+      <rect id="Rectangle_338" data-name="Rectangle 338" width="112.525" height="125.59" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_339" data-name="Rectangle 339" width="108.804" height="39.003" transform="translate(1.859 83.852)" fill="#fff"/>
+      <rect id="Rectangle_340" data-name="Rectangle 340" width="4.216" height="19.986" transform="translate(10.79 93.103)" fill="#64ffda"/>
+      <g id="Group_519" data-name="Group 519" transform="translate(19.113 93.103)" opacity="0.7">
+        <rect id="Rectangle_341" data-name="Rectangle 341" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_520" data-name="Group 520" transform="translate(27.439 93.103)" opacity="0.6">
+        <rect id="Rectangle_342" data-name="Rectangle 342" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_521" data-name="Group 521" transform="translate(35.762 93.103)" opacity="0.5">
+        <rect id="Rectangle_343" data-name="Rectangle 343" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_522" data-name="Group 522" transform="translate(44.085 93.103)" opacity="0.5">
+        <rect id="Rectangle_344" data-name="Rectangle 344" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_523" data-name="Group 523" transform="translate(52.408 93.103)" opacity="0.4">
+        <rect id="Rectangle_345" data-name="Rectangle 345" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_524" data-name="Group 524" transform="translate(60.733 93.103)" opacity="0.3">
+        <rect id="Rectangle_346" data-name="Rectangle 346" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <circle id="Ellipse_98" data-name="Ellipse 98" cx="10.174" cy="10.174" r="10.174" transform="translate(85.086 92.793)" fill="#00b0ff"/>
+      <rect id="Rectangle_347" data-name="Rectangle 347" width="108.804" height="39.003" transform="translate(1.859 43.329)" fill="#fff"/>
+      <rect id="Rectangle_348" data-name="Rectangle 348" width="4.216" height="19.986" transform="translate(10.79 52.58)" fill="#64ffda"/>
+      <g id="Group_525" data-name="Group 525" transform="translate(19.113 52.58)" opacity="0.7">
+        <rect id="Rectangle_349" data-name="Rectangle 349" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_526" data-name="Group 526" transform="translate(27.439 52.58)" opacity="0.6">
+        <rect id="Rectangle_350" data-name="Rectangle 350" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_527" data-name="Group 527" transform="translate(35.762 52.58)" opacity="0.5">
+        <rect id="Rectangle_351" data-name="Rectangle 351" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_528" data-name="Group 528" transform="translate(44.085 52.58)" opacity="0.5">
+        <rect id="Rectangle_352" data-name="Rectangle 352" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_529" data-name="Group 529" transform="translate(52.408 52.58)" opacity="0.4">
+        <rect id="Rectangle_353" data-name="Rectangle 353" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_530" data-name="Group 530" transform="translate(60.733 52.58)" opacity="0.3">
+        <rect id="Rectangle_354" data-name="Rectangle 354" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <circle id="Ellipse_99" data-name="Ellipse 99" cx="10.174" cy="10.174" r="10.174" transform="translate(85.086 52.273)" fill="#00b0ff"/>
+      <rect id="Rectangle_355" data-name="Rectangle 355" width="108.804" height="39.003" transform="translate(1.859 2.806)" fill="#fff"/>
+      <rect id="Rectangle_356" data-name="Rectangle 356" width="4.216" height="19.986" transform="translate(10.79 12.06)" fill="#64ffda"/>
+      <g id="Group_531" data-name="Group 531" transform="translate(19.113 12.06)" opacity="0.7">
+        <rect id="Rectangle_357" data-name="Rectangle 357" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_532" data-name="Group 532" transform="translate(27.439 12.06)" opacity="0.6">
+        <rect id="Rectangle_358" data-name="Rectangle 358" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_533" data-name="Group 533" transform="translate(35.762 12.06)" opacity="0.5">
+        <rect id="Rectangle_359" data-name="Rectangle 359" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_534" data-name="Group 534" transform="translate(44.085 12.06)" opacity="0.5">
+        <rect id="Rectangle_360" data-name="Rectangle 360" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_535" data-name="Group 535" transform="translate(52.408 12.06)" opacity="0.4">
+        <rect id="Rectangle_361" data-name="Rectangle 361" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <g id="Group_536" data-name="Group 536" transform="translate(60.733 12.06)" opacity="0.3">
+        <rect id="Rectangle_362" data-name="Rectangle 362" width="4.216" height="19.986" fill="#64ffda"/>
+      </g>
+      <circle id="Ellipse_100" data-name="Ellipse 100" cx="10.968" cy="10.968" r="10.968" transform="translate(84.292 10.957)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_101" data-name="Ellipse 101" cx="10.968" cy="10.968" r="10.968" transform="translate(84.292 51.751)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_102" data-name="Ellipse 102" cx="10.968" cy="10.968" r="10.968" transform="translate(84.292 92.27)" fill="url(#linear-gradient)"/>
+      <circle id="Ellipse_103" data-name="Ellipse 103" cx="10.174" cy="10.174" r="10.174" transform="translate(85.086 11.751)" fill="#00b0ff"/>
+      <g id="Group_537" data-name="Group 537" transform="translate(126.214 43.441)" opacity="0.7">
+        <line id="Line_185" data-name="Line 185" x2="1.643" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_186" data-name="Line 186" x2="45.703" transform="translate(10.782)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="12.52 33.38"/>
+        <path id="Path_2106" data-name="Path 2106" d="M684,158.67h1.643v1.643" transform="translate(-622.946 -158.67)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_187" data-name="Line 187" y2="31.564" transform="translate(62.696 10.352)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="11.93 31.8"/>
+        <line id="Line_188" data-name="Line 188" y2="1.643" transform="translate(62.696 46.269)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g id="Group_538" data-name="Group 538" transform="translate(37.941 132.27)" opacity="0.7">
+        <line id="Line_189" data-name="Line 189" x1="1.643" y1="0.008" transform="translate(61.054 35.187)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_190" data-name="Line 190" x1="45.7" y1="0.219" transform="translate(6.215 34.924)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="12.52 33.38"/>
+        <path id="Path_2107" data-name="Path 2107" d="M140.223,606.231l-1.643-.008.011-1.643" transform="translate(-138.58 -571.326)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line id="Line_191" data-name="Line 191" y1="18.965" x2="0.126" transform="translate(0.066 5.859)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" stroke-dasharray="11.55 30.79"/>
+        <line id="Line_192" data-name="Line 192" y1="1.643" x2="0.011" transform="translate(0.219)" fill="none" stroke="#00b0ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <path id="Path_2108" data-name="Path 2108" d="M721.984,703.08s3.264,22.034,22.524,29.38H666.48C685.741,725.114,689,703.08,689,703.08Z" transform="translate(-524.529 -530.471)" fill="#e0e0e0"/>
+      <rect id="Rectangle_363" data-name="Rectangle 363" width="78.754" height="4.654" transform="translate(141.571 201.989)" fill="url(#linear-gradient)"/>
+      <rect id="Rectangle_364" data-name="Rectangle 364" width="78.017" height="3.592" transform="translate(141.962 201.989)" fill="#f5f5f5"/>
+      <path id="Path_2109" data-name="Path 2109" d="M697.568,417H570.943A2.943,2.943,0,0,0,568,419.943v79.778a3.521,3.521,0,0,0,3.521,3.521H696.99a3.521,3.521,0,0,0,3.521-3.521V419.943A2.943,2.943,0,0,0,697.568,417Z" transform="translate(-453.011 -322.715)" fill="url(#linear-gradient)"/>
+      <path id="Path_2110" data-name="Path 2110" d="M428.763,348.78h122.89a2.943,2.943,0,0,1,2.943,2.943v68.3H425.82v-68.3A2.943,2.943,0,0,1,428.763,348.78Z" transform="translate(-309.238 -253.29)" fill="#fff"/>
+      <path id="Path_2111" data-name="Path 2111" d="M699.076,693.371H577.341a3.521,3.521,0,0,1-3.521-3.521v-8.23H702.6v8.23A3.521,3.521,0,0,1,699.076,693.371Z" transform="translate(-457.238 -514.886)" fill="#f5f5f5"/>
+      <rect id="Rectangle_365" data-name="Rectangle 365" width="116.536" height="57.511" transform="translate(122.948 101.261)" fill="#00b0ff"/>
+      <path id="Path_2112" data-name="Path 2112" d="M453.877,373.626h112V369.79H449.34V427.3h4.537Z" transform="translate(-326.318 -268.548)" fill="#fff" opacity="0.2"/>
+    </g>
+  </g>
+</svg>

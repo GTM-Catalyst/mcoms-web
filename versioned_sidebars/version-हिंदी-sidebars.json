@@ -1,0 +1,182 @@
+{
+  "version-हिंदी/Docs": [
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Welcome",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/welcome"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Introduction",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/opchallenge"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/roleofcom"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/IntSysInt"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/usermanual"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Operations and Their Workflows",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/IntroOpActivity"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/CustRelOp"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/TechOp"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/SiteFinRprtng"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/DataVerSteps"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Field Agent App",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/introduction"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/InstallSetup"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/HomScr"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/MainMenu"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/consumers"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/PckAndSchm"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/plant"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/meter"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/water"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/mislns"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/faq"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "Customer App",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/IntroCust"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/InstallSetup4"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/dash"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/MainMenuCust"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/profile"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/AmPbl"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/BllPyDet"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/PkgChngRq"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/SvrcRqst"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/Ntfctn"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/SchmAndOffrs"
+        },
+        {
+          "type": "doc",
+          "id": "version-हिंदी/faqcust"
+        }
+      ]
+    },
+    {
+      "collapsed": true,
+      "type": "category",
+      "label": "APPENDICES",
+      "items": [
+        {
+          "type": "doc",
+          "id": "version-हिंदी/glssry"
+        }
+      ]
+    }
+  ]
+}

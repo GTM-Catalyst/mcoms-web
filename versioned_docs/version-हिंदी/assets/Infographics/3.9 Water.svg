@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="861.098" height="381.054" viewBox="0 0 861.098 381.054">
+  <g id="Group_2652" data-name="Group 2652" transform="translate(-659.25 -269.474)">
+    <g id="Group_837" data-name="Group 837" transform="translate(4.25 -612)">
+      <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(680 998)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.18" y="20">Main</tspan><tspan x="4.68" y="45">Purpose</tspan></text>
+      <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(673 1135)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="10.42" y="20">Example</tspan><tspan x="5.94" y="45">Use Case</tspan></text>
+      <line id="Line_158" data-name="Line 158" y2="381.054" transform="translate(791.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <line id="Line_159" data-name="Line 159" x1="601.5" transform="translate(655 1083.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="To_monitor_the_water_sales_within_the_state" data-name="To monitor the water sales within the state" transform="translate(832 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="8.198" y="13">To monitor the water </tspan><tspan x="6.903" y="28">sales within the state</tspan></text>
+      <text id="Same_as_Cluster_In-charge" data-name="Same as Cluster
+In-charge" transform="translate(1052 998)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="26.529" y="13">Same as Cluster</tspan><tspan x="48.25" y="28">In-charge</tspan></text>
+      <text id="Understanding_the_number_and_value_of_water_sales_at_different_plants" data-name="Understanding the number and value of water sales at different plants" transform="translate(832 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="14.54" y="13">Understanding the </tspan><tspan x="8.31" y="28">number and value of </tspan><tspan x="1.702" y="43">water sales at different </tspan><tspan x="53.439" y="58">plants</tspan></text>
+      <text id="Same_as_Cluster_In-charge-2" data-name="Same as Cluster
+In-charge" transform="translate(1043 1135)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="35.529" y="13">Same as Cluster</tspan><tspan x="57.25" y="28">In-charge</tspan></text>
+      <line id="Line_157" data-name="Line 157" y2="381.054" transform="translate(1016.5 881.474)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+      <text id="State_In-charge" data-name="State In-charge" transform="translate(1038 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="18.39" y="20">State In-charge</tspan></text>
+      <text id="Cluster_In-charge" data-name="Cluster In-charge" transform="translate(812 908)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="8.96" y="20">Cluster In-charge</tspan></text>
+    </g>
+    <g id="Group_1869" data-name="Group 1869" transform="translate(1374 396.59)">
+      <path id="Path_3815" data-name="Path 3815" d="M541.986,60.248a255.343,255.343,0,0,1-10.209,24.973c-5.218,10.91-13.012,24.931-8.763,37.459,2.909,8.588,11.442,14.034,20.216,14.485,6.469.333,14-.737,18.858-5.306,6.834-6.437,7.533-15.678,4.791-24.162C560.906,89.218,543.729,84.97,541.986,60.248Z" transform="translate(-521.792 -60.248)" fill="#29ccf2"/>
+      <path id="Path_3816" data-name="Path 3816" d="M541.705,64.356c.812,2.6,1.281,5.623,2.108,8.117a56.731,56.731,0,0,0,4.669,9.479c3.761,6.756,8.981,12.609,12.571,19.418,3.725,7.066,5.308,16.212,1.935,23.785s-13.554,9.175-20.412,8.242c-6.775-.922-15.186-5-18.918-12.989a15.2,15.2,0,0,1,.5-12.233c2.488-4.5,11.427-4.223,11.948,2-1.245-2-4.831-3.466-6.971-1.75-1.359,1.091-1.433,5.015-.747,6.5a12.027,12.027,0,0,0,8.713,7.005c9.2,1.935,7.5-13.447,5.416-18.244-2.843-6.532-6.6-11.813-6.906-18.981-.376-8.592,2.942-14.743,5.218-22.63A16.43,16.43,0,0,1,541.705,64.356Z" transform="translate(-520.889 -58.227)" fill="#fff" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_3817" data-name="Path 3817" d="M538.552,67.045c.186-1.458.346-2.927.443-4.418,1.938,1.594,1.319,6.294,1.437,8.721.45,9.116,4.827,15.821,9.224,23.523,4.287,7.508,9.038,16.72,6.969,25.667-1.131,4.9-5.631,9.335-10.709,9.99a25.893,25.893,0,0,1-10.45-1c-3.594-1.079-6.807-2.792-9.029-6.19-1.4-2.142-3.432-6.532-1.67-8.955-.5,6.9,7.788,12.676,13.928,12.147,8.685-.745,8.143-11.467,5.781-17.235-2.961-7.235-6.773-14.768-7.526-22.472C536.271,79.9,537.712,73.579,538.552,67.045Z" transform="translate(-519.25 -57.606)" fill="#fff" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_3818" data-name="Path 3818" d="M531.9,62.26c0,9.435,2.9,19.844,8.892,27.274,2.567,3.183,5.156,6.391,6.6,10.18,2.6,6.792,4.717,15.226,1.488,22.295-.568,1.241-3.5,6.99-5.057,5.182.483.566,1.887-4.508,1.99-4.914.6-2.442,1.608-4.751,1.518-7.324-.074-2.073-1.511-10.4-4.232-10.749-2.3-.3-1.657,2.421-3.8-.177a29.248,29.248,0,0,1-2.987-5.306c-1.916-3.932-2.9-8.763-4.116-12.985-1.537-5.346-1.9-13.189-.3-18.479Z" transform="translate(-511.711 -58.013)" fill="#fff" style="mix-blend-mode: soft-light;isolation: isolate"/>
+      <path id="Path_3819" data-name="Path 3819" d="M541.6,79.889c6.511,7.716,6.467,28.515-6.015,29.965,7.674-5.177,8.8-15.676,8.252-24.471Z" transform="translate(-506.471 -38.434)" fill="#fff"/>
+    </g>
+    <path id="Path_3821" data-name="Path 3821" d="M573.834,29.566a6.646,6.646,0,1,1-6.642-6.86A6.753,6.753,0,0,1,573.834,29.566Z" transform="translate(895.252 294.646)" fill="#3b4960"/>
+    <path id="Path_3822" data-name="Path 3822" d="M594.834,29.566a6.646,6.646,0,1,1-6.642-6.86A6.753,6.753,0,0,1,594.834,29.566Z" transform="translate(918.575 294.646)" fill="#3b4960"/>
+    <path id="Path_3823" data-name="Path 3823" d="M624.643,17.956a5.8,5.8,0,0,0-3.166,10.661V59.641H538.888c-7.385,0-9.5,3.166-10.551,8.443s0,28.493,0,28.493h14.774V74.415h84.7v-45.8a5.8,5.8,0,0,0-3.166-10.661Z" transform="translate(858.954 289.371)" fill="#3d435b"/>
+    <rect id="Rectangle_578" data-name="Rectangle 578" width="39.047" height="2.638" transform="translate(1464.865 323.695)" fill="#3b4960"/>
+    <g id="Group_1871" data-name="Group 1871" transform="translate(1386.467 390.445)">
+      <rect id="Rectangle_579" data-name="Rectangle 579" width="29.877" height="151.909" transform="translate(104.004 0)" fill="#dfe7e7"/>
+      <rect id="Rectangle_580" data-name="Rectangle 580" width="29.877" height="92.522" transform="translate(69.335 59.387)" fill="#dfe7e7"/>
+      <rect id="Rectangle_581" data-name="Rectangle 581" width="29.874" height="44.799" transform="translate(34.669 107.11)" fill="#dfe7e7"/>
+      <rect id="Rectangle_582" data-name="Rectangle 582" width="29.874" height="14.383" transform="translate(0 137.527)" fill="#dfe7e7"/>
+    </g>
+    <path id="Path_3815-2" data-name="Path 3815" d="M541.986,60.248a255.343,255.343,0,0,1-10.209,24.973c-5.218,10.91-13.012,24.931-8.763,37.459,2.909,8.588,11.442,14.034,20.216,14.485,6.469.333,14-.737,18.858-5.306,6.834-6.437,7.533-15.678,4.791-24.162C560.906,89.218,543.729,84.97,541.986,60.248Z" transform="translate(852.207 336.342)" fill="#707070" style="mix-blend-mode: color;isolation: isolate"/>
+  </g>
+</svg>

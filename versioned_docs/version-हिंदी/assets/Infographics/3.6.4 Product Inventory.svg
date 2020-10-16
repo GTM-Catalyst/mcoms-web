@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1272.28" height="339.872" viewBox="0 0 1272.28 339.872">
+  <g id="Group_2726" data-name="Group 2726" transform="translate(-319.75 -3442.468)">
+    <text id="State_In-carge" data-name="State
+In-carge" transform="translate(1202 3458)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="59.99" y="20">State</tspan><tspan x="45.11" y="45">In-carge</tspan></text>
+    <text id="Checking_inventory_levels_and_whether_new_purchase_orders_are_required" data-name="Checking inventory levels and whether new purchase orders are required" transform="translate(1205 3675)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="2.27" y="13">Checking inventory levels </tspan><tspan x="28.205" y="29">and whether new </tspan><tspan x="19.504" y="45">purchase orders are </tspan><tspan x="56.324" y="61">required</tspan></text>
+    <line id="Line_132" data-name="Line 132" y2="339.872" transform="translate(1193.25 3442.468)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="Requesting_purchase_of_an_appliance_which_in_in_demand" data-name="Requesting purchase of an appliance which in in demand" transform="translate(1020 3675)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="7.576" y="13">Requesting purchase of </tspan><tspan x="6.932" y="29">an appliance which in in </tspan><tspan x="56.317" y="45">demand</tspan></text>
+    <text id="Cluster_In-charge" data-name="Cluster
+In-charge" transform="translate(1051 3458)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="16.56" y="20">Cluster</tspan><tspan x="5.18" y="45">In-charge</tspan></text>
+    <line id="Line_130" data-name="Line 130" y2="339.872" transform="translate(1009.25 3442.468)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="CSA" transform="translate(832.75 3458)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="64.25" y="20">CSA</tspan></text>
+    <text id="Same_as_Operator" data-name="Same as
+Operator" transform="translate(845.75 3548)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="45.27" y="13">Same as</tspan><tspan x="44.626" y="29">Operator</tspan></text>
+    <text id="Same_as_Operator_" data-name="Same as
+Operator
+" transform="translate(1030 3548)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="45.27" y="13">Same as</tspan><tspan x="44.626" y="29">Operator</tspan><tspan x="72.5" y="45"></tspan></text>
+    <text id="Same_as_Operator_2" data-name="Same as
+Operator
+" transform="translate(1215 3548)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="45.27" y="13">Same as</tspan><tspan x="44.626" y="29">Operator</tspan><tspan x="72.5" y="45"></tspan></text>
+    <text id="Same_as_Operator-2" data-name="Same as
+Operator" transform="translate(839.75 3675)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="50.77" y="13">Same as</tspan><tspan x="50.126" y="29">Operator</tspan></text>
+    <line id="Line_128" data-name="Line 128" y2="339.872" transform="translate(825.25 3442.468)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="Same_as_Operator-3" data-name="Same as
+Operator" transform="translate(659.75 3548)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="45.27" y="13">Same as</tspan><tspan x="44.626" y="29">Operator</tspan></text>
+    <text id="Same_as_Operator-4" data-name="Same as
+Operator" transform="translate(659.75 3675)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="45.27" y="13">Same as</tspan><tspan x="44.626" y="29">Operator</tspan></text>
+    <text id="Technician" transform="translate(681.75 3458)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0.09" y="20">Technician</tspan></text>
+    <line id="Line_131" data-name="Line 131" x1="1078.5" transform="translate(319.75 3643.5)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <line id="Line_129" data-name="Line 129" y2="339.872" transform="translate(640.25 3442.468)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="To_view_available_appliances_in_the_company_warehouse" data-name="To view available appliances in the company warehouse" transform="translate(475.75 3548)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="20.881" y="13">To view available </tspan><tspan x="20.468" y="29">appliances in the </tspan><tspan x="8.414" y="45">company warehouse</tspan></text>
+    <text id="Checking_on_behalf_of_a_customer_whether_a_particular_appliance_is_available_as_part_of_a_scheme" data-name="Checking on behalf of a customer whether a particular appliance is available as part of a scheme" transform="translate(471.75 3675)" fill="#707070" font-size="14" font-family="HelveticaNeue, Helvetica Neue"><tspan x="2.709" y="13">Checking on behalf of a </tspan><tspan x="14.77" y="29">customer whether a </tspan><tspan x="8.421" y="45">particular appliance is </tspan><tspan x="12.313" y="61">available as part of a </tspan><tspan x="52.36" y="77">scheme</tspan></text>
+    <text id="Operator" transform="translate(498.75 3458)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="7.22" y="20">Operator</tspan></text>
+    <line id="Line_127" data-name="Line 127" y2="339.872" transform="translate(456.25 3442.468)" fill="none" stroke="#707070" stroke-width="1" opacity="0.2"/>
+    <text id="Example_Use_Case" data-name="Example
+Use Case" transform="translate(339.75 3675)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="10.42" y="20">Example</tspan><tspan x="5.94" y="45">Use Case</tspan></text>
+    <text id="Main_Purpose" data-name="Main
+Purpose" transform="translate(339.25 3548)" fill="#21232a" font-size="20" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="21.18" y="20">Main</tspan><tspan x="4.68" y="45">Purpose</tspan></text>
+    <g id="Group_2725" data-name="Group 2725" transform="translate(63.84 23.03)">
+      <g id="storage" transform="translate(1358 3517.781)" opacity="0.137">
+        <path id="Path_4754" data-name="Path 4754" d="M35,26H97.4V68.547H35Z" transform="translate(58.604 42.076)" fill="#30aee5"/>
+        <path id="Path_4755" data-name="Path 4755" d="M35,7H97.4V49.547H35Z" transform="translate(58.604 7.182)" fill="#9ddeed"/>
+        <path id="Path_4756" data-name="Path 4756" d="M8,26H70.4V68.547H8Z" transform="translate(9.019 42.076)" fill="#30aee5"/>
+        <path id="Path_4757" data-name="Path 4757" d="M8,26H39.2V68.547H8Z" transform="translate(9.019 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4758" data-name="Path 4758" d="M35,26H66.2V68.547H35Z" transform="translate(58.604 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4759" data-name="Path 4759" d="M8,7H70.4V49.547H8Z" transform="translate(9.019 7.182)" fill="#9ddeed"/>
+        <path id="Path_4760" data-name="Path 4760" d="M8,7H39.2V49.547H8Z" transform="translate(9.019 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4761" data-name="Path 4761" d="M35,7H66.2V49.547H35Z" transform="translate(58.604 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4762" data-name="Path 4762" d="M16,7H33.019V24.019H16Z" transform="translate(23.711 7.182)" fill="#e87967"/>
+        <path id="Path_4763" data-name="Path 4763" d="M8,45H70.4V87.547H8Z" transform="translate(9.019 76.969)" fill="#4278ba"/>
+        <path id="Path_4764" data-name="Path 4764" d="M35,45H97.4V87.547H35Z" transform="translate(58.604 76.969)" fill="#4278ba"/>
+        <path id="Path_4765" data-name="Path 4765" d="M8,45H39.2V87.547H8Z" transform="translate(9.019 76.969)" fill="#2e63af"/>
+        <path id="Path_4766" data-name="Path 4766" d="M35,45H66.2V87.547H35Z" transform="translate(58.604 76.969)" fill="#2e63af"/>
+        <path id="Path_4767" data-name="Path 4767" d="M16,26H33.019V43.019H16Z" transform="translate(23.711 42.076)" fill="#e87967"/>
+        <path id="Path_4768" data-name="Path 4768" d="M16,45H33.019V62.019H16Z" transform="translate(23.711 76.969)" fill="#e87967"/>
+        <path id="Path_4769" data-name="Path 4769" d="M43,26H60.019V43.019H43Z" transform="translate(73.296 42.076)" fill="#e87967"/>
+        <path id="Path_4770" data-name="Path 4770" d="M43,7H60.019V24.019H43Z" transform="translate(73.296 7.182)" fill="#e87967"/>
+        <path id="Path_4771" data-name="Path 4771" d="M43,45H60.019V62.019H43Z" transform="translate(73.296 76.969)" fill="#e87967"/>
+        <g id="Group_2724" data-name="Group 2724" transform="translate(39.711 14.182)">
+          <path id="Path_4772" data-name="Path 4772" d="M43,45h8.509V62.019H43Z" transform="translate(33.585 62.787)" fill="#e54e35"/>
+          <path id="Path_4773" data-name="Path 4773" d="M43,26h8.509V43.019H43Z" transform="translate(33.585 27.893)" fill="#e54e35"/>
+          <path id="Path_4774" data-name="Path 4774" d="M43,7h8.509V24.019H43Z" transform="translate(33.585 -7)" fill="#e54e35"/>
+          <path id="Path_4775" data-name="Path 4775" d="M16,45h8.509V62.019H16Z" transform="translate(-16 62.787)" fill="#e54e35"/>
+          <path id="Path_4776" data-name="Path 4776" d="M16,26h8.509V43.019H16Z" transform="translate(-16 27.893)" fill="#e54e35"/>
+          <path id="Path_4777" data-name="Path 4777" d="M16,7h8.509V24.019H16Z" transform="translate(-16 -7)" fill="#e54e35"/>
+        </g>
+        <path id="Path_4778" data-name="Path 4778" d="M172.189,64.4V58.73H7.673V2H2V169.353a2.836,2.836,0,0,0,2.836,2.837H172.189v-5.673H7.673V118.3H172.189v-5.673H7.673V64.4Z" transform="translate(-2 -2)" fill="#3f4e56"/>
+      </g>
+      <g id="storage-2" data-name="storage" transform="translate(1358 3517.781)" opacity="0.137">
+        <path id="Path_4754-2" data-name="Path 4754" d="M35,26H97.4V68.547H35Z" transform="translate(58.604 42.076)" fill="#30aee5"/>
+        <path id="Path_4755-2" data-name="Path 4755" d="M35,7H97.4V49.547H35Z" transform="translate(58.604 7.182)" fill="#9ddeed"/>
+        <path id="Path_4756-2" data-name="Path 4756" d="M8,26H70.4V68.547H8Z" transform="translate(9.019 42.076)" fill="#30aee5"/>
+        <path id="Path_4757-2" data-name="Path 4757" d="M8,26H39.2V68.547H8Z" transform="translate(9.019 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4758-2" data-name="Path 4758" d="M35,26H66.2V68.547H35Z" transform="translate(58.604 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4759-2" data-name="Path 4759" d="M8,7H70.4V49.547H8Z" transform="translate(9.019 7.182)" fill="#9ddeed"/>
+        <path id="Path_4760-2" data-name="Path 4760" d="M8,7H39.2V49.547H8Z" transform="translate(9.019 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4761-2" data-name="Path 4761" d="M35,7H66.2V49.547H35Z" transform="translate(58.604 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4762-2" data-name="Path 4762" d="M16,7H33.019V24.019H16Z" transform="translate(23.711 7.182)" fill="#e87967"/>
+        <path id="Path_4763-2" data-name="Path 4763" d="M8,45H70.4V87.547H8Z" transform="translate(9.019 76.969)" fill="#4278ba"/>
+        <path id="Path_4764-2" data-name="Path 4764" d="M35,45H97.4V87.547H35Z" transform="translate(58.604 76.969)" fill="#4278ba"/>
+        <path id="Path_4765-2" data-name="Path 4765" d="M8,45H39.2V87.547H8Z" transform="translate(9.019 76.969)" fill="#2e63af"/>
+        <path id="Path_4766-2" data-name="Path 4766" d="M35,45H66.2V87.547H35Z" transform="translate(58.604 76.969)" fill="#2e63af"/>
+        <path id="Path_4767-2" data-name="Path 4767" d="M16,26H33.019V43.019H16Z" transform="translate(23.711 42.076)" fill="#e87967"/>
+        <path id="Path_4768-2" data-name="Path 4768" d="M16,45H33.019V62.019H16Z" transform="translate(23.711 76.969)" fill="#e87967"/>
+        <path id="Path_4769-2" data-name="Path 4769" d="M43,26H60.019V43.019H43Z" transform="translate(73.296 42.076)" fill="#e87967"/>
+        <path id="Path_4770-2" data-name="Path 4770" d="M43,7H60.019V24.019H43Z" transform="translate(73.296 7.182)" fill="#e87967"/>
+        <path id="Path_4771-2" data-name="Path 4771" d="M43,45H60.019V62.019H43Z" transform="translate(73.296 76.969)" fill="#e87967"/>
+        <g id="Group_2724-2" data-name="Group 2724" transform="translate(39.711 14.182)">
+          <path id="Path_4772-2" data-name="Path 4772" d="M43,45h8.509V62.019H43Z" transform="translate(33.585 62.787)" fill="#e54e35"/>
+          <path id="Path_4773-2" data-name="Path 4773" d="M43,26h8.509V43.019H43Z" transform="translate(33.585 27.893)" fill="#e54e35"/>
+          <path id="Path_4774-2" data-name="Path 4774" d="M43,7h8.509V24.019H43Z" transform="translate(33.585 -7)" fill="#e54e35"/>
+          <path id="Path_4775-2" data-name="Path 4775" d="M16,45h8.509V62.019H16Z" transform="translate(-16 62.787)" fill="#e54e35"/>
+          <path id="Path_4776-2" data-name="Path 4776" d="M16,26h8.509V43.019H16Z" transform="translate(-16 27.893)" fill="#e54e35"/>
+          <path id="Path_4777-2" data-name="Path 4777" d="M16,7h8.509V24.019H16Z" transform="translate(-16 -7)" fill="#e54e35"/>
+        </g>
+        <path id="Path_4778-2" data-name="Path 4778" d="M172.189,64.4V58.73H7.673V2H2V169.353a2.836,2.836,0,0,0,2.836,2.837H172.189v-5.673H7.673V118.3H172.189v-5.673H7.673V64.4Z" transform="translate(-2 -2)" fill="#3f4e56"/>
+      </g>
+      <g id="storage-3" data-name="storage" transform="translate(1358 3517.781)" opacity="0.137">
+        <path id="Path_4754-3" data-name="Path 4754" d="M35,26H97.4V68.547H35Z" transform="translate(58.604 42.076)" fill="#30aee5"/>
+        <path id="Path_4755-3" data-name="Path 4755" d="M35,7H97.4V49.547H35Z" transform="translate(58.604 7.182)" fill="#9ddeed"/>
+        <path id="Path_4756-3" data-name="Path 4756" d="M8,26H70.4V68.547H8Z" transform="translate(9.019 42.076)" fill="#30aee5"/>
+        <path id="Path_4757-3" data-name="Path 4757" d="M8,26H39.2V68.547H8Z" transform="translate(9.019 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4758-3" data-name="Path 4758" d="M35,26H66.2V68.547H35Z" transform="translate(58.604 42.076)" fill="#1e9bc6"/>
+        <path id="Path_4759-3" data-name="Path 4759" d="M8,7H70.4V49.547H8Z" transform="translate(9.019 7.182)" fill="#9ddeed"/>
+        <path id="Path_4760-3" data-name="Path 4760" d="M8,7H39.2V49.547H8Z" transform="translate(9.019 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4761-3" data-name="Path 4761" d="M35,7H66.2V49.547H35Z" transform="translate(58.604 7.182)" fill="#5bd1dd"/>
+        <path id="Path_4762-3" data-name="Path 4762" d="M16,7H33.019V24.019H16Z" transform="translate(23.711 7.182)" fill="#e87967"/>
+        <path id="Path_4763-3" data-name="Path 4763" d="M8,45H70.4V87.547H8Z" transform="translate(9.019 76.969)" fill="#4278ba"/>
+        <path id="Path_4764-3" data-name="Path 4764" d="M35,45H97.4V87.547H35Z" transform="translate(58.604 76.969)" fill="#4278ba"/>
+        <path id="Path_4765-3" data-name="Path 4765" d="M8,45H39.2V87.547H8Z" transform="translate(9.019 76.969)" fill="#2e63af"/>
+        <path id="Path_4766-3" data-name="Path 4766" d="M35,45H66.2V87.547H35Z" transform="translate(58.604 76.969)" fill="#2e63af"/>
+        <path id="Path_4767-3" data-name="Path 4767" d="M16,26H33.019V43.019H16Z" transform="translate(23.711 42.076)" fill="#e87967"/>
+        <path id="Path_4768-3" data-name="Path 4768" d="M16,45H33.019V62.019H16Z" transform="translate(23.711 76.969)" fill="#e87967"/>
+        <path id="Path_4769-3" data-name="Path 4769" d="M43,26H60.019V43.019H43Z" transform="translate(73.296 42.076)" fill="#e87967"/>
+        <path id="Path_4770-3" data-name="Path 4770" d="M43,7H60.019V24.019H43Z" transform="translate(73.296 7.182)" fill="#e87967"/>
+        <path id="Path_4771-3" data-name="Path 4771" d="M43,45H60.019V62.019H43Z" transform="translate(73.296 76.969)" fill="#e87967"/>
+        <g id="Group_2724-3" data-name="Group 2724" transform="translate(39.711 14.182)">
+          <path id="Path_4772-3" data-name="Path 4772" d="M43,45h8.509V62.019H43Z" transform="translate(33.585 62.787)" fill="#e54e35"/>
+          <path id="Path_4773-3" data-name="Path 4773" d="M43,26h8.509V43.019H43Z" transform="translate(33.585 27.893)" fill="#e54e35"/>
+          <path id="Path_4774-3" data-name="Path 4774" d="M43,7h8.509V24.019H43Z" transform="translate(33.585 -7)" fill="#e54e35"/>
+          <path id="Path_4775-3" data-name="Path 4775" d="M16,45h8.509V62.019H16Z" transform="translate(-16 62.787)" fill="#e54e35"/>
+          <path id="Path_4776-3" data-name="Path 4776" d="M16,26h8.509V43.019H16Z" transform="translate(-16 27.893)" fill="#e54e35"/>
+          <path id="Path_4777-3" data-name="Path 4777" d="M16,7h8.509V24.019H16Z" transform="translate(-16 -7)" fill="#e54e35"/>
+        </g>
+        <path id="Path_4778-3" data-name="Path 4778" d="M172.189,64.4V58.73H7.673V2H2V169.353a2.836,2.836,0,0,0,2.836,2.837H172.189v-5.673H7.673V118.3H172.189v-5.673H7.673V64.4Z" transform="translate(-2 -2)" fill="#3f4e56"/>
+      </g>
+      <g id="storage-4" data-name="storage" transform="translate(1358 3511.97)" style="mix-blend-mode: color;isolation: isolate">
+        <path id="Path_4754-4" data-name="Path 4754" d="M35,26H97.4V68.547H35Z" transform="translate(58.604 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4755-4" data-name="Path 4755" d="M35,7H97.4V49.547H35Z" transform="translate(58.604 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4756-4" data-name="Path 4756" d="M8,26H70.4V68.547H8Z" transform="translate(9.019 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4757-4" data-name="Path 4757" d="M8,26H39.2V68.547H8Z" transform="translate(9.019 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4758-4" data-name="Path 4758" d="M35,26H66.2V68.547H35Z" transform="translate(58.604 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4759-4" data-name="Path 4759" d="M8,7H70.4V49.547H8Z" transform="translate(9.019 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4760-4" data-name="Path 4760" d="M8,7H39.2V49.547H8Z" transform="translate(9.019 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4761-4" data-name="Path 4761" d="M35,7H66.2V49.547H35Z" transform="translate(58.604 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4762-4" data-name="Path 4762" d="M16,7H33.019V24.019H16Z" transform="translate(23.711 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4763-4" data-name="Path 4763" d="M8,45H70.4V87.547H8Z" transform="translate(9.019 76.969)" fill="#e8e8e8"/>
+        <path id="Path_4764-4" data-name="Path 4764" d="M35,45H97.4V87.547H35Z" transform="translate(58.604 76.969)" fill="#e8e8e8"/>
+        <path id="Path_4765-4" data-name="Path 4765" d="M8,45H39.2V87.547H8Z" transform="translate(9.019 76.969)" fill="#e8e8e8"/>
+        <path id="Path_4766-4" data-name="Path 4766" d="M35,45H66.2V87.547H35Z" transform="translate(58.604 76.969)" fill="#e8e8e8"/>
+        <path id="Path_4767-4" data-name="Path 4767" d="M16,26H33.019V43.019H16Z" transform="translate(23.711 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4768-4" data-name="Path 4768" d="M16,45H33.019V62.019H16Z" transform="translate(23.711 76.969)" fill="#e8e8e8"/>
+        <path id="Path_4769-4" data-name="Path 4769" d="M43,26H60.019V43.019H43Z" transform="translate(73.296 42.076)" fill="#e8e8e8"/>
+        <path id="Path_4770-4" data-name="Path 4770" d="M43,7H60.019V24.019H43Z" transform="translate(73.296 7.183)" fill="#e8e8e8"/>
+        <path id="Path_4771-4" data-name="Path 4771" d="M43,45H60.019V62.019H43Z" transform="translate(73.296 76.969)" fill="#e8e8e8"/>
+        <g id="Group_2724-4" data-name="Group 2724" transform="translate(39.711 14.183)">
+          <path id="Path_4772-4" data-name="Path 4772" d="M43,45h8.509V62.019H43Z" transform="translate(33.585 62.787)" fill="#e8e8e8"/>
+          <path id="Path_4773-4" data-name="Path 4773" d="M43,26h8.509V43.019H43Z" transform="translate(33.585 27.893)" fill="#e8e8e8"/>
+          <path id="Path_4774-4" data-name="Path 4774" d="M43,7h8.509V24.019H43Z" transform="translate(33.585 -7)" fill="#e8e8e8"/>
+          <path id="Path_4775-4" data-name="Path 4775" d="M16,45h8.509V62.019H16Z" transform="translate(-16 62.787)" fill="#e8e8e8"/>
+          <path id="Path_4776-4" data-name="Path 4776" d="M16,26h8.509V43.019H16Z" transform="translate(-16 27.893)" fill="#e8e8e8"/>
+          <path id="Path_4777-4" data-name="Path 4777" d="M16,7h8.509V24.019H16Z" transform="translate(-16 -7)" fill="#e8e8e8"/>
+        </g>
+        <path id="Path_4778-4" data-name="Path 4778" d="M172.189,64.4V58.73H7.673V2H2V169.353a2.836,2.836,0,0,0,2.836,2.837H172.189v-5.673H7.673V118.3H172.189v-5.673H7.673V64.4Z" transform="translate(-2 -2)" fill="#e8e8e8"/>
+      </g>
+    </g>
+  </g>
+</svg>
