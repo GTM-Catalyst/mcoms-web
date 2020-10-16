@@ -1,5 +1,5 @@
 {
-  "version-हिंदी/Docs": [
+  "version-English/Docs": [
     {
       "collapsed": true,
       "type": "category",
@@ -7,7 +7,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/welcome"
+          "id": "version-English/welcome"
         }
       ]
     },
@@ -18,19 +18,19 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/opchallenge"
+          "id": "version-English/opchallenge"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/roleofcom"
+          "id": "version-English/roleofcom"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/IntSysInt"
+          "id": "version-English/IntSysInt"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/usermanual"
+          "id": "version-English/usermanual"
         }
       ]
     },
@@ -41,23 +41,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/IntroOpActivity"
+          "id": "version-English/IntroOpActivity"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/CustRelOp"
+          "id": "version-English/CustRelOp"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/TechOp"
+          "id": "version-English/TechOp"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/SiteFinRprtng"
+          "id": "version-English/SiteFinRprtng"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/DataVerSteps"
+          "id": "version-English/DataVerSteps"
         }
       ]
     },
@@ -68,47 +68,47 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/introduction"
+          "id": "version-English/introduction"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/InstallSetup"
+          "id": "version-English/InstallSetup"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/HomScr"
+          "id": "version-English/HomScr"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/MainMenu"
+          "id": "version-English/MainMenu"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/consumers"
+          "id": "version-English/consumers"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/PckAndSchm"
+          "id": "version-English/PckAndSchm"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/plant"
+          "id": "version-English/plant"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/meter"
+          "id": "version-English/meter"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/water"
+          "id": "version-English/water"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/mislns"
+          "id": "version-English/mislns"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/faq"
+          "id": "version-English/faq"
         }
       ]
     },
@@ -119,51 +119,51 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/IntroCust"
+          "id": "version-English/IntroCust"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/InstallSetup4"
+          "id": "version-English/InstallSetup4"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/dash"
+          "id": "version-English/dash"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/MainMenuCust"
+          "id": "version-English/MainMenuCust"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/profile"
+          "id": "version-English/profile"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/AmPbl"
+          "id": "version-English/AmPbl"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/BllPyDet"
+          "id": "version-English/BllPyDet"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/PkgChngRq"
+          "id": "version-English/PkgChngRq"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/SvrcRqst"
+          "id": "version-English/SvrcRqst"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/Ntfctn"
+          "id": "version-English/Ntfctn"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/SchmAndOffrs"
+          "id": "version-English/SchmAndOffrs"
         },
         {
           "type": "doc",
-          "id": "version-हिंदी/faqcust"
+          "id": "version-English/faqcust"
         }
       ]
     },
@@ -174,7 +174,7 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-हिंदी/glssry"
+          "id": "version-English/glssry"
         }
       ]
     }

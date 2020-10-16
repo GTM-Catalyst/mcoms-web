@@ -2,10 +2,10 @@ module.exports = {
   title: 'MCOMS',
   tagline: 'The tagline of my site',
   url: 'https://gtm-catalyst.github.io',
-  baseUrl: '/',
+  baseUrl: '/mcoms-web/',
   onBrokenLinks: 'throw',
   favicon: 'img/Mcoms_SquareSun_Black.png',
-  organizationName: 'SPI', // Usually your GitHub org/user name.
+  organizationName: 'GTM-Catalyst', // Usually your GitHub org/user name.
   projectName: 'mcoms-web', // Usually your repo name.
   themeConfig: {
     navbar: {
@@ -122,11 +122,11 @@ module.exports = {
           lastVersion: "current",
           versions: { 
             current: {
-              label: 'English',
+              label: 'हिंदी',
             },
-          'हिंदी': {
-            label: 'हिंदी',
-            path: 'hindi',
+          'English': {
+            label: 'English',
+            path: 'en',
           }, 
         },
         },
