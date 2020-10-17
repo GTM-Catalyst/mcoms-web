@@ -1,36 +1,36 @@
 ---
 id: TechOp
-title: Technical Operations
-sidebar_label: Technical Operations
+title: 2.3 तकनीकी परिचालन
+sidebar_label: तकनीकी परिचालन
 ---
 
-Technical monitoring and maintenance keep the plant running efficiently with minimal service interruptions, while enabling managers to optimise the utilisation of the plant and hence deliver as much energy to consumers as possible.
+तकनीकी निगरानी और रख-रखाव से प्लांट दक्षता से चलता है और बिजली सप्लाइ में रुकावट कम से कम आती है, जिससे प्रबंधकगण प्लांट का बढ़िया से बढ़िया उपयोग कर सकते हैं और उपभोक्ताओं को ज्यादा से ज्यादा बिजली सुपुर्द कर सकते हैं।
 
-### Plant Technical Data Submission
-Data from plant equipment yields important insights into technical performance. Part of the ground team’s daily activities is observing and logging certain critical datapoints, including:
+## 2.3.1. प्लांट का टेक्निकल डेटा सबमिट करना
+प्लांट के उपकरणों से प्राप्त डेटा तकनीकी-स्थिति (परफारमेंस) के बारे में महत्वपूर्ण सूचनाएँ देता है। कुछ क्रिटिकल डेटा-पॉइन्ट को देखना और दर्ज करना ग्राउंड टीम के प्रतिदिन के कार्यों में शामिल है। ये डेटा-पॉइन्ट हैं –
 
-* Energy generated from each solar array
-* Energy generated from backup generators
-* Runtime of backup generators
-* Energy dispatched from the plant (through each feeder)
+* प्रत्येक सौर सरणी (सोलर अरै) से पैदा हुई बिजली
+* बैकअप जनरेटरों से पैदा हुई बिजली
+* बैकअप जनरेटर चलने की अवधि (रनटाइम)
+* प्लांट से भेजी गई बिजली (हर एक फीडर से)
 
-Pre-programmed algorithms within MCOMS then update the plant utilisation, solar yield, and other relevant metrics which can be tracked by managers.
+एमकॉम्स में गिनती की ऐसी व्यवस्था की गई है कि यह डेटा मिलते ही प्लांट के उपयोग, पैदा हुई बिजली और अन्य संबंधित मापदंड (मैट्रिक्स) अपडेट हो जाते हैं, जिन्हें प्रबंधकगण देख सकते हैं।
 
-### Plant Maintenance
-Plant maintenance involves various operations to prevent and repair damage to plant equipment. Maintenance is scheduled by MCOMS at appropriate time intervals, with notifications pushed to the relevant personnel when the system detects that maintenance is required.
+## 2.3.2. प्लांट का रख-रखाव
+प्लांट के रख-रखाव के लिए कई कार्य किए जाते हैं, जिनसे प्लांट के उपकरणों का नुकसान रुकता है और मरम्मत होती है। एमकॉम्स में तय किया गया है कि रख-रखाव कितना समय बीतने पर करना है। जब भी रख-रखाव की जरूरत होती है, संबंधित कर्मचारी के पास सिस्टम से संदेश पहुँच जाता है।
 
-Some activities, such as changing the oil of diesel generators or cleaning solar panels, can be carried out by plant personnel. Others, like generator servicing or battery equalisation, may require external oversight arranged by the cluster or state in-charge.
+कुछ तरह के कार्य, जैसे डीज़ल जनरेटर का ऑइल बदलना या सोलर पैनल को साफ करना, प्लांट के कर्मचारी कर सकते हैं। जनरेटर की सर्विसिंग या बैटरी इक्वलाइजेशन जैसे कार्यों के लिए समूह (क्लस्टर) या राज्य के प्रभारी को कोई बाहरी व्यवस्था करनी होगी।
 
-### Customer Connection
-There are a number of stages to connecting new customers to the distribution network. Each stage requires different hardware and infrastructure.
+## 2.3.3. ग्राहकों से संबंध बनाना (कस्टमर कनेक्शन)
+नए ग्राहकों को डिस्ट्रिब्यूशन नेटवर्क से जोड़ने की कई स्टेज होती हैं। हर स्टेज के लिए अलग तरह के हार्डवेअर और ढाँचे की जरूरत होती है।
 
-* First, the distribution network—i.e. the poles and wires—must be within some minimum distance from the customer’s property.
-* Second, service wires connecting the property to the distribution network must be installed.
-* Finally, the customer’s electricity access points must be installed, and connected via a meter (or load limiter) to the service wire.
+* पहली बात, ग्राहक की संपत्ति डिस्ट्रिब्यूशन नेटवर्क यानी खंभे और तार से न्यूनतम दूरी में स्थित हो।
+* दूसरी बात, संपत्ति को डिस्ट्रिब्यूशन नेटवर्क से जोड़ने वाला तार इंस्टाल किया जा चुका हो।
+* अंतिम बात, ग्राहक के यहाँ बिजली पहुँचाने के पॉइंट लगाए जा चुके हों और मीटर (या लोड लिमिटर) के माध्यम से सर्विस वायर से जोड़े जा चुके हों।
 
-Meters may be mounted in the customer’s property itself (which shields the meter from the elements), or on the nearest pole (which avoids possible tampering or accidental damage).
+मीटर ग्राहक की संपत्ति में लगाए जा सकते हैं (जो मीटर को एलिमेंट्स् से शील्ड करते हैं) या सबसे पास के खंभे से लगाए जा सकते हैं (जिससे कोई मीटर से छेड़छाड़ न कर सके और न ही किसी दुर्घटना के कारण मीटर को कोई नुकसान हो)।
 
-### Meter Status
-To connect new customers, a spare meter or load limiter must be available at the plant or at a nearby warehouse. It is important to keep track of how many are free and where they are stored.
+## 2.3.4. मीटर की उपलब्धता (मीटर स्टेटस)
+नए ग्राहक को जोड़ने के लिए प्लांट में या आसपास के गोदाम में मीटर या लोड लिमिटर उपलब्ध होना चाहिए। यह मालूम होना चाहिए कि कितने मीटर उपलब्ध हैं और वे कहाँ स्टोर किए गए हैं।
 
-Since meters may be in short supply, customers who have deactivated their accounts may have their meters removed and re-assigned to another customer, or sent to storage. This process is also called “releasing” the meter.
+कभी-कभी मीटर की कमी होती है। ऐसे में जिन ग्राहकों ने अपना खाता बंद कराया हो, उनके मीटर हटाकर नए ग्राहकों को दे दिए जाते हैं या गोदाम में भेज दिए जाते हैं। इसे मीटर “रिलीज़िंग” कहा जाता है।

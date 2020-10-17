@@ -1,152 +1,154 @@
 ---
 id: roleofcom
-title: The Role of COMS in Mini-grid Management
-sidebar_label: The Role of COMS in Mini-grid Management
+title: 1.2. मिनी ग्रिड के प्रबंध में एमकॉम्स की भूमिका
+sidebar_label: मिनी ग्रिड के प्रबंध में एमकॉम्स की भूमिका
 ---
 
-## Purpose
-The goal of MCOMS is to provide a platform for different mini-grid stakeholders to effectively communicate, through standardised workflows, easy-to-use interfaces, third-party hardware interoperability, rapid and automated data aggregation, and transparent and reliable record-keeping.
+## 1.2.1. प्रयोजन
+मिनी ग्रिड से जुड़े सभी पक्षों (स्टेकहोल्डर) को भलीभाँति संप्रेषण (कम्युनिकेशन) के लिए प्लेटफॉर्म प्रदान करना एमकॉम्स का लक्ष्य है। इसमें कामकाज का निश्चित क्रम (वर्कफ्लो) है, आसान इंटरफेस है, अन्य लोगों (थर्ड पार्टी) के हार्डवेअर ऑपरेट किए जा सकते हैं। डेटा अपने आप बहुत तेजी से संकलित होता है और पारदर्शी (ट्रांसपरेंट) तथा भरोसेमंद रिकॉर्ड तैयार होता है।
 
-## Functionalities
-MCOMS is built upon two critical design principles, shown in Figure 1.
+## 1.2.2. फंक्शनलिटीज़ (यानी कौन-कौन से कार्य किए जा सकते हैं)
+एमकॉम्स को दो महत्वपूर्ण सिद्धांतों के आधार पर डिज़ाइन किया गया है। इन्हें चित्र 1 में दिखाया गया है।
+
+#### चित्र 1 : एमकॉम्स के लिए बुनियादी डिज़ाइन सिद्धान्त
 
 | | |
 |--|--|
 |*Including centralised databases of historical technical and financial data, user information, plant specifications, system changes, etc. |  *Accurately propagating and distributing commands issued from any node, to provide up-to-date information to all users |
 
-High-level system functionalities are detailed in Figure 2.
+सिस्टम द्वारा किए जाने वाले उच्च स्तर के कार्य चित्र 2 में बताए गए हैं।
 
-#### FIGURE 2:HIGH-LEVEL COMS FUNCTIONALITIES. 
+#### चित्र 2 : एमकॉम्स की उच्च स्तरीय सुविधाएँ 
 ![HIGH-LEVEL COMS FUNCTIONALITIES.](./assets/1.2.2Mcomfunc.svg)
 
-MCOMS is designed to cover all aspects of business monitoring, and places sales and finance metrics alongside technical performance and analysis of trends in customer demand. This synthesis of information gives mini-grid developers a deeper understanding of their projects’ operations.
+एमकॉम्स को इस प्रकार डिज़ाइन किया गया है कि व्यवसाय की सब तरह से निगरानी हो सके। बिजली की बिक्री, वित्तीय स्थिति, तकनीकी स्थिति और ग्राहक की मांग का विश्लेषण करने की व्यवस्था की गई है। इस तरह सभी प्रकार की जानकारी एक ही स्थान पर मिलने से मिनी ग्रिड चलाने वाले अपने प्रोजेक्ट के कामकाज को अच्छी तरह समझ सकते हैं।
 
-## Users
-Mini-grid businesses are multi-faceted, with many personnel and stakeholder roles. MCOMS caters to these user groups’ requirements and workflows, as described in the following sections.
+## 1.2.3. उपयोगकर्ता (यूज़र्स)
+मिनी ग्रिड व्यवसाय बहुमुखी है। इसमें अनेक कर्मचारियों और हितार्थियों (स्टेकहोल्डर) की भूमिकाएँ शामिल हैं। इन सभी उपयोगकर्ता समूहों की जरूरतें एमकॉम्स से पूरी हो सकती हैं। इनके कार्यप्रवाह (वर्कफ्लो) के बारे में आगे के सेक्शन में विस्तार से बताया गया है।
 
-### Company Personnel
-To achieve operational efficiency and business performance, it is critical to clearly define the roles for each team member. The personnel hierarchy of a mini-grid operator is sketched in Figure 3, followed by a detailed description in Table 1.
+### 1.2.3.1. कंपनी के कर्मचारी
+कामकाज में दक्षता और व्यवसाय के लक्ष्य प्राप्त करने के लिए टीम के हर सदस्य की भूमिका को स्पष्ट करना बहुत जरूरी होता है। मिनी ग्रिड ऑपरेशन में कर्मचारियों के पद का क्रम क्या रहेगा, यह चित्र 3 में दिखाया गया है और विस्तृत विवरण टेबल 1 में दिया गया है।
 
-#### Figure 3: Typical mini-grid operator organisational hierarchy.
+#### Figure 3: मिनी ग्रिड परिचालन में पदों का क्रम  
 
 ![Typical mini-grid operator organisational hierarchy](./assets/1.2.3.1OrgHierarchy.svg)
 
-#### Table 1: Description of the roles and responsibilities of mini-grid personnel.
+#### टेबल 1: मिनी ग्रिड कर्मचारियों की भूमिकाओं और जिम्मेदारियों का विवरण
 
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Role</th>
-    <th>Responsibilities</th>
+    <th>पदनाम (डेज़िग्नेशन)</th>
+    <th>भूमिका</th>
+    <th>जिम्मेदारियाँ</th>
   </tr>
   <tr>
-    <td><b>Operator</b></td>
-    <td>An operator is present 24x7 to look after the mini-grid plant</td>
+    <td><b>ऑपरेटर</b></td>
+    <td>मिनी-ग्रिड प्लांट की सातों दिन चौबीसों घंटे (24x7) देखरेख करना।</td>
 	<td>
 		<ul>
-                  <li>Monitor plant equipment to ensure correct operation</li>
-                  <li> Restore electricity supply after plant trips </li>
-                  <li> Record routine operations data, such as plant meter readings</li>
-		  <li> Handle complaints of customers who come to the plant</li>
+                  <li> प्लांट के उपकरणों (इक्विपमेंट) की देखरेख, जिससे प्लांट भलीभाँति चलता रहे।</li>
+                  <li> प्लांट रुक जाने (ट्रिप होने) के बाद बिजली फिर बहाल करना। </li>
+                  <li> प्लांट से संबंधित रूटीन डेटा रिकॉर्ड करना, जैसे प्लांट की मीटर रीडिंग।</li>
+		  <li> प्लांट पर आने वाले ग्राहकों की शिकायत सुनना और दूर करना।</li>
                </ul>
 	</td>
   </tr>
   <tr>
-    <td><b>Technician</b></td>
-    <td>A technician addresses technical issues encountered by customers or at the plant</td>
+    <td><b>टेक्निशन</b></td>
+    <td>ग्राहकों की या प्लांट की टेक्निकल समस्याओं को दूर करना।</td>
     	<td>
 		<ul>
-			<li>Respond to customer connection problems</li>
-			<li> Diagnose and fix equipment faults throughout the mini-grid</li>
-			<li> Connect new consumers to the network</li>
-			<li> Record customer energy consumption</li>
+			<li> ग्राहक की कनेक्शन संबंधी समस्याओं को दूर करना।</li>
+			<li> मिनी ग्रिड के सभी उपकरणों (इक्विपमेंट) की खराबियों का पता लगाना और उन्हें ठीक करना।</li>
+			<li> नए उपभोक्ताओं को नेटवर्क से जोड़ना।</li>
+			<li> ग्राहकों की बिजली की खपत रिकॉर्ड करना।</li>
 		</ul>
 	</td>
   </tr>
   <tr>
-	<td><b>Customer Service Agent (CSA)</b></td>
-	<td>A CSA manages customer relationships and conducts sales activities</td>
+	<td><b>ग्राहक सेवा एजेंट (सीएसए)</b></td>
+	<td>ग्राहक और बिक्री से संबंधित कार्य करना।</td>
 	<td>
 		<ul>
-			<li>Market mini-grid services and schemes to potential customers in the catchment area</li>
-			<li> Issue bills and collect payment from customers, and make deposits</li>
-			<li> Intervene in the case of non-payment</li>
-			<li> Respond to customer complaints or difficulties faced</li>
-			<li> Administer requested package upgrades / downgrades</li>
+			<li> आवंटित किए गए क्षेत्र में संभावित ग्राहकों के बीच मिनी ग्रिड सेवाओं और योजनाओं की मार्केटिंग करना।</li>
+			<li> ग्राहकों को बिल देना, उनसे बिल की राशि प्राप्त करना और उस राशि को जमा कराना। </li>
+			<li> बिल का भुगतान न मिलने पर तकाजा करना। </li>
+			<li> ग्राहकों की शिकायतें और कठिनाइयाँ दूर करना। </li>
+			<li> पैकेज को अपग्रेड / डाउनग्रेड करने के ग्राहकों के अनुरोध पूरे करना </li>
 		</ul>
 	</td>
   </tr>
   <tr>
-	<td><b>Cluster In-charge</b></td>
-	<td>A Cluster In-charge supervises personnel and operations at several nearby plants</td>
+	<td><b>समूह प्रभारी (क्लस्टर-इन-चार्ज) </b></td>
+	<td> समूह में शामिल सभी प्लांट के परिचालन (ऑपरेशंस) और उनमें काम कर रहे कर्मचारियों पर निगाह रखना। </td>
 	<td>
 		<ul>
-			<li>Track the sales performance of plants in the cluster and highlight problems</li>
-			<li> Track and verify operational costs borne by the cluster</li>
-			<li> Monitor pending tasks, and allocate them to members of the field team</li>
-			<li> Arrange for any maintenance or equipment replacement</li>
-			<li> Handle personnel training</li>
+			<li> समूह के सभी प्लांट से हुई बिक्री का ध्यान रखना और समस्याओं को सामने लाना। </li>
+			<li> समूह की परिचालन लागत का पता लगाना और बताना कि वे ठीक हैं या नहीं। </li>
+			<li> लंबित (पेंडिंग) कार्यों पर ध्यान देना और उन्हें अपनी फील्ड टीम के बीच बाँटना। </li>
+			<li> प्लांट के उपकरणों (इक्विपमेंट) की देखरेख करना और बदलने की जरूरत हो तो बदलने का इंतज़ाम करना। </li>
+			<li> कर्मचारियों के प्रशिक्षण संबंधी कार्य देखना। </li>
 		</ul>
 	</td>
   </tr>
   <tr>
-	<td><b>State In-charge</b></td>
-	<td>A State In-charge supervises operations at all plants within a state</td>
+	<td><b>राज्य प्रभारी (स्टेट इन-चार्ज)</b></td>
+	<td>राज्य प्रभारी प्लांट के परिचालन (ऑपरेशंस) पर निगाह रखना।</td>
 	<td>
 		<ul>
-			<li>Create monthly business performance targets, including revenue and customer numbers, and track progress towards them</li>
-			<li> Coordinate schemes and initiatives between all plants within the state</li>
-			<li> Create sales and operations reports for the head office</li>
-			<li> Create recruitment plans</li>
-			<li> Coordinate and plan portfolio expansion, construction, and recruitment</li>
+			<li> हर महीने के व्यवसाय के लक्ष्य तय करना और लक्ष्य की ओर बढ़ने में हुई प्रगति का ध्यान रखना। ये लक्ष्य राजस्व (रेवेन्यू) के भी होंगे और ग्राहकों की संख्या के भी। </li>
+			<li> राज्य के सभी प्लांट में स्कीमों और आगे बढ़ने के उपायों में तालमेल बनाए रखना। </li>
+			<li> प्रधान कार्यालय के लिए विक्रय और परिचालन (ऑपरेशंस) की रिपोर्टें तैयार करना।</li>
+			<li> नए कर्मचारियों की भर्ती की योजना बनाना।</li>
+			<li> कामकाज बढ़ाने, नए प्लांट लगाने और नए कर्मचारी भर्ती करने की योजना बनाना तथा तालमेल स्थापित करना।</li>
 		</ul>
 	</td>
   </tr>
   <tr>
-	<td><b>Head Office Manager</b></td>
-	<td>Head Office Managers are key decision-makers who manage portfolio and business development</td>
+	<td><b>प्रधान कार्यालय प्रबंधक</b></td>
+	<td>सभी महत्वपूर्ण बातों पर निर्णय लेना। साथ ही कामकाज की व्यवस्था और कामकाज में वृद्धि के लिए कार्य करना।</td>
 	<td>
 		<ul>
-			<li>Develop strategies and initiatives to enhance business performance</li>
-			<li> Reconcile expenses and earnings reports</li>
-			<li> Perform cross-plant analyses of technical health, and arrange interventions to optimise the asset portfolio</li>
-			<li> Create new packages and services</li>
-			<li> Plan the strategic, technical, and financial elements of business expansion</li>
+			<li> कामकाज बढ़ाने के तरीके और उपाय खोजना। </li>
+			<li> आय-व्यय रिपोर्टों को रिकन्साइल करना। </li>
+			<li> सभी प्लांट की तकनीकी स्थिति की एक-दूसरे से तुलना करना और उनके सर्वोत्तम उपयोग के लिए जरूरी व्यवस्था कराना।</li>
+			<li> नए पैकेज और सेवाएँ तैयार कराना।</li>
+			<li> व्यवसाय बढ़ाने के रणनीतिक, तकनीकी और वित्तीय उपायों की योजना बनाना</li>
 		</ul>
 	</td>
   </tr>
 </table>
 
-### Mini-grid Customers
-One of the strengths of mini-grids is their ability to cater to a variety of consumer segments with different energy needs and expectations. For example, while a household may require modest levels of power to run simple appliances in the evening, shops’ peak consumption may be in the daytime, while commercial enterprises with specialised equipment will require a much higher load allowance.
+### 1.2.3.2. मिनी ग्रिड ग्राहक
+मिनी ग्रिड की एक खास बात यह है कि यह कई प्रकार के ग्राहकों की जरूरत पूरी कर सकता है चाहे उनकी बिजली की जरूरत किसी भी प्रकार की हो। जैसे, रहवासी मकानों की बिजली की जरूरत का स्तर बहुत साधारण होता है। उन्हें शाम को कुछ साधारण उपकरण (इक्विपमेंट) चलाने होते हैं, जबकि दुकानों को दिन में सबसे ज्यादा बिजली की जरूरत होती है। वाणिज्यिक प्रतिष्ठानों में विशेष प्रकार के उपकरण (इक्विपमेंट) लगे होने से उन्हें बहुत ज्यादा लोड वाले कनेक्शन की जरूरत पड़ती है।
 
-That said, all electricity consumers share the same basic requirements of monitoring their bills and consumption history, receiving alerts and notifications from the electricity supplier, updating their account details, and getting in touch when something is amiss. MCOMS aims to facilitate these kinds of communications, and ensure that customers are kept in the loop with easy access to all the information and service support that they need.
+परंतु सभी उपभोक्ताओं की बुनियादी जरूरतें एक जैसी होती हैं। उन्हें अपना बिल और बिजली की खपत देखनी होती हैं। बिजली कंपनी के चेताने वाले संदेश और सूचनाएँ प्राप्त करनी होती हैं। अपने खाते को अपडेट कराना होता है और कोई गड़बड़ी होने पर किसी से संपर्क करना होता है। एमकॉम्स का लक्ष्य है कि इस प्रकार की सभी सूचनाओं का आदान-प्रदान आसान हो जाए और ग्राहकों को जिस प्रकार की सूचना और सहायता की जरूरत हो, वह माँगने पर उन्हें मिल जाए।
 
-### Access Permissions
-Different users of MCOMS will require different levels of access to the system’s databases and management functionality. As such, a core component of MCOMS is the ability to set the access permissions for each user. This not only simplifies the interface, allowing each user to focus on content relevant to them, but also ensures that sensitive data is secure.
+### 1.1.1.3 एक्सेस की अनुमति
+अलग-अलग तरह के उपयोगकर्ताओं की सिस्टम के डेटाबेस और प्रबंधन संबंधी कार्यों (मेनेजमेंट फंक्शनलिटी) तक पहुँचने की आवश्यकता का स्तर अलग-अलग होगा। इसलिए एमकॉम्स का एक मूल घटक है हर उपयोगकर्ता की एक्सेस की अनुमति तय करना। इससे न केवल इसका उपयोग आसान हो जाएगा, क्योंकि हर उपयोगकर्ता अपने से संबंधित सामग्री पर ही ध्यान देगा, बल्कि संवेदनशील (सेंसिटिव) डेटा सुरक्षित रहेगा।
 
-For example:
-* Customers should only be able to view their own bills, and not those of other customers.
-* Plant operators should only be able to input and record data pertaining to their plant.
-* Maintenance activities and control of equipment operation should be in the hands of the cluster or state in-charge, rather than plant CSAs and technicians.
-* Bank deposits and expense reports for the portfolio should be visible to upper management only.
+उदाहरण के लिए
+* ग्राहक सिर्फ स्वयं के बिल देख पाएँ, किसी दूसरे के नहीं।
+* प्लांट ऑपरेटर सिर्फ अपने प्लांट का डेटा रिकॉर्ड करें।
+* देखरेख संबंधी कार्य और उपकरणों (इक्विपमेंट) के परिचालन (ऑपरेशंस) का नियंत्रण समूह प्रभारी या राज्य प्रभारी के हाथों में हो न कि प्लांट के ग्राहक सेवा एजेंट या टेक्निशन के हाथों में।
+* बैंक में जमा राशियों और व्ययों की रिपोर्ट केवल उच्च स्तरीय प्रबंधक ही देख सकें।
 
-This manual documents all of the MCOMS system’s features which would be visible to the top-level user (e.g. the company CEO). A given reader may be able to only access some subset of these features, depending on their designation; this will be clear from the context on a case-by-case basis.
+इस मैनुअल में एमकॉम्स सिस्टम के सभी फीचर बताए गए हैं। सर्वोच्च उपयोगकर्ता (उदाहरण के लिए कंपनी के सीईओ) ही सभी फीचर देख सकेंगे। कोई अन्य उपयोगकर्ता अपने पद के अनुसार इनके किसी भाग (सब-सेट) को ही देख सकेगा। संदर्भ के अनुसार प्रकरण-दर-प्रकरण इसे स्पष्ट किया जाएगा।
 
-## Communication
-As already noted, communications between stakeholders are of central importance to the smooth running of a mini-grid business. Effectively connecting different levels of the business, for instance allowing managers in the head office to gather information from distributed field teams, underpins efficient operations.
+## 1.2.4. संप्रेषण (कम्युनिकेशन)
+यह बात पहले ही बताई जा चुकी है कि मिनी ग्रिड व्यवसाय भलीभाँति चलाने के लिए सभी संबंधित लोगों (स्टेकहोल्डर) के बीच संप्रेषण (कम्युनिकेशन) सबसे ज्यादा महत्वपूर्ण है। ऊपर से नीचे तक बढ़िया संप्रेषण की सुविधा होनी चाहिए। उदाहरण के लिए प्रधान कार्यालय के प्रबंधकों को फील्ड में अलग-अलग स्थानों पर कार्य कर रही टीम से जानकारी प्राप्त करने की सुविधा होनी चाहिए। इससे व्यवसाय का कामकाज बहुत अच्छे से चल सकता है।
 
-Wherever possible, this is achieved through passive communications:
-* Well-structured workflows which guide the user in completing tasks
-* Automatically generated notifications for routine or scheduled activities
-* Automated prioritisation of information according to internally programmed logic
-* Rapid data consolidation so that all users have access to up-to-date information
-* OTPs for customers and managers to authorise certain transactions
+कोशिश की गई है कि यह प्रयोजन निष्क्रिय संप्रेषण (पेसिव कम्युनिकेशन) से पूरा हो जाए –
+* कार्य करने के क्रम (वर्क फ्लो) को इतनी अच्छी तरह दिखाया गया है कि उपयोगकर्ता को कार्य पूरा करने के बारे में मार्गदर्शन मिलता चला जाता है।
+* हर रोज या निश्चित समय पर किए जाने वाले कार्यों की सूचना अपने आप मिलती रहती है।
+* ऐसी व्यवस्था की गई है कि महत्वपूर्ण सूचनाएँ सबसे ऊपर रहें।
+* डेटा का एकीकरण (कंसालिडेशन) शीघ्रता से होता है, जिससे सभी उपयोगकर्ताओं को ताजातरीन (अप-टु-डेट) जानकारी मिलती है।
+* कुछ प्रकार के लेनदेन को प्राधिकृत (ऑथराइज़) करने के लिए ग्राहकों और प्रबंधकों दोनों को ओटीपी प्राप्त होते हैं।
 
-There are also various mechanisms for active communication between users:
-* Notifications and data entry pushed via the smartphone apps
-* Notifications and data entry pushed via the web platform
-* Notifications pushed through email
-* Notifications and requests pushed through SMS
+उपयोगकर्ताओं के बीच सक्रिय संप्रेषण (एक्टिव कम्युनिकेशन) के लिए भी कई प्रकार की व्यवस्था की गई है –
+* स्मार्टफोन एप्प से सूचनाएँ और डेटा भेजा जा सकता है।
+* वेब प्लेटफॉर्म से सूचनाएँ और डेटा भेजा जा सकता है।
+* ई-मेल से सूचनाएँ भेजी जा सकती हैं।
+* सूचनाएँ और अनुरोध एसएमएस से भेजे जा सकते हैं।
 
-Multi-modal communications are especially important when different users will have different preferences. For example, those customers who cannot use the smartphone app will receive bills, receipts, and notifications via SMS.
+अलग-अलग उपयोगकर्ताओं की पसंद (प्रिफरेंस) अलग-अलग होती है। ऐसे में अनेक प्रकार से संप्रेषण ज्यादा महत्वपूर्ण हो जाता है। जैसे, स्मार्टफोन एप्प का उपयोग न करने वाले ग्राहकों को बिल, रसीदें और सूचनाएँ एसएमएस से प्राप्त हो जाते हैं।

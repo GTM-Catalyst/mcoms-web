@@ -1,37 +1,37 @@
 ---
 id: DataVerSteps
-title: Data Verification Steps
-sidebar_label: Data Verification Steps
+title: 2.5 डेटा वेरिफाइ करने के स्टेप्स
+sidebar_label: डेटा वेरिफाइ करने के स्टेप्स
 ---
 
-To ensure the accuracy and validity of data in the system, several layers of checks can be implemented.
+सिस्टम में सही और उपयुक्त डेटा ही दर्ज हो, इसके लिए कई स्तरों पर जाँच की व्यवस्था की जा सकती है।
 
-### Input Checks
-MCOMS applications may restrict the range of input to different data fields. Different mechanisms will be appropriate for different occasions. For example:
+## 2.5.1. डेटा दर्ज करते समय होने वाली जाँच (इनपुट चेक्स)
+एमकॉम्स एप्लीकेशन इस प्रकार के प्रतिबंध लगा सकता है कि डेटा-फील्ड में अमुक प्रकार का डेटा ही दर्ज हो। अलग-अलग अवसरों के लिए अलग-अलग प्रकार की व्यवस्था उपयुक्त रहती है। जैसे
 
-* Dropdown lists ensure the user can only select from a limited set of options, for example the list of plant names (so the user cannot write in an invalid name)
-* Limited input value, where only certain inputs are deemed valid – for example, an energy meter reading must be greater than the previous reading to be registered as valid
+* ड्रापडाउन लिस्ट से यह पक्का हो जाता है कि यूज़र दिए गए विकल्पों में से ही कोई विकल्प चुनेगा। जैसे प्लांट के नामों की सूची (जिससे यूज़र कोई अमान्य नाम लिख ही नहीं सकता।)
+* इनपुट की वैल्यू को सीमित कर केवल कुछ निश्चित इनपुट को मान्य रखा जा सकता है। जैसे मीटर की चालू रीडिंग तभी दर्ज हो सकती है, जब वह पिछली रीडिंग से अधिक हो।
 
-### User Review
-The MCOMS applications invite users to review and confirm all information that they input into the applications, before submitting it to the central database.
+## 2.5.2. यूज़र रिव्यू
+एमकॉम्स के सभी एप्लीकेशन में यूज़र को रिव्यू और कन्फर्म करने की सुविधा दी गई है। यानी वह अपने द्वारा दर्ज जानकारी को दुबारा देख ले (रिव्यू करे) और फिर कन्फर्म करे। तभी वह जानकारी सेंट्रल डेटाबेस पर दर्ज होगी।
 
-### Database Edit
-Many database entries can be amended from the front-end of the web platform, provided the user has the appropriate access rights.
+## 2.5.3. डेटाबेस को एडिट करना
+डेटाबेस की कई प्रविष्टियों (एंट्रीज़) को वेब प्लेटफॉर्म के फ्रंट एंड से सुधारा जा सकता है, बशर्ते यूज़र के पास इसके लिए एक्सेस राइट्स् हों।
 
-### Change Logs
-All edits to MCOMS databases are logged, along with the timestamp of the change and which user made the change. This ensures that all data can be restored in the case of accident, and it also gaurds against malicious meddling with stored information.
+## 2.5.4. बदलाव को दर्ज करना (चेंज लॉग्स)
+एमकॉम्स के डेटाबेस को जहाँ-जहाँ भी एडिट किया जाता है, तब एडिट करने का समय भी दर्ज (लॉग) हो जाता है। इससे कोई गड़बड़ी (एक्सिडेंट) होने पर पूरा डेटा दुबारा प्राप्त (रिस्टोर) हो सकता है। साथ ही, जो सूचनाएँ संग्रहित की गई हैं, उनमें कोई किसी प्रकार की छेड़छाड़ नहीं कर सकता।
 
-### Numerical Checks
-Certain automated checks are programmed into the MCOMS server to ensure that database entries make sense. An example would be ensuring that equipment efficiencies are between 0% and 100%, or that daily energy generation falls within expected ranges. There is some overlap between this and the checks in Section 2.5.1; the difference is that here, database calculations are scheduled on the server side, whereas in Section 2.5.1 the input into the database is restricted before it is submitted.
+## 2.5.5. अंकों के आधार पर नियंत्रण (न्यूमेरिकल चेक्स)
+एमकॉम्स सर्वर में कुछ प्रकार के अंकीय नियंत्रण (न्यूमेरिकल चेक्स) रखे गए हैं, जिससे सिर्फ काम की प्रविष्टियाँ दर्ज हो सकें। जैसे उपकरणों की कार्यकुशलता 0% से 100% के बीच ही बताई जा सकती है या बिजली का रोज का उत्पादन अपेक्षित रेंज में ही दर्ज हो सकता है। इसके और सेक्शन 2.5.1. के नियंत्रण (चेक्स) कुछ-कुछ मिलते-जुलते हैं। फर्क यह है कि यहाँ डेटाबेस में की जाने वाली गिनती (केलक्युलेशन) सर्वर साइड में अनुसूचित (शेड्यूल) है जबकि सेक्शन 2.5.1 में डेटाबेस में प्रविष्टि सबमिशन के पहले नहीं हो सकती।
 
-### Customer Validation
-Where changes to customer information, or updates of customer accounts are involved, MCOMS will frequently require the customer themselves to validate the change. A common way to do this is for the customer to confirm the change with an OTP sent to their registered mobile number.
+## 2.5.6. ग्राहक की ओर से पुष्टि (कस्टमर वैलिडेशन)
+ग्राहक से संबंधित जानकारी में कोई परिवर्तन होने या ग्राहक के खाते में कोई अपडेट करना हो तो एमकॉम्स हर बार ग्राहक से पुष्टि (वेलिडेशन) कराता है। इसके लिए ग्राहक को उसके रजिस्टर्ड मोबाइल पर ओटीपी भेजकर परिवर्तन (चेंज) की पुष्टि मांगी जाती है।
 
-### Chain of Approvals
-Many operational workflows discussed in this chapter involve multiple levels of the mini-grid organisational hierarchy. For such multi-person processes, MCOMS automatically notifies different personnel when their input, approval, or action is needed.
+## 2.5.7. क्रमिक अनुमोदन (चेन ऑफ अप्रूवल्स)
+इस अध्याय में परिचालन से संबंधित जिन-जिन वर्कफ्लो की चर्चा की गई है, उनमें मिनी ग्रिड के अलग-अलग स्तर के कई कर्मचारी शामिल रहते हैं। जब-जब जिस कर्मचारी को कोई इनपुट, अनुमोदन (अप्रूवल) या कार्रवाई (एक्शन) करना हो, उसे एमकॉम्स की ओर से अपने आप सूचना चली जाती है।
 
-For example, to change a customer’s package, a customer must first submit a request, which passes to the cluster in-charge, who may push the request to a CSA for follow-up with the customer before approving it and handing over to a technician for implementation. Once the technician marks the task as complete, the cluster in-charge is notified; they must confirm that the work has been done properly, after which the change is finalised and logged in the central database for the state in-charge and upper management to see in their monthly reports.
+जैसे ग्राहक का पैकेज बदलने के लिए सबसे पहले ग्राहक को अनुरोध करना होगा। यह अनुरोध समूह प्रभारी (क्लस्टर इन-चार्ज) के पास जाता है। वह इसे अनुमोदित (अप्रूव) कर टेक्निशन को भेजने से पहले ग्राहक सेवा एजेंट (सीएसए) के पास भेजता है, ताकि वह ग्राहक से आगे की कार्रवाई करा सके। जब टेक्निशन इसे पूरा होना बता देता है, तब सूचना समूह प्रभारी (क्लस्टर इन-चार्ज) के पास चली जाती है। उन्हें पुष्टि करनी होती है कि कार्य भली प्रकार पूरा हो गया है। इसके बाद बदलाव (चेंज) को अंतिम रूप से सेंट्रल डेटाबेस में दर्ज कर दिया जाता है, जो राज्य प्रभारी और ऊपरी प्रबंधन को उनकी मासिक रिपोर्ट में दिखाई देता है।
 
 
-### Data Audit
-Data audits represent an important consistency check of the MCOMS database. Independent in-situ copies of certain field data may be compared with values in the central database to ensure agreement. For example, the daily solar energy generation values are recorded through the field agent app and also noted down manually in a register in the plant control room. The cluster in-charge can compare the two records for consistency. 
+## 2.5.8. डेटा की लेखा-परीक्षा (डेटा ऑडिट)
+एमकॉम्स डेटाबेस में सब कुछ ठीक है, इसकी महत्वपूर्ण जाँच है डेटा ऑडिट। फील्ड में दर्ज डेटा की कुछ रसीदों को लेकर सेंट्रल डेटाबेस की प्रविष्टियों से मिलान कर देखा जाता है कि दोनों का मिलान हो रहा है। उदाहरण के लिए प्रतिदिन पैदा हुई बिजली के आँकड़े फील्ड एजेंट एप्प में रिकॉर्ड होते हैं और प्लांट कंट्रोल रूम में रखे रजिस्टर में हाथ से भी लिखे जाते हैं। समूह प्रभारी (क्लस्टर इन-चार्ज) दोनों का मिलान कर देख सकता है कि दोनों एक समान हैं।

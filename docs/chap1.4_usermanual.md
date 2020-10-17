@@ -1,19 +1,18 @@
 ---
 id: usermanual
-title: Organisation of this User Manual
-sidebar_label: Organisation of this User Manual
+title: 1.4. इस यूज़र मैनुअल की रचना (ऑर्गनाइजेशन)
+sidebar_label: इस यूज़र मैनुअल की रचना (ऑर्गनाइजेशन)
 ---
 
 
 ![Technical monitoring of mini-grid supply-side equipment](./assets/1.4.1_MonSupEquipment.svg)
-#### Figure 10: Technical monitoring of mini-grid supply-side equipment.
+#### चित्र 10 : मिनी ग्रिड के सप्लाइ साइड उपकरणों की तकनीकी निगरानी
 
-This section provides some guidance about navigating and using the remainder of this manual.
+इस सेक्शन में मैनुअल के शेष भाग में नेविगेट करने और उसका उपयोग करने के बारे में मार्गदर्शन दिया गया है।
 
 
-**Chapter 2: Mini-grid Operations and Their Workflows** outlines core operating principles of running a mini-grid, and elaborates the various tasks and responsibilities pertaining to mini-grid personnel and mini-grid customers. The functionality discussed in the following chapters will be founded on a familiarity with this material.
-
-**Chapter 3: Field Agent App** provides a detailed guide to the smartphone application used by mini-grid employees. The app provides a wide range of functionality, and constitutes the bulk of this manual. Each “module” of the app is introduced in a separate sub-section, which states the purpose of the module, its key users and use cases, along with a step-by-step explanation of how to navigate it.
-
-**Chapter 4: Customer App** consists of a working guide to the customer application. As with Chapter 3, each functionality is explained in depth, for the benefit of both customers and field agents who are assisting customers in using the app.
-
+<u>अध्याय 2 : मिनी ग्रिड परिचालन और उनके कार्य का क्रम (वर्क फ्लो)</u> नामक इस अध्याय में मिनी ग्रिड चलाने के सारभूत (core) परिचालन सिद्धांत बताए गए हैं। साथ ही, मिनी ग्रिड के कर्मचारियों तथा ग्राहकों के विभिन्न कार्यों और जिम्मेदारियों को विस्तार से समझाया गया है। इस अध्याय में दी गई सामग्री को अच्छी तरह समझने पर ही अगले अध्यायों में बताई गई फंक्शनिलिटीज़ का भलीभाँति उपयोग किया जा सकता है।
+<br/><br/>
+<u>अध्याय 3 : फील्ड एजेंट एप्प</u> में मिनी ग्रिड के कर्मचारियों द्वारा उपयोग किए जाने वाले स्मार्टफोन सॉफ्टवेअर के बारे में विस्तार से समझाया गया है। इस एप्प में बहुत सारी सुविधाएँ (फंक्शनलिटी) हैं। इस मैनुअल का बड़ा हिस्सा उन्हीं के बारे में है। एप्प के हर “मॉड्यूल” का परिचय एक अलग सब-सेक्शन में दिया गया है, जिसमें मॉड्यूल का प्रयोजन, उसके मुख्य-मुख्य उपयोगकर्ता (की-यूज़र) और उपयोग के उदाहरण (यूज़ केसेस) की जानकारी मिलती है। साथ ही, नेविगेट करने का तरीका क्रमिक रूप से (स्टेप-बाइ-स्टेप) बताया गया है।
+<br/><br/>
+<u>चैप्टर 4 : कस्टमर एप्प</u> ग्राहकों को उनके कार्यों के बारे में व्यावहारिक जानकारी देता है। अध्याय 3 की तरह इसमें भी हर सुविधा (फंक्शनलिटी) के बारे में विस्तार से बताया गया है, ताकि ग्राहकों और एप्प के उपयोग में उन्हें सहायता देने वाले फील्ड एजेंट दोनों इसे अच्छी तरह समझ सकें।
