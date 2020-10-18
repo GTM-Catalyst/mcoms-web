@@ -1,164 +1,164 @@
 ---
 id: mislns
-title: Miscellaneous
-sidebar_label: Miscellaneous
+title: 3.10. विविध
+sidebar_label: विविध
 ---
 
-## Overview
+## 3.10.1. एक नजर
 ![Miscellaneous Functionalities](./assets/3.110_MiscFunctionaties.svg)
 <br/><br/>
 
 ![Miscellaneous Screenshot](./assets/3.111_MiscScreenShot.png)
 
 
-## Gallery
-**Functionality**
-* The Gallery Section contains images of each plant
+## 3.10.2. गैलरी
+**फंक्शनलिटी**
+* लरी सेक्शन में हर प्लांट के इमेजेस (फोटो) रहते हैं
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To view pictures from various plants within the state</td>
-    <td>Viewing photos of an activity at the plant</td>
+    <td>समूह प्रभारी</td>
+    <td>राज्य के विभिन्न प्लांट के पिक्चर देखना</td>
+    <td>प्लांट के कामकाज (एक्टिविटी) के फोटो देखना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Showing external stakeholders the plant layout</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>बाहरी हितार्थियों (एक्सटर्नल स्टेकहोल्डर) को प्लान का ले-आउट दिखाना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Gallery Sample](./assets/3.112_GallerySample.png)
 
 
-## Add Images
-**Functionality**
-* For uploading photos relevant to a particular plant
+## 3.10.3. इमेज (फोटो) ऐड करना
+**फंक्शनलिटी**
+* किसी प्लांट से संबंधित फोटो अपलोड किए जा सकते हैं
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To add pictures onto the application data base</td>
-    <td>To add pictures based on a particular type of an activity</td>
+    <td>समूह प्रभारी</td>
+    <td>एप्लीकेशन के डेटाबेस में पिक्चर ऐड करना</td>
+    <td>किसी विशेष कार्यकलाप पर आधारित पिक्चर ऐड करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>To add pictures from a visit that had taken place to a plant in the state</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>राज्य के किसी प्लांट की विज़िट के समय लिए गए पिक्चर ऐड करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Add Images](./assets/3.113_AddImages.png)
 
 
-## Contacts
-Functionality
-* Lists every operator working for the company along with their contact details
+## 3.10.4. संपर्क सूत्र
+फंक्शनलिटी
+* इसमें कंपनी के लिए कार्य कर रहे हर ऑपरेटर और उनके संपर्क सूत्रों की सूची रहती है
 
-**Navigation**
+**नेविगेशन**
 
-This page is also accessible from the Main Menu: Refer to Section 3.4.7 for details.
+इस पेज पर मेन मैन्यू से भी पहुँचा जा सकता है। विवरण के लिए 3.4.7. देखें।
 
 
-## Notifications
-**Functionality**
-* The Notification Section allows the user to view all the SMS messages that have been sent or received
+## 3.10.5. सूचनाएँ (नोटिफिकेशन्स)
+**फंक्शनलिटी**
+* इस सेक्शन में यूज़र सभी प्राप्त और प्रेषित एसएमएस देख सकता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>All Employees</td>
-    <td>Access to the SMS messages sent by the company</td>
-    <td>To verify an SMS sent by the company even if the agent might have deleted the SMS off the phone memory</td>
+    <td>सभी कर्मचारी</td>
+    <td>कंपनी द्वारा भेजे गए एसएमएस संदेशों देखना</td>
+    <td>कंपनी की ओर से भेजे गए एसएमएस को वेरिफाइ करना, चाहे एजेंट ने एसएमएस अपने फोन से डिलीट कर दिए हों।</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Notification](./assets/3.114_Notification.png)
 
 
-## Plant Shutdown Message
-**Functionality**
-* Allows user to send an SMS to a subset of customers, warning them of a plant shutdown
+## 3.10.5. प्लांट बंद रहने (शट-डाउन) के संदेश
+**फंक्शनलिटी**
+* यूज़र ग्राहकों के एक छोटे समूह को एसएमएस भेजकर प्लांट बद रहने के बारे में चेता सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To notify customers at a plant about a scheduled shut down</td>
-    <td>Messaging all customers that the plant requires maintenance for the next three hours</td>
+    <td>समूह प्रभारी</td>
+    <td>प्लांट के ग्राहकों को प्लांट बंद रहने की अवधि सूचित करना</td>
+    <td>सभी ग्राहकों को संदेश कि मेन्टेनेन्स के लिए प्लांट को अगले तीन घंटे तक बंद रखना होगा</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Plant Shutdown SMS](./assets/3.115_PlantShutdownSMS.png)
 
 
-## SUG
-**Functionality**
-* The SUG Section identifies and creates consumer pools in various plants
-* The section is only available for HCLF agents
+## 3.7.10. एसयूजी
+**फंक्शनलिटी**
+* एसयूजी सेक्शन विभिन्न प्लांट के उपभोक्ता-समूह (पूल) की पहचान कर समूह बनाता है
+* यह सेक्शन केवल एचसीएलएफ एजेंटों को उपलब्ध है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>Maintaining a report on all the active SUGs at a plant</td>
-    <td>Reviewing the list of SUG members and contacting the relevant member</td>
+    <td>ऑपरेटर</td>
+    <td>किसी प्लांट के सभी एक्टिव एसयूजी के बारे में रिपोर्ट मेन्टेन करना</td>
+    <td>एसयूजी सदस्यों की सूची रिव्यू करना और संबंधित सदस्य से संपर्क करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![SUG List](./assets/3.116_SUGList.png)
 

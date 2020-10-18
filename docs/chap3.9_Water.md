@@ -1,31 +1,31 @@
 ---
 id: water
-title: Water
-sidebar_label: Water
+title: 3.9. पानी (वाटर)
+sidebar_label: पानी
 ---
 
-## Water Camper Sale
-**Functionality**
-* Gives an overview of water sales at relevant plants
+## 3.9.1. वाटर कैम्पर की बिक्री
+**फंक्शनिलिटी**
+* संबंधित प्लांटो में पानी की बिक्री की जानकारी इस सेक्शन में मिलती है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदारहण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To monitor the water sales within the state</td>
-    <td>Understanding the number and value of water sales at different plants</td>
+    <td>समूह प्रभारी</td>
+    <td>राज्य में पानी की बिक्री पर नजर रखना</td>
+    <td>विभिन्न प्लांट में बिके पानी की मात्रा और मूल्य की जानकारी प्राप्त करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 > Coming Soon

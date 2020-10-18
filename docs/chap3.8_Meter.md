@@ -1,280 +1,280 @@
 ---
 id: meter
-title: Meter
-sidebar_label: Meter
+title: 3.8. मीटर
+sidebar_label: मीटर
 ---
 
-## Overview
+## 3.8.1. एक नजर (ओवरव्यू)
 ![Meter Tab Functionalities](./assets/3.95_MeterFunctionalities.svg)
 <br/><br/>
 
 ![Meter Tab Screenshot](./assets/3.96_MeterTabScrSht.png)
  
 
-## Change Meter
-**Functionality**
-* Allows users to request replacement of a customer’s energy meter
+## 3.8.2. मीटर बदलना
+**फंक्शनलिटी**
+* यूज़र ग्राहक के बिजली मीटर को बदलने का अनुरोध कर सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To request a change of meter for a customer</td>
-    <td>Registering and switching out a malfunctioning meter</td>
+    <td>समूह प्रभारी</td>
+    <td>ग्राहक का मीटर बदलने का अनुरोध करना</td>
+    <td>खराब मीटर का विवरण दर्ज करना और उसे बंद करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
 
-**Page Details**
+**ज के डिटेल**
 
 ![Change Metert](./assets/3.97_ChangeMeter.png)
 
 
-## Unreleased Meter
-**Functionality**
-* Tracks pending and completed meter change tasks
-* These meters are to be unmounted, either because of a malfunction or expiry of the customer’s subscription
-* The meter is then taken to the warehouse or assigned to a different customer’s subscription
+## 3.8.3. रिलीज़ न किए गए मीटर
+**फंक्शनलिटी**
+* पता लगता है कि कितने मीटर बदले जा चुके हैं और कितने बदलने का कार्य पेंडिंग है 
+* ये मीटर निकाले जाने हैं क्योंकि ये खराब हैं या ग्राहक ने जितना भुगतान किया था, वह पूरा हो गया है
+* मीटर या तो गोदाम में ले जाया जाता है या किसी अन्य ग्राहक को असाइन कर दिया जाता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To view pending meter change requests and assign to field agents</td>
-    <td>Contacting the agent who worked on a particular meter assignment</td>
+    <td>समूह प्रभारी</td>
+    <td>मीटर बदलने के पेंडिंग रहे अनुरोध देखना और फील्ड एजेंटों को असाइन करना</td>
+    <td>उस एजेंट से संपर्क करना, जिसे मीटर बदलने का कार्य असाइन किया गया हो</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To view and acknowledge meter changes</td>
-    <td>Checking the number of pending meter assignments</td>
+    <td>राज्य प्रभारी</td>
+    <td>मीटर बदलने का  अनुरोध देखना और अनुरोध पूरा होने की सूचना देना</td>
+    <td>चेक करना कि मीटर बदलने के कितने असाइनमेन्ट पेंडिंग हैं</td>
   </tr>
 </table>
 
 
-**Page Details**
+**ज के डिटेल**
 
-The page is organised into the following tabs
+इस पेज में निम्नलिखित टैब हैं -
 
 |Pending| Review| Completed|
 |---|---|---|
 | View of pending meter requests, assign to agent, and mark completed| List of completed meter requests| List of historical completed and acknowledged meter requests|
 
 
-### Pending tab
+### 3.8.3.1. पेंडिंग टैब
 ![Pending Tab](./assets/3.98_PendingTab.png)
 
-### Review tab
+### 3.8.3.2. रिव्यू टैब
 ![Review Tab](./assets/3.99_ReviewTab.png)
 
-### Completed tab
+### 3.8.3.3. कम्प्लिटेड टैब
 ![Completed Tab](./assets/3.100_CompletedTab.png)
 
 
 
-## Spark Meter Status
-**Functionality**
-* Gives limited access to smart Spark meter data
-* The user may remotely switch meters on and off from here 
-* Refer to Section 3.4.5 for more information
+## 3.8.4. स्पार्क मीटर स्टेटस
+**फंक्शनलिटी**
+* स्मार्ट स्पार्क मीटर के डेटा तक सीमित पहुँच मिलती है
+* इससे यूज़र दूर से (रिमोटली) मीटर चालू और बंद कर सकता है
+* अधिक जानकारी के लिए सेक्शन 3.4.5 देखें
 
 
-## Spark Feeder Status
-**Functionality**
-* The Spark Feeder Status Section allows a user to reset or change configuration of a Spark Feeder through the application
+## 3.8.5. स्पार्क फीडर स्टेटस
+**फंक्शनलिटी**
+* स्पार्क फीडर सेक्शन में यूज़र स्पार्क फीडर को एप्प के जरिए रि-सेट कर सकता है या कन्फिगरेशन बदल सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Control the state of the meter for all customers on a particular feeder</td>
-    <td>Shutting off a large number of meters in case of a technical emergency</td>
+    <td>समूह प्रभारी</td>
+    <td>किसी निश्चित फीडर के सभी ग्राहकों के मीटर की स्थिति नियंत्रित करना</td>
+    <td>कोई तकनीकी इमरजेंसी आ जाने पर बड़ी संख्या में मीटर बंद करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Shutting off the meter of a customer whose faulty appliance is impacting the whole distribution network</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>उस ग्राहक का मीटर बंद करना जिसके खराब उपकरणों का पूरे वितरण नेटवर्क पर असर पड़ रहा हो</td>
   </tr>
 </table>
 
 
-**Page Details**
+**ज के डिटेल**
 
 ![Feeder Meter Reset](./assets/3.101_FeederMeterReset.png)
 
 ![Feeder Meter Reset](./assets/3.102_FeederMeterReset2.png)
 
 
-## Meter Reading
-**Functionality**
-* The Meter Reading Section shows the electricity meter readings which are required at each plant
+## 3.8.6. मीटर रीडिंग
+**फंक्शनलिटी**
+* मीटर रीडिंग सेक्शन बिजली के मीटर की रीडिंग दिखाता है, जिसकी हर प्लांट में जरूरत पड़ती है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To view which customer meters need to be read</td>
-    <td>Planning which customers to visit for metering before the end of the month</td>
+    <td>टेक्निशन</td>
+    <td>देखना कि किस ग्राहक के मीटर की रीडिंग लेना है</td>
+    <td>प्लान करना कि महीना खत्म होने के पहले किन-किन ग्राहकों के पास जाना है</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To check the number of pending meter readings</td>
-    <td>Contacting field agents to remind them about incomplete meter readings</td>
+    <td>समूह प्रभारी</td>
+    <td>चेक करना कि कितने मीटर की रीडिंग पेंडिंग है</td>
+    <td>मीटर रीडिंग के बचे हुए कार्य की याद दिलाने के लिए फील्ड एजेंटों से संपर्क करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
 
-**Page Details**
+**ज के डिटेल**
 
 ![Meter Reading](./assets/3.103_MeterReading1.png)
 
 ![Meter Reading](./assets/3.104_MeterReading2.png)
 
 
-## Meter Reading Review
-**Functionality**
-* The Meter Reading Review Section displays the number of pending meter readings reviews, plant wise
-* The meter reading process is completed by agents at the beginning or end of a month to record the electricity consumption of households that do not have a smart meter
+## 3.8.7. मीटर रीडिंग रिव्यू
+**फंक्शनलिटी**
+* मीटर रीडिंग रिव्यू सेक्शन दिखाता है कि हर प्लांट में कितने मीटर रीडिंग रिव्यू पेंडिंग हैं
+* मीटर रीडिंग का कार्य एजेंट महीने की शुरुआत या आखिर में करते हैं। जिन घरों में स्मार्ट मीटर नहीं लगे हैं, उनकी बिजली की खपत रिकॉर्ड करने के लिए यह कार्य किया जाता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To assess the number of consumers who are yet to undergo the meter reading</td>
-    <td>Assessing the number of completed reading reviews in a month</td>
+    <td>सीएसए</td>
+    <td>गिनती करना कि कितने उपभोक्ताओं की मीटर रीडिंग बाकी है</td>
+    <td>गिनती करना कि महीने में कितनी रीडिंग रिव्यू पूरी की गई</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To conduct a review on the consumers whose meter readings are still pending</td>
-    <td>Assessing the number of pending reviews within the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>जिन उपभोक्ताओं की मीटर रीडिंग पेंडिंग है, उनका रिव्यू करना </td>
+    <td>गिनती करना कि समूह में कितने रिव्यू बाकी है</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Assessing the number of pending reviews at a plant</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>गिनती करना कि किसी प्लांट के कितने रिव्यू बाकी है</td>
   </tr>
 </table>
 
 
-**Page Details**
+**ज के डिटेल**
 
 ![Meter Reading Approval](./assets/3.105_MeterReadingApproval.png)
 
-## TERMS Status
-**Functionality**
-* Gives access to smart TERMS meter data
-* The user may remotely switch customer meters on and off from here
+## 3.8.8. टर्म्स स्टेटस
+**फंक्शनलिटी**
+* स्मार्ट टर्म्स मीटर डेटा तक पहुँच मिलती है
+* यूज़र दूर से (रिमोटली) ग्राहक का मीटर चालू और बंद कर सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To access information about and control of a customer’s meter</td>
-    <td>Investigating why a customer meter may have tripped off – e.g. they are deactivated</td>
+    <td>ऑपरेटर</td>
+    <td>ग्राहक के मीटर के बारे में जानकारी प्राप्त करना और उसका मीटर नियंत्रित करना</td>
+    <td>पड़ताल करना कि ग्राहक का मीटर बंद (ट्रिप ऑफ) क्यों हुआ है, उदाहरण के लिए डिएक्टिवेटेड</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Switching a meter on or off</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>मीटर चालू या बंद करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Same as Technician</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Technician</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Technician</td>
+    <td>राज्य प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**ज के डिटेल**
 
 ![TERMS Consumer](./assets/3.106_TermsConsumer.png)
 
 ![TERMS Reset](./assets/3.107_TermsReset.png)
 
 
-## Battery Maintenance
-**Functionality**
-* The Battery Maintenance Section gives an overview on the battery banks at every plant
-* The section allows the user to switch the battery pack on or off
+## 3.8.9. बैटरी मेन्टेनेन्स
+**फंक्शनलिटी**
+* बैटरी मेन्टेनेन्स सेक्शन से हर प्लांट के बैटरी बैंक का विवरण मिलता है 
+* इससे यूज़र बैटरी पैक को चालू या बंद कर सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To change the state of a battery bank</td>
-    <td>Switching the battery status of a plant between on and off</td>
+    <td>टेक्निशन</td>
+    <td>बैटरी बैंक की स्थिति बदलना</td>
+    <td>प्लांट की बैटरी को चालू या बंद करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>समूह प्रभारी</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To check which batteries are online</td>
-    <td>Creating a report on the number of battery packs available at each plant</td>
+    <td>राज्य प्रभारी</td>
+    <td>चेक करना कि सभी बैटरी ऑनलाइन हैं</td>
+    <td>हर प्लांट में उपलब्ध बैटरी पैक की संख्या के बारे में रिपोर्ट तैयार करना</td>
   </tr>
 </table>
 
-**Page Details**
+**ज के डिटेल**
 
 ![Battery Bank Voltage Activity](./assets/3.108_BatteryBankVoltageActivity.png)
 

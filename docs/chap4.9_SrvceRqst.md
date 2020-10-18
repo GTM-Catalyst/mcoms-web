@@ -1,14 +1,14 @@
 ---
 id: SvrcRqst
-title: Service Request
-sidebar_label: Service Request
+title: 4.9. सेवा संबंधी अनुरोध (सर्विस रिक्वेस्ट)
+sidebar_label: सेवा संबंधी अनुरोध (सर्विस रिक्वेस्ट)
 ---
 
-**Functionality**
-* The Service Request page allows a customer to register a new request with the company
-* It also displays a record of past requests
+**फंक्शनलिटी**
+* सर्विस रिक्वेस्ट पेज में ग्राहक कंपनी से नई सेवा की मांग दर्ज कर सकता है।
+* पिछले अनुरोध भी इसमें दिखाई देते हैं।
 
-**Page Details
+**पेज के डिटेल
 
 ![Service Request](./assets/4.17_SvrcRqst.png)
 

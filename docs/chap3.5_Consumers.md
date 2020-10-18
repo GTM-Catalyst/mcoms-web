@@ -1,55 +1,55 @@
 ---
 id: consumers
-title: Consumers
-sidebar_label: Consumers
+title: 3.5 उपभोक्ता
+sidebar_label: उपभोक्ता
 ---
 
-## Overview
+## 3.5.1. एक नजर (ओवरव्यू)
 ![Consumer Screen Key Functionalities](./assets/3.25_ConsuKeyFunc.svg)
 <br/>
 <br/>
 
 ![Consumer Screenshot](./assets/3.26_ConsScreenShot.png)
  
-## Account Details
-**Functionality**
-* The Account Detail page contains complete information on a customer’s profile, their package, and payment history.
+## 3.5.2. खाते के विवरण (अकाउन्ट डिटेल्स)
+**फंक्शनलिटी**
+* ग्राहक के प्रोफाइल, पैकेज और उसके द्वारा किए गए समस्त भुगतान की पूरी जानकारी अकाउन्ट डिटेल्स पेज से मिलती है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>Validating the activeness of a customer</td>
-    <td>Prioritising which customers (or ex-customers) the sales team should approach for settling arrears</td>
+    <td>ऑपरेटर</td>
+    <td>ग्राहक के एक्टिव होने की पुष्टि करना</td>
+    <td>तय करना कि बिक्री टीम को बकाया राशियों के सेटलमेंट के लिए किस ग्राहक (या पूर्व ग्राहक) के पास जाना चाहिए</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Reviewing meter reading data for a specific consumer</td>
-    <td>Reviewing the meter reading data to check for overload on electrical apparatus</td>
+    <td>टेक्निशन</td>
+    <td>किसी ग्राहक की मीटर रीडिंग का डेटा रिव्यू करना</td>
+    <td>मीटर रीडिंग डेटा को रिव्यू कर देखना कि बिजली के उपकरणों (एपरेटस) पर ज्यादा लोड तो नहीं आ रहा है</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>View the expected revenue and outstanding from each customer at the plant</td>
-    <td>Prioritising which customers (or ex-customers) the sales team should approach for settling arrears</td>
+    <td>ग्राहक सेवा एजेंट</td>
+    <td>प्लांट के हर ग्राहक से अनुमानित राजस्व और बकाया राशियाँ देखना</td>
+    <td>तय करना कि बिक्री टीम को बकाया राशियों के सेटलमेंट के लिए किस ग्राहक (या पूर्व ग्राहक) के पास जाना चाहिए</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Summary of collections in a specified time interval</td>
-    <td>Comparing different plants’ collection performance for the current month</td>
+    <td>समूह प्रभारी</td>
+    <td>निश्चित समय अंतराल (टाइम इंटरवल) में प्राप्त राशि (कलेक्शन) का विवरण</td>
+    <td>विभिन्न प्लांट से चालू माह के दौरान प्राप्त कलेक्शन की तुलना करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>View customers with high outstanding accounts</td>
-    <td>Confirming a customer’s balance when collecting payment, and resolving confusion about when past bills were paid.</td>
+    <td>राज्य प्रभारी</td>
+    <td>बहुत अधिक बकाया राशि वाले ग्राहकों के खाते देखना</td>
+    <td>भुगतान प्राप्त करते समय ग्राहक की ओर बकाया राशि की पुष्टि करना और विगत में भुगतान किए बिलों के बारे में भ्रम को दूर करना</td>
   </tr>
 </table>
 
-* Information is organised into several tabs, detailed below.
+* सूचनाएँ कई टैब में रखी जाती हैं, जिनके बारे में नीचे बताया गया है
 
 	> **A Note on Navigating to this Page**
 	> 
@@ -59,118 +59,120 @@ sidebar_label: Consumers
 	> * The customer list (Section 3.5.4)
 	> * The customer status list (Section 3.5.5)
 
-**Page Details**
+**पेज के डिटेल**
 
-The Account Detail page is organised into several tabs, which summarise particular information about a given customer:
+खाता-विवरण (अकाउंट डिटेल) पेज में कई टैब होते हैं, जिनमें ग्राहक से संबंधित जानकारी का सारांश होता है –
 
 
 | Profile| Transaction| Cash Ledger| Security and Deposite Ledger| Meter Reading| Service|
 |---|---|---|---|---|---|
 | detailed account information| chronological list of individual payments| running record of bills, payments, and balance| running record of security charges and payments| energy consumption data from meter reading| service request history and completion information|
 
-Switching between tabs can be done either using the top navigation bar, or simply swiping the screen horizontally.
+एक टैब से दूसरे में जाने के लिए या तो नेविगेशन बार का उपयोग करना होता है या स्क्रीन को आड़ी तरह से (हॉरिजॉन्टलि) स्वाइप करना होता है।
 
 ![Consumer Screenshot](./assets/3.13_SwipeIcon.png)
 
-Each of these tabs will be discussed in the following sections.
+ऊपर बताए गए प्रत्येक टैब की चर्चा अगले सेक्शनों में की गई है।
 
-### Profile tab
-**Functionality**
-* The Profile tab shows detailed information about the selected customer and their account
-* Some information can be updated/edited by the user1
+### 3.5.2.1. प्रोफाइल टैब
+**फंक्शनलिटी**
+* प्रोफाइल टैब सिलेक्टेड ग्राहक और उसके खाते की पूरी जानकारी दिखाती है।
+* यूज़र कुछ सूचनाएँ अपडेट / एडिट कर सकता है।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Profile Tab](./assets/3.27_ProfileTab.png)
 
-### Transaction tab
-**Functionality**
-* The Transaction page provides a historical account of each customer’s payments
-* Updated in real time as payments are made and recorded
+ जो भी जानकारी एडिट की जाए, उसकी ग्राहक की ओर से ओटीपी के माध्यम से पुष्टि अनिवार्य है।
 
-**Page Details**
+### 3.5.2.2. लेनदेन (ट्रांजेक्शन) टैब
+**फंक्शनलिटी**
+* ट्रांजेक्शन पेज में प्रत्येक ग्राहक के भुगतान का वृत्तांत (हिस्ट्री) प्राप्त होता है।
+* भुगतान और रिकॉर्ड होने के साथ-साथ उसी समय (रिअल टाइम) अपडेट होता जाता है।
+
+**पेज के डिटेल**
 
 ![Transaction Tab](./assets/3.28_TransacTab.png)
 
-### Cash Ledger tab
-**Functionality**
-* Provides a running record of historical bills, payments, and outstanding dues for the selected customer.
+### 3.5.2.3. कैश लेज़र टैब
+**फंक्शनलिटी**
+* सिलेक्ट किए गए ग्राहकों के पिछले बिल, भुगतान तथा उनकी ओर बकाया राशि का चालू रिकॉर्ड प्राप्त होता है।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Cash Ledger Tab](./assets/3.29_CashLedgerTab.png)
 
 
-### Security Deposit Ledger tab
-**Functionality**
-* Provides a record of security deposits for the selected customer.
+### 3.5.2.4. सिक्युरिटी डिपॉज़िट लेज़र टैब
+**फंक्शनलिटी**
+* सिलेक्ट किए ग्राहकों के सिक्युरिटी डिजॉज़िट का रिकॉर्ड प्राप्त होता है।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Security Deposit Ledger tab](./assets/3.30_SecDepositLedTab.png)
 
-### Meter Reading Ledger tab
-**Functionality**
-* A chronological list of the customer’s energy meter readings.
-* Only applies to metered customers.
+### 3.5.2.5. मीटर रीडिंग लेज़र टैब
+**फंक्शनलिटी**
+* ग्राहक के बिजली मीटर की रीडिंग की तारीख के क्रम में सूची।
+* सिर्फ उन्हीं ग्राहकों की, जिन्हें मीटर दिए गए हैं।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Meter Reading Ledger tab](./assets/3.31_MeterReadLedTab.png)
 
 
-### Service tab
-**Functionality**
-* Provides a record of the service requests made by the customer, and the response by the field team.
+### 3.5.2.6. सर्विस टैब
+**फंक्शनलिटी**
+* ग्राहक ने सेवा के लिए जो अनुरोध किया हो और उस पर फील्ड टीम की ओर से जो कार्रवाई की गई हो, उसका रिकॉर्ड
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Service tab](./assets/3.32_ServiceTab.png)
 
 
-## Receivable
-**Functionality**
-* The receivables section displays customer balances and allows agents to register payments.
+## 3.5.3. प्राप्त होने वाली राशियाँ (रिसीवेबल्स)
+**फंक्शनलिटी**
+* इस सेक्शन में ग्राहकों से प्राप्त होने वाली राशि दिखाई देती है। यहाँ एजेंट ग्राहकों से प्राप्त भुगतान को दर्ज कर सकते हैं।
 
-**Navigation**
+**नेविगेशन**
 
-This page is also accessible from the Main Menu. More details can be found in Section 3.4.6.
+इस पेज पर मैन मेन्यू से भी जा सकते हैं। इसके बारे में अधिक जानकारी 3.4.6. में दी गई है।
 
-## Consumer List
-**Functionality**
-* The Consumer List displays the current number of active and inactive customers at each plant.
-* After selecting a particular plant, the user is shown the list of customers, along with records of unpaid bills.
+## 3.5.4. उपभोक्ताओं की सूची
+**फंक्शनलिटी**
+* उपभोक्ताओं की सूची में हर प्लांट के एक्टिव और इनेक्टिव उपभोक्ता दिखाई देते हैं।
+* किसी प्लांट को सिलेक्ट करने पर उपभोक्ताओं की सूची और भुगतान न हुए बिलों का रिकॉर्ड यूज़र के सामने आता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Access to the list of active members on the plant</td>
-    <td>To check the consumer ID of a particular consumer</td>
+    <td>टेक्निशन</td>
+    <td>प्लांट के एक्टिव सदस्यों की सूची तक पहुँच</td>
+    <td>किसी उपभोक्ता का कंज्यूमर आइडी चेक करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>To check the number of active customer</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान </td>
+    <td>एक्टिव उपभोक्ताओं की संख्या देखना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Summary of total number of customers in the cluster</td>
-    <td>To create a report on the customers served at a cluster in a given time frame</td>
+    <td>समूह प्रभारी</td>
+    <td>समूह के सदस्यों की कुल संख्या और विवरण</td>
+    <td>समूह के ग्राहकों के बारे में निश्चित अवधि की कोई रिपोर्ट तैयार करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Summary of the total number of customers in the state</td>
-    <td>To create a report on the customers served in a state in a given time frame</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य के ग्राहकों की कुल संख्या और विवरण</td>
+    <td>राज्य के ग्राहकों के बारे में निश्चित अवधि की कोई रिपोर्ट तैयार करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Consumer List](./assets/3.33_ConsumerList.png)
 
@@ -179,286 +181,286 @@ This page is also accessible from the Main Menu. More details can be found in Se
 ![Consumer List Details Part2](./assets/3.35_ConsumerListDet2.png)
 
 
-### Consumer Status
-**Functionality**
-* The Consumer Status section tracks progress towards connecting customers to the distribution network.
-* Division of installation status is made into 4 parts namely – At Pole, House wire, Service Wire and Review
-* The section also displays the number of denied package requests per plant 
-* This functionality is only available for HCLF users
+## 3.5.5. उपभोक्ता का स्टेटस
+**फंक्शनिलिटी**
+* कन्ज़यूमर स्टेटस सेक्शन से पता चलता है कि ग्राहक को डिस्ट्रिब्यूशन नेटवर्क से जोड़ने का कार्य कहाँ तक पूरा हुआ है।
+* इंस्टालेशन स्टेटस को चार हिस्सों में बाँटा गया है। ये हैं – खंभा, मकान में तार, सर्विस वायर और रिव्यू
+* इस सेक्शन में यह भी दिखाई देता है कि हर प्लांट में पैकेज के कितने अनुरोध अस्वीकार किए गए हैं।
+* यह फंक्शनलिटी केवल एचसीएलएफ यूज़र को प्राप्त है। 
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम </th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Assessing the installation status of the meters for all the customers</td>
-    <td>Reporting the number of pending meter reading reviews at the end of the month</td>
+    <td>सीएसए</td>
+    <td>सभी ग्राहकों के मीटर इंस्टाल करने के स्टेटस का मूल्यांकन करना</td>
+    <td>महीने के अंत में बाकी रही मीटर रीडिंग रिव्यू की संख्या रिपोर्ट करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as CSA</td>
-    <td>Reviewing the status of hardware installation for customers within the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>सीएसए के समान</td>
+    <td>समूह में ग्राहकों के यहाँ हार्डवेअर इंस्टाल करने का स्टेटस रिव्यू करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as CSA</td>
-    <td>Launching an audit drive at a plant to improve customer service quality</td>
+    <td>राज्य प्रभारी</td>
+    <td>सीएसए के समान</td>
+    <td>ग्राहक सेवा की गुणवत्ता बढाने के लिए प्लांट में ऑडिट अभियान शुरू करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Consumer Status Summary](./assets/3.36_ConsumerStatus.png)
 
 ![Consumer Status Trend](./assets/3.37_ConsumerStatTrend.png)
 
 
-## Consumer Activity
-**Functionality**
-* Provides an interface for deactivating and reactivating customer electricity connections.
-* Changes undergo a chain of approval before they are accepted.
-* Activity changes are summarised for each plant. 
+## 3.5.6. उपभोक्ता की एक्टिविटी 
+**फंक्शनलिटी**
+* ग्राहक के बिजली के कनेक्शन को बंद (डिएक्टिवेट) और दुबारा चालू (रिएक्टिवेट) करने के लिए इंटरफेस।
+* क्रमिक रूप से अनुमोदन के बाद परिवर्तन स्वीकृत होता है।
+* हर प्लांट के एक्टिविटी संबंधी परिवर्तन का विवरण दर्ज होता है। 
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To execute requested changes to customer status</td>
-    <td>Reviewing which customers need to be de-/re-activated, and making the necessary changes to their connection</td>
+    <td>टेक्निशन</td>
+    <td>ग्राहक के स्टेटस को अनुरोध के अनुसार बदलना</td>
+    <td>देखना कि किस ग्राहक का कनेक्शन चालू/बंद करना है और उस अनुसार उनके कनेक्शन में बदलाव करना </td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To register a change to customer status and assign to field personnel</td>
-    <td>Using the app to check with a field agent whether they are available for executing the change</td>
+    <td>समूह प्रभारी</td>
+    <td>ग्राहक के स्टेटस बदलने के अनुरोध को दर्ज करना और फील्ड स्टाफ को असाइन करना</td>
+    <td>एप्प का प्रयोग कर देखना कि आवश्यक परिवर्तन करने के लिए फील्ड एजेंट उपलब्ध है या नहीं</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Approve customer status requests at plants in the state</td>
-    <td>Checking how many status change requests are pending and at which plants</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य के प्लांट के ग्राहकों से प्राप्त अनुरोध अनुमोदित करना</td>
+    <td>जाँच करना कि परिवर्तन के कितने अनुरोध लंबित (पेंडिंग) हैं और किन-किन प्लांट पर।</td>
   </tr>
 </table>
 
-**Page Details**
-The Consumer Activity page is organised into several tabs, which follow the process of the account status change.
+**पेज के डिटेल**
+ज़्यूमर एक्टिविटी पेज कई टैब में रखा गया है, जिसका प्रोसेस अकाउंट स्टेटस चेंज की तरह है। 
 
 | Request| In Process| Review| Completed|
 |---|---|---|---|
 |Register a customer for de-/re-activation|List of customers whose connection requires attention|Confirming the action has been completed| Historical list of all customer de-/re-activation details|
 
-### Request tab
+### 3.5.6.1. रिक्वेस्ट टैब
 ![Consumer Activity](./assets/3.38_ConsumerActivity.png)
 
 ![Consumer Activity](./assets/3.39_ConsumerActSum.png)
 
-### In Process tab
+### 3.5.6.2. इन प्रोसेस टैब
 ![In Process tab](./assets/3.40_InProcessTab.png)
 
-### Review tab
+### 3.5.6.3. रिव्यू टैब
 ![Review tab](./assets/3.41_ReviewTab.png)
 
-### Completed tab
+### 3.5.6.4. कंप्लिटेड टैब
 ![Completed tab](./assets/3.42_CompletedTab.png)
 
 
-## Consumer Service
-**Functionality**
-* View existing customer service requests—both technical and non-technical--at different stages of completion
-* Add new service requests
-* Assign outstanding requests to field personnel for follow-up
-* Close requests which have been resolved
+## 3.5.7. उपभोक्ता सेवा
+**फंक्शनलिटी**
+* ग्राहक सेवा के मौजूदा अनुरोध के पूरे होने की स्थिति देखना। इसमें तकनीकी और गैर-तकनीकी दोनों के प्रकार के अनुरोध शामिल हैं 
+* सेवा संबंधी नए अनुरोध जोड़ना
+* बकाया रहे अनुरोध कार्रवाई के लिए फील्ड कर्मचारियों को सौंपना
+* पूरे हो चुके अनुरोध को बंद करना
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>प्रयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To review service requests assigned to them</td>
-    <td>Prioritising pending requests, depending on when they were registered and the nature of the work</td>
+    <td>टेक्निशन</td>
+    <td>उन्हें असाइन किए गए सेवा संबंधी अनुरोध रिव्यू करना</td>
+    <td>लंबित (पेंडिंग) रिक्वेस्ट को आगे बढ़ाना, जो इस बात पर निर्भर करेगा कि वे कब दर्ज हुए थे और किस कार्य से संबंधित हैं</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>Phoning customers to understand what issue is being faced, and marking a request as complete when it has been resolved</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान</td>
+    <td>ग्राहक से फोन पर बात कर समझना कि उनकी समस्या क्या है और हल होने पर उसे पूर्ण के रूप में चिह्नित करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To view all requests from customers in the cluster</td>
-    <td>Reviewing pending requests and assigning them to personnel for follow-up</td>
+    <td>समूह प्रभारी</td>
+    <td>समूह के सभी ग्राहकों के अनुरोध देखना</td>
+    <td>लंबित (पेंडिंग) अनुरोध रिव्यू करना और आगे की कार्रवाई के लिए कर्मचारियों को सौंपना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To gain an overview of service request statistics in the state</td>
-    <td>Tracking targets on personnel response time and customer satisfaction</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य में सेवा संबंधी अनुरोध के आँकड़ों की पूरी जानकारी प्राप्त करना</td>
+    <td>कर्मचारियों द्वारा कार्रवाई में लगने वाले समय संबंधी लक्ष्य और ग्राहक संतुष्टि संबंधी लक्ष्य पर नजर रखना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 | Report| Request| Completed|
 |---|---|---|
 |Overview statistics on completed and pending service requests| Detailed list of pending requests and personnel assignments| Record of all completed requests|
 
-### Report tab
+### 3.5.7.1. रिपोर्ट टैब
 ![Report tab](./assets/3.43_ReportTab1.png)
 
 ![Report tab](./assets/3.44_ReportTab2.png)
 
-### Request tab
+### 3.5.7.2. रिक्वेस्ट टैब
 ![Request tab](./assets/3.45_RequestTab.png)
 
-### Completed tab
+### 3.5.7.3. कार्य पूर्ण होने का (कंप्लिटेड) टैब
 ![Completed tab](./assets/3.46_CompletedTab.png)
 
-## Temporary Disconnect
-**Functionality**
-* Allows a user to remotely disconnect the supply of particular customers
-* This functionality is only available for TaraUrja users
+## 3.5.8. अस्थायी (टेंपरेरी) डिस्कनेक्ट
+**फंक्शनलिटी**
+* इससे यूज़र किसी निश्चित ग्राहक की बिजली सप्लाइ दूर से (रिमोटली) बंद कर सकता है।
+* यह फंक्शनिलिटी केवल ताराऊर्जा उपयोग करने वालों को दी गई है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Disconnecting specific customers at a plant</td>
-    <td>Disconnecting high-load customers when a demand surge causes the plant to trip, until system stability is restored</td>
+    <td>टेक्निशन</td>
+    <td>किसी प्लांट के किसी ग्राहक को डिस्कनेक्ट करना</td>
+    <td>बिजली की मांग बढ़ने से प्लांट रुक जाने (ट्रिप हो जाने) पर ज्यादा लोड वाले ग्राहकों को तब तक डिस्कनेक्ट किए रहना, जब तक कि सिस्टम पूरी तरह से चालू न हो जाए। </td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Disconnecting all customers at a plant</td>
-    <td>Disconnecting all customers for safety during network maintenance</td>
+    <td>समूह प्रभारी</td>
+    <td>किसी प्लांट के सभी ग्राहकों को डिस्कनेक्ट करना</td>
+    <td>नेटवर्क के रख-रखाव (मेन्टेनेन्स) के समय सुरक्षा की दृष्टि से सभी ग्राहकों को डिस्कनेक्ट करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Temporary Disconnect](./assets/3.47_TemporaryDisconnect.png)
 
 
-## Add Consumer
-**Functionality**
-* Create a new customer account in the MCOMS system
+## 3.5.9. ग्राहक को ऐड करना
+**फंक्शनलिटी**
+* एमकॉम्स सिस्टम में नए ग्राहक का खाता बनाना
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To add a consumer into the company database</td>
-    <td>Manual addition of a customer who cannot request an account through the customer smartphone app</td>
+    <td>टेक्निशन</td>
+    <td>उपभोक्ता को कंपनी के डेटाबेस में जोड़ना</td>
+    <td>जो ग्राहक खाता बनाने के लिए स्मार्टफोन एप्प से रिक्वेस्ट नहीं कर सकते उन्हें मैनुअली जोड़ना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>समूह प्रभारी</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Technician</td>
-    <td>Same as Technician</td>
+    <td>राज्य प्रभारी</td>
+    <td>टेक्निशन के समान</td>
+    <td>टेक्निशन के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Add Consumer](./assets/3.48_AddConsumer.png)
 
-## Add Instant Consumer
-**Functionality**
-* Quickly create a new customer account in the MCOMS system, with only critical information recorded
-* This functionality is only available for TaraUrja users
+## 3.5.10. ग्राहक को तत्काल ऐड करना
+**फंक्शनलिटी**
+* एमकॉम्स सिस्टम में नए ग्राहक का तत्काल खाता बनाना, जिसके लिए केवल कुछ महत्वपूर्ण जानकारी रिकॉर्ड करनी होती है।
+* यह फंक्शनिलिटी केवल तारा ऊर्जा यूज़र को दी गई है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रजोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To quickly add a new customer into the company database</td>
-    <td>During a recruitment drive in a public place, many prospective customers may need registration in a short period of time</td>
+    <td>सीएसए</td>
+    <td>नए ग्राहक को तत्काल कंपनी के डेटाबेस में जोड़ना</td>
+    <td>किसी स्थान पर भर्ती अभियान के समय कई संभावित ग्राहक शीघ्रता से रजिस्टर होना चाहते हैं।</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as CSA</td>
-    <td>Same as CSA</td>
+    <td>समूह प्रभारी</td>
+    <td>सीएसए के समान</td>
+    <td>सीएसए के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as CSA</td>
-    <td>Same as CSA</td>
+    <td>राज्य प्रभारी</td>
+    <td>सीएसए के समान</td>
+    <td>सीएसए के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Add Instant Consumer](./assets/3.49_AddInstantConsumer.png)
 
-## Catchment Survey
-**Functionality**
-* The Catchment Survey Section showcases an overview of all the customers and potential customers present at a plant
-* The ‘catchment’ created intends to assist in reviewing customer behaviour over a period of time
-* It also gives a detailed list on the penetration made into the potential customer base
+## 3.5.11. ग्राहक प्राप्त करने के लिए (कैचमेंट) सर्वे
+**फंक्शनलिटी**
+* कैचमेंट सर्वे सेक्शन प्लांट के सभी ग्राहकों और संभावित ग्राहकों का संक्षिप्त विवरण दर्शाता है।
+* ‘कैचमेंट’ रखने का प्रयोजन है धीरे-धीरे ग्राहकों के व्यवहार की समीक्षा करना।
+* संभावित ग्राहकों तक पहुँचने के लिए किए गए प्रयास की विस्तृत सूची भी इससे प्राप्त होती है। 
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रजोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To record survey responses of energy consumers</td>
-    <td>Interviewing a local who comes to the plant to enquire about getting a connection</td>
+    <td>ऑपरेटर</td>
+    <td>बिजली उपभोक्ताओं द्वारा सर्वे में दिए गए उत्तर रिकॉर्ड करना</td>
+    <td>कनेक्शन के लिए प्लांट में आकर पूछताछ करने वाले स्थानीय व्यक्ति का इंटरव्यू लेना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Updating an existing customer’s profile and contact information</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>मौजूदा ग्राहक का प्रोफाइल और संपर्क विवरण अपडेट करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Interviewing locals in the catchment area to understand energy needs and use patterns</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>बिजली की जरूरत और उपयोग के पैटर्न को समझने के लिए कैचमेंट एरिया के लोगों से बातचीत करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Reviewing the number of active, inactive, and prospective customers in the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>समूह के एक्टिव, इनेक्टिव और संभावित ग्राहकों की संख्या का रिव्यू करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Catchment Survey](./assets/3.50_CatchmentSummary.png)
 
 ![Catchment Survey](./assets/3.51_ConsumerList.png)
@@ -467,101 +469,102 @@ The Consumer Activity page is organised into several tabs, which follow the proc
 
 ![Catchment Survey](./assets/3.53_CatchmentSurvey3.png)
 
-## Theft Complaint
-**Functionality**
-* Used to register possible pilferage from the mini-grid, for follow-up investigation
-* This functionality is only available for HCLF users
+## 3.5.12. चोरी की शिकायत
+**फंक्शनलिटी**
+* इस फंक्शनलिटी से मिनी ग्रिड से चोरी हुई बिजली का डेटा जाँच-पड़ताल के लिए दर्ज हो जाता है 
+* यह फंक्शनलिटी केवल एचसीएलएफ यूज़र को मिलती है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र **
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>प्रयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To register a possible theft for follow-up</td>
-    <td>Registering a complaint from a customer who visits the plant</td>
+    <td>ऑपरेटर</td>
+    <td>संभावित चोरी दर्ज करना ताकि उस पर कार्रवाई हो सके</td>
+    <td>प्लांट में आने वाले ग्राहक की शिकायत दर्ज करना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To view pending theft complaints</td>
-    <td>Checking the distribution network cables as directed by the Cluster In-charge</td>
+    <td>टेक्निशन</td>
+    <td>चोरी की लंबित (पेंडिंग) शिकायतें देखना</td>
+    <td>समूह प्रभारी के बताए अनुसार डिस्ट्रिब्यूशन नेटवर्क के केबल चेक करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Registering a complained after noticing new unsanctioned cables</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>बिना स्वीकृति वाले नए कैबल दिखाई देने पर शिकायत दर्ज करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To review logged theft complaints and assign them to field agents for investigation</td>
-    <td>Reviewing the total number of theft complaints within a given time frame</td>
+    <td>समूह प्रभारी</td>
+    <td>चोरी की शिकायतों का रिव्यू करना और पड़ताल के लिए फील्ड स्टाफ को असाइन करना</td>
+    <td>किसी निश्चित अवधि की चोरी की सभी शिकायतों को रिव्यू करना</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
+
 | Pending| In Process| Completed|
 |---|---|---|
 | The theft reports that are reported| Theft reports that are currently being investigated| Theft reports that have been appropriately dealt with|
 
-### Pending tab
+### 3.5.12.1. पेंडिंग टैब
 ![Pending tab](./assets/3.54_TheftComplaint.png)
 
 ![Pending tab](./assets/3.55_TheftComplaintSumm.png)
 
 ![Pending tab](./assets/3.56_NewTheftRequest.png)
 
-### In Process tab
+### 3.5.12.2. प्रक्रिया टैब में
 ![In Process tab](./assets/3.57_TheftComplain1.png)
 
 
-### Completed tab
+### 3.5.12.3. कंप्लिटेड टैब
 ![Completed tab](./assets/3.58_TheftComplain2.png)
 
-## Coupon Discount
-**Functionality**
-* Allows plant personnel to generate coupons for customers
-* Tracks the number of redeemed coupons
+## 3.5.13. कूपन डिस्काउंट
+**फंक्शनलिटी**
+* प्लांट के कर्मचारी ग्राहकों के लिए कूपन तैयार कर सकते हैं।
+* रिडीम किए गए कूपनों की संख्या मालूम होती है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To generate coupon codes on behalf of customers</td>
-    <td>Assisting a customer who doesn’t have a smartphone to avail a company promotion</td>
+    <td>ऑपरेटर</td>
+    <td>ग्राहकों की ओर से कूपन कोड जनरेट करना</td>
+    <td>जिन ग्राहकों के पास स्मार्ट फोन नहीं है, उन्हें कंपनी के प्रमोशन ऑफर प्राप्त करने में मदद करना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To track the customers whose coupons are going to expire</td>
-    <td>Following up with customers who have generated coupons but not redeemed them</td>
+    <td>समूह प्रभारी</td>
+    <td>ऐसे ग्राहकों का पता लगाना जिनके कूपन की अवधि समाप्त हो रही है</td>
+    <td>ऐसे ग्राहकों से संपर्क करना जिन्होंने कूपन जनरेट तो किए हैं किंतु रिडीम नहीं किए हैं</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To monitor the results of coupon schemes at different plants</td>
-    <td>Calculating the proportion of eligible customers who participated in the initiative</td>
+    <td>राज्य प्रभारी</td>
+    <td>विभिन्न प्लांट में कूपन स्कीम के परिणाम पर निगाह रखना</td>
+    <td>इस योजना में शामिल हुए पात्र ग्राहकों के अनुपात की गिनती करना</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 ![Coupon Summary](./assets/3.59_CouponSummary.png)
 
 ![Coupon Discount](./assets/3.60_CouponDiscount.png)

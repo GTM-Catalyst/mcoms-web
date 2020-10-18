@@ -1,12 +1,12 @@
 ---
 id: BllPyDet
-title: Billing and Payment Detail
-sidebar_label: Billing and Payment Detail
+title: जारी हुए बिल और भुगतान का विवरण (बिलिंग एंड पेमेंट डिटेल)
+sidebar_label: बिल और भुगतान का विवरण
 ---
 
-**Functionality**
-* The Billing and Payment Details page details each transaction (credits and debits) registered to the user account.
-* The customer’s account information is also summarised.
+**फंक्शनलिटी**
+* बिलिंग और पेमेंट डिटेल पेज में उन सारे लेनदेन (जमा और नामे या क्रेडिट और डेबिट) का विवरण मिलता है जो यूज़र के खाते में हुए हैं।
+* ग्राहक के खाते की जानकारी भी संक्षेप में दी जाती है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Billing And Payment Detail](./assets/4.14_BillPymtDet.png)

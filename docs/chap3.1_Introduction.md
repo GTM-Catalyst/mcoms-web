@@ -1,7 +1,7 @@
 ---
 id: introduction
-title: Introduction
-sidebar_label: Introduction
+title: 3.1. भूमिका
+sidebar_label: भूमिका
 ---
 
-The field agent smartphone app is the portal through which intelligence from the ground is consolidated and communicated back to mini-grid management. It is also a critical tool for guiding and supporting field agents to carry out their duties.
+फील्ड एजेंट स्मार्टफोन एप्प एक पोर्टल है जिसके मार्फत जमीनी स्तर की सूचनाएँ संग्रहित की जाती हैं और मिनी ग्रिड प्रबंधन वर्ग को संप्रेषित (कम्युनिकेट) की जाती हैं। फील्ड एजेंटों को उनकी ड्यूटी पूरी करने में मार्गदर्शन और सहायता देने का भी यह महत्वपूर्ण साधन है।

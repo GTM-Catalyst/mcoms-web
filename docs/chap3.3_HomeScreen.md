@@ -1,28 +1,29 @@
 ---
 id: HomScr
-title: Home Screen
-sidebar_label: Home Screen
+title: 3.3. होम स्क्रीन
+sidebar_label: होम स्क्रीन
 ---
 
-### Overview
-* The Home Screen is the first page the user views upon logging in.
-* The various functionalities of the application are accessible via the circular module icons.
-* These icons are organised under several headings for ease of navigation, see the figure
+## 3.3.1. एक नजर (ओवरव्यू)
+* लॉग-इन करने के बाद यूज़र के सामने सबसे पहले होम स्क्रीन आता है। 
+* एप्लीकेशन की अलग-अलग फंक्शनलिटी तक सर्क्युलर मॉड्यूल के जरिए पहुँचा जा सकता है।
+* इनके आइकॉन को कंज़्यूमर, पैकेज, स्कीम आदि हेडिंग के अंतर्गत रखा गया है।नीचे दिया गया चित्र देखें
 
 ![Home Screen](./assets/3.4_HomScreen.png) 
 
-##### FIGURE: FIELD AGENT APP SECTION HEADINGS.
+##### चित्र फील्ड एजेंट ऐप के सेक्शन का हैडिंग
 ![FIELD AGENT APP SECTION HEADINGS](./assets/3.5_AppSecHeadings.svg)
 
-### Pop-up Notifications
-**Functionality**
-* Upon logging in, the user may see one or more automatic pop-ups.
-* These pop-ups notify the user about outstanding tasks which require attention.
-* The notifications may also alert the user of specific urgent issues like coronavirus precautions.
+## 3.3.2. पॉप-अप सूचनाएँ (नोटिफिकेशन्स)
+**फंक्शनलिटी**
 
-**Page Details** 
+* लॉग-इन करने पर यूज़र को एक या दो पॉप-अप अपने आप दिखाई दे सकते हैं।
+* इन पॉप-अप में यूज़र का ध्यान बकाया कार्यों की ओर दिलाया जाता है।
+* तत्काल महत्व के मामलों पर भी सूचनाएँ भेजी जा सकती हैं, जैसे कोरोना वाइरस से बचाव के लिए जरूरी सतर्कता।
 
-The main types of pop-up notifications are elaborated below.
+**पेज के डिटेल** 
+
+मुख्य-मुख्य पॉप-अप सूचनाएँ नीचे बताई गई हैं –
 
 | Plant Maintenance Reminder|Generation Error| Consumption Data Reminder| Generation Data Reminder|
 |--|--|--|--|
@@ -36,12 +37,12 @@ The main types of pop-up notifications are elaborated below.
 
 ![Consumption Data Reminder](./assets/3.9_ConsDataReminder.png) 
 
-### Notifications Icon
-**Functionality**
-* Shows the number of active Customer Service Requests and Meter Release Requests.
-* Tapping navigates to a detailed list of requests.
-* This icon is present on most pages.
+## 3.3.3. सूचनाओं के (नोटिफिकेशन्स) आइकॉन
+**फंक्शनलिटी**
+* यह दिखाता है कि ग्राहकों के कितने सेवा-अनुरोध और मीटर रिलीज़ करने के कितने अनुरोध अभी पूरे नहीं हुए (एक्टिव) हैं।
+* टैप करने पर सभी अनुरोध की सूची मिल जाती है।
+* ज्यादातर पेज पर यह आइकॉन रखा गया है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Page Details](./assets/3.10_PageDetails.png)
 

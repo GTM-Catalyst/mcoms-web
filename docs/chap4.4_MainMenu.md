@@ -1,13 +1,15 @@
 ---
 id: MainMenuCust
-title: Main Menu
-sidebar_label: Main Menu
+title: 4.4. मुख्य मेन्यू
+sidebar_label: मुख्य मेन्यू
 ---
 
-**Functionality**
-* The Main Menu can be accessed by tapping on the icon on the top right of the screen
-* It provides an alternative method for navigating the app, accessible from several other pages.
+**फंक्शनलिटी**
+* मुख्य मेन्यू तक जाने के लिए स्क्रीन में ऊपर दाहिनी ओर दिए गए आइकॉन को टैप करना होगा।
+* एप्प में कई तरह से नेविगेट किया जा सकता है। बहुत-से अन्य पेज से यहाँ पहुँचा जा सकता है।
+
+**पेज के डिटेल**
 
 ![MAIN MENU](./assets/4.9_MainMenuCust.png)
 
-The functionality of each Main Menu item / Dashboard item is described in the sections that follow.
+मैन मेन्यू आइटम / डैश बोर्ड आइटम की हर फंक्शनलिटी के बारे में आगे के सेक्शन में बताया गया है।

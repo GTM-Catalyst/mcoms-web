@@ -1,137 +1,137 @@
 ---
 id: plant
-title: Plant
-sidebar_label: Plant
+title: 3.7. प्लांट
+sidebar_label: प्लांट
 ---
 
-## Overview
-The section consists of the following functionalities:
+## 3.7.1. एक नजर
+इस सेक्शन में नीचे बताई हुई फंक्शनलिटी हैं
 
 ![Plant Functionalities](./assets/3.70_PlantTabs.svg)
 <br/><br/>
 
 ![Consumer Screenshot](./assets/3.71_PlantTabScreenShot.png)
  
-## Plant Performance
-**Functionality**
-* The Plant Performance Section summarises technical performance metrics for each plant
+## 3.7.2. प्लांट का परफार्मेन्स
+**फंक्शनलिटी**
+* प्लांट परफार्मेन्स सेक्शन में तकनीकी परफार्मेन्स मापदंडों (मैट्रिक्स) का पता चलता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To check data logs for a particular plant</td>
-    <td>Ensuring that the database agrees with ground measurements</td>
+    <td>ऑपरेटर</td>
+    <td>किसी निश्चित प्लांट के डेटा लॉग को चेक करना</td>
+    <td>सुनिश्चित करना कि डेटाबेस और ग्राउंड मेज़रमेंट एक समान है।</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To assess the performance of the equipment at the plant</td>
-    <td>Calculating in-plant and distribution efficiency</td>
+    <td>टेक्निशन</td>
+    <td>प्लांट में लगे उपकरणों का परफार्मेन्स आँकना</td>
+    <td>प्लांट की उपकरणों की दक्षता (इफिशंसि) की गणना करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To check units sold in a particular timeframe</td>
-    <td>Comparing units sold in one month with the previous month</td>
+    <td>सीएसए</td>
+    <td>चेक करना कि निश्चित समयावधि में कितनी यूनिट की बिक्री हुई</td>
+    <td>चालू माह में बिकी यूनिट की पिछले माह बिकी यूनिट से तुलना करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To compare technical performance of multiple plants</td>
-    <td>Same as Technician</td>
+    <td>समूह प्रभारी</td>
+    <td>प्लांटों के तकनीकी परफार्मेन्स की एक-दूसरे के साथ तुलना करना</td>
+    <td>टेक्निशन के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Calculating the utilisation of the plant to inform whether more customers should be connected</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह-प्रभारी के समान</td>
+    <td>प्लांट के उपयोग की गणना करना तथा और ग्राहक जोड़े जा सकते हों तो सूचना देना</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Plant Performance](./assets/3.72_PlantPerformance.png)
 
-**Generation Data**
+**जनरेशन डेटा**
 ![Generation Data](./assets/3.73_GenerationData.png)
 
-**Consumption Data**
+**खपत का डेटा**
 ![Consumption Data](./assets/3.74_ConsumptionData.png)
 
 
-## Plant Utilisation
-**Functionality**
-* The Plant Utilisation Section summarises technical performance metrics and energy consumption for each plant
-* This functionality is only available for HCLF agents
+## 3.7.3. प्लांट का उपयोग
+**फंक्शनलिटी**
+* प्लांट यूटिलाइजेशन सेक्शन में हर प्लांट के तकनीकी परफार्मेन्स के मापदंड (मेट्रिक्स) और बिजली की खपत का विवरण रहता है।
+* यह फंक्शनलिटी केवल एचसीएलएफ एजेंटों के पास होती है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To assess the performance of equipment at the plant</td>
-    <td>Calculating in-plant and distribution efficiency</td>
+    <td>टेक्निशन</td>
+    <td>प्लांट के उपकरणों का परफार्मेन्स आँकना</td>
+    <td>प्लांट की तथा वितरण की दक्षता (इफिशंसि) की गणना करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To check units consumed by different user groups</td>
-    <td>Comparing month-on-month electricity demand from micro-enterprises</td>
+    <td>समूह प्रभारी</td>
+    <td>चेक करना कि उपयोगकर्ताओं के अलग-अलग समूहों ने कितनी यूनिट की खपत की है।</td>
+    <td>सूक्ष्म उद्यमों (माइक्रो एंटरप्राइजेस) की बिजली की हर महीने की मांग की तुलना करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To compare technical performance of multiple plants</td>
-    <td>Calculating the utilisation of the plant to inform whether more customers can be connected</td>
+    <td>राज्य प्रभारी</td>
+    <td>विभिन्न प्लांटों के तकनीकी परफार्मेन्स की तुलना करना</td>
+    <td>प्लांट के उपयोग की गणना करना तथा और ग्राहक जोड़े जा सकते हों तो सूचना देना</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Plant Utilization](./assets/3.75_PlantUtilisation.png)
 
 
-## Add Generation Data
-**Functionality**
-* The Add Generation Data module allows the user to input energy generation data into the company database
+## 3.7.4. उत्पादन का डेटा दर्ज करना
+**फंक्शनलिटी**
+* ऐड जनरेशन डेटा मॉड्यूल से यूज़र बिजली उत्पादन का डेटा कंपनी के डेटाबेस में दर्ज कर सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To add generation data for a particular date</td>
-    <td>Reading units generated at each solar MPPT daily, and recording in the app</td>
+    <td>ऑपरेटर</td>
+    <td>किसी निश्चित तारीख के उत्पादन का डेटा दर्ज करना</td>
+    <td>हर सोलर एमपीपीटी से जनरेट हुई यूनिट की हर दिन रीडिंग लेना और एप्प में रिकॉर्ड करना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समानr</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>राज्य प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Add Generation Data](./assets/3.76_AddGenerationData1.png)
 
@@ -139,73 +139,74 @@ The section consists of the following functionalities:
 
 
 
-## Add Consumption Data
-**Functionality**
-* The Add Consumption Data module allows the user to input energy dispatch data into the company database
+## 3.7.5. खपत का डेटा दर्ज करना
+**फंक्शनलिटी**
+* ऐड कंज़म्पशन डेटा मॉड्यूल से यूज़र प्लांट से प्रेषित बिजली का डेटा कंपनी के डेटाबेस में दर्ज कर सकता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To add dispatch data for a particular date</td>
-    <td>Reading units through each feeder daily, and recording in the app</td>
+    <td>ऑपरेटर</td>
+    <td>किसी निश्चित तारीख को प्रेषित बिजली का डेटा दर्ज करना</td>
+    <td>रोज हर फीडर की रीडिंग लेना और एप्प में रिकॉर्ड करना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>राज्य प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Add Generation Data](./assets/3.78_AddGenData.png)
 
 ![Add Generation Data](./assets/3.79_AddGenData2.png)
 
 
-## Diesel Consumption
-**Functionality**
-* The Diesel Consumption Section allows the user to input details on plant fuel expenses, along with photos of receipts
-* Past expenses and DG usage data can also be reviewed
-* Fuel bills are to be reimbursed by the Head Office
+## 3.7.6. डीज़ल की खपत
+**फंक्शनलिटी**
+* डीज़ल कंज़्मप्शन सेक्शन में यूज़र प्लांट के ईंधन खर्च का विवरण रसीदों के फोटो के साथ दर्ज कर सकता है
+* पिछले खर्च और डीज़ल जनरेटर के उपयोग का डेटा भी देखा जा सकता है
+* ईंधन खर्च की प्रधान कार्यालय द्वारा प्रतिपूर्ति (रिइंबर्समेंट) की जाती है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To maintain a record of diesel expenses and fuel use</td>
-    <td>Adding a diesel purchase made at a particular plant within the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>डीज़ल के खर्च और उपयोग का रिकॉर्ड मेन्टेन करना</td>
+    <td>समूह के किसी प्लांट के लिए डीज़ल की खरीदी दर्ज करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To review diesel expenses and DG usage at different plants</td>
-    <td>Checking for fuel pilferage by comparing fuel efficiencies at different plants / times</td>
+    <td>राज्य प्रभारी</td>
+    <td>विभिन्न प्लांट में डीज़ल पर हुए खर्च और उपयोग का रिव्यू करना</td>
+    <td>विभिन्न प्लांट / विभिन्न समय की ईंधन क्षमता की तुलना कर यह चेक करना कि ईंधन की चोरी तो नहीं हो रही है</td>
   </tr>
 </table>
 
+<br/>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Diesel Consumption](./assets/3.80_DeiselConsumption1.png)
 
@@ -216,82 +217,82 @@ The section consists of the following functionalities:
 
 
 
-## Bank Deposit
-**Functionality**
-* Interface for registering a deposit of collected cash into the company bank account
-* Record and summary of past deposits can be viewed, along with in-plant cash records
+## 3.7.7. बैंक में डिपॉज़िट
+**फ्क्शनलिटी**
+* ग्राहकों से प्राप्त नकदी को कंपनी के बैंक अकाउंट में जमा करने की सूचना देने का इंटरफेस 
+* विगत में जमा की गई राशियों का रिकॉर्ड और विवरण देखा जा सकता है। साथ में प्लांट में रखी नकदी का रिकॉर्ड भी मिलता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To register new deposits</td>
-    <td>Depositing cash collected from customers into the company bank account</td>
+    <td>सीएसए</td>
+    <td>बैंक में जमा की गई नई राशियाँ दर्ज करना </td>
+    <td>ग्राहकों से प्राप्त नकदी कंपनी के बैंक अकाउंट में जमा करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To view the cash flow for plants in the cluster</td>
-    <td>Checking the amount of collected cash is still with filed agents and is yet to be deposited</td>
+    <td>समूह प्रभारी</td>
+    <td>समूह के प्लांट से प्राप्त हो रही नकदी (कैश फ्लो) देखना</td>
+    <td>चेक करना कि ग्राहकों से प्राप्त नकदी में से कितनी अब तक फील्ड एजेंट के पास है और बैंक में जमा की जानी है</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To view the cash flow for plants in the state</td>
-    <td>Ensuring bank deposits are going through correctly, and are happening on schedule</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य के प्लांट से प्राप्त हो रही नकदी (कैश फ्लो) देखना</td>
+    <td>सुनिश्चित करना कि बैंक में जमा हो रही राशियाँ ठीक हैं और समय पर जमा हो रही हैं</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
-The page is organised into the following tabs.
+पेज में निम्नलिखित टैब रखे गए हैं -
 
 | Bank Deposit| In Hand Cash Report| Bank Deposit Review|
 |---|---|---|
 | Detailed list of historical bank deposits| Plant-wise overview of collections and deposits| Overview of all the bank deposits made and confirmed|
 
 
-### Bank Deposit tab
+### 3.7.7.1. बैंक डिपॉज़िट टैब
 ![Bank Deposit Tab](./assets/3.83_BankDeposit.png)
 
 ![Bank Deposit Tab](./assets/3.84_AddBankDeposit.png)
 
-### In Hand Cash Report tab
+### 3.7.7.2. प्लांट में रखी नकदी (इन-हैंड कैश) रिपोर्ट टैब
 ![In Hand Cash Report tab](./assets/3.85_InHandCashTab.png)
 
-### Bank Deposit Review tab
+### 3.7.7.3. बैंक डिपॉज़िट रिव्यू टैब
 
 ![Bank Deposit Review tab](./assets/3.86_BankDepositReviewTab.png)
 
 
-## Plant Shutdown Info
-**Functionality**
-* The Plant Shutdown Info allows the users to manually shutdown a particular feeder at a specific plant
+## 3.7.8. प्लांट शट-डाउन की सूचना
+**फंक्शनलिटी**
+* प्लांट शट-डाउन सूचना से यूज़र किसी निश्चित प्लांट के निश्चित फीडर को मैनुअली बंद कर सकता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To temporarily shut down electricity supply</td>
-    <td>Shutting a feeder down for maintenance, for a specified time duration</td>
+    <td>समूह प्रभारी</td>
+    <td>बिजली की आपूर्ति अस्थायी रूप से बंद करना</td>
+    <td>निश्चित समय-अवधि के लिए किसी फीडर को मेन्टेन्स के लिए बंद करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह-प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Plant Status](./assets/3.87_PlantStatus1.png)
 
@@ -301,74 +302,74 @@ The page is organised into the following tabs.
 
 
 
-## Plant Maintenance
-**Functionality**
+## 3.7.9. प्लांट का रख-रखाव (मेन्टेनेन्स)
+**फंक्शनलिटी**
 * Allows the users to log technical maintenance activities which have happened at a plant
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To register a plant maintenance activity</td>
-    <td>Creating a log of DG servicing or PV panel repair</td>
+    <td>समूह प्रभारीसमूह प्रभारी</td>
+    <td>प्लांट के रख-रखाव संबंधी कार्य को दर्ज करना</td>
+    <td>डीज़ल जनरेटर सर्विसिंग या पीवी पैनल की मरम्मत की सूचना दर्ज करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>समूह प्रभारी के समान</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Plant Maintenance](./assets/3.90_PlantMaintenance1.png)
 
 ![Plant Maintenance](./assets/3.91_PlantMaintenance2.png)
 
 
-## DG Log
-**Functionality**
-* The DG Log Section allows users to track diesel generator performance and runtime
+## 3.7.10. डीज़ल जनरेटर (डीजी) लॉग
+**फंक्शनलिटी**
+* डीजी लॉग सेक्शन से यूज़र डीज़ल जनरेटर के परफार्मेन्स और रन-टाइम का पता लगाता है
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To log diesel generator runtime and units output</td>
-    <td>Recording each time the DG is switched on and off</td>
+    <td>ऑपरेटर</td>
+    <td>दर्ज करना कि डीज़ल जनरेटर कितने समय चला और उससे कितने यूनिट बिजली पैदा हुई</td>
+    <td>जब-जब भी डीज़ल जनरेटर चालू किया जाए, हर बार रिकॉर्ड करना</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To view generator usage at different plants</td>
-    <td>Checking how reliance of different plants on backup generators changes over time</td>
+    <td>समूह प्रभारी</td>
+    <td>विभिन्न प्लांट में जनरेटर का उपयोग देखना</td>
+    <td>चेक करना कि विभिन्न प्लांटों की बैकअप जनरेटर पर निर्भरता समय-समय पर किस प्रकार बदलती रहती है</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Same as Cluster In-charge</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह-प्रभारी की तरह</td>
+    <td>समूह-प्रभारी की तरह</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![DG Log Summary](./assets/3.92_DGLogSum.png)
 

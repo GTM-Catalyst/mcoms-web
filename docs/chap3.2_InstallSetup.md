@@ -1,21 +1,21 @@
 ---
 id: InstallSetup
-title: Installation and Setup
-sidebar_label: Installation and Setup
+title: 3.2. इंस्टालेशन और सेटअप
+sidebar_label: इंस्टालेशन और सेटअप
 ---
 
-* The field agent app runs on the Android operating system
-* It can be downloaded from the Google Play store and other app repositories.
+* फील्ड एजेंट एप्प एंड्राइट सिस्टम पर काम करता है।
+* इसे गूगल प्ले स्टोर या अन्य किसी एप्प स्टोर से डाउनलोड किया जा सकता है।
 
-	##### Figure: Field agent app icon.
+	##### चित्र फील्ड एजेंट ऐप का आइकॉन 
 	![Field agent app icon](./assets/3.1_AppIcon.png)
 
-* The user should type “Tara” into the search bar and select the app shown in the figure.
-* Hardware requirements are shown below.
+* यूज़र को सर्च बार में Tara टाइप कर चित्र में दिखाए गए आइकॉन को सिलेक्ट करना होगा।
+* हार्डवेअर संबंधी जरूरत नीचे बताई गई है।
 
-	##### Table: Field agent app installation requirements.
+	##### टेबल :  फील्ड एजेंट एप्प इंस्टाल करने के लिए क्या जरूरी है
 	![Field agent app installation requirements](./assets/3.2_HardwareReq.png)
 
-* Upon opening the application, the user is prompted for their login credentials.
+* एप्लीकेशन खोलने पर यूज़र लॉग-इन विवरण पर पहुँचता है।
 	![Set Up Prompt](./assets/3.3_SetUpPrompt.png)
 

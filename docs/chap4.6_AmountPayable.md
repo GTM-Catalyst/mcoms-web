@@ -1,12 +1,12 @@
 ---
 id: AmPbl
-title: Amount Payable
-sidebar_label: Amount Payable
+title: 4.6 देय राशि (अमाउंट पेयबल)
+sidebar_label: अमाउंट पेयबल
 ---
 
-**Functionality**
-* The Amount Payable section shows the total outstanding amount that the user must pay to the company
-* The amount is broken up according to the type of service
+**फंक्शनलिटी**
+* अमाउंट पेयबल सेक्शन बताता है कि ग्राहक की ओर कितनी राशि बकाया है जो उसे कंपनी को चुकाना ही है।
+* हर सेवा के लिए देय राशि अलग-अलग बताई जाती है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Amount Payable](./assets/4.13_AmountPayable.png)

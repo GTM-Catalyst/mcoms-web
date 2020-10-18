@@ -1,198 +1,198 @@
 ---
 id: MainMenu
-title: Main Menu
-sidebar_label: Main Menu
+title: 3.4 मुख्य मेन्यू
+sidebar_label: मुख्य मेन्यू
 ---
 
-## Overview
-* The Main Menu provides shortcuts to the key sections, shown below.
+## 3.4.1. एक नजर (ओवरव्यू)
+* मुख्य मेन्यू में खास-खास सेक्शन तक जाने के शॉर्टकट नीचे बताए अनुसार दिए गए हैं।
 
-	##### FIGURE: MAIN MENU SHORTCUTS.
+	##### चित्र: मुख्या मेनू के शॉर्टकट
 	![MAIN MENU SHORTCUTS](./assets/3.11_MainMenuShortcusts.svg)
 	<br/><br/>
 
 	![Shortcuts Screen Shot](./assets/3.12_ShortcutScreenShot.png)
 
-* It can be accessed from any page in two ways:
-	* Tapping the icon at the upper left of the screen, or
-	* Swiping right from the left edge of the screen
+* किसी भी पेज से यहाँ दो तरह से पहुँचा जा सकता है
+	* स्क्रीन में बायें ऊपर की ओर दिए आइकॉन को टैप कर
+	* स्क्रीन के बायें किनारे से दाहिनी ओर स्वाइप करके
 
 		![Swipe Icon](./assets/3.13_SwipeIcon.png)
 
-## Home
-Returns user to the Home Screen (Section 3.3).
+## 3.4.2. होम
+यूज़र होम स्क्रीन (सेक्शन 3.3) पर वापस आ जाता है।
 
-## Dashboard
-**Functionality**
-* Provides at-a-glance collection and billing data from various sources of the company
-* Updated in real time as payments are made and recorded
+## 3.4.3. डैशबोर्ड
+**फंक्शनलिटी**
+* कंपनी को विभिन्न स्रोतों से प्राप्त कलेक्शन और बिलिंग का डेटा एक नजर में सामने आ जाता है।
+* भुगतान प्राप्त और रिकॉर्ड होने के साथ-साथ अपडेट होता रहता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Reviewing the plant-wide collections that need to made</td>
-    <td>Assessing the percentage of billed revenue which is still outstanding</td>
+    <td>सीएसए</td>
+    <td>हर एक प्लांट से किए जाने वाले कलेक्शन को देखना</td>
+    <td>गिनती करना कि जितनी राशि के बिल जारी हुए हैं, उसमें से कितने प्रतिशत राशि बकाया है।</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Summary of billing and collections in a specified time interval</td>
-    <td>Tracking amount collected for different services (energy, connection, water, etc.) in the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>किसी निश्चित समयावधि में जारी बिल और प्राप्त राशि का विवरण देखना</td>
+    <td>समूह (क्लस्टर) में अलग-अलग सेवाओं (बिजली, कनेक्शन, पानी आदि) से प्राप्त राशि का पता लगाना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>View current billing and collection for the portfolio</td>
-    <td>Tracking total revenue, and the expected cash-flow from collections at each plant in the State</td>
+    <td>राज्य प्रभारी</td>
+    <td>पोर्टफोलियो के चालू बिल और प्राप्त राशि देखना</td>
+    <td>राज्य के हर प्लांट के कुल राजस्व (रेवेन्यू) और प्राप्त होने वाली अनुमानित नकदी (कैश फ्लो) का पता लगाना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 ![Page Details](./assets/3.14_PageDetails.png)
 ![Page Details](./assets/3.15_PageDetails2.png)
 
-### Total Billing
-**Functionality**
-* The Total Billing page summarises the revenue from each site
+### 3.4.3.1. बिल की कुल राशि (टोटल बिलिंग)
+**फंक्शनलिटी**
+* टोटल बिलिंग पेज में हर साइट से प्राप्त राजस्व (रेवेन्यू) का सारांश दिया गया है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Page Details](./assets/3.16_PageDetails3.png)
 
-### Total Collection
-**Functionality**
-* The Total Collection page summarises collections at each site
+### 3.4.3.2 कुल प्राप्त राशि (टोटल कलेक्शन)
+**फंक्शनलिटी**
+* टोटल कलेक्शन पेज में हर साइट के प्राप्त राशि का सारांश दिया होता है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Page Details](./assets/3.17_PageDetails4.png)
 
-## Cash Register
-**Functionality**
-* The Cash Register page provides a historical account of each customer’s transactions
-* It is updated in real time as payments are made and recorded
-* A pie chart summarises the aggregate collections
+## 3.4.4. कैश रजिस्टर
+**फंक्शनलिटी**
+* कैश रजिस्टर में हर ग्राहक के सभी लेनदेन का पूरा विवरण रहता है।
+* भुगतान होने और रिकॉर्ड तैयार होने के साथ-साथ यह रजिस्टर अपडेट होता जाता है।
+* कुल प्राप्त राशि का सारांश पाइ चार्ट में देखने को मिलता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Tracking customer bills and payments</td>
-    <td>Resolving disagreements about whether or when a bill was paid via a particular method or not</td>
+    <td>ग्राहक सेवा एजेंट</td>
+    <td>ग्राहक के बिल और भुगतान का पता लगाना</td>
+    <td>किसी बिल का कब भुगतान हुआ और निश्चित रीति से हुआ या नहीं, इससे संबंधित समस्याओं को सुलझाना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Summary of collections in a specified time interval</td>
-    <td>Tracking amount collected for different services (energy, connection, water, etc.) for plants in the cluster</td>
+    <td>समूह प्रभारी</td>
+    <td>निश्चित समयावधि में प्राप्त राशि (कलेक्शन) का सारांश</td>
+    <td>क्लस्टर के सभी प्लांटों में विभिन्न सेवाओं (बिजली, कनेक्शन, पानी आदि) से प्राप्त राशि का पता लगाना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Summary of collections within the state</td>
-    <td>Tracking amount collected for different services for the entire state</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य भर में प्राप्त राशि (कलेक्शन) का सारांश</td>
+    <td>पूरे राज्य में विभिन्न सेवाओं से प्राप्त राशि का पता लगाना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Page Details](./assets/3.18_PageDetails5.png)
 
-### Spark Server
-**Functionality**
-* Gives limited access to smart Spark meter data
-* The user may remotely switch meters on and off from here
+## 3.4.5. स्पार्क सर्वर
+**फंक्शनलिटी**
+* स्मार्ट स्पार्क मीटर का डेटा कुछ सीमा तक देखा जा सकता है।
+* यूज़र यहाँ से ही मीटर को चालू और बंद कर सकता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Review the status of the meter associated with a particular customer at the plant</td>
-    <td>Checking whether the meter has automatically tripped into the off state</td>
+    <td>टेक्निशन</td>
+    <td>प्लांट के किसी निश्चित ग्राहक के मीटर की स्थिति रिव्यू करना</td>
+    <td>जाँच करना कि बिजली बंद रहने पर मीटर अपने आप बंद होता है या नहीं।</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Technician</td>
-    <td>Checking the status of a particular meter</td>
+    <td>सीएसए</td>
+    <td>टेक्निशन के समान</td>
+    <td>किसी निश्चित मीटर के स्टेटस की जाँच करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Control the state of the meter for a particular customer or group of customers</td>
-    <td>Shutting off the meter of a customer whose faulty appliance is impacting the whole distribution network</td>
+    <td>समूह प्रभारी</td>
+    <td>किसी निश्चित ग्राहक या ग्राहक समूह के लिए मीटर की स्थिति नियंत्रित करना</td>
+    <td>किसी ग्राहक के खराब उपकरण (एप्लायंस) का असर बिजली वितरण के समूचे नेटवर्क पर होने पर उस ग्राहक का मीटर बंद करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>Same as Cluster In-charge</td>
-    <td>Shutting down multiple meters at one time in the state of a technical emergency</td>
+    <td>राज्य प्रभारी</td>
+    <td>समूह प्रभारी के समान</td>
+    <td>कोई तकनीकी आपत्ति आने पर राज्य के बहुत सारे मीटर एक ही समय पर बंद करना</td>
   </tr>
 </table>
 
-**Page Details**
+**पेज के डिटेल**
 
 
 ![Page Details](./assets/3.19_PageDetails6.png)
 
 ![Page Details](./assets/3.20_PageDetails7.png)
 
-### Receivable
-**Functionality**
-* The receivables section displays the bills and balance for every customer at a given plant
-* Agents may register payments from customers to update their balance
-* For users with access to multiple plants, information will only be displayed once a particular plant is selected
+## 3.4.6. प्राप्त होने वाली राशियाँ (रिसीवेबल्स)
+**फंक्शनलिटी**
+* किसी प्लांट के प्रत्येक ग्राहक को जारी बिल और बकाया राशि रिसीवेबल्स सेक्शन में दिखाई देती हैं।
+* ग्राहकों से प्राप्त भुगतान को दर्ज कर एजेंट अपने बेलेंस को अपडेट कर सकते हैं।
+* जो यूज़र कई प्लांट का डेटा देख सकते हैं, उन्हें कोई निश्चित प्लांट सिलेक्ट करने पर ही डेटा दिखाई देगा।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम </th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>Validate whether a customer is active</td>
-    <td>Checking the cause when a customer comes to the plant to complain of a connection issue</td>
+    <td>ऑपरेटर</td>
+    <td>ग्राहक एक्टिव है या नहीं, यह देखना</td>
+    <td>कनेक्शन संबंधी किसी समस्या की शिकायत लेकर प्लांट पर आए ग्राहक की शिकायत का कारण पता लगाना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>View the expected revenue and outstanding from each customer at the plant</td>
-    <td>Prioritising which customers (or ex-customers) the sales team should approach for settling arrears</td>
+    <td>ग्राहक सेवा एजेंट</td>
+    <td>प्लांट के प्रत्येक ग्राहक से प्राप्त होने वाले अनुमानति राजस्व और बकाया राशि को देखना</td>
+    <td>तय करना कि बकाया राशि के निपटान के लिए बिक्री टीम को किस ग्राहक (या पूर्व ग्राहक) के पास भेजना चाहिए।</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Summary of collections in a given time interval</td>
-    <td>Comparing different plants’ collection performance for the current month</td>
+    <td>समूह प्रभारी</td>
+    <td>निश्चित समयावधि में प्राप्त राशि (कलेक्शन) का सारांश</td>
+    <td>चालू माह में विभिन्न प्लांट से प्राप्त राशि की तुलना करना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>View customers with high outstanding accounts</td>
-    <td>Reviewing customer payment history when deciding whether to deactivate or reactivate an account</td>
+    <td>राज्य प्रभारी</td>
+    <td>ज्यादा बकाया राशि वाले ग्राहकों पर नजर डालना</td>
+    <td>किसी खाते को बंद या दुबारा चालू करते समय ग्राहक के शुरू से आखिर तक के भुगतान को देखना</td>
   </tr>
 </table>
 
-**Navigation**
-Note that this page is also accessible directly from the Home Screen – see Section 3.4.2
+**नेविगेशन**
+ध्यान रखें कि इस पेज पर होम स्क्रीन से सीधे ही पहुँचा जा सकता है – देखें सेक्शन 3.4.2
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Page Details](./assets/3.21_PAgeDetails8.png)
 
-### Aging Receivables
-**Functionality**
-* The Aging Receivables section displays separate lists of active and banned customers of a particular plant that are yet to pay their dues to the company.
-* There are two lists – Active and Banned
+### 3.4.6.1. प्राप्य राशियाँ कितने समय से बकाया हैं (एजिंग रिसिवेबल्स)
+**फंक्शनलिटी**
+* एजिंग रिसिवेबल्स सेक्शन में किसी प्लांट के एक्टिव और प्रतिबंधित (बैन्ड) ग्राहकों की अलग-अलग सूची मिलती है, जिनकी ओर कंपनी की राशि बकाया है।
+* दो सूचियाँ होती हैं – एक्टिव और बैन्ड
 
-The following are the pages that can be viewed through this functionality:
+इस फंक्शनलिटी से निम्नलिखित पेज देखे जा सकते हैं –
 
 | Active | Banned |
 |--|--|
@@ -202,25 +202,27 @@ The following are the pages that can be viewed through this functionality:
 
 ![Page Details](./assets/3.23_Receivable2.png)
 
-## Contacts
-**Functionality**
-* The contacts page is a list of all company personnel, along with details such as their designation and mobile number
-* The operators have been divided based on the company and the state they are working in
+## 3.4.7. संपर्क सूत्र (कांटैक्ट)
+**फंक्शनलिटी**
+* कांटैक्ट पेज में कंपनी के कर्मचारियों की सूची उनके पदनाम (डेज़िग्नेशन) और मोबाइल नंबर के साथ दी गई है।
+* परिचालक (ऑपरेटर्स) जिस कंपनी और राज्य में कार्य कर रहे हैं, उस आधार पर उन्हें बाँटा गया है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग का उदाहरण</th>
   </tr>
   <tr>
-    <td>All Employees</td>
-    <td>Access to individual employees contact</td>
-    <td>To verify a decision made by another agent working at the company</td>
+    <td>सभी कर्मचारी</td>
+    <td>हर कर्मचारी के मोबाइल नंबर की जानकारी</td>
+    <td>कंपनी में कार्यरत अन्य एजेंट द्वारा किए गए निर्णय का सत्यापन (वेरिफाइ) करना</td>
   </tr>
 </table>
 
+<br/>
 
+**पेज के डिटेल**
 ![Contacts](./assets/3.24_Contacts.png)

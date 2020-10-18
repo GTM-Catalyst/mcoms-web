@@ -1,59 +1,59 @@
 ---
 id: PckAndSchm
-title: Package and Scheme
-sidebar_label: Package and Scheme
+title: 3.6. पैकेज और स्कीम
+sidebar_label: पैकेज और स्कीम
 ---
 
-## Overview
+## 3.6.1. एक नजर (ओवरव्यू)
 ![Package And Scheme Tabs](./assets/3.61_PckAndSchmTabs.svg)
 <br/><br/>
 
 ![Consumer Screenshot](./assets/3.62_ScrShotPckAndSchm.png)
  
-## Package Activity
-**Functionality**
-* The Package Activity section is an interface for changing the package assigned to customers
-* Changes undergo a chain of approval, with details passed to the relevant agent
-* Package changes are summarised for each plant
+## 3.6.2. पैकेज एक्टिविटी
+**फंक्शनलिटी**
+* पैकेज एक्टिविटी सेक्शन ग्राहक को असाइन किए गए पैकेज को बदलने का इंटरफेस है।
+* बदलाव कई क्रमिक अप्रूवल के बाद होता है, जिसका विवरण संबंधित एजेंट को प्राप्त होता है। 
+* प्रत्येक प्लांट के पैकेज चेंज का विवरण तैयार हो जाता है।
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>To implement package changes requested by customers</td>
-    <td>Reviewing the list of customers who require up/downgrades to their connection</td>
+    <td>टेक्निशन</td>
+    <td>पैकेज बदलने के ग्राहक के अनुरोध को पूरा करना</td>
+    <td>कनेक्शन को अपग्रेड/डाउनग्रेड करने की जरूरत वाले ग्राहकों की सूची रिव्यू करना</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To register and view package change requests</td>
-    <td>Registering a change on behalf of a customer who isn’t using the customer smartphone app</td>
+    <td>सीएसए</td>
+    <td>पैकेज बदलने का अनुरोध दर्ज करना और देखना</td>
+    <td>स्मार्ट फोन का उपयोग न करने वाले ग्राहक की ओर से पैकेज बदलने का अनुरोध दर्ज करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>To check the number of requests and assign to field personnel</td>
-    <td>Notifying a field agent that they are responsible for following up with the customer</td>
+    <td>समूह प्रभारी</td>
+    <td>प्राप्त अनुरोध देखना और उन्हें फील्ड कर्मचारियों को असाइन करना</td>
+    <td>फील्ड एजेंट को सूचित करना कि ग्राहकों के साथ फॉलोअप करना उनकी जिम्मेदारी है।</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To check the number of requests at plants in the state</td>
-    <td>Checking how many package change requests are pending and at which plants</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य के सभी प्लांट के अनुरोध देखना</td>
+    <td>देखना कि किन-किन प्लांट पर पैकेज बदलने के कितने अनुरोध लंबित (पेंडिंग) हैं</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 | Request| In Process| Review| Completed|
 |---|---|---|---|
 | Information on package request| Lists requests that are being worked on| Completed requests that are awaiting approval| Details of historical package requests|
 
 
-### Request tab
+### 3.6.2.1. रिक्वेस्ट टैब
 
 ![Package Activity Summary](./assets/3.63_PckActivity.png)
 
@@ -61,95 +61,95 @@ sidebar_label: Package and Scheme
 
 
 
-### In Process tab
+### 3.6.2.2. इन प्रोसेस टैब
 
 ![In Process tab](./assets/3.65_PckProcessTab.png)
 
-### Review tab
+### 3.6.2.3. रिव्यू टैब
 
 ![Review tab](./assets/3.66_PckReviewTab.png)
 
 
-### Completed tab
+### 3.6.2.4. कंप्लिटेड टैब
 
 ![Security Deposit Ledger tab](./assets/3.67_PckCompletedTab.png)
 
 
-## Scheme
-**Functionality**
-* List of customers who are participating in a promotional scheme which offers electrical appliances along with an electricity connection
-* Option to add new customers to a scheme
+## 3.6.3. स्कीम
+**फंक्शनिलिटी**
+* बिजली कनेक्शन के साथ बिजली के उपकरण देने की प्रमोशनल स्कीम में भाग ले रहे ग्राहकों की सूची
+* नए ग्राहकों को स्कीम से जोड़ने का विकल्प (ऑप्शन)
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>To check the list of participating customers</td>
-    <td>Enrolling a customer in a scheme upon their request</td>
+    <td>सीएसए</td>
+    <td>भाग लेने वाले ग्राहकों की सूची चेक करना</td>
+    <td>किसी ग्राहक के अनुरोध करने पर उसे स्कीम में शामिल करना</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as CSA</td>
-    <td>Checking which customers are falling behind on their scheme repayments</td>
+    <td>समूह प्रभारी</td>
+    <td>सीएसए के समान</td>
+    <td>चेक करना कि किन-किन ग्राहकों से स्कीम का पैसा आना बाकी है</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
-    <td>To assess the schemes ongoing within the state</td>
-    <td>Assessing the popularity of different schemes</td>
+    <td>राज्य प्रभारी</td>
+    <td>राज्य में चल रही स्कीमों का मूल्यांकन करना</td>
+    <td>विभिन्न योजनाओं की लोकप्रियता का मूल्यांकन करना</td>
   </tr>
 </table>
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Schemes](./assets/3.68_Schemes.png)
 
 
-## Product Inventory
-**Functionality**
-* Displays all the electrical appliances (for customer schemes) in the company’s warehouse
+## 3.6.4. उत्पादों की सूची (प्रॉडक्ट इन्वेन्टरी)
+**फंक्शनलिटी**
+* ग्राहकों के लिए तैयार योजनाओं के अंतर्गत कंपनी के गोदाम में रखे सभी इलेक्ट्रिक सामान प्रदर्शित होते हैं। 
 
-**Key Users**
+**मुख्य-मुख्य यूज़र**
 <table>
   <tr>
-    <th>Designation</th>
-    <th>Main Purpose</th>
-    <th>Example Use Case</th>
+    <th>पदनाम</th>
+    <th>मुख्य प्रयोजन</th>
+    <th>उपयोग के उदाहरण</th>
   </tr>
   <tr>
-    <td>Operator</td>
-    <td>To view available appliances in the company warehouse</td>
-    <td>Checking on behalf of a customer whether a particular appliance is available as part of a scheme</td>
+    <td>ऑपरेटर</td>
+    <td>कंपनी के गोदाम में रखा सामान देखना</td>
+    <td>ग्राहक की ओर से चेक करना कि कोई निश्चित सामान स्कीम के अंतर्गत उपलब्ध है या नहीं।</td>
   </tr>
   <tr>
-    <td>Technician</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>टेक्निशन</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>CSA</td>
-    <td>Same as Operator</td>
-    <td>Same as Operator</td>
+    <td>सीएसए</td>
+    <td>ऑपरेटर के समान</td>
+    <td>ऑपरेटर के समान</td>
   </tr>
   <tr>
-    <td>Cluster In-charge</td>
-    <td>Same as Operator</td>
-    <td>Requesting purchase of an appliance which in in demand</td>
+    <td>समूह प्रभारी</td>
+    <td>ऑपरेटर के समान</td>
+    <td>जिस सामान की ज्यादा मांग हो उसे खरीदने का अनुरोध भेजना</td>
   </tr>
   <tr>
-    <td>State In-charge</td>
+    <td>राज्य प्रभारी</td>
     <td>Same as Operator</td>
-    <td>Checking inventory levels and whether new purchase orders are required</td>
+    <td>गोदाम में रखा सामान चेक कर तय करना कि क्या नई खरीद करना है।</td>
   </tr>
 </table>
 
 
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Product Inventory](./assets/3.69_ProductInvetory.png)

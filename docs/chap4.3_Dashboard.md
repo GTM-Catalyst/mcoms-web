@@ -1,15 +1,14 @@
 ---
 id: dash
-title: Dashboard
-sidebar_label: Dashboard
+title: 4.3. डैशबोर्ड
+sidebar_label: डैशबोर्ड
 ---
 
-**Functionality**
-* The Dashboard is the homes screen of the app.
-* It lays out the various functionalities that can be used by the customer; these are discussed below.
+**फंक्शनलिटी**
+* डैशबोर्ड यानी एप्प का होम स्क्रीन
+* इसमें वे सब कार्य बताए गए हैं, जो ग्राहक इस एप्प पर कर सकता है। इनकी जानकारी नीचे दी गई है।
 
-
-**Page Details**
+**पेज के डिटेल**
 
 ![Dashboard](./assets/4.8.2_Dashboard.svg)
 

@@ -1,7 +1,7 @@
 ---
 id: faq
-title: FAQ
-sidebar_label: Frequently Asked Questions
+title: 3.11. बार-बार पूछे जाने वाले प्रश्न?
+sidebar_label: बार-बार पूछे जाने वाले प्रश्न?
 ---
 
 :::note

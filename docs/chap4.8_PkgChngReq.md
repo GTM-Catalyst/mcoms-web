@@ -1,15 +1,14 @@
 ---
 id: PkgChngRq
-title: Package Change Request
-sidebar_label: Package Change Request
+title: 4.8 पैकेज बदलने का अनुरोध
+sidebar_label: पैकेज बदलने का अनुरोध
 ---
 
-**Functionality**
-* The Package Change Request section allows the customer to upgrade or downgrade their
-electricity package.
-* It also lists the customer’s past packages.
+**फंक्शनलिटी**
+* पैकेज चेंज रिक्वेस्ट सेक्शन में ग्राहक अपने पैकेज को अपग्रेड/डाउनग्रेड कर सकता है। 
+* इसमें ग्राहक के पिछले पैकेजों की सूची भी रहती है। 
 
-**Page Details**
+**पेज के डिटेल**
 ![Your Package](./assets/4.15_YrPkg.png)
 
 ![Change Package](./assets/4.16_ChngPkg.png)

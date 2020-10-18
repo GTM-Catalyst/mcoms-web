@@ -1,13 +1,12 @@
 ---
 id: Ntfctn
-title: Notification
-sidebar_label: Notification
+title: 4.10 सूचनाएँ (नोटिफिकेशन)
+sidebar_label: सूचनाएँ (नोटिफिकेशन)
 ---
 
-**Functionality**
-* The Notification page lists all historical communications from the company, including bill alerts, payment receipts, plant shutdown messages, and more.
-* The user will also receive SMS copies of the same messages; however, the ones stored here cannot be deleted.
+**फंक्शनलिटी**
+* नोटिफिकेशन पेज में कंपनी द्वारा अब तक दी गई सभी सूचनाओं की सूची दी जाती है। इसमें सतर्कता संदेश (एलर्ट), भुगतान की रसीदें, प्लांट बंद रहने के संदेश आदि शामिल हैं।
+* इन संदेशों की एसएमएस कॉपी भी यूज़र को मिलती है। यह ध्यान रखना चाहिए कि एक बार यहाँ स्टोर होने के बाद इन्हें डिलीट नहीं किया जा सकता।
 
-
-**Page Details**
+**पेज के डिटेल**
 ![Notification](./assets/4.19_Notification.png)

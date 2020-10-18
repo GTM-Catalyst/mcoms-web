@@ -1,41 +1,41 @@
 ---
 id: profile
-title: Profile
-sidebar_label: Profile
+title: 4.5. प्रोफाइल
+sidebar_label: प्रोफाइल
 ---
 
-**Functionality**
-* The Profile page gives the user access to their account details.
-* This includes personal information, past payments, and energy consumption.
+**फंक्शनलिटी**
+* प्रोफाइल पेज से यूज़र अपने खाते के विवरण तक पहुँच सकता है।
+* इसमें स्वयं का विवरण, विगत भुगतान और बिजली की खपत की जानकारी मिल जाती है।
 
 | Profile| Payments| Meter Readings|
 |---|---|---|
 | Consists of profile details of the consumer| Chronological list of individual payments| Chronological record of energy consumption|
 
 
-## Profile
-**Functionality**
-* The Profile section contains important profile information of the user
+## 4.5.1. प्रोफाइल
+**फंक्शनलिटी**
+* इस सेक्शन में यूज़र के प्रोफाइल संबंधी महत्वपूर्ण जानकारी रहती है।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Profile](./assets/4.10_Profile.png)
 
 
-## Payments
-**Functionality**
-* The Payments page gives a chronological record of bills issued to the customer, and payments they have made
+## 4.5.2 भुगतान
+**फंक्शनलिटी**
+* भुगतान पेज में ग्राहक को जारी किए गए बिलों और ग्राहक द्वारा किए गए भुगतान का रिकॉर्ड तारीख के क्रम (क्रोनलॉजिकल ऑर्डर) में प्राप्त होता है।
 
-**Page Details**
+**पेज के डिटेल**
 
 ![Payments](./assets/4.11_Payments.png)
 
 
-## Meter Readings
-**Functionality**
-* The Meter Reading page give a chronological list of the customer’s energy consumption.
-* The frequency of meter readings will vary depending on their connection type.
+## 4.5.3. मीटर रीडिंग
+**फंक्शनलिटी**
+* मीटर रीडिंग पेज में ग्राहक की बिजली की खपत का विवरण तारीख के क्रम (क्रॉनलॉजिकल ऑर्डर) में दिया होता है।
+* कनेक्शन के अनुसार मीटर रीडिंग की बारंबारता (फ्रिक्वेंसि) अलग-अलग होती है।
 
-**Page Details**
+**पेज के डिटेल**
 ![Meter Reading](./assets/4.12_MeterReading.png)
 
