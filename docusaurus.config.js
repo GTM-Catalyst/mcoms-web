@@ -97,7 +97,7 @@ module.exports = {
     },
   },
   plugins: [
-    [require.resolve('@cmfcmf/docusaurus-search-local'),
+    /*[require.resolve('@cmfcmf/docusaurus-search-local'),
     {
         blogRouteBasePath: '/blog', // must correspond to the base route path configured for the blog plugin
         docsRouteBasePath: '/docs', // must correspond to the base route path configured for the docs plugin
@@ -107,7 +107,10 @@ module.exports = {
         // /404.html is never indexed
         language: "en", // language of your documentation, see next section
         indexBaseUrl: true,
-    }],
+    }],*/
+   /*[require.resolve('docusaurus-lunr-search'),
+       {},
+   ]*/
   ],
   presets: [
     [
