@@ -1,0 +1,658 @@
+---
+id: Plant
+title: 3.7. Plant
+sidebar_label: Plant
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+## 3.7.1. Overview
+The section consists of the following functionalities:
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.1_1_PlantTabs.svg")} alt="Plat Performance Functionalities" width="60%"/>
+<img align="right" src={useBaseUrl("img/scrnshts/3.7.1_2_PlantTabScreenShot.png")} alt="Plant Performance Dashboard" width="40%"/>
+
+<br clear="both"/>
+
+ 
+## 3.7.2. Plant Performance
+**Functionality**
+* The Plant Performance Section summarises technical performance metrics for each plant
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To check data logs for a particular plant</td>
+    <td>Ensuring that the database agrees with ground measurements</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To assess the performance of the equipment at the plant</td>
+    <td>Calculating in-plant and distribution efficiency</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>To check units sold in a particular timeframe</td>
+    <td>Comparing units sold in one month with the previous month</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To compare technical performance of multiple plants</td>
+    <td>Same as Technician</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Cluster In-charge</td>
+    <td>Calculating the utilisation of the plant to inform whether more customers should be connected</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.2_1_PlantPerformance.png")} alt="Plant Performance" width="45%"/>
+
+ 
+1.  **Filter Bar** selects a time interval
+2.  **List of Plants** and associated technical information, including:
+    * Plant PV capacity
+    * Units generated, dispatched, and billed
+    * Solar generation utilisation
+    * In-plant and distribution efficiencies
+3.  **Total Bar** aggregates the columnar values
+
+Tapping a plant opens an option of viewing detailed generation or dispatch (“consumption”) data. This is explained in the next screenshots.
+
+<br clear="both"/>
+<br></br><br></br>
+
+<!-- ![Plant Performance](./assets/3.72_PlantPerformance.png) -->
+
+**Generation Data**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.2_2_PlantPerformance.png")} alt="Generation Data" width="45%"/>
+
+![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
+
+<br/>
+
+> The energy generated at a particular plant is shown date-wise
+>
+> The number of PV MPPTs will differ from plant to plant
+
+<br clear="both"/>
+
+<!-- ![Generation Data](./assets/3.73_GenerationData.png) -->
+
+**Consumption Data**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.2_3_PlantPerformance.png")} alt="Consumption Data" width="45%"/>
+
+![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
+
+<br/>
+
+> The energy dispatched (“consumed”) froma particular plant is shown date-wise
+>
+> The number of feeders will differ from plant to plant
+
+<br clear="both"/>
+
+<!-- ![Consumption Data](./assets/3.74_ConsumptionData.png) -->
+
+
+## 3.7.3. Plant Utilisation
+**Functionality**
+* The Plant Utilisation Section summarises technical performance metrics and energy consumption for each plant
+* This functionality is only available for HCLF agents
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To assess the performance of equipment at the plant</td>
+    <td>Calculating in-plant and distribution efficiency</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To check units consumed by different user groups</td>
+    <td>Comparing month-on-month electricity demand from micro-enterprises</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>To compare technical performance of multiple plants</td>
+    <td>Calculating the utilisation of the plant to inform whether more customers can be connected</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.3_PlantUtilization.png")} alt="Plant Utilization" width="45%"/>
+
+![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
+
+<br/> 
+
+> The utilization data for each component and variable is showcased.
+>
+> The utilization percentage will differ from plant to plant
+
+<br clear="both"/>
+
+
+<!-- ![Plant Utilization](./assets/3.75_PlantUtilisation.png) -->
+
+
+## 3.7.4. Add Generation Data
+**Functionality**
+* The Add Generation Data module allows the user to input energy generation data into the company database
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To add generation data for a particular date</td>
+    <td>Reading units generated at each solar MPPT daily, and recording in the app</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.4_1_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
+<br></br><br></br>
+
+1.  **Plant Selection** must be done as the first step
+2.  **Date Selection** for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
+
+Tapping the desired date redirects to the data addition page shown in the next screenshot
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.4_2_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **Generation Data Entry** is done MPPT-wise
+2.  **Data Header** consisting of the plant and date are given at the top of the page
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.4_3_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **Confirm and Submit** having checked the accuracy of the entered data
+
+<br clear="both"/>
+
+
+<!-- ![Add Generation Data](./assets/3.76_AddGenerationData1.png)
+
+![Add Generation Data](./assets/3.77_AddGenerationData2.png) -->
+
+
+
+## 3.7.5. Add Consumption Data
+**Functionality**
+* The Add Consumption Data module allows the user to input energy dispatch data into the company database
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To add dispatch data for a particular date</td>
+    <td>Reading units through each feeder daily, and recording in the app</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.5_1_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
+<br></br><br></br>
+
+1.  **Plant Selection** must be done as the first step
+2.  **Date Selection** for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
+
+Tapping the desired date redirects to the data addition page shown in the next screenshot
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.5_2_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **Data Header** consisting of the plant and date are given at the top of the page
+2.  **Consumption Data Entry** is done feeder-wise, with details of the previous reading shown for reference
+3.  **Confirm and Submit** having checked the accuracy of the entered data
+
+<br clear="both"/>
+
+
+<!-- ![Add Generation Data](./assets/3.78_AddGenData.png)
+
+![Add Generation Data](./assets/3.79_AddGenData2.png) -->
+
+
+## 3.7.6. Diesel Consumption
+**Functionality**
+* The Diesel Consumption Section allows the user to input details on plant fuel expenses, along with photos of receipts
+* Past expenses and DG usage data can also be reviewed
+* Fuel bills are to be reimbursed by the Head Office
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To maintain a record of diesel expenses and fuel use</td>
+    <td>Adding a diesel purchase made at a particular plant within the cluster</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>To review diesel expenses and DG usage at different plants</td>
+    <td>Checking for fuel pilferage by comparing fuel efficiencies at different plants / times</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.6_1_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+
+1.  **Filter Bar** selects a time interval for reviewing fuel expenses and use
+2.  **Summary** gives key data-points surrounding fuel use and expenses
+
+The information icon in the top right redirects to a plant-by-plant comparison, as explained in the next screenshot
+
+3.  **List of Purchases** details diesel purchases
+4.  **Add Consumption Data** button allows user to submit a new fuel expense, as explained in a subsequent screenshot
+5.  **Filter Button** has the same functionality as the Filter Bar
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.6_2_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+
+![Data Entry](/img/scrnshts/App_DataEntry.png)
+
+The Add Diesel Consumption page allows the user to record new fuel expenses
+
+3.  **Consumption Data** must be added for company records and for reimbursement
+4.  **Invoice Number** can be found on the bill
+5.  **Bill Picture** must be added as proof
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.6_3_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<br></br><br></br><br></br>
+
+4.  **Confirm** must be tapped after information is reviewed
+5.  **Submit** tapped to complete data entry
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.6_4_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<br></br>
+
+This page allows user to view recent diesel expenses for each plant
+
+1.  **Filter Bar** for specifying date of interest
+2.  **List of Plants** with monthly data on fuel expenses
+3.  **Green Rows** show aggregated cluster data
+4.  **Total Bar** aggregates all plants
+
+<br clear="both"/>
+
+
+<!-- ![Diesel Consumption](./assets/3.80_DeiselConsumption1.png)
+
+![Diesel Consumption](./assets/3.81_DeiselConsumption2.png)
+
+![Diesel Consumption](./assets/3.82_DeiselConsumption3.png) -->
+
+
+
+## 3.7.7. Bank Deposit
+**Functionality**
+* Interface for registering a deposit of collected cash into the company bank account
+* Record and summary of past deposits can be viewed, along with in-plant cash records
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>To register new deposits</td>
+    <td>Depositing cash collected from customers into the company bank account</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To view the cash flow for plants in the cluster</td>
+    <td>Checking the amount of collected cash is still with filed agents and is yet to be deposited</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>To view the cash flow for plants in the state</td>
+    <td>Ensuring bank deposits are going through correctly, and are happening on schedule</td>
+  </tr>
+</table>
+
+**Page Details**
+
+The page is organised into the following tabs.
+
+| Bank Deposit| In Hand Cash Report| Bank Deposit Review|
+|---|---|---|
+| Detailed list of historical bank deposits| Plant-wise overview of collections and deposits| Overview of all the bank deposits made and confirmed|
+
+
+### 3.7.7.1. Bank Deposit tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_1_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
+
+1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+2.  **Filter Bar** selects a particular plant and time duration
+3.  **List of Deposits** details each bank deposit along with a receipt photo
+4.  **Add Bank Deposit Data** redirects to a page that allows the user to input a new bank deposit, shown in the next screenshot
+5.  **Search Icon** used to search for a particular record
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_2_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Bank Deposit Details** to be filled by the agent
+2.  **Submit** tapped to complete the form
+
+<br clear="both"/>
+
+<!-- ![Bank Deposit Tab](./assets/3.83_BankDeposit.png)
+
+![Bank Deposit Tab](./assets/3.84_AddBankDeposit.png) -->
+
+### 3.7.7.2. In Hand Cash Report tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.7.2_InHandCashReport.png")} alt="In Hand Cash Report tab" width="45%"/>
+
+1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+2.  **Filter Bar** selects a particular time duration
+3.  **List of Plants** with total collections, deposits, and amount of cash remaining at the plant
+4.  **Total Bar** aggregates over all plants
+5.  **Green Rows** aggregate over clusters
+
+<br clear="both"/>
+
+<!-- ![In Hand Cash Report tab](./assets/3.85_InHandCashTab.png) -->
+
+### 3.7.7.3. Bank Deposit Review tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.7.3_BankDepositReviewTab.png")} alt="Bank Deposit Review tab" width="45%"/>
+
+1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+2.  **Filter Bar** selects a particular time duration
+3.  **List of Plants** with total deposits registered and deposits received, along with any anomalies
+4.  **Total Bar** aggregates over all plants
+5.  **Green Rows** aggregate over clusters
+
+<br clear="both"/>
+
+
+<!-- ![Bank Deposit Review tab](./assets/3.86_BankDepositReviewTab.png) -->
+
+
+## 3.7.8. Plant Shutdown Info
+**Functionality**
+* The Plant Shutdown Info allows the users to manually shutdown a particular feeder at a specific plant
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To temporarily shut down electricity supply</td>
+    <td>Shutting a feeder down for maintenance, for a specified time duration</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Cluster In-charge</td>
+    <td>Same as Cluster In-charge</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.8_1_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
+<br></br><br></br>
+
+1.  **Plant Details** (plant name and feeder) selected from drop-down lists
+2.  **Submit** must be tapped after filling in all the plant details
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.8_2_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
+<br></br><br></br>
+
+1.  **Date Filter** must be applied to view the plant status on a particular date
+2.  **Plant Status** On tapping a particular date, the user will be redirected to the Plant Feeder Status page explained in the following screenshot
+3.  **Submit** must be tapped after filling in all the plant details
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.8_3_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
+<br></br><br></br>
+
+1.  **Feeder Status** for a particular date is displayed, the feeders must be individually switched off by unchecking their corresponding checkboxes
+2.  **Submit** to complete the process
+
+<br clear="both"/>
+
+
+<!-- ![Plant Status](./assets/3.87_PlantStatus1.png)
+
+![Plant Status](./assets/3.88_PlantStatus2.png)
+
+![Plant Status](./assets/3.89_PlantStatus3.png) -->
+
+
+
+## 3.7.9. Plant Maintenance
+**Functionality**
+* Allows the users to log technical maintenance activities which have happened at a plant
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To register a plant maintenance activity</td>
+    <td>Creating a log of DG servicing or PV panel repair</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Cluster In-charge</td>
+    <td>Same as Cluster In-charge</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.9_1_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
+<br></br><br></br>
+
+![Data Entry](/img/scrnshts/App_DataEntry.png)
+1.  **Add Maintenance Activity** information (the form updates depending on the type of activity)
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.9_2_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
+<br></br><br></br>
+
+2.  **Remark** addition to be made by the user to give additional information regarding the issue
+3.  **Attachment** photo must be added as a proof of issue
+
+On completion of the data input, confirm
+and submit to complete the process
+
+<br clear="both"/>
+
+<!-- ![Plant Maintenance](./assets/3.90_PlantMaintenance1.png)
+
+![Plant Maintenance](./assets/3.91_PlantMaintenance2.png) -->
+
+
+## 3.7.10. DG Log
+**Functionality**
+* The DG Log Section allows users to track diesel generator performance and runtime
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To log diesel generator runtime and units output</td>
+    <td>Recording each time the DG is switched on and off</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To view generator usage at different plants</td>
+    <td>Checking how reliance of different plants on backup generators changes over time</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Cluster In-charge</td>
+    <td>Same as Cluster In-charge</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.10_1_DGLog.png")} alt="DG Log Summary" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **Filter Bar** for selecting the time period
+2.  **List of Plants** showing run hours and units generated in the time interval
+3.  **Total Bar** aggregates over all plants
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.10_2_DGLog.png")} alt="DG Log Summary" width="45%"/>
+<br></br><br></br><br></br>
+
+Tapping a particular plant redirects to a detailed DG run log
+
+1.  **DG Log** details all instances of DG being run
+2.  **Add DG Log Entry** allows users to input DG runtime data, explained in the next screenshot
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.7.10_3_DGLog.png")} alt="DG Log Summary" width="45%"/>
+<br></br><br></br><br></br><br></br>
+
+1.  **DG Logging** information added by the user
+2.  **Submit** tapped to complete the entry
+
+<br clear="both"/>
+
+
+<!-- ![DG Log Summary](./assets/3.92_DGLogSum.png)
+
+![DG Log Individual](./assets/3.93_DGLogSpecific.png)
+
+![DG Run Time](./assets/3.94_DGRunTime.png) -->

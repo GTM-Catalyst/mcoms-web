@@ -18,19 +18,23 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-English/opchallenge"
+          "id": "version-English/chapter1/Introduction"
+        },                
+        {
+          "type": "doc",
+          "id": "version-English/chapter1/Mini-grid_Operational_Challenges"
         },
         {
           "type": "doc",
-          "id": "version-English/roleofcom"
+          "id": "version-English/chapter1/The_Role_of_COMS_in_Mini-grid_Management"
         },
         {
           "type": "doc",
-          "id": "version-English/IntSysInt"
+          "id": "version-English/chapter1/MCOMS_Interfaces_and_System_Integration"
         },
         {
           "type": "doc",
-          "id": "version-English/usermanual"
+          "id": "version-English/chapter1/Organisation_of_this_User_Manual"
         }
       ]
     },
@@ -41,23 +45,27 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-English/IntroOpActivity"
+          "id": "version-English/chapter2/Operations_and_Their_Workflows"
+        },                
+        {
+          "type": "doc",
+          "id": "version-English/chapter2/Introduction_to_Mini-grid_Operational_Activities"
         },
         {
           "type": "doc",
-          "id": "version-English/CustRelOp"
+          "id": "version-English/chapter2/Customer-related_Operations"
         },
         {
           "type": "doc",
-          "id": "version-English/TechOp"
+          "id": "version-English/chapter2/Technical_Operations"
         },
         {
           "type": "doc",
-          "id": "version-English/SiteFinRprtng"
+          "id": "version-English/chapter2/Site_Financial_Reporting"
         },
         {
           "type": "doc",
-          "id": "version-English/DataVerSteps"
+          "id": "version-English/chapter2/Data_Verification_Steps"
         }
       ]
     },
@@ -68,47 +76,51 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-English/introduction"
+          "id": "version-English/chapter3/Field_Agent_App"
+        },                
+        {
+          "type": "doc",
+          "id": "version-English/chapter3/introduction"
         },
         {
           "type": "doc",
-          "id": "version-English/InstallSetup"
+          "id": "version-English/chapter3/Installation_and_Setup"
         },
         {
           "type": "doc",
-          "id": "version-English/HomScr"
+          "id": "version-English/chapter3/Home_Screen"
         },
         {
           "type": "doc",
-          "id": "version-English/MainMenu"
+          "id": "version-English/chapter3/Main_Menu"
         },
         {
           "type": "doc",
-          "id": "version-English/consumers"
+          "id": "version-English/chapter3/Consumers"
         },
         {
           "type": "doc",
-          "id": "version-English/PckAndSchm"
+          "id": "version-English/chapter3/Package_and_Scheme"
         },
         {
           "type": "doc",
-          "id": "version-English/plant"
+          "id": "version-English/chapter3/Plant"
         },
         {
           "type": "doc",
-          "id": "version-English/meter"
+          "id": "version-English/chapter3/Meter"
         },
         {
           "type": "doc",
-          "id": "version-English/water"
+          "id": "version-English/chapter3/Water"
         },
         {
           "type": "doc",
-          "id": "version-English/mislns"
+          "id": "version-English/chapter3/Miscellaneous"
         },
         {
           "type": "doc",
-          "id": "version-English/faq"
+          "id": "version-English/chapter3/FAQ"
         }
       ]
     },
@@ -119,59 +131,67 @@
       "items": [
         {
           "type": "doc",
-          "id": "version-English/IntroCust"
+          "id": "version-English/chapter4/Customer_App"
+        },                
+        {
+          "type": "doc",
+          "id": "version-English/chapter4/Introduction"
         },
         {
           "type": "doc",
-          "id": "version-English/InstallSetup4"
+          "id": "version-English/chapter4/Installation_and_Setup"
         },
         {
           "type": "doc",
-          "id": "version-English/dash"
+          "id": "version-English/chapter4/Dashboard"
         },
         {
           "type": "doc",
-          "id": "version-English/MainMenuCust"
+          "id": "version-English/chapter4/Main_Menu"
         },
         {
           "type": "doc",
-          "id": "version-English/profile"
+          "id": "version-English/chapter4/Profile"
         },
         {
           "type": "doc",
-          "id": "version-English/AmPbl"
+          "id": "version-English/chapter4/Amount_Payable"
         },
         {
           "type": "doc",
-          "id": "version-English/BllPyDet"
+          "id": "version-English/chapter4/Billing_and_Payment_Detail"
         },
         {
           "type": "doc",
-          "id": "version-English/PkgChngRq"
+          "id": "version-English/chapter4/Package_Change_Request"
         },
         {
           "type": "doc",
-          "id": "version-English/SvrcRqst"
+          "id": "version-English/chapter4/Service_Request"
         },
         {
           "type": "doc",
-          "id": "version-English/Ntfctn"
+          "id": "version-English/chapter4/Notification"
         },
         {
           "type": "doc",
-          "id": "version-English/SchmAndOffrs"
+          "id": "version-English/chapter4/Schemes_and_Offers"
         },
         {
           "type": "doc",
-          "id": "version-English/faqcust"
+          "id": "version-English/chapter4/FAQ"
         }
       ]
     },
     {
       "collapsed": true,
       "type": "category",
-      "label": "Glossary",
+      "label": "Appendices",
       "items": [
+        {
+          "type": "doc",
+          "id": "version-English/appendices"
+        },                
         {
           "type": "doc",
           "id": "version-English/glssry"

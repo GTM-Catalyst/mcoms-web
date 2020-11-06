@@ -2,10 +2,8 @@
 id: welcome
 title: Introduction
 sidebar_label: Welcome
-slug: /
 hide_title: True
 ---
-
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export const Highlight = ({children, color}) => (
@@ -15,7 +13,7 @@ export const Highlight = ({children, color}) => (
       borderRadius: '2px',
       color: '#fff',
       padding: '0.3rem',
-      fontSize: '20px',
+      fontSize: '23px',
       fontWeight: 'bold',
       fontStyle: 'italic',
     }}>
@@ -23,12 +21,27 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-<a href={useBaseUrl('img/SamplePdf.pdf')} target="_blank">
+# Index
+
+### Chapter 1: [Introduction](chapter1/chap1.1_operationalchallenges.mdx) 
+MCOMS and its role in mini-grid management
+
+### Chapter 2: [Mini-grid Operations and Workflows](chapter2/chap2.1_IntroOpActivity.md)
+Key activities for customers, field agents, and managers
+
+### Chapter 3: [Field Agent App](chapter3/chap3.1_Introduction.md)
+User guide for the MCOMS Field Agent App
+
+### Chapter 4: [Customer App](chapter4/chap4.1_Introduction.md)
+User guide for the MCOMS Customer App
+
+<br/>
+
+<a href={useBaseUrl('img/EnglishVersion.pdf')} target="_blank">
  <Highlight color="#1877F2"> Download content of this website in PDF format </Highlight>
 </a>
 
-<br/><br/>
-
+<!--
 <div
   dangerouslySetInnerHTML={{
     __html: `
@@ -44,3 +57,4 @@ export const Highlight = ({children, color}) => (
     `,
   }}
 />
+-->

@@ -2,10 +2,9 @@
 id: welcome
 title: Introduction
 sidebar_label: अभिवादन
-slug: /
 hide_title: True
+slug: /
 ---
-
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export const Highlight = ({children, color}) => (
@@ -15,7 +14,7 @@ export const Highlight = ({children, color}) => (
       borderRadius: '2px',
       color: '#fff',
       padding: '0.3rem',
-      fontSize: '20px',
+      fontSize: '25px',
       fontWeight: 'bold',
       fontStyle: 'italic',
     }}>
@@ -23,12 +22,25 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-<a href={useBaseUrl('img/SamplePdf.pdf')} target="_blank">
- <Highlight color="#1877F2"> Download content of this website in PDF format </Highlight>
+# सूचकांक
+
+### अध्याय 1: [परिचय](./chapter1/chap1.1_operationalchallenges.mdx)
+MCOMS और मिनी ग्रिड प्रबंधन में इसकी भूमिका
+
+### अध्याय 2: [मिनी-ग्रिड संचालन और वर्कफ़्लो](./chapter2/chap2.1_IntroOpActivity.md)
+ग्राहकों, क्षेत्र एजेंटों और प्रबंधकों के लिए प्रमुख गतिविधियाँ
+
+### अध्याय 3: [फील्ड एजेंट ऐप](./chapter3/chap3.1_Introduction.md)
+MCOMS फील्ड एजेंट ऐप के लिए उपयोगकर्ता गाइड
+
+### अध्याय 4: [ग्राहक ऐप](./chapter4/chap4.1_Introduction.md)
+MCOMS ग्राहक ऐप के लिए उपयोगकर्ता गाइड
+
+<a href={useBaseUrl('img/HindiVersion.pdf')} target="_blank">
+ <Highlight color="#1877F2"> पीडीएफ प्रारूप में इस वेबसाइट की सामग्री डाउनलोड करें </Highlight>
 </a>
 
-<br/><br/>
-
+<!--
 <div
   dangerouslySetInnerHTML={{
     __html: `
@@ -43,4 +55,4 @@ export const Highlight = ({children, color}) => (
 	</div>
     `,
   }}
-/>
+/> -->

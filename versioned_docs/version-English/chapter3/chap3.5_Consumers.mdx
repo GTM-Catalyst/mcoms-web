@@ -1,0 +1,1087 @@
+---
+id: Consumers
+title: 3.5. Consumers
+sidebar_label: Consumers
+---
+
+import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Highlight = ({children, color}) => (
+  <span
+    style={{
+      borderRadius: '2px',
+      color: color,
+      padding: '0.2rem',
+      fontWeight: 'bold',
+    }}>
+    {children}
+  </span>
+);
+
+export const Tabheader = ({children, color}) => (
+  <th
+    style={{
+      backgroundColor: color,
+      borderRight: '0.5rem solid white',
+      height: '1.5rem',
+      width: '2rem',
+    }}>
+    {children}
+  </th>
+);
+
+export const Tabcell = ({children, color}) => (
+  <td
+    style={{
+      backgroundColor: color,
+      borderRight: '0.5rem solid white',
+      height: '100px',
+    }}>
+    {children}
+  </td>
+);
+
+
+## 3.5.1. Overview
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.1_1_ConsuKeyFunc.svg")} alt="Consumer Screen Functionalities" width="55%"/>
+<img align="right" src={useBaseUrl("img/scrnshts/3.5.1_2_ConsScreenShot.png")} alt="Consumer Screen Dashboard" width="45%"/>
+
+<br clear="both"/>
+ 
+
+## 3.5.2. Account Details
+**Functionality**
+* The Account Detail page contains complete information on a customer’s profile, their package, and payment history.
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>Validating the activeness of a customer</td>
+    <td>Prioritising which customers (or ex-customers) the sales team should approach for settling arrears</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Reviewing meter reading data for a specific consumer</td>
+    <td>Reviewing the meter reading data to check for overload on electrical apparatus</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>View the expected revenue and outstanding from each customer at the plant</td>
+    <td>Prioritising which customers (or ex-customers) the sales team should approach for settling arrears</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Summary of collections in a specified time interval</td>
+    <td>Comparing different plants’ collection performance for the current month</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>View customers with high outstanding accounts</td>
+    <td>Confirming a customer’s balance when collecting payment, and resolving confusion about when past bills were paid.</td>
+  </tr>
+</table>
+
+* Information is organised into several tabs, detailed below.
+
+	> **A Note on Navigating to this Page**
+	> 
+	> This page is central to on-ground operations, and is frequently used by sales agents in managing the relationship with individual customers. 
+	> However, there is no icon for this module on the Home Screen. Instead, field agents will be able to reach this page from:
+	> * The cash register of a particular plant (Section 3.4.4)
+	> * The customer list (Section 3.5.4)
+	> * The customer status list (Section 3.5.5)
+
+**Page Details**
+
+The Account Detail page is organised into several tabs, which summarise particular information about a given customer:
+
+<table>
+    <tr>
+        <Tabheader color="#A9CCE3 ">Profile</Tabheader>
+        <Tabheader color="#A9CCE3">Transaction</Tabheader>
+        <Tabheader color="#A9CCE3">Cash Ledger</Tabheader>
+        <Tabheader color="#A9CCE3">Security and Deposit Ledger</Tabheader>
+        <Tabheader color="#A9CCE3">Meter Reading</Tabheader>
+        <Tabheader color="#A9CCE3">Service</Tabheader>
+    </tr>
+    <tr>
+        <Tabcell color="#AED6F1">detailed account information</Tabcell>
+        <Tabcell color="#AED6F1">chronological list of individual payments</Tabcell>
+        <Tabcell color="#AED6F1">running record of bills, payments, and balance</Tabcell>
+        <Tabcell color="#AED6F1">running record of security charges and payments</Tabcell>
+        <Tabcell color="#AED6F1">energy consumption data from meter reading</Tabcell>
+        <Tabcell color="#AED6F1">service request history and completion information</Tabcell>
+    </tr>
+</table>
+
+Switching between tabs can be done either using the top navigation bar, or simply swiping the screen horizontally.
+
+![Consumer Screenshot](./assets/3.13_SwipeIcon.png)
+
+Each of these tabs will be discussed in the following sections.
+
+### 3.5.2.1. Profile tab
+**Functionality**
+* The Profile tab shows detailed information about the selected customer and their account
+* Some information can be updated/edited by the user1
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.1_1_ProfileTab.png")} alt="Profile Tab" width="45%"/>
+
+1.  **Navigation Bar** indicates the current tab and allows switching between tabs
+
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+ 
+2.  **Pencil Icon** for editing selected details
+3.  **Master Information** gives basic information about the customer background and relationship with the company
+4.  **Print Profile Detail** tapping will send the page to a connected printer
+5.  **Mobile** shows the registered mobile number; tapping the phone icon starts a call
+6.  **Outstanding** details, the aggregate payment due for all services
+7.  **Package** details the customer’s electricity package, including fees, load limit, and unit rates
+8.  **Schemes** contains information on any promotions in which the customer is participating, including EMI arrangements
+
+<br clear="both"/>
+<img src={useBaseUrl("img/scrnshts/3.5.2.1_2_ProfileTab.png")} alt="Profile Tab"/>
+<br></br><br></br>
+
+<!-- ![Profile Tab](./assets/3.27_ProfileTab.png) -->
+Edits must be confirmed via an OTP from the customer.
+
+### 3.5.2.2. Transaction tab
+**Functionality**
+* The Transaction page provides a historical account of each customer’s payments
+* Updated in real time as payments are made and recorded
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.2_TransactionTab.png")} alt="Transaction Tab" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **Print Icon** to print a receipt, or, if not printer is connected, take a shareable screenshot
+2.  **List of Payments** in chronological order, along with other relevant data
+3.  **Navigation Bar** used swipe right across different panels of the account details
+
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+<br clear="both"/>
+
+<!-- ![Transaction Tab](./assets/3.28_TransacTab.png) -->
+
+### 3.5.2.3. Cash Ledger tab
+**Functionality**
+* Provides a running record of historical bills, payments, and outstanding dues for the selected customer.
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.3_CashLedgeTab.png")} alt="Cash Ledger Tab" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **List of Transactions** including bills and payments/credits, along with the cumulative balance owed by the customer
+2.  **Navigation Bar** indicates the current tab and allows switching between tabs
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+<br clear="both"/>
+
+<!-- ![Cash Ledger Tab](./assets/3.29_CashLedgerTab.png)  -->
+
+
+### 3.5.2.4. Security Deposit Ledger tab
+**Functionality**
+* Provides a record of security deposits for the selected customer.
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.4_SecurityDepositLedgerTab.png")} alt="Security Deposit Ledger tab" width="45%"/>
+<br></br><br></br><br></br>
+
+1.  **List of Transactions** including bills and payments/credits, along with the cumulative balance owed by the customer
+2.  **Navigation Bar** indicates the current tab and allows switching between tabs
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+
+<br clear="both"/>
+
+<!-- ![Security Deposit Ledger tab](./assets/3.30_SecDepositLedTab.png) -->
+
+### 3.5.2.5. Meter Reading Ledger tab
+**Functionality**
+* A chronological list of the customer’s energy meter readings.
+* Only applies to metered customers.
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.5_MeterReadingLedgerTab.png")} alt="Meter Reading Ledger tab" width="45%"/>
+
+1.  **Meter Number Panel** is a drop-down list of meters associated with the customer
+2.  **Daily Meter Readings** gives you important detail such as:
+    * Date of the reading
+    * Customer's electricity package
+    * Meter reading (kWh)
+    * Units consumed since the last reading (kWh)
+3.  **Navigation Bar** indicates the current tab and allows switching between tabs
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+
+<br clear="both"/>
+
+<!-- ![Meter Reading Ledger tab](./assets/3.31_MeterReadLedTab.png) -->
+
+
+### 3.5.2.6. Service tab
+**Functionality**
+* Provides a record of the service requests made by the customer, and the response by the field team.
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.2.6_ServiceTab.png")} alt="Service tab" width="45%"/>
+
+1.  **Service Issue** lists details about each service request made by the customer
+2.  **Request Summary** shows the total number of requests, along with a break-down into pending and completed requests of each type. The average turnaround time is also recorded.
+3.  **Search** allows the user to filter the list of requests by typing in specific information
+4.  **Navigation Bar** indicates the current tab and allows switching between tabs
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+
+<br clear="both"/>
+
+<!-- ![Service tab](./assets/3.32_ServiceTab.png) -->
+
+
+## 3.5.3. Receivable
+**Functionality**
+* The receivables section displays customer balances and allows agents to register payments.
+
+**Navigation**
+
+This page is also accessible from the Main Menu. More details can be found in Section 3.4.6.
+
+## 3.5.4. Consumer List
+**Functionality**
+* The Consumer List displays the current number of active and inactive customers at each plant.
+* After selecting a particular plant, the user is shown the list of customers, along with records of unpaid bills.
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Access to the list of active members on the plant</td>
+    <td>To check the consumer ID of a particular consumer</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Technician</td>
+    <td>To check the number of active customer</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Summary of total number of customers in the cluster</td>
+    <td>To create a report on the customers served at a cluster in a given time frame</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Summary of the total number of customers in the state</td>
+    <td>To create a report on the customers served in a state in a given time frame</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.4_ConsumerList.png")} alt="Consumer List" width="45%"/>
+
+1.  **List of Plants** showing the number of banned, active and total customers in every plant
+2.  **Green Rows** show total amounts for each cluster of plants
+3.  **Total Bar** shows the sum of each column 
+
+**Tapping any plant will redirect you to the consumer list for that plant, as shown in the next screenshot**
+
+<br clear="both"/>
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.4_2_ConsumerList.png")} alt="Consumer List" width="45%"/>
+
+1.  **Individual Customer** shown in each tab along with important information such as:
+    * Customer ID
+    * Package number
+    * Active/banned status
+    * Outstanding amount
+2.  **Search Icon** to filter out the customer list by typing in the name or customer ID
+3.  **Adding Consumer** explained in Section 3.5.9
+
+**Tapping a consumer allows the user to add a transaction, as explained in the next screenshot**
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.4_3_ConsumerList.png")} alt="Consumer List" width="45%"/>
+
+Tapping on aconsumer allows the user to choose from three options:
+* Profile — links to account detail which is explained in section 3.5.2
+* Add Transaction — explained below
+* Cancel —returns to the previous page
+1.  **Customer Details** shown with important information
+2.  **Outstanding Value** that displays the total amount of money owed and for which service it was charged
+3.  **Adding Collection** to manually add any payments made by the customer, and for which service
+4.  **Review Tab** to finalise the transaction
+
+<br clear="both"/>
+
+<!-- ![Consumer List](./assets/3.33_ConsumerList.png)
+
+![Consumer List Details Part1](./assets/3.34_ConsumerListDet1.png)
+
+![Consumer List Details Part2](./assets/3.35_ConsumerListDet2.png) -->
+
+
+## 3.5.5. Consumer Status
+**Functionality**
+* The Consumer Status section tracks progress towards connecting customers to the distribution network.
+* Division of installation status is made into 4 parts namely – At Pole, House wire, Service Wire and Review
+* The section also displays the number of denied package requests per plant 
+* This functionality is only available for HCLF users
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Assessing the installation status of the meters for all the customers</td>
+    <td>Reporting the number of pending meter reading reviews at the end of the month</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as CSA</td>
+    <td>Reviewing the status of hardware installation for customers within the cluster</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as CSA</td>
+    <td>Launching an audit drive at a plant to improve customer service quality</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.5_1_ConsumerStatus.png")} alt="Consumer Status Summary" width="45%"/>
+<br></br><br></br>
+
+1.  **Filter Bar** gives options for displaying results either cluster-wise or NTP-wise
+2.  **List of Plants** with number of customers at each stage of connection
+3.  **Total Bar** aggregates over plants
+4.  **Information Icon** redirects to the Customer Status Trend page, explained in the next screenshot
+
+<br clear="both"/>
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.5_2_ConsumerStatus.png")} alt="Consumer Status Trend" width="45%"/>
+<br></br><br></br>
+
+**Tapping on the information icon redirects to the Customer Status Trend page**
+
+1.  **Filter Bar** modifies result display according to:
+    * Cluster/NTP wise
+    * Month and Year
+    * Acquired/Active
+2.  **List of Plants** with the number of new active customers over four months
+3.  **Total Bar** aggregates over plants
+
+<br clear="both"/>
+
+<!-- ![Consumer Status Summary](./assets/3.36_ConsumerStatus.png)
+
+![Consumer Status Trend](./assets/3.37_ConsumerStatTrend.png) -->
+
+
+## 3.5.6. Consumer Activity
+**Functionality**
+* Provides an interface for deactivating and reactivating customer electricity connections.
+* Changes undergo a chain of approval before they are accepted.
+* Activity changes are summarised for each plant. 
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To execute requested changes to customer status</td>
+    <td>Reviewing which customers need to be de-/re-activated, and making the necessary changes to their connection</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Technician</td>
+    <td>Same as Technician</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To register a change to customer status and assign to field personnel</td>
+    <td>Using the app to check with a field agent whether they are available for executing the change</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Approve customer status requests at plants in the state</td>
+    <td>Checking how many status change requests are pending and at which plants</td>
+  </tr>
+</table>
+
+**Page Details**
+The Consumer Activity page is organised into several tabs, which follow the process of the account status change.
+
+| Request| In Process| Review| Completed|
+|---|---|---|---|
+|Register a customer for de-/re-activation|List of customers whose connection requires attention|Confirming the action has been completed| Historical list of all customer de-/re-activation details|
+
+### 3.5.6.1. Request tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_1_RequestTab.png")} alt="Request tab" width="45%"/>
+
+1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations, as shown in a subsequent screenshot
+2.  **Add Activity Icon** used to register a customer status change, as explained in the next screenshot
+3.  **Request Tab** gives us more information on the requested customer request, this can be either rejected or approved
+4.  **Navigation Bar** used to navigate between various sections of the section
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_2_RequestTab.png")} alt="Request tab" width="45%"/>
+<br></br>
+
+1.  **Select Plant** dropdown list
+2.  **Activity Type** dropdown list
+3.  **Consumer Number** dropdown list of all eligible / relevant customers 
+Additional comments can be added at this point
+4.  **Submit Button** completes the information submission
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_3_RequestTab.png")} alt="Request tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Filter Bar** used to select a date range
+2.  **List_of plants** showing the number of banned and reactivated customers in the selected time interval
+3.  **Total Bar** sums the values for all plants
+
+<br clear="both"/>
+
+<!-- ![Consumer Activity](./assets/3.38_ConsumerActivity.png)
+
+![Consumer Activity](./assets/3.39_ConsumerActSum.png) -->
+
+### 3.5.6.2. In Process tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.2_InProcessTab.png")} alt="In Process tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  **Request Tab** gives us more information on the in process customer request, including who registered the request and who is tasked with dealing with it
+
+The request can be either rejected, re- assigned to a different agent or executed (processed)
+
+<br clear="both"/>
+
+<!-- ![In Process tab](./assets/3.40_InProcessTab.png) -->
+
+### 3.5.6.3. Review tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.3_ReviewTab.png")} alt="Review tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  **Request Tab** gives us more information on the completed customer request being reviewed, this can be either rejected or marked completed (processed)
+
+<br clear="both"/>
+
+<!-- ![Review tab](./assets/3.41_ReviewTab.png) -->
+
+### 3.5.6.4. Completed tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.6.4_CompletedTab.png")} alt="Completed tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  **Request Details** includes information on historical customer requests in the time period in question, including the personnel responsible
+
+<br clear="both"/>
+
+<!-- ![Completed tab](./assets/3.42_CompletedTab.png) -->
+
+
+## 3.5.7. Consumer Service
+**Functionality**
+* View existing customer service requests—both technical and non-technical--at different stages of completion
+* Add new service requests
+* Assign outstanding requests to field personnel for follow-up
+* Close requests which have been resolved
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To review service requests assigned to them</td>
+    <td>Prioritising pending requests, depending on when they were registered and the nature of the work</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Technician</td>
+    <td>Phoning customers to understand what issue is being faced, and marking a request as complete when it has been resolved</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To view all requests from customers in the cluster</td>
+    <td>Reviewing pending requests and assigning them to personnel for follow-up</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>To gain an overview of service request statistics in the state</td>
+    <td>Tracking targets on personnel response time and customer satisfaction</td>
+  </tr>
+</table>
+
+**Page Details**
+
+| Report| Request| Completed|
+|---|---|---|
+|Overview statistics on completed and pending service requests| Detailed list of pending requests and personnel assignments| Record of all completed requests|
+
+### 3.5.7.1. Report tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.7.1_1_ReportTab.png")} alt="Report tab" width="45%"/>
+
+1.  **Navigation Bar** indicates current tabs; user can switch tabs by tapping or swiping horizontally
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+2.  **Filter Bar** for selecting particular plants and changing the time interval
+3.  **Pie Chart** summarises service request numbers:
+    * <Highlight color="#0000FF">Blue</Highlight> — Pending Requests
+    * <Highlight color="#008000">Green</Highlight> —Completed Requests
+4.  **Total Service Request** is the number of requests registered in the selected time-frame
+5.  **Average Completion Time** between the customer registering a request and marking it complete
+6.  **Rating** of customer satisfaction
+7.  **Add Service Requests** icon to register a new request; explained in the next screenshot
+
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.7.1_2_ReportTab.png")} alt="Report tab" width="45%"/>
+<br></br>
+
+**Tapping the add service request Icon leads to the new service request page**
+
+1.  **Add Service Information** to input details of the new service request, including
+    * Plant name (dropdown list)
+    * Consumer name
+    * Type of issue
+    * Other comments
+2.  **Submit Icon** tapped when all information is complete
+
+<br clear="both"/>
+
+<!-- ![Report tab](./assets/3.43_ReportTab1.png)
+
+![Report tab](./assets/3.44_ReportTab2.png) -->
+
+### 3.5.7.2. Request tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.7.2_RequestTab.png")} alt="Request tab" width="45%"/>
+<br></br>
+
+1.  **Navigation Bar** (same as previous tab)
+2.  **Filter Bar** (same as previous tab)
+3.  **Service Request List** where pending requests are shown chronologically, along with current personnel assignment.
+
+**Complete/Re-assign** Users may manually close the request or assign it to a different agent
+
+Tap an agent’s name to call them
+
+4.  **Add Service Request** (same as previous tab)
+
+<br clear="both"/>
+
+<!-- ![Request tab](./assets/3.45_RequestTab.png)  -->
+
+### 3.5.7.3. Completed tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.7.3_CompletedTab.png")} alt="Request tab" width="45%"/>
+<br></br>
+
+1.  **Navigation Bar** (same as previous tab)
+2.  **Filter Bar** (same as previous tab)
+3.  **Completed Service Requests** shown chronologically, with specific details including the turnaround time along with the names of each agent handling the request
+4.  **Add Service Request** (same as previous tab)
+5.  **Search Icon** to filter the list according to customer name, field agent name, or any other relevant parameter
+
+<br clear="both"/>
+
+<!-- ![Completed tab](./assets/3.46_CompletedTab.png) -->
+
+## 3.5.8. Temporary Disconnect
+**Functionality**
+* Allows a user to remotely disconnect the supply of particular customers
+* This functionality is only available for TaraUrja users
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Disconnecting specific customers at a plant</td>
+    <td>Disconnecting high-load customers when a demand surge causes the plant to trip, until system stability is restored</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Disconnecting all customers at a plant</td>
+    <td>Disconnecting all customers for safety during network maintenance</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.8_TemporaryDisconnect.png")} alt="Temporary Disconnect" width="45%"/>
+<br></br>
+
+1.  **Plant Dropdown** to show customers of a particular plant
+2.  **Plant Master Switch** used to temporarily disconnect all customers of the plant
+3.  **Individual Customer Switch** displaying the customer name, customer ID, package, and meter number, along with the master power switch
+4.  **Search** for specific customers by typing in their name, customer ID, package ID, or meter number
+
+<br clear="both"/>
+
+<!-- ![Temporary Disconnect](./assets/3.47_TemporaryDisconnect.png) -->
+
+
+## 3.5.9. Add Consumer
+**Functionality**
+* Create a new customer account in the MCOMS system
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To add a consumer into the company database</td>
+    <td>Manual addition of a customer who cannot request an account through the customer smartphone app</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Technician</td>
+    <td>Same as Technician</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as Technician</td>
+    <td>Same as Technician</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as Technician</td>
+    <td>Same as Technician</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.9_1_AddConsumer.png")} alt="Add Consumer" width="45%"/>
+
+![App Data Entry](/img/scrnshts/App_DataEntry.png)
+
+1.  **Customer Information** required is specified line by line
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.9_2_AddConsumer.png")} alt="Add Consumer" width="45%"/>
+<br></br>
+
+2.  **Customer Information** continues, and includes which package they have selected
+3.  **Next Button** completes the data submission
+
+<br clear="both"/>
+
+<!-- ![Add Consumer](./assets/3.48_AddConsumer.png) -->
+
+## 3.5.10. Add Instant Consumer
+**Functionality**
+* Quickly create a new customer account in the MCOMS system, with only critical information recorded
+* This functionality is only available for TaraUrja users
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>To quickly add a new customer into the company database</td>
+    <td>During a recruitment drive in a public place, many prospective customers may need registration in a short period of time</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as CSA</td>
+    <td>Same as CSA</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>Same as CSA</td>
+    <td>Same as CSA</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.10_AddInstantConsumer.png")} alt="Add Instant Consumer" width="45%"/>
+
+![Left Right Nav](/img/scrnshts/App_DataEntry.png)
+
+1.  **Customer Information** to be added includes only the most critical data
+2.  **Confirm** tapped once data has been reviewed for accuracy
+3.  **Submit** tapped to complete the process
+
+<br clear="both"/>
+
+<!-- ![Add Instant Consumer](./assets/3.49_AddInstantConsumer.png) -->
+
+## 3.5.11. Catchment Survey
+**Functionality**
+* The Catchment Survey Section showcases an overview of all the customers and potential customers present at a plant
+* The ‘catchment’ created intends to assist in reviewing customer behaviour over a period of time
+* It also gives a detailed list on the penetration made into the potential customer base
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To record survey responses of energy consumers</td>
+    <td>Interviewing a local who comes to the plant to enquire about getting a connection</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Same as Operator</td>
+    <td>Updating an existing customer’s profile and contact information</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Operator</td>
+    <td>Interviewing locals in the catchment area to understand energy needs and use patterns</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>Same as Operator</td>
+    <td>Reviewing the number of active, inactive, and prospective customers in the cluster</td>
+  </tr>
+</table>
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_1_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+
+1.  **Filter Section** to show customer data Cluster Wise or NTP wise
+2.  **List of Plants** shows the segregation between the status under’ which customers have been grouped, plant wise
+3.  **Total Bar** aggregates the columnar data in the tabular column
+
+**Tapping on a particular plant will redirect the user to its consumer list page**
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_2_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+
+1.  **Filter Bar** used to narrow down the results
+2.  **List of Consumers** showing their activity status, and whether their profile has been updated / survey administered
+
+The green tick validates the completion
+
+3.  **Update Profile** option will allow the user to update the profile of any consumer (both active customers and others)
+4.  **Tapping** a consumer will allow the user to:
+    * Update Profile
+    * Complete Survey
+
+**Tapping any of these options will redirect you to either the update profile page or he survey page, both of which have been explained in the following screenshots**
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_3_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<br></br><br></br>
+
+**Update Profile**
+
+1.  **Consumer Profile** Information to be filled by the field agent
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_4_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<br></br><br></br><br></br>
+
+2.  **Submit** tapped to complete the update
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_5_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<br></br><br></br><br></br>
+
+The Survey page allows the user to record information about an existing/prospective customer's energy usage needs
+
+1.  **Survey Information** to be filled by the agent
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.11_6_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<br></br><br></br><br></br>
+
+2.   **Submit** tapped to complete the survey
+
+<br clear="both"/>
+
+<!-- ![Catchment Survey](./assets/3.50_CatchmentSummary.png)
+
+![Catchment Survey](./assets/3.51_ConsumerList.png)
+
+![Catchment Survey](./assets/3.52_CatchmentSurvey2.png)
+
+![Catchment Survey](./assets/3.53_CatchmentSurvey3.png) -->
+
+## 3.5.12. Theft Complaint
+**Functionality**
+* Used to register possible pilferage from the mini-grid, for follow-up investigation
+* This functionality is only available for HCLF users
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To register a possible theft for follow-up</td>
+    <td>Registering a complaint from a customer who visits the plant</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>To view pending theft complaints</td>
+    <td>Checking the distribution network cables as directed by the Cluster In-charge</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Operator</td>
+    <td>Registering a complained after noticing new unsanctioned cables</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To review logged theft complaints and assign them to field agents for investigation</td>
+    <td>Reviewing the total number of theft complaints within a given time frame</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<table>
+    <tr>
+        <th>Pending</th>
+        <th>In Process</th>
+        <th>Completed</th>
+    </tr>
+    <tr>
+         <td>The theft reports that are reported</td>
+         <td>Theft reports that are currently being investigated</td>
+         <td>Theft reports that have been appropriately dealt with</td>
+    </tr>
+</table>
+
+
+### 3.5.12.1. Pending tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_1_PendingTab.png")} alt="Pending tab" width="45%"/>
+
+1.  **Information Icon** tapped for plant-wise overview of complaints, as explained in the next screenshot
+2.  **Navigation Bar** indicates the current tab and allows switching between tabs
+![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+3.  **Filter Bar** allows the user to restrict attention to a specific plant and time frame
+4.  **Complaint Tab** contains relevant information regarding the theft complaint lodged by a user
+5.  **Add Complaint Button** redirects the user to the New Theft Report page, detailed below
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_2_PendingTab.png")} alt="Pending tab" width="45%"/>
+<br></br><br></br>
+
+**Theft Complaint Summary**
+
+1.  **Filter Bar** allows the user to produce results between a given period of time at a plant
+2.  **Tabular Information** on the theft complaints at various plants is shown
+3.  **Total Bar** gives the user a representation of the aggregated columnar data
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_3_PendingTab.png")} alt="Pending tab" width="45%"/>
+
+![Data Entry](/img/scrnshts/App_DataEntry.png)
+
+**New Theft Report**
+
+1.  **Plant Selection** must be made before filling in the form
+2.  **Complaint Information** itemised line by line, including possibility of adding a photograph
+3.  **Submit** completes the registration process
+
+<br clear="both"/>
+
+
+<!-- ![Pending tab](./assets/3.54_TheftComplaint.png)
+
+![Pending tab](./assets/3.55_TheftComplaintSumm.png)
+
+![Pending tab](./assets/3.56_NewTheftRequest.png) -->
+
+### 3.5.12.2. In Process tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.12.2_InProcessTab.png")} alt="In Process tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Information Icon** tapped for plant-wise overview of complaints
+2.  **Complaint Tab** gives the user relevant information on a complaint request that is currently being investigated. It can either by rejected or completed
+
+<br clear="both"/>
+
+<!-- ![In Process tab](./assets/3.57_TheftComplain1.png) -->
+
+
+### 3.5.12.3. Completed tab
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.12.3_CompletedTab.png")} alt="Completed tab" width="45%"/>
+<br></br><br></br>
+
+1.  **Information Icon** tapped for plant-wise overview of complaints
+2.  **Complaint Tab** gives the user relevant information on a complaint request that has been completed.
+
+<br clear="both"/>
+
+<!-- ![Completed tab](./assets/3.58_TheftComplain2.png)  -->
+
+## 3.5.13. Coupon Discount
+**Functionality**
+* Allows plant personnel to generate coupons for customers
+* Tracks the number of redeemed coupons
+
+**Key Users**
+<table>
+  <tr>
+    <th>Designation</th>
+    <th>Main Purpose</th>
+    <th>Example Use Case</th>
+  </tr>
+  <tr>
+    <td>Operator</td>
+    <td>To generate coupon codes on behalf of customers</td>
+    <td>Assisting a customer who doesn’t have a smartphone to avail a company promotion</td>
+  </tr>
+  <tr>
+    <td>Technician</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>CSA</td>
+    <td>Same as Operator</td>
+    <td>Same as Operator</td>
+  </tr>
+  <tr>
+    <td>Cluster In-charge</td>
+    <td>To track the customers whose coupons are going to expire</td>
+    <td>Following up with customers who have generated coupons but not redeemed them</td>
+  </tr>
+  <tr>
+    <td>State In-charge</td>
+    <td>To monitor the results of coupon schemes at different plants</td>
+    <td>Calculating the proportion of eligible customers who participated in the initiative</td>
+  </tr>
+</table>
+
+
+**Page Details**
+
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.13_1_CoupounDiscount.png")} alt="Coupon Summary" width="45%"/>
+<br></br><br></br>
+
+1.  **Filter Bar** narrows to a given time period
+2.  **List of Plants** showing the number of coupons generated and redeemed at each plant
+3.  **Total Bar** aggregates over all plants
+
+**Tapping on any plant will redirect the user to a list of customers at that plant, as explained in the next screenshot**
+
+<br clear="both"/>
+<br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/3.5.13_2_CoupounDiscount.png")} alt="Coupon Discount" width="45%"/>
+
+1.   **Search Icon** can be used to find a specific customer
+2.   **Filter Bar** allows narrowing the results to a given time period and plant
+3.  **Generate Coupon Code** allows an agent to enable the customer to generate a coupon code that could be redeemed
+
+The particular customer can be contacted by tapping on the phone icon present in every tab
+
+<br clear="both"/>
+
+<!-- ![Coupon Summary](./assets/3.59_CouponSummary.png)
+
+![Coupon Discount](./assets/3.60_CouponDiscount.png)  -->
+
