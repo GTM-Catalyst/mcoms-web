@@ -83,7 +83,7 @@ The processing of every Service Request made by all customers is as follows:
 ![Service requests workflow](./assets/2.5_ServiceReqWorkFlw.svg)
 
 ## 2.2.8. Security Deposits
-A refundable security deposit is typically taken from every new customer, with the amount depending on their anticipated monthly bill. In the event of a lapse in regular payments, the company can recoup the outstanding amount form the deposit. Otherwise, the deposit is refunded in full when a customer discontinues their subscription. The process for collecting the security deposit is illustrated in **Error! Reference source not found.**
+A refundable security deposit is typically taken from every new customer, with the amount depending on their anticipated monthly bill. In the event of a lapse in regular payments, the company can recoup the outstanding amount form the deposit. Otherwise, the deposit is refunded in full when a customer discontinues their subscription. 
 
 ## 2.2.9. Package Changes
 Customers whose energy requirements or circumstances change may shift to a different package. For example, a household may upgrade to a higher load limit after buying new electrical appliances, or may opt for longer hours of access.

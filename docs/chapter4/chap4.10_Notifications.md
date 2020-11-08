@@ -5,6 +5,15 @@ sidebar_label: सूचनाएँ (नोटिफिकेशन)
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 **फंक्शनलिटी**
 * नोटिफिकेशन पेज में कंपनी द्वारा अब तक दी गई सभी सूचनाओं की सूची दी जाती है। इसमें सतर्कता संदेश (एलर्ट), भुगतान की रसीदें, प्लांट बंद रहने के संदेश आदि शामिल हैं।
@@ -14,11 +23,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.10_Notification.png")} alt="Notification" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **खोज आइकन** कुंजी शब्दों में लिखकर संदेशों को फ़िल्टर करने के लिए उपयोग किया जाता है
-2.  **संदेश सूची** कालानुक्रमिक क्रम में कंपनी के सभी संचार को दर्शाता है
+1.  <u>खोज आइकन</u> कुंजी शब्दों में लिखकर संदेशों को फ़िल्टर करने के लिए उपयोग किया जाता है
+2.  <u>संदेश सूची</u> कालानुक्रमिक क्रम में कंपनी के सभी संचार को दर्शाता है
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Notification](./assets/4.19_Notification.png) -->

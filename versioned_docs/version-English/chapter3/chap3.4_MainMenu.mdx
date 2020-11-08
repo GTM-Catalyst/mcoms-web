@@ -17,6 +17,16 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
+
 ## 3.4.1. Overview
 * The Main Menu provides shortcuts to the key sections, shown below.
 
@@ -70,22 +80,30 @@ Returns user to the Home Screen (Section 3.3).
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4_3_1_Dashboard.png")} alt="Home Screen" width="45%"/>
 
-1. **Total Billing** is explained in Section 3.4.3.1
-2. **Total Collection** is explained in Section 3.4.3.2
-3. **Amounts** billed and collected for various services
-4. **Filter** to select a specific plant and/or time interval
+<Clear>
 
+1. <u>Total Billing</u> is explained in Section 3.4.3.1
+2. <u>Total Collection</u> is explained in Section 3.4.3.2
+3. <u>Amounts</u> billed and collected for various services
+4. <u>Filter</u> to select a specific plant and/or time interval
+
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4_3_2_Dashboard.png")} alt="Home Screen" width="45%"/>
 
-5.  **Collection Detail** details how the collection has been made:
-    * POS — Collected in person by a field agent
-    * Wallet — Payment made through an electronic wallet
-    * Cash Card — Payments made through credit/debit cards
-6.  **YTD Outstanding** refers to the outstanding payments that are yet to be made by customers from the beginning of the Calendar year
+<Clear>
 
+5.  <u>Collection Detail</u> details how the collection has been made:
+
+  * POS — Collected in person by a field agent
+  * Wallet — Payment made through an electronic wallet
+  * Cash Card — Payments made through credit/debit cards
+
+6.  <u>YTD Outstanding</u> refers to the outstanding payments that are yet to be made by customers from the beginning of the Calendar year
+
+</Clear>
 <br clear="both"/>
 
 
@@ -101,21 +119,28 @@ Returns user to the Home Screen (Section 3.3).
 
 **Page Details**
 
+
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4_3_3_TotalBilling.png")} alt="Total Billing" width="45%"/>
 
-1.  **Tabular Data** of each plant is described here. The columnar data includes:
-    * Amount billed to prepaid customers
-    * Amount billed to post-paid customers
-    * Total amount billed to all customers
-    * Percentage of customers billed
+<Clear>
+
+1. <u>Tabular Data</u> of each plant is described here. The columnar data includes:
+
+  * Amount billed to prepaid customers
+  * Amount billed to post-paid customers
+  * Total amount billed to all customers
+  * Percentage of customers billed
 
 Arrows indicate month-on-month change in revenue:
-* <Highlight color="#FF0000"> ↓ </Highlight> Red -- revenue decrease
-* <Highlight color="#008000"> ↑ </Highlight> Green -- revenue increase
-2.  **Total Bar** shows the total amount for all plants
-3.  **Green Rows** show total amounts for each cluster of plants
 
+  * <Highlight color="#FF0000"> ↓ </Highlight> Red -- revenue decrease
+  * <Highlight color="#008000"> ↑ </Highlight> Green -- revenue increase
+
+2.  <u>Total Bar</u> shows the total amount for all plants
+3.  <u>Green Rows</u> show total amounts for each cluster of plants
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Page Details](./assets/3.16_PageDetails3.png) -->
@@ -129,10 +154,13 @@ Arrows indicate month-on-month change in revenue:
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.3.2_TotalCollection.png")} alt="Total Collection" width="45%"/>
 
-1.  **Tabular Data** of each plant
-2.  **Total Bar** shows the total amount for all plants
-3.  **Green Rows** show the total amounts for each cluster of plants
+<Clear>
 
+1.  <u>Tabular Data</u> of each plant
+2.  <u>Total Bar</u> shows the total amount for all plants
+3.  <u>Green Rows</u> show the total amounts for each cluster of plants
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Page Details](./assets/3.17_PageDetails4.png) -->
@@ -171,14 +199,16 @@ Arrows indicate month-on-month change in revenue:
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.4_CashRegister.png")} alt="Cash Register" width="45%"/>
+<Clear>
 
-1.  **Filter Bar** for selecting a plant and time interval
-2.  **Pie Chart** splits the total collection into contributions from different services
-3.  **Numerical Data** of amount collected for each service
-4.  **Search Bar** for quickly locating a particular customer: user can type the name or the unique customer ID
-5.  **Transaction Details** presents a list of all payments collected from customers in the selected time-frame, with most recent first
-6.  **Tap** any entry to view customer's account page (Section 3.5.2)
+1.  <u>Filter Bar</u> for selecting a plant and time interval
+2.  <u>Pie Chart</u> splits the total collection into contributions from different services
+3.  <u>Numerical Data</u> of amount collected for each service
+4.  <u>Search Bar</u> for quickly locating a particular customer: user can type the name or the unique customer ID
+5.  <u>Transaction Details</u> presents a list of all payments collected from customers in the selected time-frame, with most recent first
+6.  <u>Tap</u> any entry to view customer's account page (Section 3.5.2)
 
+</Clear>
 <br clear="both"/>
 
 
@@ -224,23 +254,31 @@ Arrows indicate month-on-month change in revenue:
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.5_1_SparkServer.png")} alt="Spark Server" width="45%"/>
 
-1.  **Meter List**, with one row per meter, shows the associated customer and meter state:
-    - <Highlight color="#FF0000"> * </Highlight>Red - Inactive
-    - <Highlight color="#008000"> * </Highlight> Green - Active
-    - <Highlight color="#0000FF"> * </Highlight> Blue - Auto
-2.  **Search Bar**: find a specific entry by typing the customer name, ID, or meter number.
-3.  **Plant Dropdown** used to select a particular plant
+<Clear>
 
+1.  <u>Meter List</u>, with one row per meter, shows the associated customer and meter state:
+
+  * <Highlight color="#FF0000"> * </Highlight>Red - Inactive
+  * <Highlight color="#008000"> * </Highlight> Green - Active
+  * <Highlight color="#0000FF"> * </Highlight> Blue - Auto
+
+2.  <u>Search Bar</u>: find a specific entry by typing the customer name, ID, or meter number.
+3.  <u>Plant Dropdown</u> used to select a particular plant
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.5_2_SparkServer.png")} alt="Spark Server" width="45%"/>
 
+<Clear>
+
 **On tapping any particular meter, the application redirects to the meter’s page**
 
-1.  **Master Details** includes key customer and meter information
-2.  **Meter Status** gives us the current meter activity status, and allows switching between ON, OFF, and AUTO
-3.  **Reset Meter** option used to reset meter settings and details to default
+1.  <u>Master Details</u> includes key customer and meter information
+2.  <u>Meter Status</u> gives us the current meter activity status, and allows switching between ON, OFF, and AUTO
+3.  <u>Reset Meter</u> option used to reset meter settings and details to default
 
+</Clear>
 <br clear="both"/>
 
 
@@ -289,26 +327,33 @@ Note that this page is also accessible directly from the Home Screen – see Sec
 
 **Page Details**
 
-<br clear="right"/>
+
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.6_Receivable.png")} alt="Spark Server" width="45%"/>
 
-1. **Filter Bar** used to show information according to:
-    - Plant (number of customers in brackets)
-    - Active/inactive customers
-    - List sorting by billed amount or outstanding amount
-    - Which service is being billed
-2. **Billing Amounts** listed for each customer (with customer ID)
-    - <Highlight color="#008000">Green</Highlight>: active customer
-    - <Highlight color="#FF0000">Red</Highlight>: inactive customer
+<Clear>
 
-Tapping a customer links to a menu of information explained in Section 3.5.2
-Payments may be registered by selecting the “Add Transaction” option
+1. <u>Filter Bar</u> used to show information according to:
 
-3. **Total Bar** shows the sum of each column, given the selected filters
-4. **Search** quickly for a particular customer by typing their name or customer ID
-5. **Dotted Icon** tapped to show the following options
+  * Plant (number of customers in brackets)
+  * Active/inactive customers
+  * List sorting by billed amount or outstanding amount
+  * Which service is being billed
+
+2. <u>Billing Amounts</u> listed for each customer (with customer ID)
+
+  * <Highlight color="#008000">Green</Highlight>: active customer
+  * <Highlight color="#FF0000">Red</Highlight>: inactive customer
+
+    Tapping a customer links to a menu of information explained in Section 3.5.2
+    Payments may be registered by selecting the “Add Transaction” option
+
+3. <u>Total Bar</u> shows the sum of each column, given the selected filters
+4. <u>Search</u> quickly for a particular customer by typing their name or customer ID
+5. <u>Dotted Icon</u> tapped to show the following options
+
     - Send SMS
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Page Details](./assets/3.21_PAgeDetails8.png) -->
@@ -326,6 +371,7 @@ The following are the pages that can be viewed through this functionality:
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.6_2_AgingReceivables.png")} alt="Aging Receivables" width="45%"/>
+<Clear>
 
 **On tapping Send SMS**
 
@@ -335,33 +381,42 @@ The user must confirm that an SMS should be sent to all customers at a plant (se
 
 You will be directed to the active list of customers at the plant:
 
-1. **Tabular Column** of all the active consumers at a particular site along with the total receivable that is still to be collected is displayed. The number in the brackets under the amount show the total number of consumers. The columnar data includes:
-    * 45-60 days
-    * 61-90 days
-    * 91-120 days
-    * Greater than 120 days
-2. **Total Bar** displays the aggregated columnar results of the table.
-3. **Navigation Bar** used to navigate between the Active consumer column and the Banned consumer column
-4. **Green Rows** show total amounts for each cluster of plants
+1. <u>Tabular Column</u> of all the active consumers at a particular site along with the total receivable that is still to be collected is displayed. The number in the brackets under the amount show the total number of consumers. The columnar data includes:
 
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+  * 45-60 days
+  * 61-90 days
+  * 91-120 days
+  * Greater than 120 days
+
+2. <u>Total Bar</u> displays the aggregated columnar results of the table.
+3. <u>Navigation Bar</u> used to navigate between the Active consumer column and the Banned consumer column
+4. <u>Green Rows</u> show total amounts for each cluster of plants
+
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
 **The next screenshot displays the result on tapping ‘Banned’**
 
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.6_3_AgingReceivables.png")} alt="Aging Receivables" width="45%"/>
 
-1. **Tabular Column** of all the banned or inactive consumers at a particular site along with the total receivable that is still to be collected is displayed. The number in the brackets under the amount show the total number of consumers. The columnar data includes (Section XX):
-    * Less than 30 Days
-    * 30-60 Days
-    * 60-90 Days
-    * Greater than 90 Days
-2. **Total Bar** displays the aggregated columnar results of the table.
-3. **Navigation Bar** used to navigate between the Active consumer column and the Banned consumer column
+<Clear>
 
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+1. <u>Tabular Column</u> of all the banned or inactive consumers at a particular site along with the total receivable that is still to be collected is displayed. The number in the brackets under the amount show the total number of consumers. The columnar data includes (Section XX):
+
+* Less than 30 Days
+* 30-60 Days
+* 60-90 Days
+* Greater than 90 Days
+
+2. <u>Total Bar</u> displays the aggregated columnar results of the table.
+3. <u>Navigation Bar</u> used to navigate between the Active consumer column and the Banned consumer column
+
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+</Clear>
 
 <br clear="both"/>
 
@@ -393,9 +448,12 @@ You will be directed to the active list of customers at the plant:
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.4.7_Contacts.png")} alt="Contacts" width="45%"/>
 
-1.  **Search** for a particular contact by name, plant, or designation
-2.  **Contact Details** of each operation is provided in alphabetical order
+<Clear>
 
+1.  <u>Search</u> for a particular contact by name, plant, or designation
+2.  <u>Contact Details</u> of each operation is provided in alphabetical order
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Contacts](./assets/3.24_Contacts.png) -->

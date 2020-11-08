@@ -40,6 +40,14 @@ export const Tabcell = ({children, color}) => (
   </td>
 );
 
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 ## 3.5.1. Overview
 
@@ -123,7 +131,7 @@ The Account Detail page is organised into several tabs, which summarise particul
 
 Switching between tabs can be done either using the top navigation bar, or simply swiping the screen horizontally.
 
-![Consumer Screenshot](./assets/3.13_SwipeIcon.png)
+![Consumer Screenshot](../assets/App_LeftRightNav.png)
 
 Each of these tabs will be discussed in the following sections.
 
@@ -136,22 +144,24 @@ Each of these tabs will be discussed in the following sections.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.1_1_ProfileTab.png")} alt="Profile Tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates the current tab and allows switching between tabs
+1.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
 
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
  
-2.  **Pencil Icon** for editing selected details
-3.  **Master Information** gives basic information about the customer background and relationship with the company
-4.  **Print Profile Detail** tapping will send the page to a connected printer
-5.  **Mobile** shows the registered mobile number; tapping the phone icon starts a call
-6.  **Outstanding** details, the aggregate payment due for all services
-7.  **Package** details the customer’s electricity package, including fees, load limit, and unit rates
-8.  **Schemes** contains information on any promotions in which the customer is participating, including EMI arrangements
+2.  <u>Pencil Icon</u> for editing selected details
+3.  <u>Master Information</u> gives basic information about the customer background and relationship with the company
+4.  <u>Print Profile Detail</u> tapping will send the page to a connected printer
+5.  <u>Mobile</u> shows the registered mobile number; tapping the phone icon starts a call
+6.  <u>Outstanding</u> details, the aggregate payment due for all services
+7.  <u>Package</u> details the customer’s electricity package, including fees, load limit, and unit rates
+8.  <u>Schemes</u> contains information on any promotions in which the customer is participating, including EMI arrangements
 
+</Clear>
 <br clear="both"/>
 <img src={useBaseUrl("img/scrnshts/3.5.2.1_2_ProfileTab.png")} alt="Profile Tab"/>
-<br></br><br></br>
+
 
 <!-- ![Profile Tab](./assets/3.27_ProfileTab.png) -->
 Edits must be confirmed via an OTP from the customer.
@@ -165,14 +175,15 @@ Edits must be confirmed via an OTP from the customer.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.2_TransactionTab.png")} alt="Transaction Tab" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Print Icon** to print a receipt, or, if not printer is connected, take a shareable screenshot
-2.  **List of Payments** in chronological order, along with other relevant data
-3.  **Navigation Bar** used swipe right across different panels of the account details
+1.  <u>Print Icon</u> to print a receipt, or, if not printer is connected, take a shareable screenshot
+2.  <u>List of Payments</u> in chronological order, along with other relevant data
+3.  <u>Navigation Bar</u> used swipe right across different panels of the account details
 
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Transaction Tab](./assets/3.28_TransacTab.png) -->
@@ -185,11 +196,15 @@ Edits must be confirmed via an OTP from the customer.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.3_CashLedgeTab.png")} alt="Cash Ledger Tab" width="45%"/>
-<br></br><br></br><br></br>
 
-1.  **List of Transactions** including bills and payments/credits, along with the cumulative balance owed by the customer
-2.  **Navigation Bar** indicates the current tab and allows switching between tabs
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+<Clear>
+
+1.  <u>List of Transactions</u> including bills and payments/credits, along with the cumulative balance owed by the customer
+2.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
+
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+</Clear>
 
 <br clear="both"/>
 
@@ -204,13 +219,14 @@ Edits must be confirmed via an OTP from the customer.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.4_SecurityDepositLedgerTab.png")} alt="Security Deposit Ledger tab" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **List of Transactions** including bills and payments/credits, along with the cumulative balance owed by the customer
-2.  **Navigation Bar** indicates the current tab and allows switching between tabs
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+1.  <u>List of Transactions</u> including bills and payments/credits, along with the cumulative balance owed by the customer
+2.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Security Deposit Ledger tab](./assets/3.30_SecDepositLedTab.png) -->
@@ -224,17 +240,21 @@ Edits must be confirmed via an OTP from the customer.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.5_MeterReadingLedgerTab.png")} alt="Meter Reading Ledger tab" width="45%"/>
+<Clear>
 
-1.  **Meter Number Panel** is a drop-down list of meters associated with the customer
-2.  **Daily Meter Readings** gives you important detail such as:
-    * Date of the reading
-    * Customer's electricity package
-    * Meter reading (kWh)
-    * Units consumed since the last reading (kWh)
-3.  **Navigation Bar** indicates the current tab and allows switching between tabs
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+1.  <u>Meter Number Panel</u> is a drop-down list of meters associated with the customer
+2.  <u>Daily Meter Readings</u> gives you important detail such as:
 
+* Date of the reading
+* Customer's electricity package
+* Meter reading (kWh)
+* Units consumed since the last reading (kWh)
 
+3.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
+
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Meter Reading Ledger tab](./assets/3.31_MeterReadLedTab.png) -->
@@ -248,14 +268,16 @@ Edits must be confirmed via an OTP from the customer.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.2.6_ServiceTab.png")} alt="Service tab" width="45%"/>
+<Clear>
 
-1.  **Service Issue** lists details about each service request made by the customer
-2.  **Request Summary** shows the total number of requests, along with a break-down into pending and completed requests of each type. The average turnaround time is also recorded.
-3.  **Search** allows the user to filter the list of requests by typing in specific information
-4.  **Navigation Bar** indicates the current tab and allows switching between tabs
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+1.  <u>Service Issue</u> lists details about each service request made by the customer
+2.  <u>Request Summary</u> shows the total number of requests, along with a break-down into pending and completed requests of each type. The average turnaround time is also recorded.
+3.  <u>Search</u> allows the user to filter the list of requests by typing in specific information
+4.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Service tab](./assets/3.32_ServiceTab.png) -->
@@ -307,41 +329,51 @@ This page is also accessible from the Main Menu. More details can be found in Se
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.4_ConsumerList.png")} alt="Consumer List" width="45%"/>
+<Clear>
 
-1.  **List of Plants** showing the number of banned, active and total customers in every plant
-2.  **Green Rows** show total amounts for each cluster of plants
-3.  **Total Bar** shows the sum of each column 
+1.  <u>List of Plants</u> showing the number of banned, active and total customers in every plant
+2.  <u>Green Rows</u> show total amounts for each cluster of plants
+3.  <u>Total Bar</u> shows the sum of each column 
 
 **Tapping any plant will redirect you to the consumer list for that plant, as shown in the next screenshot**
 
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.4_2_ConsumerList.png")} alt="Consumer List" width="45%"/>
+<Clear>
 
-1.  **Individual Customer** shown in each tab along with important information such as:
-    * Customer ID
-    * Package number
-    * Active/banned status
-    * Outstanding amount
-2.  **Search Icon** to filter out the customer list by typing in the name or customer ID
-3.  **Adding Consumer** explained in Section 3.5.9
+1.  <u>Individual Customer</u> shown in each tab along with important information such as:
+
+* Customer ID
+* Package number
+* Active/banned status
+* Outstanding amount
+
+2.  <u>Search Icon</u> to filter out the customer list by typing in the name or customer ID
+3.  <u>Adding Consumer</u> explained in Section 3.5.9
 
 **Tapping a consumer allows the user to add a transaction, as explained in the next screenshot**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.4_3_ConsumerList.png")} alt="Consumer List" width="45%"/>
+<Clear>
 
 Tapping on aconsumer allows the user to choose from three options:
+
 * Profile — links to account detail which is explained in section 3.5.2
 * Add Transaction — explained below
 * Cancel —returns to the previous page
-1.  **Customer Details** shown with important information
-2.  **Outstanding Value** that displays the total amount of money owed and for which service it was charged
-3.  **Adding Collection** to manually add any payments made by the customer, and for which service
-4.  **Review Tab** to finalise the transaction
 
+1.  <u>Customer Details</u> shown with important information
+2.  <u>Outstanding Value</u> that displays the total amount of money owed and for which service it was charged
+3.  <u>Adding Collection</u> to manually add any payments made by the customer, and for which service
+4.  <u>Review Tab</u> to finalise the transaction
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Consumer List](./assets/3.33_ConsumerList.png)
@@ -387,29 +419,33 @@ Tapping on aconsumer allows the user to choose from three options:
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.5_1_ConsumerStatus.png")} alt="Consumer Status Summary" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** gives options for displaying results either cluster-wise or NTP-wise
-2.  **List of Plants** with number of customers at each stage of connection
-3.  **Total Bar** aggregates over plants
-4.  **Information Icon** redirects to the Customer Status Trend page, explained in the next screenshot
+1.  <u>Filter Bar</u> gives options for displaying results either cluster-wise or NTP-wise
+2.  <u>List of Plants</u> with number of customers at each stage of connection
+3.  <u>Total Bar</u> aggregates over plants
+4.  <u>Information Icon</u> redirects to the Customer Status Trend page, explained in the next screenshot
 
+</Clear>
 <br clear="both"/>
 
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.5_2_ConsumerStatus.png")} alt="Consumer Status Trend" width="45%"/>
-<br></br><br></br>
+<Clear>
 
 **Tapping on the information icon redirects to the Customer Status Trend page**
 
-1.  **Filter Bar** modifies result display according to:
-    * Cluster/NTP wise
-    * Month and Year
-    * Acquired/Active
-2.  **List of Plants** with the number of new active customers over four months
-3.  **Total Bar** aggregates over plants
+1.  <u>Filter Bar</u> modifies result display according to:
 
+* Cluster/NTP wise
+* Month and Year
+* Acquired/Active
+
+2.  <u>List of Plants</u> with the number of new active customers over four months
+3.  <u>Total Bar</u> aggregates over plants
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Consumer Status Summary](./assets/3.36_ConsumerStatus.png)
@@ -463,33 +499,38 @@ The Consumer Activity page is organised into several tabs, which follow the proc
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_1_RequestTab.png")} alt="Request tab" width="45%"/>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations, as shown in a subsequent screenshot
-2.  **Add Activity Icon** used to register a customer status change, as explained in the next screenshot
-3.  **Request Tab** gives us more information on the requested customer request, this can be either rejected or approved
-4.  **Navigation Bar** used to navigate between various sections of the section
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+1.  <u>Information Icon</u> redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations, as shown in a subsequent screenshot
+2.  <u>Add Activity Icon</u> used to register a customer status change, as explained in the next screenshot
+3.  <u>Request Tab</u> gives us more information on the requested customer request, this can be either rejected or approved
+4.  <u>Navigation Bar</u> used to navigate between various sections of the section
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_2_RequestTab.png")} alt="Request tab" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Select Plant** dropdown list
-2.  **Activity Type** dropdown list
-3.  **Consumer Number** dropdown list of all eligible / relevant customers 
-Additional comments can be added at this point
-4.  **Submit Button** completes the information submission
+1.  <u>Select Plant</u> dropdown list
+2.  <u>Activity Type</u> dropdown list
+3.  <u>Consumer Number</u> dropdown list of all eligible / relevant customers 
+    Additional comments can be added at this point
+4.  <u>Submit Button</u> completes the information submission
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.1_3_RequestTab.png")} alt="Request tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** used to select a date range
-2.  **List_of plants** showing the number of banned and reactivated customers in the selected time interval
-3.  **Total Bar** sums the values for all plants
+1.  <u>Filter Bar</u> used to select a date range
+2.  <u>List_of plants</u> showing the number of banned and reactivated customers in the selected time interval
+3.  <u>Total Bar</u> sums the values for all plants
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Consumer Activity](./assets/3.38_ConsumerActivity.png)
@@ -500,13 +541,14 @@ Additional comments can be added at this point
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.2_InProcessTab.png")} alt="In Process tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
-2.  **Request Tab** gives us more information on the in process customer request, including who registered the request and who is tasked with dealing with it
+1.  <u>Information Icon</u> redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  <u>Request Tab</u> gives us more information on the in process customer request, including who registered the request and who is tasked with dealing with it
 
-The request can be either rejected, re- assigned to a different agent or executed (processed)
+    The request can be either rejected, re- assigned to a different agent or executed (processed)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![In Process tab](./assets/3.40_InProcessTab.png) -->
@@ -515,11 +557,12 @@ The request can be either rejected, re- assigned to a different agent or execute
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.3_ReviewTab.png")} alt="Review tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
-2.  **Request Tab** gives us more information on the completed customer request being reviewed, this can be either rejected or marked completed (processed)
+1.  <u>Information Icon</u> redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  <u>Request Tab</u> gives us more information on the completed customer request being reviewed, this can be either rejected or marked completed (processed)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Review tab](./assets/3.41_ReviewTab.png) -->
@@ -528,11 +571,12 @@ The request can be either rejected, re- assigned to a different agent or execute
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.6.4_CompletedTab.png")} alt="Completed tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
-2.  **Request Details** includes information on historical customer requests in the time period in question, including the personnel responsible
+1.  <u>Information Icon</u> redirects to a plant-by-plant break-down of the number of customer de-activations and re-activations
+2.  <u>Request Details</u> includes information on historical customer requests in the time period in question, including the personnel responsible
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Completed tab](./assets/3.42_CompletedTab.png) -->
@@ -584,33 +628,41 @@ The request can be either rejected, re- assigned to a different agent or execute
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.7.1_1_ReportTab.png")} alt="Report tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates current tabs; user can switch tabs by tapping or swiping horizontally
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Filter Bar** for selecting particular plants and changing the time interval
-3.  **Pie Chart** summarises service request numbers:
-    * <Highlight color="#0000FF">Blue</Highlight> — Pending Requests
-    * <Highlight color="#008000">Green</Highlight> —Completed Requests
-4.  **Total Service Request** is the number of requests registered in the selected time-frame
-5.  **Average Completion Time** between the customer registering a request and marking it complete
-6.  **Rating** of customer satisfaction
-7.  **Add Service Requests** icon to register a new request; explained in the next screenshot
+1.  <u>Navigation Bar</u> indicates current tabs; user can switch tabs by tapping or swiping horizontally
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
+2.  <u>Filter Bar</u> for selecting particular plants and changing the time interval
+3.  <u>Pie Chart</u> summarises service request numbers:
+
+* <Highlight color="#0000FF">Blue</Highlight> — Pending Requests
+* <Highlight color="#008000">Green</Highlight> —Completed Requests
+
+4.  <u>Total Service Request</u> is the number of requests registered in the selected time-frame
+5.  <u>Average Completion Time</u> between the customer registering a request and marking it complete
+6.  <u>Rating</u> of customer satisfaction
+7.  <u>Add Service Requests</u> icon to register a new request; explained in the next screenshot
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.7.1_2_ReportTab.png")} alt="Report tab" width="45%"/>
-<br></br>
+<Clear>
 
 **Tapping the add service request Icon leads to the new service request page**
 
-1.  **Add Service Information** to input details of the new service request, including
-    * Plant name (dropdown list)
-    * Consumer name
-    * Type of issue
-    * Other comments
-2.  **Submit Icon** tapped when all information is complete
+1.  <u>Add Service Information</u> to input details of the new service request, including
 
+* Plant name (dropdown list)
+* Consumer name
+* Type of issue
+* Other comments
+
+2.  <u>Submit Icon</u> tapped when all information is complete
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Report tab](./assets/3.43_ReportTab1.png)
@@ -621,18 +673,19 @@ The request can be either rejected, re- assigned to a different agent or execute
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.7.2_RequestTab.png")} alt="Request tab" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Navigation Bar** (same as previous tab)
-2.  **Filter Bar** (same as previous tab)
-3.  **Service Request List** where pending requests are shown chronologically, along with current personnel assignment.
+1.  <u>Navigation Bar</u> (same as previous tab)
+2.  <u>Filter Bar</u> (same as previous tab)
+3.  <u>Service Request List</u> where pending requests are shown chronologically, along with current personnel assignment.
+    
+    <u>Complete/Re-assign</u> Users may manually close the request or assign it to a different agent
 
-**Complete/Re-assign** Users may manually close the request or assign it to a different agent
+    Tap an agent’s name to call them
 
-Tap an agent’s name to call them
+4.  <u>Add Service Request</u> (same as previous tab)
 
-4.  **Add Service Request** (same as previous tab)
-
+</Clear>
 <br clear="both"/>
 
 <!-- ![Request tab](./assets/3.45_RequestTab.png)  -->
@@ -641,14 +694,15 @@ Tap an agent’s name to call them
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.7.3_CompletedTab.png")} alt="Request tab" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Navigation Bar** (same as previous tab)
-2.  **Filter Bar** (same as previous tab)
-3.  **Completed Service Requests** shown chronologically, with specific details including the turnaround time along with the names of each agent handling the request
-4.  **Add Service Request** (same as previous tab)
-5.  **Search Icon** to filter the list according to customer name, field agent name, or any other relevant parameter
+1.  <u>Navigation Bar</u> (same as previous tab)
+2.  <u>Filter Bar</u> (same as previous tab)
+3.  <u>Completed Service Requests</u> shown chronologically, with specific details including the turnaround time along with the names of each agent handling the request
+4.  <u>Add Service Request</u> (same as previous tab)
+5.  <u>Search Icon</u> to filter the list according to customer name, field agent name, or any other relevant parameter
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Completed tab](./assets/3.46_CompletedTab.png) -->
@@ -681,13 +735,14 @@ Tap an agent’s name to call them
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.8_TemporaryDisconnect.png")} alt="Temporary Disconnect" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Plant Dropdown** to show customers of a particular plant
-2.  **Plant Master Switch** used to temporarily disconnect all customers of the plant
-3.  **Individual Customer Switch** displaying the customer name, customer ID, package, and meter number, along with the master power switch
-4.  **Search** for specific customers by typing in their name, customer ID, package ID, or meter number
+1.  <u>Plant Dropdown</u> to show customers of a particular plant
+2.  <u>Plant Master Switch</u> used to temporarily disconnect all customers of the plant
+3.  <u>Individual Customer Switch</u> displaying the customer name, customer ID, package, and meter number, along with the master power switch
+4.  <u>Search</u> for specific customers by typing in their name, customer ID, package ID, or meter number
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Temporary Disconnect](./assets/3.47_TemporaryDisconnect.png) -->
@@ -730,19 +785,22 @@ Tap an agent’s name to call them
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.9_1_AddConsumer.png")} alt="Add Consumer" width="45%"/>
+<Clear>
 
 ![App Data Entry](/img/scrnshts/App_DataEntry.png)
 
-1.  **Customer Information** required is specified line by line
+1.  <u>Customer Information</u> required is specified line by line
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.9_2_AddConsumer.png")} alt="Add Consumer" width="45%"/>
-<br></br>
+<Clear>
 
-2.  **Customer Information** continues, and includes which package they have selected
-3.  **Next Button** completes the data submission
+2.  <u>Customer Information</u> continues, and includes which package they have selected
+3.  <u>Next Button</u> completes the data submission
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Add Consumer](./assets/3.48_AddConsumer.png) -->
@@ -780,13 +838,16 @@ Tap an agent’s name to call them
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.10_AddInstantConsumer.png")} alt="Add Instant Consumer" width="45%"/>
+<Clear>
 
-![Left Right Nav](/img/scrnshts/App_DataEntry.png)
 
-1.  **Customer Information** to be added includes only the most critical data
-2.  **Confirm** tapped once data has been reviewed for accuracy
-3.  **Submit** tapped to complete the process
+![Data Entry](/img/scrnshts/App_DataEntry.png)
 
+1.  <u>Customer Information</u> to be added includes only the most critical data
+2.  <u>Confirm</u> tapped once data has been reviewed for accuracy
+3.  <u>Submit</u> tapped to complete the process
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Add Instant Consumer](./assets/3.49_AddInstantConsumer.png) -->
@@ -830,61 +891,69 @@ Tap an agent’s name to call them
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_1_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<Clear>
 
-1.  **Filter Section** to show customer data Cluster Wise or NTP wise
-2.  **List of Plants** shows the segregation between the status under’ which customers have been grouped, plant wise
-3.  **Total Bar** aggregates the columnar data in the tabular column
+1.  <u>Filter Section</u> to show customer data Cluster Wise or NTP wise
+2.  <u>List of Plants</u> shows the segregation between the status under’ which customers have been grouped, plant wise
+3.  <u>Total Bar</u> aggregates the columnar data in the tabular column
 
 **Tapping on a particular plant will redirect the user to its consumer list page**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_2_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
+<Clear>
 
-1.  **Filter Bar** used to narrow down the results
-2.  **List of Consumers** showing their activity status, and whether their profile has been updated / survey administered
+1.  <u>Filter Bar</u> used to narrow down the results
+2.  <u>List of Consumers</u> showing their activity status, and whether their profile has been updated / survey administered
 
-The green tick validates the completion
+    The green tick validates the completion
 
-3.  **Update Profile** option will allow the user to update the profile of any consumer (both active customers and others)
-4.  **Tapping** a consumer will allow the user to:
+3.  <u>Update Profile</u> option will allow the user to update the profile of any consumer (both active customers and others)
+4.  <u>Tapping</u> a consumer will allow the user to:
     * Update Profile
     * Complete Survey
 
 **Tapping any of these options will redirect you to either the update profile page or he survey page, both of which have been explained in the following screenshots**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_3_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
-<br></br><br></br>
+<Clear>
 
 **Update Profile**
 
-1.  **Consumer Profile** Information to be filled by the field agent
+1.  <u>Consumer Profile</u> Information to be filled by the field agent
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_4_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-2.  **Submit** tapped to complete the update
+2.  <u>Submit</u> tapped to complete the update
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_5_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
 The Survey page allows the user to record information about an existing/prospective customer's energy usage needs
 
-1.  **Survey Information** to be filled by the agent
+1.  <u>Survey Information</u> to be filled by the agent
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.11_6_CatchmentSurvey.png")} alt="Catchment Survey" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-2.   **Submit** tapped to complete the survey
+2.   <u>Submit</u> tapped to complete the survey
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Catchment Survey](./assets/3.50_CatchmentSummary.png)
@@ -950,37 +1019,44 @@ The Survey page allows the user to record information about an existing/prospect
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_1_PendingTab.png")} alt="Pending tab" width="45%"/>
+<Clear>
 
-1.  **Information Icon** tapped for plant-wise overview of complaints, as explained in the next screenshot
-2.  **Navigation Bar** indicates the current tab and allows switching between tabs
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-3.  **Filter Bar** allows the user to restrict attention to a specific plant and time frame
-4.  **Complaint Tab** contains relevant information regarding the theft complaint lodged by a user
-5.  **Add Complaint Button** redirects the user to the New Theft Report page, detailed below
+1.  <u>Information Icon</u>tapped for plant-wise overview of complaints, as explained in the next screenshot
+2.  <u>Navigation Bar</u> indicates the current tab and allows switching between tabs
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+3.  <u>Filter Bar</u> allows the user to restrict attention to a specific plant and time frame
+4.  <u>Complaint Tab</u> contains relevant information regarding the theft complaint lodged by a user
+5.  <u>Add Complaint Button</u> redirects the user to the New Theft Report page, detailed below
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_2_PendingTab.png")} alt="Pending tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
 **Theft Complaint Summary**
 
-1.  **Filter Bar** allows the user to produce results between a given period of time at a plant
-2.  **Tabular Information** on the theft complaints at various plants is shown
-3.  **Total Bar** gives the user a representation of the aggregated columnar data
+1.  <u>Filter Bar</u> allows the user to produce results between a given period of time at a plant
+2.  <u>Tabular Information</u> on the theft complaints at various plants is shown
+3.  <u>Total Bar</u> gives the user a representation of the aggregated columnar data
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.12.1_3_PendingTab.png")} alt="Pending tab" width="45%"/>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
 
 **New Theft Report**
 
-1.  **Plant Selection** must be made before filling in the form
-2.  **Complaint Information** itemised line by line, including possibility of adding a photograph
-3.  **Submit** completes the registration process
+1.  <u>Plant Selection</u> must be made before filling in the form
+2.  <u>Complaint Information</u> itemised line by line, including possibility of adding a photograph
+3.  <u>Submit</u> completes the registration process
 
+</Clear>
 <br clear="both"/>
 
 
@@ -994,11 +1070,12 @@ The Survey page allows the user to record information about an existing/prospect
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.12.2_InProcessTab.png")} alt="In Process tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** tapped for plant-wise overview of complaints
-2.  **Complaint Tab** gives the user relevant information on a complaint request that is currently being investigated. It can either by rejected or completed
+1.  <u>Information Icon</u> tapped for plant-wise overview of complaints
+2.  <u>Complaint Tab</u> gives the user relevant information on a complaint request that is currently being investigated. It can either by rejected or completed
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![In Process tab](./assets/3.57_TheftComplain1.png) -->
@@ -1008,11 +1085,12 @@ The Survey page allows the user to record information about an existing/prospect
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.12.3_CompletedTab.png")} alt="Completed tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** tapped for plant-wise overview of complaints
-2.  **Complaint Tab** gives the user relevant information on a complaint request that has been completed.
+1.  <u>Information Icon</u> tapped for plant-wise overview of complaints
+2.  <u>Complaint Tab</u> gives the user relevant information on a complaint request that has been completed.
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Completed tab](./assets/3.58_TheftComplain2.png)  -->
@@ -1061,24 +1139,27 @@ The Survey page allows the user to record information about an existing/prospect
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.13_1_CoupounDiscount.png")} alt="Coupon Summary" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** narrows to a given time period
-2.  **List of Plants** showing the number of coupons generated and redeemed at each plant
-3.  **Total Bar** aggregates over all plants
+1.  <u>Filter Bar</u> narrows to a given time period
+2.  <u>List of Plants</u> showing the number of coupons generated and redeemed at each plant
+3.  <u>Total Bar</u> aggregates over all plants
 
-**Tapping on any plant will redirect the user to a list of customers at that plant, as explained in the next screenshot**
+    **Tapping on any plant will redirect the user to a list of customers at that plant, as explained in the next screenshot**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.5.13_2_CoupounDiscount.png")} alt="Coupon Discount" width="45%"/>
+<Clear>
 
-1.   **Search Icon** can be used to find a specific customer
-2.   **Filter Bar** allows narrowing the results to a given time period and plant
-3.  **Generate Coupon Code** allows an agent to enable the customer to generate a coupon code that could be redeemed
+1.   <u>Search Icon</u> can be used to find a specific customer
+2.   <u>Filter Bar</u> allows narrowing the results to a given time period and plant
+3.  <u>Generate Coupon Code</u> allows an agent to enable the customer to generate a coupon code that could be redeemed
 
-The particular customer can be contacted by tapping on the phone icon present in every tab
+    The particular customer can be contacted by tapping on the phone icon present in every tab
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Coupon Summary](./assets/3.59_CouponSummary.png)

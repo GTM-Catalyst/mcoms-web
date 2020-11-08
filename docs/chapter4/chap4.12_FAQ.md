@@ -5,21 +5,17 @@ sidebar_label: बार-बार पूछे जाने वाले प्
 ---
 
 export const Highlight = ({children, color}) => (
-  <h3
+  <p
     style={{
       backgroundColor: color,
-      borderRadius: '5px',
-      color: '#000',
+      borderRadius: '0.5rem',
       paddingLeft: '1rem',
       paddingRight: '1rem',
       paddingTop: '2rem',
       paddingBottom: '0.5rem',
-      fontSize: '1rem',
-      fontWeight: 'normal',
-      lineHeight: '1.6',
     }}>
     {children}
-  </h3>
+  </p>
 );
 
 <Highlight color="#ebedf0">

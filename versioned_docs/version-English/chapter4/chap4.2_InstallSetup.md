@@ -5,6 +5,15 @@ sidebar_label: Installation and Setup
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 * The field agent app runs on the Android operating system
 * Hardware requirements are shown in Table.
@@ -29,32 +38,35 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_1_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **New Customer Request** either for the app user or for someone else
+1.  <u>New Customer Request</u> either for the app user or for someone else
 
-**Tapping on either of the two option redirects to a new connection page, explained in the next screenshots**
+    **Tapping on either of the two option redirects to a new connection page, explained in the next screenshots**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_2_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **For Self**
 
-1.  **Data Sheet** where the user enters relevant data
-2.  **Verify with OTP** button is tapped to trigger OTP sharing via SMS (sent to the submitted phone number). Confirming the OTP completes the process.
+1.  <u>Data Sheet</u> where the user enters relevant data
+2.  <u>Verify with OTP</u> button is tapped to trigger OTP sharing via SMS (sent to the submitted phone number). Confirming the OTP completes the process.
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_3_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **For Other**
 
-1.  **Data Sheet** where the user enters relevant data
-2.  **Verify with OTP** button is tapped to trigger OTP sharing via SMS (sent to the submitted phone number). Confirming the OTP completes the process.
+1.  <u>Data Sheet</u> where the user enters relevant data
+2.  <u>Verify with OTP</u> button is tapped to trigger OTP sharing via SMS (sent to the submitted phone number). Confirming the OTP completes the process.
 
+</Clear>
 <br clear="both"/>
 
 
@@ -74,13 +86,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_3_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **For Other**
 
-1.  **Mobile Number** registered to the account
-2.  **Log in** by tapping the button
+1.  <u>Mobile Number</u> registered to the account
+2.  <u>Log in</u> by tapping the button
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Login Others](./assets/4.7_LoginOthers.png)  -->

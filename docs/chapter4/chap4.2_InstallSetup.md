@@ -5,6 +5,14 @@ sidebar_label: इंस्टालेशन और सेटअप
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 * कस्टमर एप्प एंड्राइड ऑपरेटिंग सिस्टम पर काम करता है।
 * हार्डवेअर कैसा होना चाहिए, यह टेबल में बताया गया है।
@@ -29,32 +37,35 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_1_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **नया ग्राहक अनुरोध** या तो ऐप उपयोगकर्ता के लिए या किसी और के लिए
+1.  <u>नया ग्राहक अनुरोध</u> या तो ऐप उपयोगकर्ता के लिए या किसी और के लिए
 
-** किसी भी दो विकल्प पर टैप करके एक नए कनेक्शन पेज पर रीडायरेक्ट करता है, अगले स्क्रीनशॉट में समझाया गया है **
+    ** किसी भी दो विकल्प पर टैप करके एक नए कनेक्शन पेज पर रीडायरेक्ट करता है, अगले स्क्रीनशॉट में समझाया गया है **
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_2_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **अपने लिए**
 
-1.  **डेटा शीट** जहां उपयोगकर्ता प्रासंगिक डेटा दर्ज करता है
-2.  **ओटीपी के साथ सत्यापित करें** बटन को एसएमएस के माध्यम से ओटीपी साझा करने (सबमिट किए गए फोन नंबर पर भेजा गया) को ट्रिगर करने के लिए टैप किया गया है। ओटीपी की पुष्टि करने की प्रक्रिया पूरी होती है।
+1.  <u>डेटा शीट</u> जहां उपयोगकर्ता प्रासंगिक डेटा दर्ज करता है
+2.  <u>ओटीपी के साथ सत्यापित करें</u> बटन को एसएमएस के माध्यम से ओटीपी साझा करने (सबमिट किए गए फोन नंबर पर भेजा गया) को ट्रिगर करने के लिए टैप किया गया है। ओटीपी की पुष्टि करने की प्रक्रिया पूरी होती है।
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_3_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **अन्य के लिए**
 
-1.  **डेटा शीट** जहां उपयोगकर्ता प्रासंगिक डेटा दर्ज करता है
-2.  **ओटीपी के साथ सत्यापित करें** बटन को एसएमएस के माध्यम से ओटीपी साझा करने (सबमिट किए गए फोन नंबर पर भेजा गया) को ट्रिगर करने के लिए टैप किया गया है। ओटीपी की पुष्टि करने की प्रक्रिया पूरी होती है।
+1.  <u>डेटा शीट</u> जहां उपयोगकर्ता प्रासंगिक डेटा दर्ज करता है
+2.  <u>ओटीपी के साथ सत्यापित करें</u> बटन को एसएमएस के माध्यम से ओटीपी साझा करने (सबमिट किए गए फोन नंबर पर भेजा गया) को ट्रिगर करने के लिए टैप किया गया है। ओटीपी की पुष्टि करने की प्रक्रिया पूरी होती है।
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Connection Request](./assets/4.4_NewCustRequest.png)
@@ -73,13 +84,14 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.2.1_3_NewConnectionRequest.png")} alt="New Connection Request" width="45%"/>
-<br></br>
+<Clear>
 
 **अन्य के लिए**
 
-1.  **मोबाइल नंबर** खाते में पंजीकृत है
-2.  **लॉग इन** बटन टैप करके
+1.  <u>मोबाइल नंबर</u> खाते में पंजीकृत है
+2.  <u>लॉग इन</u> बटन टैप करके
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Login Others](./assets/4.7_LoginOthers.png) -->

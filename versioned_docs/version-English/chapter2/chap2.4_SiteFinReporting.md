@@ -14,7 +14,7 @@ Typically, fuel is purchased from stations with an established relationship with
 ## 2.4.2. Other Expenses
 Other expenses include fixed monthly costs such as land lease and salaries, and variable costs such as maintenance. These are input into MCOMS for creating routine financial reports.
 
-## 2..4.3. Cash Flow
+## 2.4.3. Cash Flow
 Cash collected from customers must eventually be deposited in the company’s bank account. The total collection is updated automatically every time a customer makes a payment; cash deposits to the bank are logged by field agents, and verified and approved by the head office; the remainder is tracked as cash in-hand at the plant.
 
 Each company will have its own guidelines about how often field agents should make deposits, and limits on the permissible cash in-hand. MCOMS can be scheduled to push notifications to designated agents to keep these operations on time.

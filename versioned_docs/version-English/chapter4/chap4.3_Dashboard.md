@@ -5,6 +5,14 @@ sidebar_label: Dashboard
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 **Functionality**
 * The Dashboard is the homes screen of the app.
@@ -13,21 +21,19 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 **Page Details**
 
-<!-- ![Dashboard](./assets/4.8.2_Dashboard.svg) -->
-
 <br clear="right"/>
+<img align="left" src={useBaseUrl("img/scrnshts/4.3_1_Dashboard.png")} alt="Miscellaneous Functionalities" width="55%"/>
+<img align="right" src={useBaseUrl("img/scrnshts/4.3_2_Dashboard.svg")} alt="Miscellaneous Screenshot" width="45%"/>
+<Clear>
 
-<img align="left" src={useBaseUrl("img/scrnshts/4.3_Dashboard.png")} alt="Dashboard" width="45%" />
-<br/><br/>
+1.  <u>Main Menu</u> icon (see Section 0)
+2.  <u>Status</u> of the consumer: either active or inactive
 
-1.  **Main Menu** icon (see Section 0)
-2.  **Status** of the consumer: either active or inactive
+</Clear>
+<br clear="both"/>
+
 
 <br clear="both"/>
 <br/><br/>
-
-
-![Dashboard](./assets/4.8_Dashboard.svg)
-
 
 

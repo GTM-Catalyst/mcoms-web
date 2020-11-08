@@ -17,6 +17,15 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 ## 3.6.1. Overview
 
 <br clear="right"/>
@@ -25,6 +34,7 @@ export const Highlight = ({children, color}) => (
 
 <br clear="both"/>
  
+
 ## 3.6.2. Package Activity
 **Functionality**
 * The Package Activity section is an interface for changing the package assigned to customers
@@ -73,39 +83,49 @@ export const Highlight = ({children, color}) => (
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.1_1_RequestTab.png")} alt="Package Activity Summary" width="45%"/>
-
+<Clear>
  
-1.  **Information Icon** redirects to a plant-by-plant package activity summary, explained in the next screenshot
-2.  **Add Package Activity** redirects to the add package activity page explained below
-3.  **Navigation Bar** used to navigate between the Active consumer column and the Banned consumer column
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-4.  **Package Change Request Tab** that gives relevant details on the latest package change requests
 
+1.  <u>Information Icon</u> redirects to a plant-by-plant package activity summary, explained in the next screenshot
+2.  <u>Add Package Activity</u> redirects to the add package activity page explained below
+3.  <u>Navigation Bar</u> used to navigate between the Active consumer column and the Banned consumer column
+
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+4.  <u>Package Change Request Tab</u> that gives relevant details on the latest package change requests
+
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.1_2_RequestTab.png")} alt="Package Activity Summary" width="45%"/>
-<br></br><br></br>
+<Clear>
+
 
 **Tapping the information icon redirects to the Package Activity Summary**
 
-1.  **Filter Bar** selects the time interval
-2.  **Plant List** with data on the number of banned and active customers in the time interval
-3.  **Total Bar** aggregating the columnar data in the table
+1.  <u>Filter Bar</u> selects the time interval
+2.  <u>Plant List</u> with data on the number of banned and active customers in the time interval
+3.  <u>Total Bar</u> aggregating the columnar data in the table
 
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.1_3_RequestTab.png")} alt="Package Activity Summary" width="45%"/>
+<Clear>
 
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
  
 **Tapping the add package activity icon redirects to Package Activity Request**
 
-1.  **Select Plant** from a dropdown list
-2.  **Select Consumer** for whom the request is being added
-3.  **Request** for the particular service
-4.  **Submit Button** finalises and logs the request
+1.  <u>Select Plant</u> from a dropdown list
+2.  <u>Select Consumer</u> for whom the request is being added
+3.  <u>Request</u> for the particular service
+4.  <u>Submit Button</u> finalises and logs the request
 
+</Clear>
 <br clear="both"/>
 
 
@@ -119,13 +139,15 @@ export const Highlight = ({children, color}) => (
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.2_InProcessTab.png")} alt="In Process tab" width="45%"/>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant package activity summary
-2.  **Navigation Bar** for switching between tabs
-3.  **Request Details** provides relevant details on the request, including who is tasked with dealing with it
+1.  <u>Information Icon</u> redirects to a plant-by-plant package activity summary
+2.  <u>Navigation Bar</u> for switching between tabs
+3.  <u>Request Details</u> provides relevant details on the request, including who is tasked with dealing with it
 
-The request can be Rejected, Re-assigned or executed (Processed) using the buttons at the bottom
+    The request can be Rejected, Re-assigned or executed (Processed) using the buttons at the bottom
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![In Process tab](./assets/3.65_PckProcessTab.png) -->
@@ -134,13 +156,15 @@ The request can be Rejected, Re-assigned or executed (Processed) using the butto
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.3_ReviewTab.png")} alt="Review tab" width="45%"/>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant package activity summary
-2.  **Navigation Bar** for switching tabs
-3.  **Request Details** provides relevant details on the completed request that must be reviewed, including the personnel responsible for executing each stage of the process
+1.  <u>Information Icon</u> redirects to a plant-by-plant package activity summary
+2.  <u>Navigation Bar</u> for switching tabs
+3.  <u>Request Details</u> provides relevant details on the completed request that must be reviewed, including the personnel responsible for executing each stage of the process
 
-Tapping Complete will close the request and add it to the historical database, while Reject re-opens it and notifies the relevant personnel.
+    Tapping Complete will close the request and add it to the historical database, while Reject re-opens it and notifies the relevant personnel.
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Review tab](./assets/3.66_PckReviewTab.png) -->
@@ -150,12 +174,13 @@ Tapping Complete will close the request and add it to the historical database, w
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.2.4_CompletedTab.png")} alt="Completed tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Information Icon** redirects to a plant-by-plant package activity summary
-2.  **Navigation Bar** for switching tabs
-3.  **Request Details** provides relevant details on each historical completed request in the time period in question
+1.  <u>Information Icon</u> redirects to a plant-by-plant package activity summary
+2.  <u>Navigation Bar</u> for switching tabs
+3.  <u>Request Details</u> provides relevant details on each historical completed request in the time period in question
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Security Deposit Ledger tab](./assets/3.67_PckCompletedTab.png) -->
@@ -196,24 +221,27 @@ Tapping Complete will close the request and add it to the historical database, w
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.3_1_Schemes.png")} alt="Schemes" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** narrows results by plant, time frame, scheme type, and customer status:
-2.  **List of Customers** registered for different schemes, along with important information and the amount still to be paid 
+1.  <u>Filter Bar</u> narrows results by plant, time frame, scheme type, and customer status:
+2.  <u>List of Customers</u> registered for different schemes, along with important information and the amount still to be paid 
 
-A consumer can be called by tapping
+    A consumer can be called by tapping
 
-3.  **Add Scheme** redirects to a page for enrolling customers, as shown in the next screenshot
+3.  <u>Add Scheme</u> redirects to a page for enrolling customers, as shown in the next screenshot
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.3_2_Schemes.png")} alt="Schemes" width="45%"/>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
 
-4.  **Add Customer** Information
-5.  **Submit** the information to generate a scheme code for the customer
+4.  <u>Add Customer</u> Information
+5.  <u>Submit</u> the information to generate a scheme code for the customer
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Schemes](./assets/3.68_Schemes.png) -->
@@ -263,12 +291,13 @@ A consumer can be called by tapping
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.6.4_ProductInventory.png")} alt="Product Inventory" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** allows selection of state and type of product
-2.  **Information Bar** gives an overview of the product list
-3.  **Product List** shows information on each type of product in the inventory, including number currently available and location
+1.  <u>Filter Bar</u> allows selection of state and type of product
+2.  <u>Information Bar</u> gives an overview of the product list
+3.  <u>Product List</u> shows information on each type of product in the inventory, including number currently available and location
 
+</Clear>
 <br clear="both"/>
 
 

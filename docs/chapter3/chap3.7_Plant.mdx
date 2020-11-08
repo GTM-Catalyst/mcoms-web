@@ -5,6 +5,15 @@ sidebar_label: प्लांट
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 ## 3.7.1. एक नजर
 इस सेक्शन में नीचे बताई हुई फंक्शनलिटी हैं
@@ -59,18 +68,22 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_1_PlantPerformance.png")} alt="Plant Performance" width="45%"/>
+<Clear>
 
- 
-1.  **Filter Bar** selects a time interval
-2.  **List of Plants** and associated technical information, including:
-    * Plant PV capacity
-    * Units generated, dispatched, and billed
-    * Solar generation utilisation
-    * In-plant and distribution efficiencies
-3.  **Total Bar** aggregates the columnar values
 
-Tapping a plant opens an option of viewing detailed generation or dispatch (“consumption”) data. This is explained in the next screenshots.
+1.  <u>फ़िल्टर बार</u> एक समय अंतराल का चयन करता है
+2.  <u>प्लांट की सूची</u> और संबंधित तकनीकी जानकारी, सहित:
 
+    * प्लांट पीवी क्षमता
+    * इकाइयाँ उत्पन्न, प्रेषित और बिल
+    * सौर पीढ़ी का उपयोग
+    * संयंत्र और वितरण क्षमता में
+
+3.  <u>कुल बार </u> स्तंभ मानों को एकत्र करता है
+
+    एक प्लांट का दोहन विस्तृत पीढ़ी या प्रेषण ("उपभोग") डेटा को देखने का एक विकल्प खोलता है। यह अगले स्क्रीनशॉट में समझाया गया है।
+
+</Clear>
 <br clear="both"/>
 <br></br><br></br>
 
@@ -81,15 +94,16 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_2_PlantPerformance.png")} alt="Generation Data" width="45%"/>
+<Clear>
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
 
-<br/>
 
 > किसी विशेष संयंत्र में उत्पन्न ऊर्जा को तारीख के क्रम में दिखाया गया है
 >
 > पीवी एमपीपीटी की संख्या प्लांटों में भिन्न होगी
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Generation Data](./assets/3.73_GenerationData.png) -->
@@ -98,15 +112,16 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_3_PlantPerformance.png")} alt="Consumption Data" width="45%"/>
+<Clear>
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
 
-<br/>
 
 > एक विशेष संयंत्र से भेजी गई ऊर्जा ("भस्म") तिथि के क्रम में दर्शाई गई है
 >
 > फीडरों की संख्या अलग-अलग होगी
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Consumption Data](./assets/3.74_ConsumptionData.png) -->
@@ -146,15 +161,16 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.3_PlantUtilization.png")} alt="Plant Utilization" width="45%"/>
+<Clear>
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
 
-<br/>
 
 > प्रत्येक घटक और चर के लिए उपयोग डेटा को दर्शाया गया है।
 >
 > उपयोग प्रतिशत प्लांट से प्लांट में भिन्न होगा
 
+</Clear>
 <br clear="both"/>
 
 
@@ -199,28 +215,31 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_1_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **संयंत्र चयन** पहले कदम के रूप में किया जाना चाहिए
-2.   **तिथि चयन** डेटा इनपुट के लिए (केवल नारंगी डॉट्स के साथ तारीखों का चयन किया जा सकता है, और सबसे पुराना डेटा पहले दर्ज किया जाना चाहिए)
+1.   <u>संयंत्र चयन</u> पहले कदम के रूप में किया जाना चाहिए
+2.   <u>तिथि चयन</u> डेटा इनपुट के लिए (केवल नारंगी डॉट्स के साथ तारीखों का चयन किया जा सकता है, और सबसे पुराना डेटा पहले दर्ज किया जाना चाहिए)
 
 वांछित तिथि का दोहन अगले स्क्रीनशॉट में दिखाए गए डेटा जोड़ पृष्ठ पर रीडायरेक्ट करता है
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_2_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.   **जेनरेशन डेटा एंट्री** एमपीपीटी-वार की जाती है
-2.   **डेटा हैडर** संयंत्र और तारीख से मिलकर पृष्ठ के शीर्ष पर दिए गए हैं
+1.   <u>जेनरेशन डेटा एंट्री</u> एमपीपीटी-वार की जाती है
+2.   <u>डेटा हैडर</u> संयंत्र और तारीख से मिलकर पृष्ठ के शीर्ष पर दिए गए हैं
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_3_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.   **पुष्टि करें और सबमिट करें** दर्ज किए गए डेटा की सटीकता की जांच की
+1.   <u>पुष्टि करें और सबमिट करें</u> दर्ज किए गए डेटा की सटीकता की जांच की
 
+</Clear>
 <br clear="both"/>
 
 
@@ -267,22 +286,24 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.5_1_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **संयंत्र चयन** पहले कदम के रूप में किया जाना चाहिए
-2.   **तिथि चयन** डेटा इनपुट के लिए (केवल नारंगी डॉट्स के साथ तारीखों का चयन किया जा सकता है, और सबसे पुराना डेटा पहले दर्ज किया जाना चाहिए)
+1.   <u>संयंत्र चयन</u> पहले कदम के रूप में किया जाना चाहिए
+2.   <u>तिथि चयन</u> डेटा इनपुट के लिए (केवल नारंगी डॉट्स के साथ तारीखों का चयन किया जा सकता है, और सबसे पुराना डेटा पहले दर्ज किया जाना चाहिए)
 
 अगले स्क्रीनशॉट में दिखाए गए डेटा जोड़ पृष्ठ पर वांछित दिनांक को पुनर्निर्देशित करना
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.5_2_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.   **डेटा हैडर** संयंत्र और तारीख से मिलकर पृष्ठ के शीर्ष पर दिए गए हैं
-2.   **उपभोग डेटा प्रविष्टि** फीडर के क्रम में किया जाता है, संदर्भ के लिए दिखाए गए पिछले रीडिंग के विवरण के साथ
-3.   **पुष्टि करें और सबमिट करें** दर्ज किए गए डेटा की सटीकता की जांच की
+1.   <u>डेटा हैडर</u> संयंत्र और तारीख से मिलकर पृष्ठ के शीर्ष पर दिए गए हैं
+2.   <u>उपभोग डेटा प्रविष्टि</u> फीडर के क्रम में किया जाता है, संदर्भ के लिए दिखाए गए पिछले रीडिंग के विवरण के साथ
+3.   <u>पुष्टि करें और सबमिट करें</u> दर्ज किए गए डेटा की सटीकता की जांच की
 
+</Clear>
 <br clear="both"/>
 
 
@@ -322,48 +343,54 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_1_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<Clear>
 
-1.   **फ़िल्टर बार** ईंधन खर्च और उपयोग की समीक्षा के लिए एक समय अंतराल का चयन करता है
-2.   **सारांश** ईंधन उपयोग और खर्चों के बारे में मुख्य डेटा-पॉइंट देता है
+1.   <u>फ़िल्टर बार</u> ईंधन खर्च और उपयोग की समीक्षा के लिए एक समय अंतराल का चयन करता है
+2.   <u>सारांश</u> ईंधन उपयोग और खर्चों के बारे में मुख्य डेटा-पॉइंट देता है
 
-शीर्ष दाईं ओर स्थित सूचना आइकन संयंत्र-दर-संयंत्र तुलना में पुनर्निर्देशित करता है, जैसा कि अगले स्क्रीनशॉट में बताया गया है
+    शीर्ष दाईं ओर स्थित सूचना आइकन संयंत्र-दर-संयंत्र तुलना में पुनर्निर्देशित करता है, जैसा कि अगले स्क्रीनशॉट में बताया गया है
 
-3.   **खरीद की सूची** विवरण डीजल खरीद
-4.   **उपभोग डेटा जोड़ें** बटन उपयोगकर्ता को एक नया ईंधन खर्च प्रस्तुत करने की अनुमति देता है, जैसा कि बाद के स्क्रीनशॉट में समझाया गया है
-5.   **फ़िल्टर बटन** में फ़िल्टर बार के समान कार्यक्षमता है
+3.   <u>खरीद की सूची</u> विवरण डीजल खरीद
+4.   <u>उपभोग डेटा जोड़ें</u> बटन उपयोगकर्ता को एक नया ईंधन खर्च प्रस्तुत करने की अनुमति देता है, जैसा कि बाद के स्क्रीनशॉट में समझाया गया है
+5.   <u>फ़िल्टर बटन</u> में फ़िल्टर बार के समान कार्यक्षमता है
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_2_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
 
 डीज़ल उपभोग पृष्ठ जोड़ें उपयोगकर्ता को नए ईंधन खर्चों को रिकॉर्ड करने की अनुमति देता है
 
-3.  **खपत डेटा** कंपनी के रिकॉर्ड और प्रतिपूर्ति के लिए जोड़ा जाना चाहिए
-4.  **चालान नंबर** बिल पर पाया जा सकता है
-5.  **बिल चित्र** को प्रमाण के रूप में जोड़ा जाना चाहिए
+3.  <u>खपत डेटा</u> कंपनी के रिकॉर्ड और प्रतिपूर्ति के लिए जोड़ा जाना चाहिए
+4.  <u>चालान नंबर</u> बिल पर पाया जा सकता है
+5.  <u>बिल चित्र</u> को प्रमाण के रूप में जोड़ा जाना चाहिए
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_3_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-4.  **पुष्टि करें** जानकारी की समीक्षा के बाद टैप किया जाना चाहिए
-5.  **सबमिट करें** डेटा प्रविष्टि को पूरा करने के लिए टैप किया गया
+4.  <u>पुष्टि करें</u> जानकारी की समीक्षा के बाद टैप किया जाना चाहिए
+5.  <u>सबमिट करें</u> डेटा प्रविष्टि को पूरा करने के लिए टैप किया गया
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_4_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
-<br></br>
+<Clear>
 
 यह पृष्ठ उपयोगकर्ता को प्रत्येक संयंत्र के लिए हाल के डीजल खर्चों को देखने की अनुमति देता है
 
-1.  **फ़िल्टर बार** ब्याज की तिथि निर्दिष्ट करने के लिए
-2.  **प्लांट की सूची** ईंधन खर्च पर मासिक डेटा के साथ
-3.  **ग्रीन पंक्तियाँ** एकत्रित क्लस्टर डेटा दिखाती हैं
-4.  **कुल बार** सभी प्लांट को एकत्रित करता है
+1.  <u>फ़िल्टर बार</u> ब्याज की तिथि निर्दिष्ट करने के लिए
+2.  <u>प्लांट की सूची</u> ईंधन खर्च पर मासिक डेटा के साथ
+3.  <u>ग्रीन पंक्तियाँ</u> एकत्रित क्लस्टर डेटा दिखाती हैं
+4.  <u>कुल बार</u> सभी प्लांट को एकत्रित करता है
 
+</Clear>
 <br clear="both"/>
 
 
@@ -416,22 +443,27 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_1_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
+<Clear>
 
-1.   **नेविगेशन बार** वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.   **फ़िल्टर बार** एक विशेष संयंत्र और समय अवधि का चयन करता है
-3.   **जमाकर्ताओं की सूची** रसीद तस्वीर के साथ प्रत्येक बैंक जमा का विवरण
-4.   **बैंक जमा डेटा जोड़ें** एक पृष्ठ पर पुनर्निर्देशित करता है जो उपयोगकर्ता को अगले स्क्रीनशॉट में दिखाए गए नए बैंक जमा को इनपुट करने की अनुमति देता है
-5.   **सर्च आइकन** का उपयोग किसी विशेष रिकॉर्ड को खोजने के लिए किया जाता है
+1.   <u>नेविगेशन बार</u> वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.   <u>फ़िल्टर बार</u> एक विशेष संयंत्र और समय अवधि का चयन करता है
+3.   <u>जमाकर्ताओं की सूची</u> रसीद तस्वीर के साथ प्रत्येक बैंक जमा का विवरण
+4.   <u>बैंक जमा डेटा जोड़ें</u> एक पृष्ठ पर पुनर्निर्देशित करता है जो उपयोगकर्ता को अगले स्क्रीनशॉट में दिखाए गए नए बैंक जमा को इनपुट करने की अनुमति देता है
+5.   <u>सर्च आइकन</u> का उपयोग किसी विशेष रिकॉर्ड को खोजने के लिए किया जाता है
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_2_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **बैंक जमा विवरण** एजेंट द्वारा भरा जाना है
-2.   **सबमिट करें** फ़ॉर्म को पूरा करने के लिए टैप किया गया
+1.   <u>बैंक जमा विवरण</u> एजेंट द्वारा भरा जाना है
+2.   <u>सबमिट करें</u> फ़ॉर्म को पूरा करने के लिए टैप किया गया
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Bank Deposit Tab](./assets/3.83_BankDeposit.png)
@@ -442,14 +474,18 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.2_InHandCashReport.png")} alt="In Hand Cash Report tab" width="45%"/>
+<Clear>
 
-1.   **नेविगेशन बार** वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.   **फ़िल्टर बार** एक विशेष समय अवधि का चयन करता है
-3.   **प्लांट की सूची** कुल संग्रह, जमा, और संयंत्र में शेष नकदी की मात्रा के साथ
-4.   **कुल बार** सभी प्लांट पर समुच्चय
-5.   **हरी पंक्तियाँ** समूहों पर कुल
+1.   <u>नेविगेशन बार</u> वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.   <u>फ़िल्टर बार</u> एक विशेष समय अवधि का चयन करता है
+3.   <u>प्लांट की सूची</u> कुल संग्रह, जमा, और संयंत्र में शेष नकदी की मात्रा के साथ
+4.   <u>कुल बार</u> सभी प्लांट पर समुच्चय
+5.   <u>हरी पंक्तियाँ</u> समूहों पर कुल
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![In Hand Cash Report tab](./assets/3.85_InHandCashTab.png) -->
@@ -459,14 +495,18 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.3_BankDepositReviewTab.png")} alt="Bank Deposit Review tab" width="45%"/>
+<Clear>
 
-1.   **नेविगेशन बार** वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.   **फ़िल्टर बार** एक विशेष समय अवधि का चयन करता है
-3.   **प्लांट की सूची** कुल जमा और किसी भी विसंगतियों के साथ प्राप्त जमा
-4.   **कुल बार** सभी प्लांट पर समुच्चय
-5.   **हरी पंक्तियाँ** समूहों पर कुल
+1.   <u>नेविगेशन बार</u> वर्तमान टैब को इंगित करता है और टैप या स्वाइप करके स्विच करने की अनुमति देता है
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.   <u>फ़िल्टर बार</u> एक विशेष समय अवधि का चयन करता है
+3.   <u>प्लांट की सूची</u> कुल जमा और किसी भी विसंगतियों के साथ प्राप्त जमा
+4.   <u>कुल बार</u> सभी प्लांट पर समुच्चय
+5.   <u>हरी पंक्तियाँ</u> समूहों पर कुल
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Bank Deposit Review tab](./assets/3.86_BankDepositReviewTab.png) -->
@@ -500,28 +540,31 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_1_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **संयंत्र विवरण** (प्लांट नाम और फीडर) ड्रॉप-डाउन सूचियों से चुना गया
-2.   **सबमिट करें** संयंत्र के सभी विवरण भरने के बाद टैप किया जाना चाहिए
+1.   <u>संयंत्र विवरण</u> (प्लांट नाम और फीडर) ड्रॉप-डाउन सूचियों से चुना गया
+2.   <u>सबमिट करें</u> संयंत्र के सभी विवरण भरने के बाद टैप किया जाना चाहिए
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_2_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **दिनांक फ़िल्टर** एक विशेष तिथि पर संयंत्र की स्थिति को देखने के लिए लागू किया जाना चाहिए
-2.   **प्लांट स्थिति** किसी विशेष तिथि को टैप करने पर, उपयोगकर्ता को स्क्रीनशॉट में दिए गए प्लांट फीडर स्टेटस पेज पर भेज दिया जाएगा।
-3.   **सबमिट करें** सभी प्लांट विवरण भरने के बाद टैप किया जाना चाहिए
+1.   <u>दिनांक फ़िल्टर</u> एक विशेष तिथि पर संयंत्र की स्थिति को देखने के लिए लागू किया जाना चाहिए
+2.   <u>प्लांट स्थिति</u> किसी विशेष तिथि को टैप करने पर, उपयोगकर्ता को स्क्रीनशॉट में दिए गए प्लांट फीडर स्टेटस पेज पर भेज दिया जाएगा।
+3.   <u>सबमिट करें</u> सभी प्लांट विवरण भरने के बाद टैप किया जाना चाहिए
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_3_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.   **फीडर की स्थिति** एक विशेष तिथि के लिए प्रदर्शित की जाती है, फीडरों को व्यक्तिगत रूप से अपने संबंधित चेकबॉक्स को अनचेक करके बंद किया जाना चाहिए
-2.   **सबमिट करें** प्रक्रिया को पूरा करने के लिए
+1.   <u>फीडर की स्थिति</u> एक विशेष तिथि के लिए प्रदर्शित की जाती है, फीडरों को व्यक्तिगत रूप से अपने संबंधित चेकबॉक्स को अनचेक करके बंद किया जाना चाहिए
+2.   <u>सबमिट करें</u> प्रक्रिया को पूरा करने के लिए
 
+</Clear>
 <br clear="both"/>
 
 
@@ -560,22 +603,23 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.9_1_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
-<br></br><br></br>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
-1.  **रखरखाव गतिविधि जोड़ें** जानकारी (गतिविधि के प्रकार के आधार पर प्रपत्र अपडेट)
+1.  <u>रखरखाव गतिविधि जोड़ें</u> जानकारी (गतिविधि के प्रकार के आधार पर प्रपत्र अपडेट)
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.9_2_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-2.   **रिमार्क** मुद्दे के संबंध में अतिरिक्त जानकारी देने के लिए उपयोगकर्ता द्वारा बनाया गया
-3.   **अटैचमेंट** फोटो को मुद्दे के प्रमाण के रूप में जोड़ा जाना चाहिए
+2.   <u>रिमार्क</u> मुद्दे के संबंध में अतिरिक्त जानकारी देने के लिए उपयोगकर्ता द्वारा बनाया गया
+3.   <u>अटैचमेंट</u> फोटो को मुद्दे के प्रमाण के रूप में जोड़ा जाना चाहिए
 
-On completion of the data input, confirm
-and submit to complete the process
+    डेटा इनपुट पूरा होने पर, प्रक्रिया को पूरा करने के लिए पुष्टि करें और सबमिट करें
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Plant Maintenance](./assets/3.90_PlantMaintenance1.png)
@@ -625,30 +669,34 @@ and submit to complete the process
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_1_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.   **फ़िल्टर बार** समय अवधि का चयन करने के लिए
-2.   **प्लांट की सूची** समय अंतराल में उत्पन्न रन घंटे और इकाइयाँ दिखाना
-3.   **कुल बार** सभी प्लांट पर समुच्चय
+1.   <u>फ़िल्टर बार</u> समय अवधि का चयन करने के लिए
+2.   <u>प्लांट की सूची</u> समय अंतराल में उत्पन्न रन घंटे और इकाइयाँ दिखाना
+3.   <u>कुल बार</u> सभी प्लांट पर समुच्चय
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_2_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
+
 
 एक विशेष संयंत्र के दोहन को एक विस्तृत DG रन लॉग में पुनर्निर्देशित करता है
 
-1.   **डीजी लॉग** डीजी द्वारा चलाए जा रहे सभी उदाहरणों का विवरण
-2.   **डीजी लॉग एंट्री जोड़ें** उपयोगकर्ताओं को अगले स्क्रीनशॉट में समझाया गया डीजी रनटाइम डेटा इनपुट करने की अनुमति देता है
+1.   <u>डीजी लॉग</u> डीजी द्वारा चलाए जा रहे सभी उदाहरणों का विवरण
+2.   <u>डीजी लॉग एंट्री जोड़ें</u> उपयोगकर्ताओं को अगले स्क्रीनशॉट में समझाया गया डीजी रनटाइम डेटा इनपुट करने की अनुमति देता है
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_3_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br><br></br>
+<Clear>
 
-1.   **डीजी लॉगिंग** उपयोगकर्ता द्वारा जोड़ी गई जानकारी
-2.   **सबमिट करें** प्रविष्टि को पूरा करने के लिए टैप किया गया
+1.   <u>डीजी लॉगिंग</u> उपयोगकर्ता द्वारा जोड़ी गई जानकारी
+2.   <u>सबमिट करें</u> प्रविष्टि को पूरा करने के लिए टैप किया गया
 
+</Clear>
 <br clear="both"/>
 
 

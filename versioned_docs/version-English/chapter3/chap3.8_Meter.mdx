@@ -17,6 +17,15 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 ## 3.8.1. Overview
 
@@ -56,13 +65,15 @@ export const Highlight = ({children, color}) => (
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.2_ChangeMeter.png")} alt="Change Metert" width="45%"/>
-<br></br>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
-1.  **Customer Information** to be input
-2.  **Meter Information** will automatically populate, along with option to select anew meter
-3.  **Review** tapped to complete the process
 
+1.  <u>Customer Information</u> to be input
+2.  <u>Meter Information</u> will automatically populate, along with option to select anew meter
+3.  <u>Review</u> tapped to complete the process
+
+</Clear>
 <br clear="both"/>
 
 
@@ -108,15 +119,18 @@ The page is organised into the following tabs
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.3.1_PendingTab.png")} alt="Pending Tab" width="45%"/>
+<Clear>
 
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Pending Meter List** with information on each meter. Agents can be called by tapping on their names
-3.  **Task Buttons** are used to allocate tasks to field agents and register the new location of a meter
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
 
-The task can be either reassigned to a different agent or executed (processed) towards reviewing on completion
+2.  <u>Pending Meter List</u> with information on each meter. Agents can be called by tapping on their names
+3.  <u>Task Buttons</u> are used to allocate tasks to field agents and register the new location of a meter
 
+    The task can be either reassigned to a different agent or executed (processed) towards reviewing on completion
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Pending Tab](./assets/3.98_PendingTab.png) -->
@@ -125,12 +139,16 @@ The task can be either reassigned to a different agent or executed (processed) t
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.3.2_ReviewTab.png")} alt="Review Tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Review Meter List** with information on each completed meter activity that is pending review
-3.  **Task Buttons** used to confirm completed tasks
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.  <u>Review Meter List</u> with information on each completed meter activity that is pending review
+3.  <u>Task Buttons</u> used to confirm completed tasks
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Review Tab](./assets/3.99_ReviewTab.png) -->
@@ -139,13 +157,16 @@ The task can be either reassigned to a different agent or executed (processed) t
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.3.3_CompletedTab.png")} alt="Completed Tab" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Released Meter List** with information on each completed meter release activity
-3.  **Filter Bar** to narrow results by plant and time interval
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.  <u>Released Meter List</u> with information on each completed meter release activity
+3.  <u>Filter Bar</u> to narrow results by plant and time interval
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Completed Tab](./assets/3.100_CompletedTab.png) -->
@@ -187,26 +208,30 @@ The task can be either reassigned to a different agent or executed (processed) t
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.5_1_SparkFeederStatus.png")} alt="Smart Feeder Status" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Enter Details** for plant and feeder number
-2.  **Submit** to continue to the next page
+1.  <u>Enter Details</u> for plant and feeder number
+2.  <u>Submit</u> to continue to the next page
 
-Note that the feeder entry tab will only show once the plant has been selected
+    Note that the feeder entry tab will only show once the plant has been selected
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.5_2_SparkFeederStatus.png")} alt="Smart Feeder Status" width="45%"/>
-<br></br><br></br><br></br> 
+<br/><br/><br/><br/>
+<Clear>
 
-1. **Feeder Information** shown
-2. **Meter Status** can be chosen between:
-   * Off
-   * On
-   * Auto
+1. <u>Feeder Information</u> shown
+2. <u>Meter Status</u> can be chosen between:
+   
+* Off
+* On
+* Auto
 
 The user can also reset the meter to its default state by tapping the reset button
 
+</Clear>
 <br clear="both"/>
 
 
@@ -253,22 +278,24 @@ The user can also reset the meter to its default state by tapping the reset butt
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.6_1_MeterReading.png")} alt="Meter Reading" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **List of Plants**, along with number of manually read meters at each plant, and number of meters still pending reading
-2.  **Green Rows** aggregates data for the cluster
-3.  **Total Bar** aggregates over all plants
+1.  <u>List of Plants</u> along with number of manually read meters at each plant, and number of meters still pending reading
+2.  <u>Green Rows</u> aggregates data for the cluster
+3.  <u>Total Bar</u>aggregates over all plants
 
 Tapping a particular plant shows the user a list of pending meters, as shown in the next screenshot (note that this functionality is only available after the 24th of the month)
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.6_2_MeterReading.png")} alt="Meter Reading" width="45%"/>
-<br></br><br></br><br></br> 
+<Clear>
 
-1.  **Search Icon** allows the user to segregate the listed consumers at a plant
-2.  **Consumer List** enables the agent to review the consumer consumption history in terms of the previous reading values and the units consumed
+1.  <u>Search Icon</u> allows the user to segregate the listed consumers at a plant
+2.  <u>Consumer List</u> enables the agent to review the consumer consumption history in terms of the previous reading values and the units consumed
 
+</Clear>
 <br clear="both"/>
 
 
@@ -311,14 +338,15 @@ Tapping a particular plant shows the user a list of pending meters, as shown in 
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.7_MeterReadingApproval.png")} alt="Meter Reading Approval" width="45%"/>
-<br></br><br></br><br></br> 
+<Clear>
 
-1.  **Meter Readings Approvals** are shown in a tabular column with relevant data given plant wise
-2.  **Green Rows** aggregate the data for each cluster they represent
-3.  **Total Bar** aggregates the columnar data
+1.  <u>Meter Readings Approvals</u> are shown in a tabular column with relevant data given plant wise
+2.  <u>Green Rows</u> aggregate the data for each cluster they represent
+3.  <u>Total Bar</u> aggregates the columnar data
 
-Tapping onto a particular plant will give the user a functionality that is only available after the 24th of every month
+    Tapping onto a particular plant will give the user a functionality that is only available after the 24th of every month
 
+</Clear>
 <br clear="both"/>
 
 
@@ -367,24 +395,28 @@ Tapping onto a particular plant will give the user a functionality that is only 
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.8_1_TermsStatus.png")} alt="TERMS Consumer" width="45%"/>
-<br></br><br></br><br></br> 
+<Clear>
 
-1.  **Plant Selection** must be made for the customer list to show
-2.  **Customer List** of a particular plant
-    * <Highlight color="#FF0000">Red</Highlight> -—Inactive customer
-    * <Highlight color="#008000">Green</Highlight> — Active customer
-3.  **Search Icon** used to filter the consumer list by typing in a name or meter number
+1.  <u>Plant Selection</u> must be made for the customer list to show
+2.  <u>Customer List</u> of a particular plant
+    
+* <Highlight color="#FF0000">Red</Highlight> - Inactive customer
+* <Highlight color="#008000">Green</Highlight> - Active customer
+
+3.  <u>Search Icon</u> used to filter the consumer list by typing in a name or meter number
 
 Tapping a customer redirects to that meter’s meter control page, shown in the next screenshot
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.8_2_TermsStatus.png")} alt="TERMS Reset" width="45%"/>
-<br></br><br></br><br></br> 
+<Clear>
 
-1.  **Customer Information** provides relevant information on the customer and the assigned TERMS meter
-2.  **Meter Status** can be changed by tapping ON, OFF or the Reset button
+1.  <u>Customer Information</u> provides relevant information on the customer and the assigned TERMS meter
+2.  <u>Meter Status</u> can be changed by tapping ON, OFF or the Reset button
 
+</Clear>
 <br clear="both"/>
 
 
@@ -426,20 +458,24 @@ Tapping a customer redirects to that meter’s meter control page, shown in the 
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.9_1_BatteryMaintenance.png")} alt="Battery Bank Voltage Activity" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Search Icon** can be used to filter out the list of plants shown 
-2.  **Filter Bar** selects a particular plant and time period 
-3.  **Plant List** displays relevant information on the battery status of each plant
+1.  <u>Search Icon</u> can be used to filter out the list of plants shown 
+2.  <u>Filter Bar</u> selects a particular plant and time period 
+3.  <u>Plant List</u> displays relevant information on the battery status of each plant
 
 Tapping on a plant tab will redirect the user to the plant’s battery bank control page, explained in the next screenshot
 
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.8.9_2_BatteryMaintenance.png")} alt="Battery Bank Specific" width="45%"/>
+<Clear>
 
-1.  **Battery Bank Status** can be used to switch a battery bank at the plant on and off
+1.  <u>Battery Bank Status</u> can be used to switch a battery bank at the plant on and off
 
+</Clear>
 <br clear="both"/>
 
 

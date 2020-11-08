@@ -5,6 +5,15 @@ sidebar_label: Plant
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 ## 3.7.1. Overview
 The section consists of the following functionalities:
@@ -59,36 +68,42 @@ The section consists of the following functionalities:
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_1_PlantPerformance.png")} alt="Plant Performance" width="45%"/>
-
+<Clear>
  
-1.  **Filter Bar** selects a time interval
-2.  **List of Plants** and associated technical information, including:
-    * Plant PV capacity
-    * Units generated, dispatched, and billed
-    * Solar generation utilisation
-    * In-plant and distribution efficiencies
-3.  **Total Bar** aggregates the columnar values
 
-Tapping a plant opens an option of viewing detailed generation or dispatch (“consumption”) data. This is explained in the next screenshots.
+1.  <u>Filter Bar</u> selects a time interval
+2.  <u>List of Plants</u> and associated technical information, including:
 
+* Plant PV capacity
+* Units generated, dispatched, and billed
+* Solar generation utilisation
+* In-plant and distribution efficiencies
+
+3.  <u>Total Bar</u> aggregates the columnar values
+
+    Tapping a plant opens an option of viewing detailed generation or dispatch (“consumption”) data. This is explained in the next screenshots.
+
+</Clear>
 <br clear="both"/>
 <br></br><br></br>
 
 <!-- ![Plant Performance](./assets/3.72_PlantPerformance.png) -->
-
+    
 **Generation Data**
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_2_PlantPerformance.png")} alt="Generation Data" width="45%"/>
+<Clear>
+
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
-
-<br/>
 
 > The energy generated at a particular plant is shown date-wise
 >
 > The number of PV MPPTs will differ from plant to plant
 
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![Generation Data](./assets/3.73_GenerationData.png) -->
@@ -97,15 +112,16 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.2_3_PlantPerformance.png")} alt="Consumption Data" width="45%"/>
+<Clear>
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
 
-<br/>
 
 > The energy dispatched (“consumed”) froma particular plant is shown date-wise
 >
 > The number of feeders will differ from plant to plant
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Consumption Data](./assets/3.74_ConsumptionData.png) -->
@@ -145,15 +161,16 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.3_PlantUtilization.png")} alt="Plant Utilization" width="45%"/>
+<Clear>
 
 ![Rotate Screen](/img/scrnshts/App_RotateScreen.png)
 
-<br/> 
 
 > The utilization data for each component and variable is showcased.
 >
 > The utilization percentage will differ from plant to plant
 
+</Clear>
 <br clear="both"/>
 
 
@@ -198,28 +215,37 @@ Tapping a plant opens an option of viewing detailed generation or dispatch (“c
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_1_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Plant Selection** must be done as the first step
-2.  **Date Selection** for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
+
+1.  <u>Plant Selection</u> must be done as the first step
+2.  <u>Date Selection</u> for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
 
 Tapping the desired date redirects to the data addition page shown in the next screenshot
 
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_2_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Generation Data Entry** is done MPPT-wise
-2.  **Data Header** consisting of the plant and date are given at the top of the page
 
+1.  <u>Generation Data Entry</u> is done MPPT-wise
+2.  <u>Data Header</u> consisting of the plant and date are given at the top of the page
+
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.4_3_AddGenerationData.png")} alt="Add Generation Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Confirm and Submit** having checked the accuracy of the entered data
 
+1.  <u>Confirm and Submit</u> having checked the accuracy of the entered data
+
+
+</Clear>
 <br clear="both"/>
 
 
@@ -266,22 +292,28 @@ Tapping the desired date redirects to the data addition page shown in the next s
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.5_1_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Plant Selection** must be done as the first step
-2.  **Date Selection** for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
+
+1.  <u>Plant Selection</u> must be done as the first step
+2.  <u>Date Selection</u> for data input (only the dates with orange dots can be selected, and the oldest data must be entered first)
 
 Tapping the desired date redirects to the data addition page shown in the next screenshot
 
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.5_2_AddConsumptionData.png")} alt="Add Consumption Data" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Data Header** consisting of the plant and date are given at the top of the page
-2.  **Consumption Data Entry** is done feeder-wise, with details of the previous reading shown for reference
-3.  **Confirm and Submit** having checked the accuracy of the entered data
 
+1.  <u>Data Header</u> consisting of the plant and date are given at the top of the page
+2.  <u>Consumption Data Entry</u> is done feeder-wise, with details of the previous reading shown for reference
+3.  <u>Confirm and Submit</u> having checked the accuracy of the entered data
+
+
+</Clear>
 <br clear="both"/>
 
 
@@ -320,48 +352,55 @@ Tapping the desired date redirects to the data addition page shown in the next s
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_1_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<Clear>
 
-1.  **Filter Bar** selects a time interval for reviewing fuel expenses and use
-2.  **Summary** gives key data-points surrounding fuel use and expenses
+1.  <u>Filter Bar</u> selects a time interval for reviewing fuel expenses and use
+2.  <u>Summary</u> gives key data-points surrounding fuel use and expenses
 
-The information icon in the top right redirects to a plant-by-plant comparison, as explained in the next screenshot
+    The information icon in the top right redirects to a plant-by-plant comparison, as explained in the next screenshot
 
-3.  **List of Purchases** details diesel purchases
-4.  **Add Consumption Data** button allows user to submit a new fuel expense, as explained in a subsequent screenshot
-5.  **Filter Button** has the same functionality as the Filter Bar
+3.  <u>List of Purchases</u> details diesel purchases
+4.  <u>Add Consumption Data</u> button allows user to submit a new fuel expense, as explained in a subsequent screenshot
+5.  <u>Filter Button</u> has the same functionality as the Filter Bar
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_2_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
+<Clear>
+
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
 
 The Add Diesel Consumption page allows the user to record new fuel expenses
 
-3.  **Consumption Data** must be added for company records and for reimbursement
-4.  **Invoice Number** can be found on the bill
-5.  **Bill Picture** must be added as proof
+3.  <u>Consumption Data</u> must be added for company records and for reimbursement
+4.  <u>Invoice Number</u> can be found on the bill
+5.  <u>Bill Picture</u> must be added as proof
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_3_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-4.  **Confirm** must be tapped after information is reviewed
-5.  **Submit** tapped to complete data entry
+4.  <u>Confirm</u> must be tapped after information is reviewed
+5.  <u>Submit</u> tapped to complete data entry
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.6_4_DieselConsumption.png")} alt="Diesel Consumption" width="45%"/>
-<br></br>
+<Clear>
 
 This page allows user to view recent diesel expenses for each plant
 
-1.  **Filter Bar** for specifying date of interest
-2.  **List of Plants** with monthly data on fuel expenses
-3.  **Green Rows** show aggregated cluster data
-4.  **Total Bar** aggregates all plants
+1.  <u>Filter Bar</u> for specifying date of interest
+2.  <u>List of Plants</u> with monthly data on fuel expenses
+3.  <u>Green Rows</u> show aggregated cluster data
+4.  <u>Total Bar</u> aggregates all plants
 
+</Clear>
 <br clear="both"/>
 
 
@@ -415,22 +454,27 @@ The page is organised into the following tabs.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_1_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Filter Bar** selects a particular plant and time duration
-3.  **List of Deposits** details each bank deposit along with a receipt photo
-4.  **Add Bank Deposit Data** redirects to a page that allows the user to input a new bank deposit, shown in the next screenshot
-5.  **Search Icon** used to search for a particular record
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.  <u>Filter Bar</u> selects a particular plant and time duration
+3.  <u>List of Deposits</u> details each bank deposit along with a receipt photo
+4.  <u>Add Bank Deposit Data</u> redirects to a page that allows the user to input a new bank deposit, shown in the next screenshot
+5.  <u>Search Icon</u> used to search for a particular record
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.1_2_BankDepositTab.png")} alt="Bank Deposit Tab" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Bank Deposit Details** to be filled by the agent
-2.  **Submit** tapped to complete the form
+1.  <u>Bank Deposit Details</u> to be filled by the agent
+2.  <u>Submit</u> tapped to complete the form
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Bank Deposit Tab](./assets/3.83_BankDeposit.png)
@@ -441,14 +485,18 @@ The page is organised into the following tabs.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.2_InHandCashReport.png")} alt="In Hand Cash Report tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Filter Bar** selects a particular time duration
-3.  **List of Plants** with total collections, deposits, and amount of cash remaining at the plant
-4.  **Total Bar** aggregates over all plants
-5.  **Green Rows** aggregate over clusters
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.  <u>Filter Bar</u> selects a particular time duration
+3.  <u>List of Plants</u> with total collections, deposits, and amount of cash remaining at the plant
+4.  <u>Total Bar</u> aggregates over all plants
+5.  <u>Green Rows</u> aggregate over clusters
+
+</Clear>
 <br clear="both"/>
 
 <!-- ![In Hand Cash Report tab](./assets/3.85_InHandCashTab.png) -->
@@ -457,14 +505,18 @@ The page is organised into the following tabs.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.7.3_BankDepositReviewTab.png")} alt="Bank Deposit Review tab" width="45%"/>
+<Clear>
 
-1.  **Navigation Bar** indicates current tab and allows switching by tapping or swiping
-![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
-2.  **Filter Bar** selects a particular time duration
-3.  **List of Plants** with total deposits registered and deposits received, along with any anomalies
-4.  **Total Bar** aggregates over all plants
-5.  **Green Rows** aggregate over clusters
+1.  <u>Navigation Bar</u> indicates current tab and allows switching by tapping or swiping
 
+    ![Left Right Nav](/img/scrnshts/App_LeftRightNav.png)
+
+2.  <u>Filter Bar</u> selects a particular time duration
+3.  <u>List of Plants</u> with total deposits registered and deposits received, along with any anomalies
+4.  <u>Total Bar</u> aggregates over all plants
+5.  <u>Green Rows</u> aggregate over clusters
+
+</Clear>
 <br clear="both"/>
 
 
@@ -499,28 +551,31 @@ The page is organised into the following tabs.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_1_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Plant Details** (plant name and feeder) selected from drop-down lists
-2.  **Submit** must be tapped after filling in all the plant details
+1.  <u>Plant Details</u> (plant name and feeder) selected from drop-down lists
+2.  <u>Submit</u> must be tapped after filling in all the plant details
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_2_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Date Filter** must be applied to view the plant status on a particular date
-2.  **Plant Status** On tapping a particular date, the user will be redirected to the Plant Feeder Status page explained in the following screenshot
-3.  **Submit** must be tapped after filling in all the plant details
+1.  <u>Date Filter</u> must be applied to view the plant status on a particular date
+2.  <u>Plant Status</u> On tapping a particular date, the user will be redirected to the Plant Feeder Status page explained in the following screenshot
+3.  <u>Submit</u> must be tapped after filling in all the plant details
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.8_3_PlantShutdownInfo.png")} alt="Plant Status" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Feeder Status** for a particular date is displayed, the feeders must be individually switched off by unchecking their corresponding checkboxes
-2.  **Submit** to complete the process
+1.  <u>Feeder Status</u> for a particular date is displayed, the feeders must be individually switched off by unchecking their corresponding checkboxes
+2.  <u>Submit</u> to complete the process
 
+</Clear>
 <br clear="both"/>
 
 
@@ -559,22 +614,24 @@ The page is organised into the following tabs.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.9_1_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
-<br></br><br></br>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
-1.  **Add Maintenance Activity** information (the form updates depending on the type of activity)
 
+1.  <u>Add Maintenance Activity</u> information (the form updates depending on the type of activity)
+
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.9_2_PlantMaintenance.png")} alt="Plant Maintenance" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-2.  **Remark** addition to be made by the user to give additional information regarding the issue
-3.  **Attachment** photo must be added as a proof of issue
+2.  <u>Remark</u> addition to be made by the user to give additional information regarding the issue
+3.  <u>Attachment</u> photo must be added as a proof of issue
 
-On completion of the data input, confirm
-and submit to complete the process
+    On completion of the data input, confirm and submit to complete the process
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Plant Maintenance](./assets/3.90_PlantMaintenance1.png)
@@ -624,30 +681,33 @@ and submit to complete the process
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_1_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Filter Bar** for selecting the time period
-2.  **List of Plants** showing run hours and units generated in the time interval
-3.  **Total Bar** aggregates over all plants
+1.  <u>Filter Bar</u> for selecting the time period
+2.  <u>List of Plants</u> showing run hours and units generated in the time interval
+3.  <u>Total Bar</u> aggregates over all plants
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_2_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
 Tapping a particular plant redirects to a detailed DG run log
 
-1.  **DG Log** details all instances of DG being run
-2.  **Add DG Log Entry** allows users to input DG runtime data, explained in the next screenshot
+1.  <u>DG Log</u> details all instances of DG being run
+2.  <u>Add DG Log Entry</u> allows users to input DG runtime data, explained in the next screenshot
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.7.10_3_DGLog.png")} alt="DG Log Summary" width="45%"/>
-<br></br><br></br><br></br><br></br>
+<Clear>
 
-1.  **DG Logging** information added by the user
-2.  **Submit** tapped to complete the entry
+1.  <u>DG Logging</u> information added by the user
+2.  <u>Submit</u> tapped to complete the entry
 
+</Clear>
 <br clear="both"/>
 
 

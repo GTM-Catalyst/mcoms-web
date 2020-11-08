@@ -5,6 +5,14 @@ sidebar_label: Amount Payable
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 **Functionality**
 * The Amount Payable section shows the total outstanding amount that the user must pay to the company
@@ -14,10 +22,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.6_AmountPayable.png")} alt="Amount Payable" width="45%"/>
+<Clear>
 
-1.  **Service Type** the user is being charged for
-2.  **Total bar** used to aggregate the amount the user must pay to the company
+1.  <u>Service Type</u> the user is being charged for
+2.  <u>Total bar</u> used to aggregate the amount the user must pay to the company
 
+</Clear>
 <br clear="both"/>
 
 

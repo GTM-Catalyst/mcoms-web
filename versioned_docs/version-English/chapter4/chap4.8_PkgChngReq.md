@@ -5,6 +5,14 @@ sidebar_label: Package Change Request
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 **Functionality**
 * The Package Change Request section allows the customer to upgrade or downgrade their
@@ -15,20 +23,23 @@ electricity package.
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.8_1_PackageChangeRequest.png")} alt="Your Package" width="45%"/>
+<Clear>
 
-1.  **Subscribed Package List** shows details of past packages
+1.  <u>Subscribed Package List</u> shows details of past packages
 
 **Tapping on the package list item redirects to the change package section, explained in the following screenshot**
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/4.8_2_PackageChangeRequest.png")} alt="Change Package" width="45%"/>
-<br></br>
+<Clear>
 
-1.  **Subscribed Package** shows details of the current package
-2.  **Select New Package** from a dropdown of available packages
-3.  **Submit** tapped to complete the request, having (ticked the confirm box)
+1.  <u>Subscribed Package</u> shows details of the current package
+2.  <u>Select New Package</u> from a dropdown of available packages
+3.  <u>Submit</u> tapped to complete the request, having (ticked the confirm box)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Your Package](./assets/4.15_YrPkg.png)

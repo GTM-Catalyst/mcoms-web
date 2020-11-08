@@ -5,6 +5,14 @@ sidebar_label: Home Screen
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
 
 ## 3.3.1. Overview
 * The Home Screen is the first page the user views upon logging in.
@@ -14,11 +22,13 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_1_HomeScreen.png")} alt="Home Screen" width="45%"/>
+<Clear>
 
-1.  **Notification Icon** (the bell-shaped icon) is explained in Section 3.3.3
-2.  **Main Menu** (three horizontal lines) is explained in Section 3.4
-3.  **Module Icons** to access various app functionalities; icons are categorised under headings Consumer, Package and Scheme, etc.
+1.  <u>Notification Icon</u> (the bell-shaped icon) is explained in Section 3.3.3
+2.  <u>Main Menu</u> (three horizontal lines) is explained in Section 3.4
+3.  <u>Module Icons</u> to access various app functionalities; icons are categorised under headings Consumer, Package and Scheme, etc.
 
+</Clear>
 <br clear="both"/>
 
 
@@ -45,47 +55,51 @@ The main types of pop-up notifications are elaborated below.
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_2_PlantMaintenance.png")} alt="Home Screen" width="45%"/>
-<br/><br/>
+<Clear>
 
 **Plant Maintenance Reminder**
 
-1.  **List of Maintenance** Items enumerates the various service issues that need attention
-2.  **List of Plants** which require the particular service
-3.  **Tap** OK to close the pop up
+1.  <u>List of Maintenance</u> Items enumerates the various service issues that need attention
+2.  <u>List of Plants</u> which require the particular service
+3.  <u>Tap</u> OK to close the pop up
 
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_3_GenerationError.png")} alt="Home Screen" width="45%"/>
-<br/><br/><br></br>
+<Clear>
 
 **Generation Error**
 
-1.  **List of Plants** itemises the specific solar arrays / MPPTs which are underperforming at various mini-grid plants
-2.  **Tap** OK to close the pop up
+1.  <u>List of Plants</u> itemises the specific solar arrays / MPPTs which are underperforming at various mini-grid plants
+2.  <u>Tap</u> OK to close the pop up
 
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_4_GenerationDataReminder.png")} alt="Home Screen" width="45%"/>
-<br/><br/>
+<Clear>
 
 **Generation Data Reminder**
 
-1.  **List of Plants and Dates** for which generation data is missing
-2.  **Tap** OK to close the pop up
+1.  <u>List of Plants and Dates</u> for which generation data is missing
+2.  <u>Tap</u> OK to close the pop up
 
+</Clear>
 <br clear="both"/>
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_5_ConsumptionDataReminder.png")} alt="Home Screen" width="45%"/>
-<br/><br/><br></br>
+<Clear>
 
 **Consumption Data Reminder**
 
-1.  **List of Plants and Dates** for which dispatch data is missing
-2.  **Tap** OK to close the pop up
+1.  <u>List of Plants and Dates</u> for which dispatch data is missing
+2.  <u>Tap</u> OK to close the pop up
 
+</Clear>
 <br clear="both"/>
 
 
@@ -108,12 +122,13 @@ The main types of pop-up notifications are elaborated below.
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.3_6_NotificationIcon.png")} alt="Home Screen" width="45%"/>
-<br/><br/><br></br>
+<Clear>
 
-1.  **Notification Icon**: shows the total number of pending requests; tapping the icon presents the following options
-2.  **Customer Service Requests** redirects to the service request section when tapped (Section 3.5.7)
-3.  **Meter Release Request** redirects to the Unreleased Meter Section when tapped (Section 3.8.3)
+1.  <u>Notification Icon</u>: shows the total number of pending requests; tapping the icon presents the following options
+2.  <u>Customer Service Requests</u> redirects to the service request section when tapped (Section 3.5.7)
+3.  <u>Meter Release Request</u> redirects to the Unreleased Meter Section when tapped (Section 3.8.3)
 
+</Clear>
 <br clear="both"/>
 
 <!-- ![Page Details](./assets/3.10_PageDetails.png) -->

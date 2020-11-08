@@ -5,6 +5,15 @@ sidebar_label: Miscellaneous
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl';
+export const Clear = ({children}) => (
+  <div
+    style={{ 
+         display: 'table',
+    }}>
+    {children}
+  </div>
+);
+
 
 ## 3.10.1. Overview
 
@@ -42,13 +51,15 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.2_Gallery.png")} alt="Gallery Sample" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Gallery Section** used to display pictures from each plant
-2.  **Filter** used to display pictures with respect to:
+1.  <u>Gallery Section</u> used to display pictures from each plant
+2.  <u>Filter</u> used to display pictures with respect to:
+    
     * Nature of Activity
     * Date
 
+</Clear>
 <br clear="both"/>
 
 
@@ -83,13 +94,16 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.3_AddImages.png")} alt="Add Images" width="45%"/>
+<Clear>
 
 ![Data Entry](/img/scrnshts/App_DataEntry.png)
-1.  **Add Images** along with relevant supporting information
-2.  **Image Upload** from the phone gallery or the camera
+
+1.  <u>Add Images</u> along with relevant supporting information
+2.  <u>Image Upload</u> from the phone gallery or the camera
 
 Note that only 5 images can be added at a time
 
+</Clear>
 <br clear="both"/>
 
 
@@ -128,12 +142,13 @@ This page is also accessible from the Main Menu: Refer to Section 3.4.7 for deta
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.5_Notifications.png")} alt="Notification" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
-1.  **Message List** displays the content of a particular SMS along with the date and time it was sent
-2.  **Search Icon** that helps finding a particular SMS by typing in the topic name
-3.  **Filter Bar** used to narrow results displayed by giving from and to dates
+1.  <u>Message List</u> displays the content of a particular SMS along with the date and time it was sent
+2.  <u>Search Icon</u> that helps finding a particular SMS by typing in the topic name
+3.  <u>Filter Bar</u> used to narrow results displayed by giving from and to dates
 
+</Clear>
 <br clear="both"/>
 
 
@@ -168,12 +183,13 @@ This page is also accessible from the Main Menu: Refer to Section 3.4.7 for deta
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.6_PlantShutdownMessage.png")} alt="Plant Shutdown SMS" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **Input Details** to complete the submission of data to send an SMS
-2.  **SMS Template** which describes the message that would be sent
-3.  **Submit** sends the message
+1.  <u>Input Details</u> to complete the submission of data to send an SMS
+2.  <u>SMS Template</u> which describes the message that would be sent
+3.  <u>Submit</u> sends the message
 
+</Clear>
 <br clear="both"/>
 
 
@@ -214,24 +230,26 @@ This page is also accessible from the Main Menu: Refer to Section 3.4.7 for deta
 
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.7_1_SUG.png")} alt="SUG List" width="45%"/>
-<br></br><br></br>
+<Clear>
 
-1.  **SUG List** showing the SUG name and bank details
-2.  **Members Button** redirects to the list of SUG members, as shown in the next screenshot
-3.  **Search Icon** to find a particular SUG by typing the name
+1.  <u>SUG List</u> showing the SUG name and bank details
+2.  <u>Members Button</u> redirects to the list of SUG members, as shown in the next screenshot
+3.  <u>Search Icon</u> to find a particular SUG by typing the name
 
+</Clear>
 <br clear="both"/>
 <br clear="right"/>
 <img align="left" src={useBaseUrl("img/scrnshts/3.10.7_2_SUG.png")} alt="SUG Member List" width="45%"/>
-<br></br><br></br><br></br>
+<Clear>
 
 **SUG Member List**
-1.  **Member List** contains the name and details of the members of the SUG
+1.  <u>Member List</u> contains the name and details of the members of the SUG
 
-The member can be called by tapping
+    The member can be called by tapping
 
-2.  **Search Icon** used to narrow down the results of the member list by typing
+2.  <u>Search Icon</u> used to narrow down the results of the member list by typing
 
+</Clear>
 <br clear="both"/>
 
 
